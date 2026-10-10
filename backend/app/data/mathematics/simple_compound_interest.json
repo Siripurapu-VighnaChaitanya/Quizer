@@ -1,0 +1,842 @@
+[
+  {
+    "id": "MATH-SI-001",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 1,
+    "question": "Find the simple interest on Rs. 5,000 at 8% per annum for 3 years.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 1,000"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 1,200"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 1,400"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 1,500"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "SI = (P * R * T) / 100 = (5000 * 8 * 3) / 100 = Rs. 1,200.",
+      "steps": [
+        "SI = (5000 * 24)/100 = 1200."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "SI = PRT/100 = 1200."
+          ]
+        }
+      ],
+      "exam_tip": "Multiply rate and time first: 8 * 3 = 24%. 24% of 5000 = 1200."
+    }
+  },
+  {
+    "id": "MATH-SI-002",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 1,
+    "question": "In how many years will a sum of money double itself at 10% per annum simple interest?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 years"
+      },
+      {
+        "id": "B",
+        "text": "10 years"
+      },
+      {
+        "id": "C",
+        "text": "12 years"
+      },
+      {
+        "id": "D",
+        "text": "15 years"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "To double, interest earned equals principal (100%). T = 100 / R = 100 / 10 = 10 years.",
+      "steps": [
+        "SI = P.",
+        "P = (P * 10 * T)/100 -> T = 10."
+      ],
+      "methods": [
+        {
+          "name": "Rule of Doubling",
+          "steps": [
+            "T = 100 / R = 10 years."
+          ]
+        }
+      ],
+      "exam_tip": "T = 100 / R for simple interest doubling."
+    }
+  },
+  {
+    "id": "MATH-SI-003",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 1,
+    "question": "Find the compound interest on Rs. 10,000 at 10% per annum for 2 years compounded annually.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 2,000"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 2,100"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 2,200"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 2,250"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Effective rate for 2 years at 10% is 10 + 10 + (10*10)/100 = 21%. CI = 21% of 10,000 = Rs. 2,100.",
+      "steps": [
+        "Year 1 interest = 1000.",
+        "Year 2 interest = 1000 + 100 = 1100.",
+        "Total CI = 2100."
+      ],
+      "methods": [
+        {
+          "name": "Effective Rate",
+          "steps": [
+            "10 + 10 + 1 = 21% of 10000 = 2100."
+          ]
+        }
+      ],
+      "exam_tip": "Effective CI rate for 2 yrs at r% is 2r + r^2/100."
+    }
+  },
+  {
+    "id": "MATH-SI-004",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 1,
+    "question": "What is the principal if simple interest at 5% per annum for 4 years is Rs. 600?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 2,500"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 3,000"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 3,200"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 3,500"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Rate * Time = 5 * 4 = 20%. 20% of P = 600 -> P = 600 * 5 = Rs. 3,000.",
+      "steps": [
+        "0.20 * P = 600 -> P = 3000."
+      ],
+      "methods": [
+        {
+          "name": "Unitary",
+          "steps": [
+            "20% = 600 -> 100% = 3000."
+          ]
+        }
+      ],
+      "exam_tip": "P = (SI * 100)/(R * T)."
+    }
+  },
+  {
+    "id": "MATH-SI-005",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 2,
+    "question": "The difference between CI and SI on Rs. 4,000 for 2 years at 5% per annum is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 5"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 10"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 15"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 20"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "For 2 years, Difference = P * (R/100)^2 = 4000 * (5/100)^2 = 4000 * 25 / 10000 = Rs. 10.",
+      "steps": [
+        "Diff = P(R/100)^2 = 4000 * 0.0025 = 10."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "Diff = P*(R/100)^2 = 10."
+          ]
+        }
+      ],
+      "exam_tip": "2-year difference formula: P * (R/100)^2."
+    }
+  },
+  {
+    "id": "MATH-SI-006",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 2,
+    "question": "A sum of money doubles itself in 4 years at compound interest. In how many years will it become 8 times?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 years"
+      },
+      {
+        "id": "B",
+        "text": "12 years"
+      },
+      {
+        "id": "C",
+        "text": "16 years"
+      },
+      {
+        "id": "D",
+        "text": "20 years"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "At CI, money grows exponentially. 8 = 2^3. Time = 3 * 4 = 12 years.",
+      "steps": [
+        "2x in 4 yrs -> 4x in 8 yrs -> 8x in 12 yrs."
+      ],
+      "methods": [
+        {
+          "name": "Power Law",
+          "steps": [
+            "8 = 2^3 -> Time = 3 * 4 = 12 years."
+          ]
+        }
+      ],
+      "exam_tip": "If sum becomes n times in T years, it becomes n^k times in k*T years."
+    }
+  },
+  {
+    "id": "MATH-SI-007",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 2,
+    "question": "At what rate per annum simple interest will Rs. 3,600 amount to Rs. 4,320 in 2 years?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8%"
+      },
+      {
+        "id": "B",
+        "text": "10%"
+      },
+      {
+        "id": "C",
+        "text": "12%"
+      },
+      {
+        "id": "D",
+        "text": "14%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "SI = 4320 - 3600 = Rs. 720. R = (720 * 100) / (3600 * 2) = 72000 / 7200 = 10%.",
+      "steps": [
+        "SI = 720.",
+        "R = 720 / (36 * 2) = 10%."
+      ],
+      "methods": [
+        {
+          "name": "Direct",
+          "steps": [
+            "Interest/yr = 360. 360/3600 = 10%."
+          ]
+        }
+      ],
+      "exam_tip": "Divide total interest by time to get annual interest."
+    }
+  },
+  {
+    "id": "MATH-SI-008",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 2,
+    "question": "A sum of Rs. 8,000 invested at compound interest compounded half-yearly at 10% per annum for 1 year amounts to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 8,800"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 8,820"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 8,840"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 8,900"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Compounded half-yearly: Rate = 10/2 = 5%, Periods = 2. A = 8000 * (1.05)^2 = 8000 * 1.1025 = Rs. 8,820.",
+      "steps": [
+        "R = 5%, n = 2.",
+        "A = 8000 * 1.05 * 1.05 = 8820."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "8000 * 1.1025 = 8820."
+          ]
+        }
+      ],
+      "exam_tip": "Half-yearly: halve the rate and double the time periods."
+    }
+  },
+  {
+    "id": "MATH-SI-009",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 3,
+    "question": "A sum amounts to Rs. 6,655 in 3 years and Rs. 7,320.50 in 4 years at compound interest. Find the rate of interest per annum.",
+    "options": [
+      {
+        "id": "A",
+        "text": "8%"
+      },
+      {
+        "id": "B",
+        "text": "10%"
+      },
+      {
+        "id": "C",
+        "text": "12%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The difference between year 3 and year 4 amounts is 1 year's interest on year 3 amount. Diff = 7320.50 - 6655 = 665.50. Rate = (665.50 / 6655) * 100 = 10%.",
+      "steps": [
+        "Interest for 4th year = 665.50.",
+        "R = (665.50 / 6655)*100 = 10%."
+      ],
+      "methods": [
+        {
+          "name": "Consecutive Year Rule",
+          "steps": [
+            "R = (A4 - A3)/A3 * 100 = 665.5/6655 * 100 = 10%."
+          ]
+        }
+      ],
+      "exam_tip": "Consecutive year CI difference divided by earlier year amount gives annual rate directly."
+    }
+  },
+  {
+    "id": "MATH-SI-010",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 3,
+    "question": "A sum of money invested at simple interest triples itself in 8 years. In how many years will it become 5 times?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 years"
+      },
+      {
+        "id": "B",
+        "text": "16 years"
+      },
+      {
+        "id": "C",
+        "text": "20 years"
+      },
+      {
+        "id": "D",
+        "text": "24 years"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Triples means interest = 2P in 8 years -> 1P interest takes 4 years. To become 5 times, interest needed = 4P -> Time = 4 * 4 = 16 years.",
+      "steps": [
+        "SI = 2P in 8 yrs -> P takes 4 yrs.",
+        "To become 5P, SI = 4P -> 4 * 4 = 16 yrs."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "(N1 - 1)/T1 = (N2 - 1)/T2 -> 2/8 = 4/T2 -> T2 = 16."
+          ]
+        }
+      ],
+      "exam_tip": "Always subtract 1 from multiple: (N1-1)/T1 = (N2-1)/T2."
+    }
+  },
+  {
+    "id": "MATH-SI-011",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 3,
+    "question": "If CI on a sum for 2 years at 12.5% per annum is Rs. 510, find the simple interest on the same sum at the same rate and time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 460"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 480"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 490"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 500"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "12.5% = 1/8. Let P = 8^2 = 64 units. SI per yr = 8 units. Year 1 = 8, Year 2 = 8 + 1 = 9. Total CI = 17 units = 510 -> 1 unit = 30. Total SI = 16 units = 16 * 30 = Rs. 480.",
+      "steps": [
+        "CI = 17 units = 510 -> unit = 30.",
+        "SI = 16 units = 480."
+      ],
+      "methods": [
+        {
+          "name": "Tree Method",
+          "steps": [
+            "P=64: SI=8+8=16, CI=16+1=17. 17 units=510 -> 16 units=480."
+          ]
+        }
+      ],
+      "exam_tip": "Tree method with P = (denominator)^2 simplifies fraction percentages."
+    }
+  },
+  {
+    "id": "MATH-SI-012",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 3,
+    "question": "Rs. 12,000 is divided into two parts such that SI on first at 8% for 5 years equals SI on second at 10% for 4 years. The first part is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 5,000"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 6,000"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 7,000"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 8,000"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "P1 * 8 * 5 = P2 * 10 * 4 -> 40 P1 = 40 P2 -> P1 = P2. Both parts are equal = 12000 / 2 = Rs. 6,000.",
+      "steps": [
+        "40 P1 = 40 P2 -> P1 : P2 = 1 : 1.",
+        "P1 = 6000."
+      ],
+      "methods": [
+        {
+          "name": "Ratio Method",
+          "steps": [
+            "P1/P2 = (R2*T2)/(R1*T1) = 40/40 = 1:1 -> 6000 each."
+          ]
+        }
+      ],
+      "exam_tip": "When interests are equal, P1 : P2 = 1/(R1T1) : 1/(R2T2)."
+    }
+  },
+  {
+    "id": "MATH-SI-013",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 4,
+    "question": "The difference between CI and SI on a sum for 3 years at 10% per annum is Rs. 93. Find the principal sum.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 2,800"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 3,000"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 3,200"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 3,500"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "For 3 years, Difference = P * (R/100)^2 * (300 + R) / 100. 93 = P * (1/100) * (310/100) -> 93 = P * 31 / 1000 -> P = (93 * 1000) / 31 = Rs. 3,000.",
+      "steps": [
+        "Diff = P * (R^2 * (300+R))/10^6.",
+        "93 = P * (100 * 310)/1000000 = P * 31/1000 -> P = 3000."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "P = Diff * 1000 / 31 = 93 * 1000 / 31 = 3000."
+          ]
+        }
+      ],
+      "exam_tip": "3-year difference formula: P * (R/100)^2 * (3 + R/100)."
+    }
+  },
+  {
+    "id": "MATH-SI-014",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 4,
+    "question": "A sum of money amounts to Rs. 4,840 in 2 years and Rs. 5,324 in 3 years compounded annually. Find the sum.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 4,000"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 4,200"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 4,400"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 3,800"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Rate = (5324 - 4840)/4840 * 100 = 484/4840 * 100 = 10%. P * (1.1)^2 = 4840 -> P * 1.21 = 4840 -> P = Rs. 4,000.",
+      "steps": [
+        "R = 10%.",
+        "P = 4840 / 1.21 = 4000."
+      ],
+      "methods": [
+        {
+          "name": "Two-step",
+          "steps": [
+            "Rate = 10%, P = 4840 / (1.1)^2 = 4000."
+          ]
+        }
+      ],
+      "exam_tip": "First find R from consecutive year difference, then discount back to principal."
+    }
+  },
+  {
+    "id": "MATH-SI-015",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 4,
+    "question": "A man borrowed Rs. 21,000 at 10% per annum compound interest to be repaid in two equal annual installments. Find each installment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 11,500"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 12,000"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 12,100"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 12,500"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Let installment be x. x/(1.1) + x/(1.1)^2 = 21000 -> x * (10/11 + 100/121) = 21000 -> x * 210/121 = 21000 -> x = Rs. 12,100.",
+      "steps": [
+        "x [ 10/11 + 100/121 ] = 21000",
+        "x * 210 / 121 = 21000 -> x = 12,100."
+      ],
+      "methods": [
+        {
+          "name": "Installment Formula",
+          "steps": [
+            "P = x/(1+r) + x/(1+r)^2 -> x = 12,100."
+          ]
+        }
+      ],
+      "exam_tip": "Installment formula: P = x/(1+r) + x/(1+r)^2 + ..."
+    }
+  },
+  {
+    "id": "MATH-SI-016",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 4,
+    "question": "A certain sum at simple interest amounts to Rs. 1,008 in 2 years and to Rs. 1,164 in 3.5 years. Find the rate of interest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "12%"
+      },
+      {
+        "id": "B",
+        "text": "13%"
+      },
+      {
+        "id": "C",
+        "text": "14%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Interest for 1.5 years = 1164 - 1008 = Rs. 156. Interest for 1 year = 156 / 1.5 = Rs. 104. Principal = 1008 - 2(104) = Rs. 800. Rate = (104 / 800) * 100 = 13%.",
+      "steps": [
+        "SI for 1.5 yrs = 156 -> SI/yr = 104.",
+        "P = 1008 - 208 = 800.",
+        "R = (104/800)*100 = 13%."
+      ],
+      "methods": [
+        {
+          "name": "Step Analysis",
+          "steps": [
+            "104 / 800 = 13%."
+          ]
+        }
+      ],
+      "exam_tip": "Subtract amounts to find interest for the difference in years."
+    }
+  },
+  {
+    "id": "MATH-SI-017",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 5,
+    "question": "A sum of Rs. 16,820 is divided between two sons aged 27 and 25 such that their shares with 5% compound interest will be equal when they reach 40 years. Find the share of the younger son.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 8,000"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 8,410"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 8,820"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 7,800"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Younger son has 15 years to grow, older son has 13 years. Difference is 2 years. Ratio of shares = (1 + 0.05)^2 = (21/20)^2 = 441 : 400. Sum = 841 units = 16,820 -> 1 unit = 20. Younger son = 400 * 20 = Rs. 8,000.",
+      "steps": [
+        "Time diff = 2 yrs.",
+        "Ratio = (21/20)^2 = 441:400.",
+        "Younger = (400/841) * 16820 = 8000."
+      ],
+      "methods": [
+        {
+          "name": "Time Ratio",
+          "steps": [
+            "Younger gets 400 parts out of 841 = 8,000."
+          ]
+        }
+      ],
+      "exam_tip": "The younger brother always receives the smaller initial principal."
+    }
+  },
+  {
+    "id": "MATH-SI-018",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 5,
+    "question": "A person invested Rs. 10,000 at 10% CI compounded annually. After 2 years, what is the interest for the 3rd year alone?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 1,100"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 1,200"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 1,210"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 1,331"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Amount after 2 years = 10,000 * 1.21 = Rs. 12,100. Interest for 3rd year alone is 10% of this amount = 10% of 12,100 = Rs. 1,210.",
+      "steps": [
+        "A2 = 12,100.",
+        "Interest in year 3 = 10% of 12,100 = 1,210."
+      ],
+      "methods": [
+        {
+          "name": "Yearly Base",
+          "steps": [
+            "Interest in 3rd year = 12100 * 0.10 = 1210."
+          ]
+        }
+      ],
+      "exam_tip": "Interest for year n is simply r% of Amount at year (n-1)."
+    }
+  },
+  {
+    "id": "MATH-SI-019",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 5,
+    "question": "A person deposited Rs. 500 at the start of each year in a bank giving 10% compound interest per annum. Total amount at end of 3 years is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 1,655"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 1,820.50"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 1,750"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 1,725"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "1st deposit grows for 3 yrs: 500*(1.331) = 665.5. 2nd deposit for 2 yrs: 500*(1.21) = 605. 3rd deposit for 1 yr: 500*(1.1) = 550. Total = 665.5 + 605 + 550 = Rs. 1,820.50.",
+      "steps": [
+        "665.5 + 605 + 550 = 1820.50."
+      ],
+      "methods": [
+        {
+          "name": "Annuity",
+          "steps": [
+            "Total = 500 * 1.1 * ((1.1^3 - 1)/0.1) = 1820.50."
+          ]
+        }
+      ],
+      "exam_tip": "Calculate each annual deposit separately or use future value of annuity."
+    }
+  },
+  {
+    "id": "MATH-SI-020",
+    "subject": "mathematics",
+    "topic": "simple_compound_interest",
+    "difficulty": 5,
+    "question": "The simple interest on a sum of money for 2 years is Rs. 160 and compound interest is Rs. 164. Find the rate of interest and principal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "5%, Rs. 1,600"
+      },
+      {
+        "id": "B",
+        "text": "4%, Rs. 1,800"
+      },
+      {
+        "id": "C",
+        "text": "5%, Rs. 1,500"
+      },
+      {
+        "id": "D",
+        "text": "6%, Rs. 1,400"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "SI for 1 yr = 160 / 2 = Rs. 80. Extra interest in 2nd year CI is Rs. 4. Rate = (4 / 80) * 100 = 5%. Principal = (80 * 100) / 5 = Rs. 1,600.",
+      "steps": [
+        "SI/yr = 80.",
+        "Diff = 4.",
+        "R = (4/80)*100 = 5%.",
+        "P = 80/0.05 = 1600."
+      ],
+      "methods": [
+        {
+          "name": "Difference Rule",
+          "steps": [
+            "R = (2 * Diff / SI) * 100 = (8/160)*100 = 5% -> P = 1600."
+          ]
+        }
+      ],
+      "exam_tip": "R = 2 * (CI - SI) / SI * 100."
+    }
+  }
+]

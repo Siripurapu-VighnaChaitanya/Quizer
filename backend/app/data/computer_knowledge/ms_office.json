@@ -1,0 +1,827 @@
+[
+  {
+    "id": "COMP-MSO-001",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 1,
+    "question": "What is the default file extension for documents saved in Microsoft Word (2007 and newer)?",
+    "options": [
+      {
+        "id": "A",
+        "text": ".doc"
+      },
+      {
+        "id": "B",
+        "text": ".docx"
+      },
+      {
+        "id": "C",
+        "text": ".txt"
+      },
+      {
+        "id": "D",
+        "text": ".rtf"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": ".docx (Office Open XML format) is the default since Word 2007. Pre-2007 used .doc.",
+      "steps": [
+        ".docx is modern default."
+      ],
+      "methods": [
+        {
+          "name": "Extensions",
+          "steps": [
+            ".docx."
+          ]
+        }
+      ],
+      "exam_tip": "Word: .docx; Excel: .xlsx; PowerPoint: .pptx."
+    }
+  },
+  {
+    "id": "COMP-MSO-002",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 1,
+    "question": "Which keyboard shortcut is used to 'Copy' selected text in Windows and MS Office?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ctrl + X"
+      },
+      {
+        "id": "B",
+        "text": "Ctrl + C"
+      },
+      {
+        "id": "C",
+        "text": "Ctrl + V"
+      },
+      {
+        "id": "D",
+        "text": "Ctrl + Z"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Ctrl + C = Copy; Ctrl + X = Cut; Ctrl + V = Paste; Ctrl + Z = Undo.",
+      "steps": [
+        "Ctrl + C = Copy."
+      ],
+      "methods": [
+        {
+          "name": "Shortcuts",
+          "steps": [
+            "Ctrl + C."
+          ]
+        }
+      ],
+      "exam_tip": "Ctrl+C (Copy), Ctrl+X (Cut), Ctrl+V (Paste), Ctrl+Z (Undo)."
+    }
+  },
+  {
+    "id": "COMP-MSO-003",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 1,
+    "question": "In Microsoft Excel, every formula must begin with which mathematical symbol?",
+    "options": [
+      {
+        "id": "A",
+        "text": "+"
+      },
+      {
+        "id": "B",
+        "text": "="
+      },
+      {
+        "id": "C",
+        "text": "#"
+      },
+      {
+        "id": "D",
+        "text": "@"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "All formulas and functions in Excel must start with an equals sign (=).",
+      "steps": [
+        "Formulas start with '='."
+      ],
+      "methods": [
+        {
+          "name": "Excel Syntax",
+          "steps": [
+            "=."
+          ]
+        }
+      ],
+      "exam_tip": "Formulas always start with '=' sign."
+    }
+  },
+  {
+    "id": "COMP-MSO-004",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 1,
+    "question": "Which function key starts a slide show from the very first slide in Microsoft PowerPoint?",
+    "options": [
+      {
+        "id": "A",
+        "text": "F2"
+      },
+      {
+        "id": "B",
+        "text": "F5"
+      },
+      {
+        "id": "C",
+        "text": "F7"
+      },
+      {
+        "id": "D",
+        "text": "F11"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "F5 starts the presentation from Slide 1. Shift + F5 starts from the current active slide.",
+      "steps": [
+        "F5 = Start from beginning.",
+        "Shift + F5 = Start from current slide."
+      ],
+      "methods": [
+        {
+          "name": "PowerPoint Shortcuts",
+          "steps": [
+            "F5."
+          ]
+        }
+      ],
+      "exam_tip": "F5 = from slide 1; Shift + F5 = from current slide."
+    }
+  },
+  {
+    "id": "COMP-MSO-005",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 2,
+    "question": "Which function key is used to run 'Spelling & Grammar' check across MS Office applications?",
+    "options": [
+      {
+        "id": "A",
+        "text": "F1"
+      },
+      {
+        "id": "B",
+        "text": "F5"
+      },
+      {
+        "id": "C",
+        "text": "F7"
+      },
+      {
+        "id": "D",
+        "text": "F12"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "F7 opens Spelling & Grammar dialog. Shift + F7 opens the Thesaurus (synonyms).",
+      "steps": [
+        "F7 = Spell check.",
+        "Shift + F7 = Thesaurus."
+      ],
+      "methods": [
+        {
+          "name": "Office Tools",
+          "steps": [
+            "F7."
+          ]
+        }
+      ],
+      "exam_tip": "F7 = Spelling & Grammar; Shift+F7 = Thesaurus."
+    }
+  },
+  {
+    "id": "COMP-MSO-006",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 2,
+    "question": "In Microsoft Excel, the intersection of a row and a column is called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Block"
+      },
+      {
+        "id": "B",
+        "text": "Cell"
+      },
+      {
+        "id": "C",
+        "text": "Grid"
+      },
+      {
+        "id": "D",
+        "text": "Table"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The intersection of a row and column is called a Cell, referenced by its column letter and row number (e.g. B4).",
+      "steps": [
+        "Cell."
+      ],
+      "methods": [
+        {
+          "name": "Spreadsheet Concepts",
+          "steps": [
+            "Cell."
+          ]
+        }
+      ],
+      "exam_tip": "Cells are identified by address like A1, C15."
+    }
+  },
+  {
+    "id": "COMP-MSO-007",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 2,
+    "question": "What is the shortcut key to insert a Hyperlink into a Word document?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ctrl + H"
+      },
+      {
+        "id": "B",
+        "text": "Ctrl + K"
+      },
+      {
+        "id": "C",
+        "text": "Ctrl + L"
+      },
+      {
+        "id": "D",
+        "text": "Ctrl + M"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Ctrl + K inserts a hyperlink. Ctrl + H is Replace; Ctrl + L is left-align.",
+      "steps": [
+        "Ctrl + K = Hyperlink."
+      ],
+      "methods": [
+        {
+          "name": "Word Shortcuts",
+          "steps": [
+            "Ctrl + K."
+          ]
+        }
+      ],
+      "exam_tip": "Ctrl + K = Insert Hyperlink."
+    }
+  },
+  {
+    "id": "COMP-MSO-008",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 2,
+    "question": "In PowerPoint, which view shows thumbnails of all slides for easy reordering and rearranging?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Slide Sorter View"
+      },
+      {
+        "id": "B",
+        "text": "Slide Show View"
+      },
+      {
+        "id": "C",
+        "text": "Notes Page View"
+      },
+      {
+        "id": "D",
+        "text": "Outline View"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Slide Sorter view displays all slides as miniature tiles, making it easy to drag and reorganize the sequence.",
+      "steps": [
+        "Slide Sorter View."
+      ],
+      "methods": [
+        {
+          "name": "Presentation Views",
+          "steps": [
+            "Slide Sorter."
+          ]
+        }
+      ],
+      "exam_tip": "Slide Sorter view is used for reorganizing slide sequences."
+    }
+  },
+  {
+    "id": "COMP-MSO-009",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 3,
+    "question": "Which feature in MS Word enables sending a personalized letter or email to hundreds of recipients using a database list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AutoCorrect"
+      },
+      {
+        "id": "B",
+        "text": "Mail Merge"
+      },
+      {
+        "id": "C",
+        "text": "Track Changes"
+      },
+      {
+        "id": "D",
+        "text": "Cross-Reference"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Mail Merge combines a standard template document with a data source (like an Excel list or Access database) to produce individualized letters or envelopes.",
+      "steps": [
+        "Mail Merge."
+      ],
+      "methods": [
+        {
+          "name": "Word Features",
+          "steps": [
+            "Mail Merge."
+          ]
+        }
+      ],
+      "exam_tip": "Mail Merge links a master document with a recipient data source."
+    }
+  },
+  {
+    "id": "COMP-MSO-010",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 3,
+    "question": "In Microsoft Excel, what does the symbol '$' indicate in a cell reference like '$A$1'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Currency formatting (US Dollars)"
+      },
+      {
+        "id": "B",
+        "text": "Absolute cell reference (locks column and row when copied)"
+      },
+      {
+        "id": "C",
+        "text": "Hidden cell value"
+      },
+      {
+        "id": "D",
+        "text": "External workbook link"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "$ locks column and row in an absolute reference so they do not change when formulas are dragged/copied across cells.",
+      "steps": [
+        "$ = Absolute reference."
+      ],
+      "methods": [
+        {
+          "name": "Cell Referencing",
+          "steps": [
+            "$A$1 is absolute."
+          ]
+        }
+      ],
+      "exam_tip": "A1 is relative; $A$1 is absolute; $A1 and A$1 are mixed references."
+    }
+  },
+  {
+    "id": "COMP-MSO-011",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 3,
+    "question": "Which Excel function counts only the cells that contain NUMBERS within a given range?",
+    "options": [
+      {
+        "id": "A",
+        "text": "COUNT()"
+      },
+      {
+        "id": "B",
+        "text": "COUNTA()"
+      },
+      {
+        "id": "C",
+        "text": "COUNTBLANK()"
+      },
+      {
+        "id": "D",
+        "text": "COUNTIF()"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "COUNT() counts cells with numbers. COUNTA() counts all non-empty cells (including text). COUNTBLANK() counts empty cells.",
+      "steps": [
+        "COUNT() = numbers only.",
+        "COUNTA() = all non-blank."
+      ],
+      "methods": [
+        {
+          "name": "Excel Functions",
+          "steps": [
+            "COUNT."
+          ]
+        }
+      ],
+      "exam_tip": "COUNT = numbers only; COUNTA = all non-empty cells."
+    }
+  },
+  {
+    "id": "COMP-MSO-012",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 3,
+    "question": "What is the shortcut key to save a document with a new name or location ('Save As') in MS Office?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ctrl + S"
+      },
+      {
+        "id": "B",
+        "text": "F12"
+      },
+      {
+        "id": "C",
+        "text": "Ctrl + F12"
+      },
+      {
+        "id": "D",
+        "text": "Shift + F12"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "F12 opens the 'Save As' dialog box directly. Ctrl + S performs a regular Save.",
+      "steps": [
+        "F12 = Save As.",
+        "Ctrl + S = Save."
+      ],
+      "methods": [
+        {
+          "name": "Shortcuts",
+          "steps": [
+            "F12."
+          ]
+        }
+      ],
+      "exam_tip": "F12 = Save As."
+    }
+  },
+  {
+    "id": "COMP-MSO-013",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 4,
+    "question": "In Microsoft Excel, what is the purpose of the VLOOKUP function?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verifies data validation rules"
+      },
+      {
+        "id": "B",
+        "text": "Searches for a value in the leftmost column of a table and returns a value in the same row from a specified column"
+      },
+      {
+        "id": "C",
+        "text": "Calculates variance of a column"
+      },
+      {
+        "id": "D",
+        "text": "Converts vertical data to horizontal"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "VLOOKUP (Vertical Lookup) searches for a key in the first column and retrieves data from a corresponding column to the right.",
+      "steps": [
+        "Vertical table lookup."
+      ],
+      "methods": [
+        {
+          "name": "Excel Lookup",
+          "steps": [
+            "VLOOKUP."
+          ]
+        }
+      ],
+      "exam_tip": "VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])."
+    }
+  },
+  {
+    "id": "COMP-MSO-014",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 4,
+    "question": "What is a 'Macro' in Microsoft Office applications?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A computer virus protection utility"
+      },
+      {
+        "id": "B",
+        "text": "A series of recorded commands and keystrokes in VBA that automates repetitive tasks"
+      },
+      {
+        "id": "C",
+        "text": "An oversized font style"
+      },
+      {
+        "id": "D",
+        "text": "A high-resolution image format"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A macro is a recorded or written script in Visual Basic for Applications (VBA) that automates repetitive workflows.",
+      "steps": [
+        "Automates repetitive tasks via VBA."
+      ],
+      "methods": [
+        {
+          "name": "Automation",
+          "steps": [
+            "Macro."
+          ]
+        }
+      ],
+      "exam_tip": "Macros use VBA (Visual Basic for Applications)."
+    }
+  },
+  {
+    "id": "COMP-MSO-015",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 4,
+    "question": "What is the maximum number of rows supported in an Excel worksheet (.xlsx format)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "65,536"
+      },
+      {
+        "id": "B",
+        "text": "1,048,576"
+      },
+      {
+        "id": "C",
+        "text": "500,000"
+      },
+      {
+        "id": "D",
+        "text": "2,097,152"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Excel 2007 and newer supports exactly 1,048,576 rows (2^20) and 16,384 columns (A to XFD). Pre-2007 (.xls) supported 65,536 rows.",
+      "steps": [
+        "1,048,576 rows (2^20).",
+        "16,384 columns."
+      ],
+      "methods": [
+        {
+          "name": "Excel Limits",
+          "steps": [
+            "1,048,576 rows."
+          ]
+        }
+      ],
+      "exam_tip": "1,048,576 rows and 16,384 columns in modern Excel."
+    }
+  },
+  {
+    "id": "COMP-MSO-016",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 4,
+    "question": "In MS Word, which feature tracks all edits, deletions, insertions, and formatting changes made by different collaborators?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AutoFormat"
+      },
+      {
+        "id": "B",
+        "text": "Track Changes (Ctrl + Shift + E)"
+      },
+      {
+        "id": "C",
+        "text": "SmartArt"
+      },
+      {
+        "id": "D",
+        "text": "Document Inspector"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Track Changes records every edit and comment made by authors and reviewers, allowing owners to Accept or Reject changes.",
+      "steps": [
+        "Track Changes."
+      ],
+      "methods": [
+        {
+          "name": "Collaboration",
+          "steps": [
+            "Track Changes."
+          ]
+        }
+      ],
+      "exam_tip": "Shortcut for Track Changes is Ctrl + Shift + E."
+    }
+  },
+  {
+    "id": "COMP-MSO-017",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 5,
+    "question": "What is a 'Pivot Table' in Microsoft Excel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An interactive tool used to summarize, sort, reorganize, group, and calculate multidimensional data for rapid business reporting"
+      },
+      {
+        "id": "B",
+        "text": "A table rotated 90 degrees clockwise"
+      },
+      {
+        "id": "C",
+        "text": "A table locked with a password"
+      },
+      {
+        "id": "D",
+        "text": "A graphic design SmartArt layout"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Pivot Tables allow dynamic aggregation, grouping, and multi-dimensional cross-tabulation without manual formula writing.",
+      "steps": [
+        "Data summarization and analysis."
+      ],
+      "methods": [
+        {
+          "name": "Data Analytics",
+          "steps": [
+            "Pivot Table."
+          ]
+        }
+      ],
+      "exam_tip": "Pivot Table is the premier data summarization tool in Excel."
+    }
+  },
+  {
+    "id": "COMP-MSO-018",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 5,
+    "question": "What does the Excel formula error '#DIV/0!' signify?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The formula divides by zero or by an empty cell"
+      },
+      {
+        "id": "B",
+        "text": "The formula contains an invalid cell name"
+      },
+      {
+        "id": "C",
+        "text": "A value is not available to the formula"
+      },
+      {
+        "id": "D",
+        "text": "The column is too narrow to display the number"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "#DIV/0! occurs when a formula attempts division by zero or an empty cell. (Column too narrow shows #####; missing value shows #N/A).",
+      "steps": [
+        "Division by zero."
+      ],
+      "methods": [
+        {
+          "name": "Excel Errors",
+          "steps": [
+            "#DIV/0!."
+          ]
+        }
+      ],
+      "exam_tip": "#DIV/0! = divide by zero; #N/A = not available; #REF! = invalid reference."
+    }
+  },
+  {
+    "id": "COMP-MSO-019",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 5,
+    "question": "Which combination of functions in modern Excel is considered superior and more flexible than VLOOKUP because it can look up to the left and does not break when columns are inserted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "INDEX and MATCH (or XLOOKUP)"
+      },
+      {
+        "id": "B",
+        "text": "SUMIF and COUNTIF"
+      },
+      {
+        "id": "C",
+        "text": "CONCATENATE and FIND"
+      },
+      {
+        "id": "D",
+        "text": "HLOOKUP and OFFSET"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "INDEX/MATCH and XLOOKUP can search in any direction (left or right), do not require static column offsets, and execute faster on large sheets.",
+      "steps": [
+        "INDEX + MATCH or XLOOKUP."
+      ],
+      "methods": [
+        {
+          "name": "Advanced Formulas",
+          "steps": [
+            "INDEX & MATCH."
+          ]
+        }
+      ],
+      "exam_tip": "INDEX/MATCH works bidirectionally and handles dynamic columns."
+    }
+  },
+  {
+    "id": "COMP-MSO-020",
+    "subject": "computer_knowledge",
+    "topic": "ms_office",
+    "difficulty": 5,
+    "question": "In Microsoft PowerPoint, what is the 'Slide Master' used for?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Top slide in a hierarchy that stores theme, layout, background, and font formatting applied globally to all slides"
+      },
+      {
+        "id": "B",
+        "text": "A presenter who controls slides remotely"
+      },
+      {
+        "id": "C",
+        "text": "An automated audio narrator"
+      },
+      {
+        "id": "D",
+        "text": "An export tool to convert slides into PDF"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "The Slide Master controls the overall formatting (fonts, logos, themes) across all slides in a presentation consistently.",
+      "steps": [
+        "Global formatting template for all slides."
+      ],
+      "methods": [
+        {
+          "name": "Template Architecture",
+          "steps": [
+            "Slide Master."
+          ]
+        }
+      ],
+      "exam_tip": "Modifying Slide Master updates layout across the entire presentation."
+    }
+  }
+]

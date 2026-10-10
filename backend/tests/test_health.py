@@ -10,7 +10,7 @@ def test_health_endpoint():
     assert response.status_code == 200
     data = response.json()
     assert data["status"] == "ok"
-    assert data["questions_loaded"] == 200
+    assert data["questions_loaded"] == 660
     assert data["database_required"] is False
 
 

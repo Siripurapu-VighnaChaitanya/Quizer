@@ -1,0 +1,822 @@
+[
+  {
+    "id": "ENG-ID-001",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 1,
+    "question": "What is the meaning of the idiom 'A blessing in disguise'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A secret prayer"
+      },
+      {
+        "id": "B",
+        "text": "An apparent misfortune that eventually has good results"
+      },
+      {
+        "id": "C",
+        "text": "A deliberate insult"
+      },
+      {
+        "id": "D",
+        "text": "A sudden lucky windfall"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A blessing in disguise is something that seems bad or unlucky at first, but results in something good happening later.",
+      "steps": [
+        "Apparent misfortune leading to good outcome."
+      ],
+      "methods": [
+        {
+          "name": "Idiom Meaning",
+          "steps": [
+            "Good result from bad start."
+          ]
+        }
+      ],
+      "exam_tip": "Standard common English idiom."
+    }
+  },
+  {
+    "id": "ENG-ID-002",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 1,
+    "question": "The idiom 'Break the ice' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "To fracture a cold object"
+      },
+      {
+        "id": "B",
+        "text": "To initiate a conversation and relieve tension in an awkward situation"
+      },
+      {
+        "id": "C",
+        "text": "To start a severe fight"
+      },
+      {
+        "id": "D",
+        "text": "To cancel an agreement"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Break the ice' means to do or say something to relieve social tension and get conversation flowing.",
+      "steps": [
+        "Overcoming initial stiffness in conversation."
+      ],
+      "methods": [
+        {
+          "name": "Social Idiom",
+          "steps": [
+            "Break tension."
+          ]
+        }
+      ],
+      "exam_tip": "Icebreaker = activity to introduce people."
+    }
+  },
+  {
+    "id": "ENG-ID-003",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 1,
+    "question": "The phrase 'Once in a blue moon' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frequently"
+      },
+      {
+        "id": "B",
+        "text": "Very rarely"
+      },
+      {
+        "id": "C",
+        "text": "At midnight"
+      },
+      {
+        "id": "D",
+        "text": "Every month"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Once in a blue moon' refers to something that happens extremely rarely.",
+      "steps": [
+        "Very rarely."
+      ],
+      "methods": [
+        {
+          "name": "Frequency Idiom",
+          "steps": [
+            "Rare event."
+          ]
+        }
+      ],
+      "exam_tip": "Opposite of frequently."
+    }
+  },
+  {
+    "id": "ENG-ID-004",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 1,
+    "question": "What does 'To add fuel to the fire' mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To kindle a bonfire"
+      },
+      {
+        "id": "B",
+        "text": "To make a bad situation even worse"
+      },
+      {
+        "id": "C",
+        "text": "To cook food quickly"
+      },
+      {
+        "id": "D",
+        "text": "To reconcile two enemies"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'To add fuel to the fire' (or flame) means to worsen an already tense or disastrous conflict.",
+      "steps": [
+        "Worsen a situation."
+      ],
+      "methods": [
+        {
+          "name": "Idiom Meaning",
+          "steps": [
+            "Inflame conflict."
+          ]
+        }
+      ],
+      "exam_tip": "Synonymous with 'to fan the flames'."
+    }
+  },
+  {
+    "id": "ENG-ID-005",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 2,
+    "question": "The idiom 'Bite the bullet' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "To face an inevitable grim situation with courage"
+      },
+      {
+        "id": "B",
+        "text": "To commit a crime"
+      },
+      {
+        "id": "C",
+        "text": "To get shot in battle"
+      },
+      {
+        "id": "D",
+        "text": "To act cowardice"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Bite the bullet' means to endure a painful or unavoidable task with fortitude and determination.",
+      "steps": [
+        "Endure hardship bravely."
+      ],
+      "methods": [
+        {
+          "name": "Historical Origin",
+          "steps": [
+            "Soldiers bit bullets during surgery without anesthesia."
+          ]
+        }
+      ],
+      "exam_tip": "Means to endure unavoidable hardship bravely."
+    }
+  },
+  {
+    "id": "ENG-ID-006",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 2,
+    "question": "What is the meaning of 'Cry over spilt milk'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To clean up a kitchen mess"
+      },
+      {
+        "id": "B",
+        "text": "To complain about a past loss that cannot be undone"
+      },
+      {
+        "id": "C",
+        "text": "To waste food carelessly"
+      },
+      {
+        "id": "D",
+        "text": "To express genuine sorrow"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Cry over spilt milk' means to regret past events or irreversible mistakes that cannot be altered.",
+      "steps": [
+        "Futile regret over past mistakes."
+      ],
+      "methods": [
+        {
+          "name": "Idiom",
+          "steps": [
+            "Past cannot be undone."
+          ]
+        }
+      ],
+      "exam_tip": "Usually used as 'no use crying over spilt milk'."
+    }
+  },
+  {
+    "id": "ENG-ID-007",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 2,
+    "question": "The phrase 'Call it a day' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "To start morning work"
+      },
+      {
+        "id": "B",
+        "text": "To stop working on something for the rest of the day"
+      },
+      {
+        "id": "C",
+        "text": "To celebrate a birthday"
+      },
+      {
+        "id": "D",
+        "text": "To postpone an event forever"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Call it a day' means to conclude work or an activity for the remaining time.",
+      "steps": [
+        "Stop working for the day."
+      ],
+      "methods": [
+        {
+          "name": "Work Idiom",
+          "steps": [
+            "Wrap up."
+          ]
+        }
+      ],
+      "exam_tip": "To 'call it quits' is similar."
+    }
+  },
+  {
+    "id": "ENG-ID-008",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 2,
+    "question": "The idiom 'Burn the midnight oil' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "To cause an oil fire"
+      },
+      {
+        "id": "B",
+        "text": "To work or study late into the night"
+      },
+      {
+        "id": "C",
+        "text": "To waste kerosene"
+      },
+      {
+        "id": "D",
+        "text": "To travel after dark"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Burn the midnight oil' means to work or study late into the night (originally referencing oil lamps).",
+      "steps": [
+        "Study/work late at night."
+      ],
+      "methods": [
+        {
+          "name": "Study Idiom",
+          "steps": [
+            "Late night work."
+          ]
+        }
+      ],
+      "exam_tip": "Used for hard study before competitive examinations."
+    }
+  },
+  {
+    "id": "ENG-ID-009",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 3,
+    "question": "What does 'To grease the palm' mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To moisturize one's hands"
+      },
+      {
+        "id": "B",
+        "text": "To bribe someone"
+      },
+      {
+        "id": "C",
+        "text": "To shake hands warmly"
+      },
+      {
+        "id": "D",
+        "text": "To flatter a superior"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'To grease someone's palm' is an informal idiom meaning to bribe a person.",
+      "steps": [
+        "To offer a bribe."
+      ],
+      "methods": [
+        {
+          "name": "Bribery Idioms",
+          "steps": [
+            "Grease palm = bribe."
+          ]
+        }
+      ],
+      "exam_tip": "Grease the palm = bribe."
+    }
+  },
+  {
+    "id": "ENG-ID-010",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 3,
+    "question": "The idiom 'Barking up the wrong tree' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A hunting dog chasing prey"
+      },
+      {
+        "id": "B",
+        "text": "Pursuing a mistaken line of inquiry or accusing the wrong person"
+      },
+      {
+        "id": "C",
+        "text": "Shouting in anger"
+      },
+      {
+        "id": "D",
+        "text": "Climbing an unstable branch"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Barking up the wrong tree' means following a false trail or directing your efforts to the wrong person or strategy.",
+      "steps": [
+        "Pursuing a mistaken course."
+      ],
+      "methods": [
+        {
+          "name": "Origin",
+          "steps": [
+            "Hunting dog barking at a tree where prey is absent."
+          ]
+        }
+      ],
+      "exam_tip": "Refers to wasted effort on a wrong assumption."
+    }
+  },
+  {
+    "id": "ENG-ID-011",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 3,
+    "question": "The phrase 'A bone of contention' refers to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A skeletal defect"
+      },
+      {
+        "id": "B",
+        "text": "A subject of disagreement, dispute, or conflict"
+      },
+      {
+        "id": "C",
+        "text": "A tough piece of meat"
+      },
+      {
+        "id": "D",
+        "text": "An accidental injury"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'A bone of contention' (like 'apple of discord') is a subject or issue over which there is persistent dispute.",
+      "steps": [
+        "Matter of dispute."
+      ],
+      "methods": [
+        {
+          "name": "Dispute Idioms",
+          "steps": [
+            "Bone of contention."
+          ]
+        }
+      ],
+      "exam_tip": "Synonymous with 'Apple of discord'."
+    }
+  },
+  {
+    "id": "ENG-ID-012",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 3,
+    "question": "What is the meaning of 'To bury the hatchet'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To hide a weapon"
+      },
+      {
+        "id": "B",
+        "text": "To make peace and end an ongoing feud"
+      },
+      {
+        "id": "C",
+        "text": "To dig a grave"
+      },
+      {
+        "id": "D",
+        "text": "To surrender unconditionally"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'To bury the hatchet' means to end a dispute, forgive grievances, and become friendly again.",
+      "steps": [
+        "Make peace, end a feud."
+      ],
+      "methods": [
+        {
+          "name": "Peace Idiom",
+          "steps": [
+            "Native American ritual of burying weapons."
+          ]
+        }
+      ],
+      "exam_tip": "Means to reconcile and forget past enmity."
+    }
+  },
+  {
+    "id": "ENG-ID-013",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 4,
+    "question": "The idiom 'Achilles' heel' signifies:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A physical orthopedic injury"
+      },
+      {
+        "id": "B",
+        "text": "A vulnerable point or fatal weakness in an otherwise strong entity"
+      },
+      {
+        "id": "C",
+        "text": "Great heroic courage"
+      },
+      {
+        "id": "D",
+        "text": "A swift running pace"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "From Greek mythology, Achilles was dipped in the River Styx except by his heel, leaving it as his sole vulnerability. It means a fatal weak spot.",
+      "steps": [
+        "Fatal vulnerability."
+      ],
+      "methods": [
+        {
+          "name": "Mythological Allusion",
+          "steps": [
+            "Achilles' heel = weak spot."
+          ]
+        }
+      ],
+      "exam_tip": "Achilles' heel = vulnerable point."
+    }
+  },
+  {
+    "id": "ENG-ID-014",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 4,
+    "question": "What does 'To leave no stone unturned' mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To do construction work"
+      },
+      {
+        "id": "B",
+        "text": "To try every possible course of action in order to achieve something"
+      },
+      {
+        "id": "C",
+        "text": "To search for minerals"
+      },
+      {
+        "id": "D",
+        "text": "To cause environmental damage"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'To leave no stone unturned' means to use every possible resource or attempt every alternative thoroughly.",
+      "steps": [
+        "Make every possible effort."
+      ],
+      "methods": [
+        {
+          "name": "Effort Idioms",
+          "steps": [
+            "Exhaust all possibilities."
+          ]
+        }
+      ],
+      "exam_tip": "Means total and thorough endeavor."
+    }
+  },
+  {
+    "id": "ENG-ID-015",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 4,
+    "question": "The phrase 'A Pyrrhic victory' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A total and effortless triumph"
+      },
+      {
+        "id": "B",
+        "text": "A victory won at such devastating cost that it amounts to defeat"
+      },
+      {
+        "id": "C",
+        "text": "A draw or stalemate"
+      },
+      {
+        "id": "D",
+        "text": "A dishonorable win"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Named after King Pyrrhus of Epirus whose army suffered irreplaceable casualties in defeating the Romans, a Pyrrhic victory is a victory won at ruinous cost.",
+      "steps": [
+        "Triumph with catastrophic loss."
+      ],
+      "methods": [
+        {
+          "name": "Historical Allusion",
+          "steps": [
+            "Pyrrhic victory."
+          ]
+        }
+      ],
+      "exam_tip": "Victory attained at overwhelming ruinous cost."
+    }
+  },
+  {
+    "id": "ENG-ID-016",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 4,
+    "question": "What is the meaning of 'To throw down the gauntlet'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To admit defeat and surrender"
+      },
+      {
+        "id": "B",
+        "text": "To issue an open challenge or provocation"
+      },
+      {
+        "id": "C",
+        "text": "To lose gloves in snow"
+      },
+      {
+        "id": "D",
+        "text": "To give up property"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "In medieval chivalry, throwing down one's armored glove (gauntlet) signified a formal duel challenge. To 'pick up the gauntlet' is to accept the challenge.",
+      "steps": [
+        "To issue a challenge."
+      ],
+      "methods": [
+        {
+          "name": "Chivalric Idiom",
+          "steps": [
+            "Throw down = challenge; pick up = accept."
+          ]
+        }
+      ],
+      "exam_tip": "Throw down the gauntlet = issue a challenge."
+    }
+  },
+  {
+    "id": "ENG-ID-017",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 5,
+    "question": "The idiom 'Between Scylla and Charybdis' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enjoying immense marine riches"
+      },
+      {
+        "id": "B",
+        "text": "Caught between two equally perilous and disastrous alternatives"
+      },
+      {
+        "id": "C",
+        "text": "Trapped in deep whirlpools"
+      },
+      {
+        "id": "D",
+        "text": "Sailing safely through a narrow strait"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "From Homer's Odyssey, Scylla was a six-headed sea monster and Charybdis a whirlpool. Being between them means facing two equally terrible dangers ('between the devil and the deep blue sea').",
+      "steps": [
+        "Caught between two equal perils."
+      ],
+      "methods": [
+        {
+          "name": "Classical Idiom",
+          "steps": [
+            "Scylla and Charybdis."
+          ]
+        }
+      ],
+      "exam_tip": "Equivalent to 'between the devil and the deep blue sea'."
+    }
+  },
+  {
+    "id": "ENG-ID-018",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 5,
+    "question": "What does the Latin phrase 'To cut the Gordian knot' signify?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To untie a rope skillfully"
+      },
+      {
+        "id": "B",
+        "text": "To solve an intricate, intractable problem by bold, decisive action"
+      },
+      {
+        "id": "C",
+        "text": "To destroy valuable historical artifacts"
+      },
+      {
+        "id": "D",
+        "text": "To break a binding alliance"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Alexander the Great solved the legendary untieable Gordian knot by slicing straight through it with his sword. It means solving a complex dilemma decisively.",
+      "steps": [
+        "Decisive, bold solution to complex problem."
+      ],
+      "methods": [
+        {
+          "name": "Alexander Legend",
+          "steps": [
+            "Bold decisive action."
+          ]
+        }
+      ],
+      "exam_tip": "Cut the Gordian knot = decisive resolution to complex issue."
+    }
+  },
+  {
+    "id": "ENG-ID-019",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 5,
+    "question": "The idiom 'To cross the Rubicon' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "To ford an Italian river peacefully"
+      },
+      {
+        "id": "B",
+        "text": "To take an irreversible step that commits one irrevocably to a specific course"
+      },
+      {
+        "id": "C",
+        "text": "To violate international borders by accident"
+      },
+      {
+        "id": "D",
+        "text": "To retreat from enemy territory"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "In 49 BC, Julius Caesar crossed the Rubicon River with his army, committing himself irrevocably to civil war against Rome ('the die is cast'). It means taking an irrevocable, decisive step.",
+      "steps": [
+        "Taking an irreversible step."
+      ],
+      "methods": [
+        {
+          "name": "Historical Allusion",
+          "steps": [
+            "Caesar's march on Rome."
+          ]
+        }
+      ],
+      "exam_tip": "Cross the Rubicon = point of no return."
+    }
+  },
+  {
+    "id": "ENG-ID-020",
+    "subject": "english",
+    "topic": "idioms_phrases",
+    "difficulty": 5,
+    "question": "The phrase 'Damocles' sword' (or 'Sword of Damocles') implies:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An ancient decorative weapon"
+      },
+      {
+        "id": "B",
+        "text": "An impending, constant threat of danger hanging over someone despite apparent prosperity"
+      },
+      {
+        "id": "C",
+        "text": "Immense invincible military authority"
+      },
+      {
+        "id": "D",
+        "text": "A lethal judicial punishment"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Dionysius seated Damocles beneath a sword suspended by a single horsehair to demonstrate the constant mortal danger attending a king. It means an ever-present impending peril.",
+      "steps": [
+        "Constant looming danger."
+      ],
+      "methods": [
+        {
+          "name": "Classical Allegory",
+          "steps": [
+            "Sword of Damocles."
+          ]
+        }
+      ],
+      "exam_tip": "Sword of Damocles = constant looming threat."
+    }
+  }
+]

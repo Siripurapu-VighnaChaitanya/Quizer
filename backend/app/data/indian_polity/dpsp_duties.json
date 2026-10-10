@@ -1,0 +1,822 @@
+[
+  {
+    "id": "POL-DPS-001",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 1,
+    "question": "In which part of the Constitution are the Directive Principles of State Policy (DPSP) contained?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Part III"
+      },
+      {
+        "id": "B",
+        "text": "Part IV"
+      },
+      {
+        "id": "C",
+        "text": "Part IV-A"
+      },
+      {
+        "id": "D",
+        "text": "Part V"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "DPSP is contained in Part IV (Articles 36 to 51). Part III is Fundamental Rights; Part IV-A is Fundamental Duties.",
+      "steps": [
+        "Part IV covers Articles 36-51."
+      ],
+      "methods": [
+        {
+          "name": "Parts of Constitution",
+          "steps": [
+            "Part IV = DPSP."
+          ]
+        }
+      ],
+      "exam_tip": "Part III = FR, Part IV = DPSP, Part IV-A = Fundamental Duties."
+    }
+  },
+  {
+    "id": "POL-DPS-002",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 1,
+    "question": "Which Article of the Constitution deals with the Uniform Civil Code (UCC)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 40"
+      },
+      {
+        "id": "B",
+        "text": "Article 44"
+      },
+      {
+        "id": "C",
+        "text": "Article 48"
+      },
+      {
+        "id": "D",
+        "text": "Article 50"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 44 states that the State shall endeavour to secure for the citizens a Uniform Civil Code throughout the territory of India.",
+      "steps": [
+        "Article 44 = UCC."
+      ],
+      "methods": [
+        {
+          "name": "Key Articles",
+          "steps": [
+            "Art 44 is Uniform Civil Code."
+          ]
+        }
+      ],
+      "exam_tip": "Art 44 is UCC (4 and 4 are uniform/equal)."
+    }
+  },
+  {
+    "id": "POL-DPS-003",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 1,
+    "question": "How many Fundamental Duties are currently listed in Article 51A of the Constitution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Originally 10 duties were added by the 42nd Amendment (1976). The 11th duty was added by the 86th Amendment Act (2002).",
+      "steps": [
+        "10 original + 1 added in 2002 = 11."
+      ],
+      "methods": [
+        {
+          "name": "Chronology",
+          "steps": [
+            "Total duties = 11."
+          ]
+        }
+      ],
+      "exam_tip": "Current count is 11; originally in 1976 it was 10."
+    }
+  },
+  {
+    "id": "POL-DPS-004",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 1,
+    "question": "Which committee recommended the incorporation of Fundamental Duties in the Constitution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sarkaria Commission"
+      },
+      {
+        "id": "B",
+        "text": "Swaran Singh Committee"
+      },
+      {
+        "id": "C",
+        "text": "Verma Committee"
+      },
+      {
+        "id": "D",
+        "text": "Kothari Commission"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The Swaran Singh Committee (1976) recommended the inclusion of Fundamental Duties, leading to the 42nd Amendment.",
+      "steps": [
+        "Swaran Singh Committee (1976)."
+      ],
+      "methods": [
+        {
+          "name": "Committees",
+          "steps": [
+            "Swaran Singh recommended 8 duties; govt added 10."
+          ]
+        }
+      ],
+      "exam_tip": "Swaran Singh Committee recommended Fundamental Duties."
+    }
+  },
+  {
+    "id": "POL-DPS-005",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 2,
+    "question": "Which Article provides for the organization of village panchayats?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 39"
+      },
+      {
+        "id": "B",
+        "text": "Article 40"
+      },
+      {
+        "id": "C",
+        "text": "Article 41"
+      },
+      {
+        "id": "D",
+        "text": "Article 42"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 40 (Gandhian Principle) directs the State to organize village panchayats and endow them with powers of self-government.",
+      "steps": [
+        "Article 40 = Village Panchayats."
+      ],
+      "methods": [
+        {
+          "name": "Gandhian DPSP",
+          "steps": [
+            "Article 40."
+          ]
+        }
+      ],
+      "exam_tip": "Article 40 reflects Mahatma Gandhi's vision of Gram Swaraj."
+    }
+  },
+  {
+    "id": "POL-DPS-006",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 2,
+    "question": "Separation of judiciary from the executive is mandated under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 48"
+      },
+      {
+        "id": "B",
+        "text": "Article 49"
+      },
+      {
+        "id": "C",
+        "text": "Article 50"
+      },
+      {
+        "id": "D",
+        "text": "Article 51"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 50 directs the State to take steps to separate the judiciary from the executive in the public services of the State.",
+      "steps": [
+        "Article 50 = Separation of Judiciary from Executive."
+      ],
+      "methods": [
+        {
+          "name": "Article Match",
+          "steps": [
+            "Art 50."
+          ]
+        }
+      ],
+      "exam_tip": "Article 50 separates 50-50 between Executive and Judiciary."
+    }
+  },
+  {
+    "id": "POL-DPS-007",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 2,
+    "question": "The 11th Fundamental Duty (duty of parent/guardian to provide education to child aged 6-14) was added by which Amendment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "42nd Amendment, 1976"
+      },
+      {
+        "id": "B",
+        "text": "44th Amendment, 1978"
+      },
+      {
+        "id": "C",
+        "text": "86th Amendment, 2002"
+      },
+      {
+        "id": "D",
+        "text": "91st Amendment, 2003"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "86th Amendment Act, 2002 inserted Article 21A, modified Article 45, and added Article 51A(k) (11th duty).",
+      "steps": [
+        "86th Amendment, 2002."
+      ],
+      "methods": [
+        {
+          "name": "Education Amendments",
+          "steps": [
+            "86th CAA introduced Right to Education triad."
+          ]
+        }
+      ],
+      "exam_tip": "86th Amendment changed Art 21A, Art 45, and Art 51A(k)."
+    }
+  },
+  {
+    "id": "POL-DPS-008",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 2,
+    "question": "Promotion of international peace and security is declared in which Article of DPSP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 48A"
+      },
+      {
+        "id": "B",
+        "text": "Article 49"
+      },
+      {
+        "id": "C",
+        "text": "Article 50"
+      },
+      {
+        "id": "D",
+        "text": "Article 51"
+      }
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Article 51 directs the State to promote international peace and security, maintain just and honourable relations between nations, and foster respect for international law.",
+      "steps": [
+        "Article 51."
+      ],
+      "methods": [
+        {
+          "name": "Foreign Policy Article",
+          "steps": [
+            "Art 51 guides India's foreign policy."
+          ]
+        }
+      ],
+      "exam_tip": "Article 51 is the constitutional foundation of Indian foreign policy."
+    }
+  },
+  {
+    "id": "POL-DPS-009",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 3,
+    "question": "Which Article provides for 'Equal justice and free legal aid'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 38"
+      },
+      {
+        "id": "B",
+        "text": "Article 39A"
+      },
+      {
+        "id": "C",
+        "text": "Article 41"
+      },
+      {
+        "id": "D",
+        "text": "Article 43A"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 39A was added by the 42nd Amendment Act (1976) to ensure equal justice and free legal aid to poor citizens (basis of NALSA).",
+      "steps": [
+        "Article 39A."
+      ],
+      "methods": [
+        {
+          "name": "Socialist Principles",
+          "steps": [
+            "Art 39A added by 42nd CAA."
+          ]
+        }
+      ],
+      "exam_tip": "Article 39A is the constitutional authority behind Lok Adalats."
+    }
+  },
+  {
+    "id": "POL-DPS-010",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 3,
+    "question": "Fundamental Duties were borrowed from the constitution of which country?",
+    "options": [
+      {
+        "id": "A",
+        "text": "USA"
+      },
+      {
+        "id": "B",
+        "text": "USSR (Soviet Union)"
+      },
+      {
+        "id": "C",
+        "text": "Germany"
+      },
+      {
+        "id": "D",
+        "text": "Canada"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Fundamental Duties in Part IV-A were inspired by the Constitution of the erstwhile USSR.",
+      "steps": [
+        "USSR."
+      ],
+      "methods": [
+        {
+          "name": "Constitutional Borrowing",
+          "steps": [
+            "Fundamental Duties = USSR."
+          ]
+        }
+      ],
+      "exam_tip": "Fundamental Rights = USA; Fundamental Duties = USSR."
+    }
+  },
+  {
+    "id": "POL-DPS-011",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 3,
+    "question": "Which of the following is NOT a Fundamental Duty listed under Article 51A?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To safeguard public property"
+      },
+      {
+        "id": "B",
+        "text": "To develop scientific temper"
+      },
+      {
+        "id": "C",
+        "text": "To cast vote in general elections"
+      },
+      {
+        "id": "D",
+        "text": "To abide by the Constitution and respect the National Flag"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Casting vote in elections, paying taxes, and family planning were recommended by Swaran Singh Committee but were NOT accepted as Fundamental Duties in the Constitution.",
+      "steps": [
+        "Voting is not a fundamental duty; it is a legal/constitutional right."
+      ],
+      "methods": [
+        {
+          "name": "List Examination",
+          "steps": [
+            "Voting is not in 51A."
+          ]
+        }
+      ],
+      "exam_tip": "Voting and paying taxes are NOT Fundamental Duties."
+    }
+  },
+  {
+    "id": "POL-DPS-012",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 3,
+    "question": "Article 48A ('Protection and improvement of environment and safeguarding of forests and wild life') was inserted by which Amendment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "42nd Amendment, 1976"
+      },
+      {
+        "id": "B",
+        "text": "44th Amendment, 1978"
+      },
+      {
+        "id": "C",
+        "text": "52nd Amendment, 1985"
+      },
+      {
+        "id": "D",
+        "text": "73rd Amendment, 1992"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Article 48A (environment DPSP) and Article 51A(g) (environment duty) were both added by the 42nd Amendment Act of 1976.",
+      "steps": [
+        "42nd Amendment, 1976."
+      ],
+      "methods": [
+        {
+          "name": "Environmental Constitutionalism",
+          "steps": [
+            "42nd Amendment introduced Art 48A."
+          ]
+        }
+      ],
+      "exam_tip": "42nd Amendment added 39A, 43A, 48A to DPSP."
+    }
+  },
+  {
+    "id": "POL-DPS-013",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 4,
+    "question": "In which case did the Supreme Court hold that the Indian Constitution is founded on the bedrock of the balance between Fundamental Rights and DPSP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Golaknath Case (1967)"
+      },
+      {
+        "id": "B",
+        "text": "Minerva Mills Case (1980)"
+      },
+      {
+        "id": "C",
+        "text": "Maneka Gandhi Case (1978)"
+      },
+      {
+        "id": "D",
+        "text": "Champakam Dorairajan Case (1951)"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "In Minerva Mills (1980), the SC observed that Fundamental Rights and DPSP are like two wheels of a chariot, and the harmony between them is a basic feature of the Constitution.",
+      "steps": [
+        "Minerva Mills (1980)."
+      ],
+      "methods": [
+        {
+          "name": "Harmony Doctrine",
+          "steps": [
+            "Bedrock balance between FR and DPSP established in Minerva Mills."
+          ]
+        }
+      ],
+      "exam_tip": "Chariot metaphor used by Justice Chandrachud in Minerva Mills."
+    }
+  },
+  {
+    "id": "POL-DPS-014",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 4,
+    "question": "Which Article of the Constitution states that DPSP shall NOT be enforceable by any court (non-justiciable)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 36"
+      },
+      {
+        "id": "B",
+        "text": "Article 37"
+      },
+      {
+        "id": "C",
+        "text": "Article 38"
+      },
+      {
+        "id": "D",
+        "text": "Article 39"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 37 states that the provisions of Part IV shall not be enforceable by any court, but they are nevertheless fundamental in the governance of the country.",
+      "steps": [
+        "Article 37."
+      ],
+      "methods": [
+        {
+          "name": "Non-Enforceability",
+          "steps": [
+            "Art 37 declares DPSP non-justiciable."
+          ]
+        }
+      ],
+      "exam_tip": "Article 37 declares DPSP non-enforceable in courts."
+    }
+  },
+  {
+    "id": "POL-DPS-015",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 4,
+    "question": "Participation of workers in management of industries is provided under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 42"
+      },
+      {
+        "id": "B",
+        "text": "Article 43"
+      },
+      {
+        "id": "C",
+        "text": "Article 43A"
+      },
+      {
+        "id": "D",
+        "text": "Article 43B"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 43A was inserted by the 42nd Amendment Act, 1976. (Article 43B deals with Co-operative societies, added by 97th Amendment).",
+      "steps": [
+        "Article 43A."
+      ],
+      "methods": [
+        {
+          "name": "Labor DPSP",
+          "steps": [
+            "Art 43A = Workers in management."
+          ]
+        }
+      ],
+      "exam_tip": "43A = Workers in management; 43B = Co-operative societies."
+    }
+  },
+  {
+    "id": "POL-DPS-016",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 4,
+    "question": "The prevention of slaughter of cows, calves and other milch cattle is outlined under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 46"
+      },
+      {
+        "id": "B",
+        "text": "Article 47"
+      },
+      {
+        "id": "C",
+        "text": "Article 48"
+      },
+      {
+        "id": "D",
+        "text": "Article 49"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 48 directs the State to organize agriculture and animal husbandry on modern lines and prohibit slaughter of cows, calves, and milch cattle.",
+      "steps": [
+        "Article 48."
+      ],
+      "methods": [
+        {
+          "name": "Agriculture & Cattle",
+          "steps": [
+            "Art 48."
+          ]
+        }
+      ],
+      "exam_tip": "Article 48 covers agriculture and animal husbandry."
+    }
+  },
+  {
+    "id": "POL-DPS-017",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 5,
+    "question": "Which of the following is considered a 'Directive outside Part IV' in the Constitution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Article 335 (Claims of SCs/STs to services)"
+      },
+      {
+        "id": "B",
+        "text": "Article 350A (Instruction in mother tongue at primary stage)"
+      },
+      {
+        "id": "C",
+        "text": "Article 351 (Development of Hindi language)"
+      },
+      {
+        "id": "D",
+        "text": "All of the above"
+      }
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Articles 335 (Part XVI), 350A (Part XVII), and 351 (Part XVII) are non-justiciable directives addressed to the State, existing outside Part IV. All of them are directives outside Part IV.",
+      "steps": [
+        "All three are directives outside Part IV."
+      ],
+      "methods": [
+        {
+          "name": "Directives Classification",
+          "steps": [
+            "335, 350A, 351 are all external directives."
+          ]
+        }
+      ],
+      "exam_tip": "There are three directives located outside Part IV: 335, 350A, 351."
+    }
+  },
+  {
+    "id": "POL-DPS-018",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 5,
+    "question": "Article 31C was inserted by which Constitutional Amendment to protect laws implementing Article 39(b) and (c) from being challenged under Articles 14 and 19?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24th Amendment, 1971"
+      },
+      {
+        "id": "B",
+        "text": "25th Amendment, 1971"
+      },
+      {
+        "id": "C",
+        "text": "42nd Amendment, 1976"
+      },
+      {
+        "id": "D",
+        "text": "44th Amendment, 1978"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The 25th Constitutional Amendment Act, 1971 inserted Article 31C, giving primacy to Article 39(b) and 39(c) over Fundamental Rights under Articles 14 and 19.",
+      "steps": [
+        "25th Amendment, 1971."
+      ],
+      "methods": [
+        {
+          "name": "Art 31C Shield",
+          "steps": [
+            "25th Amendment inserted 31C."
+          ]
+        }
+      ],
+      "exam_tip": "Article 31C shields socialistic DPSP (39b and 39c)."
+    }
+  },
+  {
+    "id": "POL-DPS-019",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 5,
+    "question": "Which Supreme Court committee examined the operationalization of Fundamental Duties to make them enforceable through existing statutory laws?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Justice J. S. Verma Committee (1999)"
+      },
+      {
+        "id": "B",
+        "text": "Justice Sarkaria Commission (1983)"
+      },
+      {
+        "id": "C",
+        "text": "Justice Venkatachaliah Commission (2002)"
+      },
+      {
+        "id": "D",
+        "text": "Justice Punchhi Commission (2007)"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "The Justice Verma Committee on Fundamental Duties of Citizens (1999) identified existing legal provisions and statutes implementing several fundamental duties.",
+      "steps": [
+        "Verma Committee (1999)."
+      ],
+      "methods": [
+        {
+          "name": "Enforceability Review",
+          "steps": [
+            "Justice J. S. Verma Committee."
+          ]
+        }
+      ],
+      "exam_tip": "Verma Committee (1999) mapped duties to existing penal and environmental laws."
+    }
+  },
+  {
+    "id": "POL-DPS-020",
+    "subject": "indian_polity",
+    "topic": "dpsp_duties",
+    "difficulty": 5,
+    "question": "Who famously described the Directive Principles of State Policy as a 'cheque on a bank, payable only when the resources of the bank permit'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prof. K. T. Shah"
+      },
+      {
+        "id": "B",
+        "text": "Dr. B. R. Ambedkar"
+      },
+      {
+        "id": "C",
+        "text": "Sir Ivor Jennings"
+      },
+      {
+        "id": "D",
+        "text": "Granville Austin"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Prof. K. T. Shah, member of the Constituent Assembly, criticized the non-justiciable nature of DPSP by comparing it to a cheque payable only at the convenience of the bank.",
+      "steps": [
+        "Prof. K. T. Shah."
+      ],
+      "methods": [
+        {
+          "name": "Constituent Assembly Quotes",
+          "steps": [
+            "K. T. Shah quote."
+          ]
+        }
+      ],
+      "exam_tip": "K. T. Shah called DPSP a cheque payable at bank's convenience."
+    }
+  }
+]

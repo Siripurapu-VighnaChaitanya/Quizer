@@ -1,0 +1,826 @@
+[
+  {
+    "id": "COMP-NET-001",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 1,
+    "question": "What does LAN stand for in computer networks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Local Area Network"
+      },
+      {
+        "id": "B",
+        "text": "Logical Access Network"
+      },
+      {
+        "id": "C",
+        "text": "Large Area Network"
+      },
+      {
+        "id": "D",
+        "text": "Linear Array Node"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "LAN stands for Local Area Network, connecting computers within a limited geographical area like a home, office, or campus.",
+      "steps": [
+        "Local Area Network."
+      ],
+      "methods": [
+        {
+          "name": "Network Types",
+          "steps": [
+            "LAN."
+          ]
+        }
+      ],
+      "exam_tip": "LAN = Local Area Network; WAN = Wide Area Network; MAN = Metropolitan Area Network."
+    }
+  },
+  {
+    "id": "COMP-NET-002",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 1,
+    "question": "What does 'HTTP' stand for in web browsing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HyperText Transfer Protocol"
+      },
+      {
+        "id": "B",
+        "text": "HyperText Transmission Process"
+      },
+      {
+        "id": "C",
+        "text": "High Traffic Transfer Protocol"
+      },
+      {
+        "id": "D",
+        "text": "Hyperlink Text Transport Path"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "HTTP stands for HyperText Transfer Protocol. HTTPS is the encrypted, secure version using SSL/TLS.",
+      "steps": [
+        "HyperText Transfer Protocol."
+      ],
+      "methods": [
+        {
+          "name": "Protocols",
+          "steps": [
+            "HTTP."
+          ]
+        }
+      ],
+      "exam_tip": "HTTP uses port 80; HTTPS uses port 443."
+    }
+  },
+  {
+    "id": "COMP-NET-003",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 1,
+    "question": "Which security barrier monitors and filters incoming and outgoing network traffic based on predetermined security rules?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Firewall"
+      },
+      {
+        "id": "B",
+        "text": "Repeater"
+      },
+      {
+        "id": "C",
+        "text": "Modem"
+      },
+      {
+        "id": "D",
+        "text": "Bridge"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "A Firewall acts as a barrier between a trusted internal network and untrusted external networks (like the Internet).",
+      "steps": [
+        "Firewall filters traffic."
+      ],
+      "methods": [
+        {
+          "name": "Network Security",
+          "steps": [
+            "Firewall."
+          ]
+        }
+      ],
+      "exam_tip": "Firewalls can be hardware, software, or cloud-based."
+    }
+  },
+  {
+    "id": "COMP-NET-004",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 1,
+    "question": "What is an 'IP address'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unique numerical label assigned to each device connected to a computer network"
+      },
+      {
+        "id": "B",
+        "text": "The postal address of an internet provider"
+      },
+      {
+        "id": "C",
+        "text": "A password for Wi-Fi routers"
+      },
+      {
+        "id": "D",
+        "text": "An email identification code"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "An Internet Protocol (IP) address uniquely identifies a device on a network (IPv4 is 32-bit; IPv6 is 128-bit).",
+      "steps": [
+        "Unique numerical identifier on network."
+      ],
+      "methods": [
+        {
+          "name": "Addressing",
+          "steps": [
+            "IP Address."
+          ]
+        }
+      ],
+      "exam_tip": "IPv4 = 32 bits; IPv6 = 128 bits."
+    }
+  },
+  {
+    "id": "COMP-NET-005",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 2,
+    "question": "How many layers are there in the OSI (Open Systems Interconnection) reference model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 layers"
+      },
+      {
+        "id": "B",
+        "text": "5 layers"
+      },
+      {
+        "id": "C",
+        "text": "7 layers"
+      },
+      {
+        "id": "D",
+        "text": "8 layers"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The OSI model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application.",
+      "steps": [
+        "7 layers."
+      ],
+      "methods": [
+        {
+          "name": "Mnemonic",
+          "steps": [
+            "Please Do Not Throw Sausage Pizza Away (1 to 7)."
+          ]
+        }
+      ],
+      "exam_tip": "Layer 1 = Physical; Layer 7 = Application."
+    }
+  },
+  {
+    "id": "COMP-NET-006",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 2,
+    "question": "What is 'Phishing' in cybersecurity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A social engineering attack where fraudulent emails/messages trick users into revealing sensitive credentials or bank details"
+      },
+      {
+        "id": "B",
+        "text": "Catching illegal hardware devices"
+      },
+      {
+        "id": "C",
+        "text": "Overheating network switches"
+      },
+      {
+        "id": "D",
+        "text": "Encrypting network cables"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Phishing deceives individuals into divulging confidential information like passwords or credit card numbers by masquerading as a legitimate entity.",
+      "steps": [
+        "Deceptive credential theft."
+      ],
+      "methods": [
+        {
+          "name": "Cyber Attacks",
+          "steps": [
+            "Phishing."
+          ]
+        }
+      ],
+      "exam_tip": "Smishing = SMS phishing; Vishing = Voice call phishing."
+    }
+  },
+  {
+    "id": "COMP-NET-007",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 2,
+    "question": "Which network topology connects all devices to a single central hub or switch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bus Topology"
+      },
+      {
+        "id": "B",
+        "text": "Star Topology"
+      },
+      {
+        "id": "C",
+        "text": "Ring Topology"
+      },
+      {
+        "id": "D",
+        "text": "Mesh Topology"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "In a Star topology, all nodes are individually connected to a central hub/switch. If one cable fails, only that node is disconnected.",
+      "steps": [
+        "Star topology uses central hub."
+      ],
+      "methods": [
+        {
+          "name": "Topologies",
+          "steps": [
+            "Star."
+          ]
+        }
+      ],
+      "exam_tip": "Most common modern LAN topology is Star topology."
+    }
+  },
+  {
+    "id": "COMP-NET-008",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 2,
+    "question": "What is the primary function of DNS (Domain Name System)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Translates human-friendly domain names (e.g. google.com) into numerical IP addresses"
+      },
+      {
+        "id": "B",
+        "text": "Encrypts passwords on websites"
+      },
+      {
+        "id": "C",
+        "text": "Connects monitors to graphics cards"
+      },
+      {
+        "id": "D",
+        "text": "Blocks virus downloads"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "DNS acts as the phonebook of the Internet, mapping domain names (like www.example.com) to machine-readable IP addresses.",
+      "steps": [
+        "Domain names to IP addresses."
+      ],
+      "methods": [
+        {
+          "name": "DNS Role",
+          "steps": [
+            "DNS."
+          ]
+        }
+      ],
+      "exam_tip": "DNS resolves names to IP addresses; uses port 53."
+    }
+  },
+  {
+    "id": "COMP-NET-009",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 3,
+    "question": "Which protocol is responsible for reliably transmitting email messages from a client to a mail server (outgoing mail)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "POP3"
+      },
+      {
+        "id": "B",
+        "text": "IMAP"
+      },
+      {
+        "id": "C",
+        "text": "SMTP (Simple Mail Transfer Protocol)"
+      },
+      {
+        "id": "D",
+        "text": "FTP"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "SMTP is used to send/relay outgoing emails. POP3 and IMAP are used by clients to retrieve incoming emails from a server.",
+      "steps": [
+        "SMTP = sending email.",
+        "POP3/IMAP = receiving email."
+      ],
+      "methods": [
+        {
+          "name": "Mail Protocols",
+          "steps": [
+            "SMTP."
+          ]
+        }
+      ],
+      "exam_tip": "SMTP sends mail; POP3/IMAP receives mail."
+    }
+  },
+  {
+    "id": "COMP-NET-010",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 3,
+    "question": "What is a 'MAC Address' (Media Access Control Address)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A permanent physical hardware address (48-bit) assigned to a Network Interface Card (NIC)"
+      },
+      {
+        "id": "B",
+        "text": "An address unique to Apple Mac computers only"
+      },
+      {
+        "id": "C",
+        "text": "A temporary IP address given by DHCP"
+      },
+      {
+        "id": "D",
+        "text": "A web browser cookies folder"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "A MAC address is a 48-bit (6 bytes) hardware address burned into the NIC, operating at Layer 2 (Data Link Layer).",
+      "steps": [
+        "48-bit hardware identifier."
+      ],
+      "methods": [
+        {
+          "name": "Hardware Addressing",
+          "steps": [
+            "MAC address."
+          ]
+        }
+      ],
+      "exam_tip": "MAC address is 48 bits, hexadecimal; IP address is logical."
+    }
+  },
+  {
+    "id": "COMP-NET-011",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 3,
+    "question": "What type of malware encrypts a victim's files and demands payment in cryptocurrency for the decryption key?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spyware"
+      },
+      {
+        "id": "B",
+        "text": "Ransomware"
+      },
+      {
+        "id": "C",
+        "text": "Adware"
+      },
+      {
+        "id": "D",
+        "text": "Keylogger"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Ransomware (e.g. WannaCry) locks/encrypts files and displays a ransom demand.",
+      "steps": [
+        "Ransomware."
+      ],
+      "methods": [
+        {
+          "name": "Malware Types",
+          "steps": [
+            "Ransomware."
+          ]
+        }
+      ],
+      "exam_tip": "WannaCry, NotPetya are famous examples of ransomware."
+    }
+  },
+  {
+    "id": "COMP-NET-012",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 3,
+    "question": "Which network device operates at the Network Layer (Layer 3) of the OSI model and routes packets between different networks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hub (Layer 1)"
+      },
+      {
+        "id": "B",
+        "text": "Switch (Layer 2)"
+      },
+      {
+        "id": "C",
+        "text": "Router (Layer 3)"
+      },
+      {
+        "id": "D",
+        "text": "Repeater (Layer 1)"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Routers operate at Layer 3 (Network Layer) and use IP addresses to route packets between disparate networks.",
+      "steps": [
+        "Router = Layer 3."
+      ],
+      "methods": [
+        {
+          "name": "OSI Hardware Mapping",
+          "steps": [
+            "Hub: L1, Switch: L2, Router: L3."
+          ]
+        }
+      ],
+      "exam_tip": "Hub = Layer 1; Switch = Layer 2; Router = Layer 3."
+    }
+  },
+  {
+    "id": "COMP-NET-013",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 4,
+    "question": "What is the difference between TCP and UDP transport protocols?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TCP is connection-oriented and guarantees reliable packet delivery; UDP is connectionless and faster but does not guarantee delivery"
+      },
+      {
+        "id": "B",
+        "text": "UDP is encrypted; TCP is unencrypted"
+      },
+      {
+        "id": "C",
+        "text": "TCP is only for local networks; UDP is for Internet"
+      },
+      {
+        "id": "D",
+        "text": "UDP uses handshakes; TCP does not"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "TCP uses a 3-way handshake and retransmissions for 100% reliable data transfer (web, email). UDP streams data quickly without handshakes (voice, video, gaming).",
+      "steps": [
+        "TCP: reliable, connection-oriented.",
+        "UDP: fast, connectionless."
+      ],
+      "methods": [
+        {
+          "name": "Transport Protocols",
+          "steps": [
+            "TCP vs UDP."
+          ]
+        }
+      ],
+      "exam_tip": "TCP = Reliable (web, files); UDP = Fast streaming/gaming/DNS."
+    }
+  },
+  {
+    "id": "COMP-NET-014",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 4,
+    "question": "What is a 'DDoS' (Distributed Denial of Service) attack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flooding a targeted server or network with massive bogus traffic from multiple compromised computers (botnet) to crash it"
+      },
+      {
+        "id": "B",
+        "text": "Stealing hard drives from data centers"
+      },
+      {
+        "id": "C",
+        "text": "Overriding BIOS firmware remotely"
+      },
+      {
+        "id": "D",
+        "text": "Decryption of SSL keys"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "DDoS utilizes a botnet of infected computers to swamp server bandwidth and processing capacity, making services unavailable to legitimate users.",
+      "steps": [
+        "Traffic flood from botnet causing outage."
+      ],
+      "methods": [
+        {
+          "name": "Cyber Warfare",
+          "steps": [
+            "DDoS."
+          ]
+        }
+      ],
+      "exam_tip": "DDoS aims to destroy availability (CIA triad: Availability)."
+    }
+  },
+  {
+    "id": "COMP-NET-015",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 4,
+    "question": "What is the size of an IPv6 address in bits and how is it formatted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "32 bits in 4 decimal octets"
+      },
+      {
+        "id": "B",
+        "text": "64 bits in hexadecimal"
+      },
+      {
+        "id": "C",
+        "text": "128 bits represented in 8 groups of 4 hexadecimal digits separated by colons"
+      },
+      {
+        "id": "D",
+        "text": "256 bits in binary"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "IPv6 uses 128-bit addresses written in hexadecimal notation separated by colons (e.g. 2001:0db8:85a3::8a2e:0370:7334).",
+      "steps": [
+        "128 bits.",
+        "Hexadecimal with colons."
+      ],
+      "methods": [
+        {
+          "name": "IP Versions",
+          "steps": [
+            "IPv6 = 128 bits."
+          ]
+        }
+      ],
+      "exam_tip": "IPv4 = 32 bits (4 bytes); IPv6 = 128 bits (16 bytes)."
+    }
+  },
+  {
+    "id": "COMP-NET-016",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 4,
+    "question": "What is 'Asymmetric Encryption' (Public-Key Cryptography)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uses a pair of mathematically linked keys: a Public key for encryption and a Private key for decryption"
+      },
+      {
+        "id": "B",
+        "text": "Uses one identical secret key for both encryption and decryption"
+      },
+      {
+        "id": "C",
+        "text": "Encryption without mathematical keys"
+      },
+      {
+        "id": "D",
+        "text": "A hardware cable shield"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Asymmetric encryption (e.g. RSA) uses two distinct keys: a public key shared freely to encrypt, and a private key kept secret to decrypt.",
+      "steps": [
+        "Two keys: Public and Private."
+      ],
+      "methods": [
+        {
+          "name": "Cryptography",
+          "steps": [
+            "Asymmetric = 2 keys; Symmetric = 1 key."
+          ]
+        }
+      ],
+      "exam_tip": "Symmetric = single shared key; Asymmetric = public/private key pair."
+    }
+  },
+  {
+    "id": "COMP-NET-017",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 5,
+    "question": "What is the three-way handshake used by TCP to establish a connection?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SYN -> SYN-ACK -> ACK"
+      },
+      {
+        "id": "B",
+        "text": "HELLO -> READY -> GO"
+      },
+      {
+        "id": "C",
+        "text": "ACK -> SYN -> FIN"
+      },
+      {
+        "id": "D",
+        "text": "PING -> PONG -> ACK"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "TCP connection establishment: Client sends SYN (Synchronize); Server replies with SYN-ACK (Synchronize-Acknowledge); Client sends ACK (Acknowledge).",
+      "steps": [
+        "1. SYN -> 2. SYN-ACK -> 3. ACK."
+      ],
+      "methods": [
+        {
+          "name": "Handshake Protocol",
+          "steps": [
+            "SYN, SYN-ACK, ACK."
+          ]
+        }
+      ],
+      "exam_tip": "TCP 3-way handshake: SYN, SYN-ACK, ACK."
+    }
+  },
+  {
+    "id": "COMP-NET-018",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 5,
+    "question": "In a /24 subnet (Subnet mask 255.255.255.0), how many usable host IP addresses are available for computers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "256"
+      },
+      {
+        "id": "B",
+        "text": "254"
+      },
+      {
+        "id": "C",
+        "text": "255"
+      },
+      {
+        "id": "D",
+        "text": "252"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "8 host bits give 2^8 = 256 addresses. 2 addresses are reserved: Network ID (.0) and Broadcast address (.255). Usable hosts = 256 - 2 = 254.",
+      "steps": [
+        "2^8 - 2 = 256 - 2 = 254."
+      ],
+      "methods": [
+        {
+          "name": "Subnetting Formula",
+          "steps": [
+            "Usable hosts = 2^h - 2 = 254."
+          ]
+        }
+      ],
+      "exam_tip": "Always subtract 2 (network address and broadcast address)."
+    }
+  },
+  {
+    "id": "COMP-NET-019",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 5,
+    "question": "What is a 'Zero-Day Vulnerability' in cybersecurity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A software security flaw that is unknown to the vendor and for which no patch or fix exists at the time of exploitation"
+      },
+      {
+        "id": "B",
+        "text": "A virus that deletes itself within 24 hours"
+      },
+      {
+        "id": "C",
+        "text": "An expired SSL certificate"
+      },
+      {
+        "id": "D",
+        "text": "A network down for 0 days"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "A Zero-Day vulnerability is an unpatched flaw exploited by attackers before the developer has discovered it or had 'zero days' to create a defensive patch.",
+      "steps": [
+        "Unpatched unknown software vulnerability."
+      ],
+      "methods": [
+        {
+          "name": "Vulnerability Analysis",
+          "steps": [
+            "Zero-Day."
+          ]
+        }
+      ],
+      "exam_tip": "Zero-day means the vendor has had 0 days to patch it."
+    }
+  },
+  {
+    "id": "COMP-NET-020",
+    "subject": "computer_knowledge",
+    "topic": "networking_cybersecurity",
+    "difficulty": 5,
+    "question": "Which protocol operates at the Data Link layer to map an IP address (logical) to a physical MAC address (hardware)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ARP (Address Resolution Protocol)"
+      },
+      {
+        "id": "B",
+        "text": "RARP"
+      },
+      {
+        "id": "C",
+        "text": "DHCP"
+      },
+      {
+        "id": "D",
+        "text": "ICMP"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "ARP (Address Resolution Protocol) resolves IP addresses to physical MAC addresses. RARP (Reverse ARP) does the opposite.",
+      "steps": [
+        "ARP maps IP to MAC.",
+        "RARP maps MAC to IP."
+      ],
+      "methods": [
+        {
+          "name": "Address Resolution",
+          "steps": [
+            "ARP."
+          ]
+        }
+      ],
+      "exam_tip": "ARP: IP -> MAC; RARP: MAC -> IP."
+    }
+  }
+]

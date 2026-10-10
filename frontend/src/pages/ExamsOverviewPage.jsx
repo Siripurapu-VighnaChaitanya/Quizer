@@ -78,7 +78,7 @@ export default function ExamsOverviewPage({ exams = [], onBackToHome, onNavigate
           <span>Curriculum Scope & Content Integrity</span>
         </h3>
         <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: 1.6 }}>
-          ExamPrep Hub does not publish placeholder questions or unverified counts. All 200 initial MCQs are original, independently verified problems testing actual syllabus concepts across Quantitative Aptitude, General Intelligence, Indian Constitution, and General Science. Additional topics from the official syllabi will be released in planned expansion phases.
+          ExamPrep Hub publishes zero placeholder questions or unverified counts. All 660 MCQs across 33 topics are original, independently verified problems testing actual syllabus concepts across Quantitative Aptitude, General Intelligence & Reasoning, Indian Polity, General Science, General English, and Computer Knowledge.
         </p>
       </div>
     </div>

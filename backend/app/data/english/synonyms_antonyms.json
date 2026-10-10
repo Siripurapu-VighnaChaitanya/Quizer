@@ -1,0 +1,832 @@
+[
+  {
+    "id": "ENG-SA-001",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 1,
+    "question": "Choose the synonym of the word 'ABANDON':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forsake"
+      },
+      {
+        "id": "B",
+        "text": "Keep"
+      },
+      {
+        "id": "C",
+        "text": "Cherish"
+      },
+      {
+        "id": "D",
+        "text": "Adopt"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Abandon' means to desert or give up completely; 'Forsake' is an exact synonym.",
+      "steps": [
+        "Abandon = to leave/desert.",
+        "Forsake = to renounce/abandon."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Forsake."
+          ]
+        }
+      ],
+      "exam_tip": "Keep, Cherish, Adopt are antonyms."
+    }
+  },
+  {
+    "id": "ENG-SA-002",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 1,
+    "question": "Choose the antonym of the word 'TRANSPARENT':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clear"
+      },
+      {
+        "id": "B",
+        "text": "Opaque"
+      },
+      {
+        "id": "C",
+        "text": "Lucid"
+      },
+      {
+        "id": "D",
+        "text": "Limpid"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Transparent' means allowing light to pass through clearly; 'Opaque' means not allowing light through.",
+      "steps": [
+        "Transparent opposite is Opaque."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Opaque."
+          ]
+        }
+      ],
+      "exam_tip": "Lucid and Limpid are synonyms of transparent."
+    }
+  },
+  {
+    "id": "ENG-SA-003",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 1,
+    "question": "Choose the synonym of 'BRIEF':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Short"
+      },
+      {
+        "id": "B",
+        "text": "Lengthy"
+      },
+      {
+        "id": "C",
+        "text": "Prolonged"
+      },
+      {
+        "id": "D",
+        "text": "Verbose"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Brief' means of short duration or concise. 'Short' is the direct synonym.",
+      "steps": [
+        "Brief = Short/Concise."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Short."
+          ]
+        }
+      ],
+      "exam_tip": "Verbose and lengthy are antonyms."
+    }
+  },
+  {
+    "id": "ENG-SA-004",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 1,
+    "question": "Choose the antonym of 'FERTILE':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Barren"
+      },
+      {
+        "id": "B",
+        "text": "Fruitful"
+      },
+      {
+        "id": "C",
+        "text": "Productive"
+      },
+      {
+        "id": "D",
+        "text": "Rich"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Fertile' means capable of producing abundant vegetation. 'Barren' means infertile or unproductive.",
+      "steps": [
+        "Fertile opposite is Barren."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Barren."
+          ]
+        }
+      ],
+      "exam_tip": "Common SSC pairing: Fertile vs Barren."
+    }
+  },
+  {
+    "id": "ENG-SA-005",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 2,
+    "question": "Choose the synonym of 'CANDID':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deceitful"
+      },
+      {
+        "id": "B",
+        "text": "Frank"
+      },
+      {
+        "id": "C",
+        "text": "Guarded"
+      },
+      {
+        "id": "D",
+        "text": "Secretive"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Candid' means truthful, straightforward, and frank. 'Frank' is the exact synonym.",
+      "steps": [
+        "Candid = honest, outspoken, frank."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Frank."
+          ]
+        }
+      ],
+      "exam_tip": "Candid camera / candid opinion = frank, unposed."
+    }
+  },
+  {
+    "id": "ENG-SA-006",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 2,
+    "question": "Choose the antonym of 'METICULOUS':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Careless"
+      },
+      {
+        "id": "B",
+        "text": "Painstaking"
+      },
+      {
+        "id": "C",
+        "text": "Thorough"
+      },
+      {
+        "id": "D",
+        "text": "Scrupulous"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Meticulous' means showing great attention to detail. Its opposite is 'Careless' (or slipshod).",
+      "steps": [
+        "Meticulous = extremely careful.",
+        "Opposite = Careless."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Careless."
+          ]
+        }
+      ],
+      "exam_tip": "Scrupulous and painstaking are synonyms."
+    }
+  },
+  {
+    "id": "ENG-SA-007",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 2,
+    "question": "Choose the synonym of 'PRAGMATIC':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Idealistic"
+      },
+      {
+        "id": "B",
+        "text": "Practical"
+      },
+      {
+        "id": "C",
+        "text": "Visionary"
+      },
+      {
+        "id": "D",
+        "text": "Impractical"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Pragmatic' means dealing with things sensibly and realistically based on practical considerations.",
+      "steps": [
+        "Pragmatic = Practical."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Practical."
+          ]
+        }
+      ],
+      "exam_tip": "Pragmatic vs Idealistic is a classic antonym pair."
+    }
+  },
+  {
+    "id": "ENG-SA-008",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 2,
+    "question": "Choose the antonym of 'OBSOLETE':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contemporary / Modern"
+      },
+      {
+        "id": "B",
+        "text": "Outdated"
+      },
+      {
+        "id": "C",
+        "text": "Archaic"
+      },
+      {
+        "id": "D",
+        "text": "Ancient"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Obsolete' means no longer produced or used (out of date). Its antonym is 'Contemporary' or 'Modern'.",
+      "steps": [
+        "Obsolete = outdated.",
+        "Opposite = Modern/Contemporary."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Contemporary."
+          ]
+        }
+      ],
+      "exam_tip": "Archaic and antiquated are synonyms of obsolete."
+    }
+  },
+  {
+    "id": "ENG-SA-009",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 3,
+    "question": "Choose the synonym of 'UBIQUITOUS':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omnipresent"
+      },
+      {
+        "id": "B",
+        "text": "Rare"
+      },
+      {
+        "id": "C",
+        "text": "Scattered"
+      },
+      {
+        "id": "D",
+        "text": "Isolated"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Ubiquitous' means present, appearing, or found everywhere; 'Omnipresent' is its exact synonym.",
+      "steps": [
+        "Ubiquitous = present everywhere = omnipresent."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Omnipresent."
+          ]
+        }
+      ],
+      "exam_tip": "Pervasive and ubiquitous share the root meaning of widespread presence."
+    }
+  },
+  {
+    "id": "ENG-SA-010",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 3,
+    "question": "Choose the antonym of 'EPHEMERAL':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transient"
+      },
+      {
+        "id": "B",
+        "text": "Perpetual"
+      },
+      {
+        "id": "C",
+        "text": "Fleeting"
+      },
+      {
+        "id": "D",
+        "text": "Momentary"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Ephemeral' means lasting for a very short time. 'Perpetual' (or eternal/everlasting) is its direct antonym.",
+      "steps": [
+        "Ephemeral = short-lived.",
+        "Opposite = Perpetual/Eternal."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Perpetual."
+          ]
+        }
+      ],
+      "exam_tip": "Transient, fleeting, and momentary are synonyms of ephemeral."
+    }
+  },
+  {
+    "id": "ENG-SA-011",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 3,
+    "question": "Choose the synonym of 'LACONIC':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Terse"
+      },
+      {
+        "id": "B",
+        "text": "Garrulous"
+      },
+      {
+        "id": "C",
+        "text": "Loquacious"
+      },
+      {
+        "id": "D",
+        "text": "Voluble"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Laconic' means using very few words (concise, terse). Garrulous, loquacious, and voluble mean talkative (antonyms).",
+      "steps": [
+        "Laconic = concise/terse.",
+        "Garrulous = talkative."
+      ],
+      "methods": [
+        {
+          "name": "Vocabulary",
+          "steps": [
+            "Terse."
+          ]
+        }
+      ],
+      "exam_tip": "Laconic = concise; Loquacious = talkative."
+    }
+  },
+  {
+    "id": "ENG-SA-012",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 3,
+    "question": "Choose the antonym of 'GREGARIOUS':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sociable"
+      },
+      {
+        "id": "B",
+        "text": "Reclusive / Solitary"
+      },
+      {
+        "id": "C",
+        "text": "Companionable"
+      },
+      {
+        "id": "D",
+        "text": "Affable"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Gregarious' describes a person fond of company (sociable). Its opposite is 'Reclusive' or 'Solitary'.",
+      "steps": [
+        "Gregarious = social.",
+        "Opposite = Reclusive."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Reclusive."
+          ]
+        }
+      ],
+      "exam_tip": "Gregarious animals live in herds; reclusive lives alone."
+    }
+  },
+  {
+    "id": "ENG-SA-013",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 4,
+    "question": "Choose the synonym of 'OBSEQUIOUS':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Domineering"
+      },
+      {
+        "id": "B",
+        "text": "Servile / Fawning"
+      },
+      {
+        "id": "C",
+        "text": "Assertive"
+      },
+      {
+        "id": "D",
+        "text": "Imperious"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Obsequious' means obedient or attentive to an excessive or servile degree (sycophantic, fawning).",
+      "steps": [
+        "Obsequious = servile/sycophantic."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Servile."
+          ]
+        }
+      ],
+      "exam_tip": "Imperious and domineering are antonyms."
+    }
+  },
+  {
+    "id": "ENG-SA-014",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 4,
+    "question": "Choose the antonym of 'PERSPICACIOUS':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Discerning"
+      },
+      {
+        "id": "B",
+        "text": "Dull-witted / Obtuse"
+      },
+      {
+        "id": "C",
+        "text": "Astute"
+      },
+      {
+        "id": "D",
+        "text": "Shrewd"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Perspicacious' means having a ready insight into and understanding of things (shrewd, discerning). Its antonym is 'Obtuse' or 'Dull-witted'.",
+      "steps": [
+        "Perspicacious = insightful.",
+        "Opposite = Obtuse/Dull-witted."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Obtuse."
+          ]
+        }
+      ],
+      "exam_tip": "Astute, shrewd, and discerning are synonyms."
+    }
+  },
+  {
+    "id": "ENG-SA-015",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 4,
+    "question": "Choose the synonym of 'ESOTERIC':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obscure / Arcane"
+      },
+      {
+        "id": "B",
+        "text": "Common"
+      },
+      {
+        "id": "C",
+        "text": "Familiar"
+      },
+      {
+        "id": "D",
+        "text": "Mainstream"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Esoteric' means intended for or likely to be understood by only a small number of people with specialized knowledge (arcane, obscure).",
+      "steps": [
+        "Esoteric = arcane, obscure."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Arcane."
+          ]
+        }
+      ],
+      "exam_tip": "Exoteric = suitable for public; Esoteric = for initiated few."
+    }
+  },
+  {
+    "id": "ENG-SA-016",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 4,
+    "question": "Choose the antonym of 'INTRANSIGENT':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stubborn"
+      },
+      {
+        "id": "B",
+        "text": "Compliant / Flexible"
+      },
+      {
+        "id": "C",
+        "text": "Obstinate"
+      },
+      {
+        "id": "D",
+        "text": "Inflexible"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Intransigent' means refusing to compromise or agree (stubborn, obstinate). Its antonym is 'Compliant', 'Flexible', or 'Yielding'.",
+      "steps": [
+        "Intransigent = uncompromising.",
+        "Opposite = Flexible/Compliant."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Compliant."
+          ]
+        }
+      ],
+      "exam_tip": "Obstinate and stubborn are synonyms."
+    }
+  },
+  {
+    "id": "ENG-SA-017",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 5,
+    "question": "Choose the synonym of 'PUGNACIOUS':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Belligerent / Combative"
+      },
+      {
+        "id": "B",
+        "text": "Peaceful"
+      },
+      {
+        "id": "C",
+        "text": "Conciliatory"
+      },
+      {
+        "id": "D",
+        "text": "Placid"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Pugnacious' means eager or quick to argue, quarrel, or fight (belligerent, truculent, combative).",
+      "steps": [
+        "Pugnacious = ready to fight = belligerent."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Belligerent."
+          ]
+        }
+      ],
+      "exam_tip": "Pugilist = boxer; Pugnacious = quarrelsome."
+    }
+  },
+  {
+    "id": "ENG-SA-018",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 5,
+    "question": "Choose the antonym of 'ALACRITY':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Briskness"
+      },
+      {
+        "id": "B",
+        "text": "Lethargy / Reluctance"
+      },
+      {
+        "id": "C",
+        "text": "Eagerness"
+      },
+      {
+        "id": "D",
+        "text": "Promptness"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Alacrity' means brisk and cheerful readiness (eagerness). Its direct antonym is 'Lethargy', 'Apathy', or 'Reluctance'.",
+      "steps": [
+        "Alacrity = prompt readiness.",
+        "Opposite = Lethargy/Sluggishness."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Lethargy."
+          ]
+        }
+      ],
+      "exam_tip": "Briskness and promptness are synonyms of alacrity."
+    }
+  },
+  {
+    "id": "ENG-SA-019",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 5,
+    "question": "Choose the synonym of 'SANGUINE':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Optimistic"
+      },
+      {
+        "id": "B",
+        "text": "Pessimistic"
+      },
+      {
+        "id": "C",
+        "text": "Morose"
+      },
+      {
+        "id": "D",
+        "text": "Gloomy"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Sanguine' means optimistic or positive, especially in an apparently bad or difficult situation.",
+      "steps": [
+        "Sanguine = hopeful, cheerful, optimistic."
+      ],
+      "methods": [
+        {
+          "name": "Synonym",
+          "steps": [
+            "Optimistic."
+          ]
+        }
+      ],
+      "exam_tip": "Morose and gloomy are antonyms."
+    }
+  },
+  {
+    "id": "ENG-SA-020",
+    "subject": "english",
+    "topic": "synonyms_antonyms",
+    "difficulty": 5,
+    "question": "Choose the antonym of 'PELLUCID':",
+    "options": [
+      {
+        "id": "A",
+        "text": "Limpid"
+      },
+      {
+        "id": "B",
+        "text": "Murky / Turbid"
+      },
+      {
+        "id": "C",
+        "text": "Crystal-clear"
+      },
+      {
+        "id": "D",
+        "text": "Lucid"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Pellucid' means translucently clear or easily understood. Its antonym is 'Murky', 'Turbid', or 'Opaque'.",
+      "steps": [
+        "Pellucid = transparently clear.",
+        "Opposite = Turbid/Murky."
+      ],
+      "methods": [
+        {
+          "name": "Antonym",
+          "steps": [
+            "Murky."
+          ]
+        }
+      ],
+      "exam_tip": "Limpid and lucid are direct synonyms of pellucid."
+    }
+  }
+]

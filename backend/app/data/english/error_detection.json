@@ -1,0 +1,842 @@
+[
+  {
+    "id": "ENG-ED-001",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 1,
+    "question": "Identify the incorrect part: 'Neither he (A) / nor his brother (B) / are attending (C) / the wedding (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither he"
+      },
+      {
+        "id": "B",
+        "text": "nor his brother"
+      },
+      {
+        "id": "C",
+        "text": "are attending"
+      },
+      {
+        "id": "D",
+        "text": "the wedding"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "When subjects are connected by 'neither... nor', the verb agrees with the nearer subject ('his brother', singular). Thus, it should be 'is attending'.",
+      "steps": [
+        "Subject nearer to verb is singular ('his brother').",
+        "Use 'is attending'."
+      ],
+      "methods": [
+        {
+          "name": "Proximity Rule",
+          "steps": [
+            "Verb agrees with closest subject."
+          ]
+        }
+      ],
+      "exam_tip": "Neither... nor: verb follows the subject closest to it."
+    }
+  },
+  {
+    "id": "ENG-ED-002",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 1,
+    "question": "Find the error: 'She don't know (A) / the answer (B) / to the question (C) / asked yesterday (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "She don't know"
+      },
+      {
+        "id": "B",
+        "text": "the answer"
+      },
+      {
+        "id": "C",
+        "text": "to the question"
+      },
+      {
+        "id": "D",
+        "text": "asked yesterday"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Third person singular subject ('She') takes 'doesn't' (does not), not 'don't'. Correct: 'She doesn't know'.",
+      "steps": [
+        "Third person singular takes 'does'.",
+        "Change 'don't' to 'doesn't'."
+      ],
+      "methods": [
+        {
+          "name": "Subject-Verb Agreement",
+          "steps": [
+            "She doesn't."
+          ]
+        }
+      ],
+      "exam_tip": "He/She/It takes does/doesn't."
+    }
+  },
+  {
+    "id": "ENG-ED-003",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 1,
+    "question": "Identify the error: 'He has visited (A) / Agra (B) / yesterday (C) / with his friends (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "He has visited"
+      },
+      {
+        "id": "B",
+        "text": "Agra"
+      },
+      {
+        "id": "C",
+        "text": "yesterday"
+      },
+      {
+        "id": "D",
+        "text": "with his friends"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "With past time markers like 'yesterday', simple past tense must be used ('visited'), not present perfect ('has visited').",
+      "steps": [
+        "Yesterday requires Simple Past.",
+        "Correct: 'He visited'."
+      ],
+      "methods": [
+        {
+          "name": "Tense with Time Adverbs",
+          "steps": [
+            "Simple past with past point of time."
+          ]
+        }
+      ],
+      "exam_tip": "Never use present perfect with yesterday, ago, or last year."
+    }
+  },
+  {
+    "id": "ENG-ED-004",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 1,
+    "question": "Spot the error: 'The furnitures (A) / in this room (B) / are (C) / very old (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "The furnitures"
+      },
+      {
+        "id": "B",
+        "text": "in this room"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "very old"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Furniture' is an uncountable noun with no plural form 'furnitures'. It takes a singular verb: 'The furniture in this room is very old'.",
+      "steps": [
+        "Furniture is uncountable.",
+        "Takes singular verb 'is'."
+      ],
+      "methods": [
+        {
+          "name": "Uncountable Nouns",
+          "steps": [
+            "Furniture, luggage, scenery, advice are uncountable."
+          ]
+        }
+      ],
+      "exam_tip": "Words like scenery, furniture, luggage, information are never pluralized."
+    }
+  },
+  {
+    "id": "ENG-ED-005",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 2,
+    "question": "Identify the error: 'One of my friend (A) / is an engineer (B) / working (C) / in Germany (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "One of my friend"
+      },
+      {
+        "id": "B",
+        "text": "is an engineer"
+      },
+      {
+        "id": "C",
+        "text": "working"
+      },
+      {
+        "id": "D",
+        "text": "in Germany"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "The structure 'One of the / One of my' is always followed by a plural noun and a singular verb. Correct: 'One of my friends'.",
+      "steps": [
+        "One of + Plural Noun.",
+        "Change 'friend' to 'friends'."
+      ],
+      "methods": [
+        {
+          "name": "'One of' Rule",
+          "steps": [
+            "One of + plural noun + singular verb."
+          ]
+        }
+      ],
+      "exam_tip": "One of + plural noun + singular verb. Most repeated SSC rule."
+    }
+  },
+  {
+    "id": "ENG-ED-006",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 2,
+    "question": "Spot the error: 'Scarcely had he (A) / left the house (B) / then it began (C) / to rain heavily (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scarcely had he"
+      },
+      {
+        "id": "B",
+        "text": "left the house"
+      },
+      {
+        "id": "C",
+        "text": "then it began"
+      },
+      {
+        "id": "D",
+        "text": "to rain heavily"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "'Scarcely' and 'Hardly' are always paired with 'when' or 'before', never with 'then' or 'than'. Correct: 'when it began'.",
+      "steps": [
+        "Scarcely... when.",
+        "Change 'then' to 'when'."
+      ],
+      "methods": [
+        {
+          "name": "Correlative Conjunction",
+          "steps": [
+            "Hardly/Scarcely... when; No sooner... than."
+          ]
+        }
+      ],
+      "exam_tip": "Scarcely... when; Hardly... when; No sooner... than."
+    }
+  },
+  {
+    "id": "ENG-ED-007",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 2,
+    "question": "Identify the error: 'Each of the girls (A) / have performed (B) / very well (C) / on the stage (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each of the girls"
+      },
+      {
+        "id": "B",
+        "text": "have performed"
+      },
+      {
+        "id": "C",
+        "text": "very well"
+      },
+      {
+        "id": "D",
+        "text": "on the stage"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Each of' takes a singular verb. Correct: 'has performed', not 'have performed'.",
+      "steps": [
+        "Each of + Plural Noun + Singular Verb.",
+        "Use 'has performed'."
+      ],
+      "methods": [
+        {
+          "name": "Distributive Pronoun",
+          "steps": [
+            "Each takes singular verb."
+          ]
+        }
+      ],
+      "exam_tip": "Each, every, either, neither take singular verbs."
+    }
+  },
+  {
+    "id": "ENG-ED-008",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 2,
+    "question": "Spot the error: 'The teacher prevented (A) / the boy (B) / from to enter (C) / the classroom (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher prevented"
+      },
+      {
+        "id": "B",
+        "text": "the boy"
+      },
+      {
+        "id": "C",
+        "text": "from to enter"
+      },
+      {
+        "id": "D",
+        "text": "the classroom"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The preposition 'from' is followed by a gerund (verb+ing). Correct: 'from entering'.",
+      "steps": [
+        "Preposition + Gerund.",
+        "from entering."
+      ],
+      "methods": [
+        {
+          "name": "Gerund Rule",
+          "steps": [
+            "Prevent + from + V-ing."
+          ]
+        }
+      ],
+      "exam_tip": "Prevent, prohibit, abstain, refrain take 'from + V-ing'."
+    }
+  },
+  {
+    "id": "ENG-ED-009",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 3,
+    "question": "Spot the error: 'He is senior (A) / than me (B) / in service (C) / by two years (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is senior"
+      },
+      {
+        "id": "B",
+        "text": "than me"
+      },
+      {
+        "id": "C",
+        "text": "in service"
+      },
+      {
+        "id": "D",
+        "text": "by two years"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Adjectives ending in '-ior' (senior, junior, prior, superior, inferior) take the preposition 'to', never 'than'. Correct: 'senior to me'.",
+      "steps": [
+        "Senior takes 'to', not 'than'.",
+        "Replace 'than me' with 'to me'."
+      ],
+      "methods": [
+        {
+          "name": "Latin Comparative",
+          "steps": [
+            "-ior adjectives take 'to'."
+          ]
+        }
+      ],
+      "exam_tip": "Senior, junior, superior, inferior take 'to'."
+    }
+  },
+  {
+    "id": "ENG-ED-010",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 3,
+    "question": "Spot the error: 'If I was you, (A) / I would not (B) / accept (C) / this offer (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "If I was you,"
+      },
+      {
+        "id": "B",
+        "text": "I would not"
+      },
+      {
+        "id": "C",
+        "text": "accept"
+      },
+      {
+        "id": "D",
+        "text": "this offer"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "In hypothetical subjunctive conditionals, 'were' is used for all persons. Correct: 'If I were you'.",
+      "steps": [
+        "Subjunctive mood uses 'were'.",
+        "Correct: 'If I were you'."
+      ],
+      "methods": [
+        {
+          "name": "Subjunctive Conditional",
+          "steps": [
+            "If + Subject + were."
+          ]
+        }
+      ],
+      "exam_tip": "In unreal conditional clauses, always use 'were' (never 'was')."
+    }
+  },
+  {
+    "id": "ENG-ED-011",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 3,
+    "question": "Spot the error: 'Although he worked hard, (A) / but he failed (B) / to secure (C) / the top rank (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although he worked hard,"
+      },
+      {
+        "id": "B",
+        "text": "but he failed"
+      },
+      {
+        "id": "C",
+        "text": "to secure"
+      },
+      {
+        "id": "D",
+        "text": "the top rank"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'Although' / 'Though' is followed by 'yet' or a comma, never by 'but'. Correct: 'yet he failed' or simply 'he failed'.",
+      "steps": [
+        "Although cannot be paired with 'but'.",
+        "Remove 'but' or use 'yet'."
+      ],
+      "methods": [
+        {
+          "name": "Redundant Conjunction",
+          "steps": [
+            "Although... yet (never but)."
+          ]
+        }
+      ],
+      "exam_tip": "Never use 'but' after although/though."
+    }
+  },
+  {
+    "id": "ENG-ED-012",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 3,
+    "question": "Spot the error: 'Unless you do not work hard (A) / you cannot (B) / pass (C) / the examination (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unless you do not work hard"
+      },
+      {
+        "id": "B",
+        "text": "you cannot"
+      },
+      {
+        "id": "C",
+        "text": "pass"
+      },
+      {
+        "id": "D",
+        "text": "the examination"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Unless' is already negative and means 'if not'. Using 'do not' creates a double negative. Correct: 'Unless you work hard'.",
+      "steps": [
+        "Unless = If not.",
+        "Remove 'do not'."
+      ],
+      "methods": [
+        {
+          "name": "Double Negative",
+          "steps": [
+            "No 'not' in the unless clause."
+          ]
+        }
+      ],
+      "exam_tip": "Never use 'not' in clauses introduced by unless or until."
+    }
+  },
+  {
+    "id": "ENG-ED-013",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 4,
+    "question": "Spot the error: 'The climate of Chennai (A) / is hotter (B) / than Delhi (C) / in summer (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "The climate of Chennai"
+      },
+      {
+        "id": "B",
+        "text": "is hotter"
+      },
+      {
+        "id": "C",
+        "text": "than Delhi"
+      },
+      {
+        "id": "D",
+        "text": "in summer"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Comparison must be between equivalent entities. We must compare climate to climate, not climate to a city. Correct: 'than that of Delhi'.",
+      "steps": [
+        "Compare climate with climate.",
+        "Use 'than that of Delhi'."
+      ],
+      "methods": [
+        {
+          "name": "Illogical Comparison",
+          "steps": [
+            "than that of (singular) / than those of (plural)."
+          ]
+        }
+      ],
+      "exam_tip": "Use 'that of' (singular) or 'those of' (plural) for comparison of attributes."
+    }
+  },
+  {
+    "id": "ENG-ED-014",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 4,
+    "question": "Spot the error: 'No sooner did the bell ring (A) / when the children (B) / rushed out (C) / of the classroom (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "No sooner did the bell ring"
+      },
+      {
+        "id": "B",
+        "text": "when the children"
+      },
+      {
+        "id": "C",
+        "text": "rushed out"
+      },
+      {
+        "id": "D",
+        "text": "of the classroom"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'No sooner' is always paired with 'than', not 'when'. Correct: 'than the children rushed out'.",
+      "steps": [
+        "No sooner... than.",
+        "Change 'when' to 'than'."
+      ],
+      "methods": [
+        {
+          "name": "Correlative Pair",
+          "steps": [
+            "No sooner... than."
+          ]
+        }
+      ],
+      "exam_tip": "No sooner takes THAN (not when, then, or that)."
+    }
+  },
+  {
+    "id": "ENG-ED-015",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 4,
+    "question": "Spot the error: 'Being a rainy day, (A) / he decided (B) / to stay (C) / at home (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Being a rainy day,"
+      },
+      {
+        "id": "B",
+        "text": "he decided"
+      },
+      {
+        "id": "C",
+        "text": "to stay"
+      },
+      {
+        "id": "D",
+        "text": "at home"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "This is a dangling/unattached participle. The grammatical subject of the sentence ('he') would improperly become the subject of 'being a rainy day'. Correct: 'It being a rainy day'.",
+      "steps": [
+        "Add dummy subject 'It'.",
+        "Correct: 'It being a rainy day'."
+      ],
+      "methods": [
+        {
+          "name": "Dangling Participle",
+          "steps": [
+            "Weather/time participle needs 'It being'."
+          ]
+        }
+      ],
+      "exam_tip": "Always supply 'It being' for weather and time clauses."
+    }
+  },
+  {
+    "id": "ENG-ED-016",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 4,
+    "question": "Spot the error: 'He told me (A) / that he is reading (B) / a novel (C) / since morning (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "He told me"
+      },
+      {
+        "id": "B",
+        "text": "that he is reading"
+      },
+      {
+        "id": "C",
+        "text": "a novel"
+      },
+      {
+        "id": "D",
+        "text": "since morning"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "In indirect speech with a past reporting verb ('told') and a duration marker ('since morning'), past perfect continuous must be used. Correct: 'that he had been reading'.",
+      "steps": [
+        "Past reporting verb + since.",
+        "Use 'had been reading'."
+      ],
+      "methods": [
+        {
+          "name": "Sequence of Tenses",
+          "steps": [
+            "Past perfect continuous required."
+          ]
+        }
+      ],
+      "exam_tip": "'Since/for' denoting continuing action requires perfect continuous tense."
+    }
+  },
+  {
+    "id": "ENG-ED-017",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 5,
+    "question": "Spot the error: 'The captain, as well as (A) / the players, were (B) / present in (C) / the ground (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "The captain, as well as"
+      },
+      {
+        "id": "B",
+        "text": "the players, were"
+      },
+      {
+        "id": "C",
+        "text": "present in"
+      },
+      {
+        "id": "D",
+        "text": "the ground"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "When subjects are joined by 'as well as', 'with', 'along with', 'together with', the verb agrees with the FIRST subject ('The captain', singular). Correct: 'was present'.",
+      "steps": [
+        "Verb agrees with first subject 'captain'.",
+        "Change 'were' to 'was'."
+      ],
+      "methods": [
+        {
+          "name": "Parenthetical Addition",
+          "steps": [
+            "As well as joins: look at the first subject."
+          ]
+        }
+      ],
+      "exam_tip": "As well as, along with, with, accompanied by: verb agrees with first subject."
+    }
+  },
+  {
+    "id": "ENG-ED-018",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 5,
+    "question": "Spot the error: 'It is high time (A) / that you start (B) / studying seriously (C) / for the exam (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is high time"
+      },
+      {
+        "id": "B",
+        "text": "that you start"
+      },
+      {
+        "id": "C",
+        "text": "studying seriously"
+      },
+      {
+        "id": "D",
+        "text": "for the exam"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The phrase 'It is time / It is high time / It is about time' followed by a subject requires the subjunctive Simple Past tense (V2). Correct: 'that you started'.",
+      "steps": [
+        "It is high time + Subject + V2.",
+        "Change 'start' to 'started'."
+      ],
+      "methods": [
+        {
+          "name": "Idiomatic Past Subjunctive",
+          "steps": [
+            "It is high time you started."
+          ]
+        }
+      ],
+      "exam_tip": "It is high time + Subject + Simple Past (V2)."
+    }
+  },
+  {
+    "id": "ENG-ED-019",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 5,
+    "question": "Spot the error: 'Not only he lost (A) / his luggage (B) / but also his wallet (C) / in the journey (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not only he lost"
+      },
+      {
+        "id": "B",
+        "text": "his luggage"
+      },
+      {
+        "id": "C",
+        "text": "but also his wallet"
+      },
+      {
+        "id": "D",
+        "text": "in the journey"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Parallel structure: 'but also' precedes a noun phrase ('his wallet'), so 'not only' must precede the corresponding noun phrase ('his luggage'). Correct: 'He lost not only his luggage but also his wallet'.",
+      "steps": [
+        "Parallelism violation.",
+        "Correct: 'He lost not only his luggage'."
+      ],
+      "methods": [
+        {
+          "name": "Parallel Structure",
+          "steps": [
+            "Not only X but also Y must govern identical parts of speech."
+          ]
+        }
+      ],
+      "exam_tip": "Not only and but also must be placed before parallel parts of speech."
+    }
+  },
+  {
+    "id": "ENG-ED-020",
+    "subject": "english",
+    "topic": "error_detection",
+    "difficulty": 5,
+    "question": "Spot the error: 'Hardly had I arrived (A) / at the airport (B) / than the flight took off (C) / without me (D).'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hardly had I arrived"
+      },
+      {
+        "id": "B",
+        "text": "at the airport"
+      },
+      {
+        "id": "C",
+        "text": "than the flight took off"
+      },
+      {
+        "id": "D",
+        "text": "without me"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "'Hardly' takes 'when', not 'than'. Correct: 'when the flight took off'.",
+      "steps": [
+        "Hardly... when.",
+        "Change 'than' to 'when'."
+      ],
+      "methods": [
+        {
+          "name": "Correlative Conjunction",
+          "steps": [
+            "Hardly... when."
+          ]
+        }
+      ],
+      "exam_tip": "Hardly/Scarcely... when; No sooner... than."
+    }
+  }
+]

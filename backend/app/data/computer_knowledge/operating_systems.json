@@ -1,0 +1,825 @@
+[
+  {
+    "id": "COMP-OS-001",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 1,
+    "question": "Which of the following is system software that acts as an interface between user hardware and applications?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MS Word"
+      },
+      {
+        "id": "B",
+        "text": "Operating System"
+      },
+      {
+        "id": "C",
+        "text": "Google Chrome"
+      },
+      {
+        "id": "D",
+        "text": "Photoshop"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "An Operating System manages computer hardware resources and provides common services for software applications.",
+      "steps": [
+        "Operating System is the interface."
+      ],
+      "methods": [
+        {
+          "name": "OS Role",
+          "steps": [
+            "Operating System."
+          ]
+        }
+      ],
+      "exam_tip": "Windows, Linux, macOS, Android are Operating Systems."
+    }
+  },
+  {
+    "id": "COMP-OS-002",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 1,
+    "question": "What does GUI stand for in operating systems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Graphical User Interface"
+      },
+      {
+        "id": "B",
+        "text": "General User Integration"
+      },
+      {
+        "id": "C",
+        "text": "Guided Unified Interface"
+      },
+      {
+        "id": "D",
+        "text": "Graphic Universal Image"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "GUI stands for Graphical User Interface, enabling visual interaction via windows, icons, menus, and pointers.",
+      "steps": [
+        "Graphical User Interface."
+      ],
+      "methods": [
+        {
+          "name": "Acronyms",
+          "steps": [
+            "GUI."
+          ]
+        }
+      ],
+      "exam_tip": "CLI = Command Line Interface; GUI = Graphical User Interface."
+    }
+  },
+  {
+    "id": "COMP-OS-003",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 1,
+    "question": "Which operating system was created by Linus Torvalds in 1991 as open-source software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Windows"
+      },
+      {
+        "id": "B",
+        "text": "Linux"
+      },
+      {
+        "id": "C",
+        "text": "MS-DOS"
+      },
+      {
+        "id": "D",
+        "text": "Solaris"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Linus Torvalds released the Linux kernel as free, open-source software in 1991.",
+      "steps": [
+        "Linux kernel by Linus Torvalds."
+      ],
+      "methods": [
+        {
+          "name": "OS History",
+          "steps": [
+            "Linux."
+          ]
+        }
+      ],
+      "exam_tip": "Tux the penguin is the official mascot of Linux."
+    }
+  },
+  {
+    "id": "COMP-OS-004",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 1,
+    "question": "The process of loading the operating system into RAM when a computer is powered on is called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Booting"
+      },
+      {
+        "id": "B",
+        "text": "Formatting"
+      },
+      {
+        "id": "C",
+        "text": "Debugging"
+      },
+      {
+        "id": "D",
+        "text": "Paging"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Booting (Cold boot or Warm boot) is the initial startup sequence that loads the OS into memory.",
+      "steps": [
+        "Booting."
+      ],
+      "methods": [
+        {
+          "name": "Startup Term",
+          "steps": [
+            "Booting."
+          ]
+        }
+      ],
+      "exam_tip": "Cold boot = power on from off state; Warm boot = restart without power down."
+    }
+  },
+  {
+    "id": "COMP-OS-005",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 2,
+    "question": "What is the core, central part of an operating system that has direct control over hardware?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shell"
+      },
+      {
+        "id": "B",
+        "text": "Kernel"
+      },
+      {
+        "id": "C",
+        "text": "Compiler"
+      },
+      {
+        "id": "D",
+        "text": "Device Driver"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The Kernel is the core program that manages CPU, memory, and devices. The Shell is the outer user interface.",
+      "steps": [
+        "Kernel = core.",
+        "Shell = outer interface."
+      ],
+      "methods": [
+        {
+          "name": "OS Architecture",
+          "steps": [
+            "Kernel."
+          ]
+        }
+      ],
+      "exam_tip": "Kernel is the internal core; Shell is the user command interpreter."
+    }
+  },
+  {
+    "id": "COMP-OS-006",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 2,
+    "question": "In operating systems, a program in execution is formally called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Process"
+      },
+      {
+        "id": "B",
+        "text": "Thread"
+      },
+      {
+        "id": "C",
+        "text": "Function"
+      },
+      {
+        "id": "D",
+        "text": "Instruction"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "A program is a passive entity stored on disk; once loaded into memory and executing, it is an active 'Process'.",
+      "steps": [
+        "Program in execution = Process."
+      ],
+      "methods": [
+        {
+          "name": "Process Concept",
+          "steps": [
+            "Process."
+          ]
+        }
+      ],
+      "exam_tip": "Process = program in execution; Thread = lightweight subprocess."
+    }
+  },
+  {
+    "id": "COMP-OS-007",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 2,
+    "question": "Which scheduling algorithm allocates the CPU in fixed time slices (time quantum) in cyclic order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "First Come First Served (FCFS)"
+      },
+      {
+        "id": "B",
+        "text": "Shortest Job First (SJF)"
+      },
+      {
+        "id": "C",
+        "text": "Round Robin (RR)"
+      },
+      {
+        "id": "D",
+        "text": "Priority Scheduling"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Round Robin (RR) gives each process an equal fixed time quantum in a circular queue, ideal for time-sharing systems.",
+      "steps": [
+        "Round Robin uses time quantum."
+      ],
+      "methods": [
+        {
+          "name": "CPU Scheduling",
+          "steps": [
+            "Round Robin."
+          ]
+        }
+      ],
+      "exam_tip": "Round Robin is preemptive and uses a fixed time quantum."
+    }
+  },
+  {
+    "id": "COMP-OS-008",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 2,
+    "question": "What is 'Spooling' in operating systems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Simultaneous Peripheral Operations On-Line (holding print jobs in a temporary buffer/queue)"
+      },
+      {
+        "id": "B",
+        "text": "Encrypting hard disk drives"
+      },
+      {
+        "id": "C",
+        "text": "Terminating frozen background programs"
+      },
+      {
+        "id": "D",
+        "text": "Overclocking graphics hardware"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "SPOOL stands for Simultaneous Peripheral Operations On-Line. It buffers data (e.g. print queue) on disk so fast CPUs aren't stalled by slow peripherals.",
+      "steps": [
+        "SPOOLing = printer buffer queue."
+      ],
+      "methods": [
+        {
+          "name": "Buffering Mechanism",
+          "steps": [
+            "SPOOL."
+          ]
+        }
+      ],
+      "exam_tip": "SPOOLing is standard for managing printer job queues."
+    }
+  },
+  {
+    "id": "COMP-OS-009",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 3,
+    "question": "What is 'Virtual Memory'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extremely large physical RAM installed on motherboard"
+      },
+      {
+        "id": "B",
+        "text": "A memory management technique that uses secondary storage (paging file) to extend apparent RAM capacity"
+      },
+      {
+        "id": "C",
+        "text": "RAM used exclusively by virtual reality headsets"
+      },
+      {
+        "id": "D",
+        "text": "Unused cache on CPU"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Virtual memory gives applications the illusion of a very large contiguous memory space by swapping pages between physical RAM and hard disk/SSD.",
+      "steps": [
+        "Uses secondary storage as RAM extension."
+      ],
+      "methods": [
+        {
+          "name": "Memory Management",
+          "steps": [
+            "Virtual memory."
+          ]
+        }
+      ],
+      "exam_tip": "Virtual memory prevents 'out of memory' crashes by paging to disk."
+    }
+  },
+  {
+    "id": "COMP-OS-010",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 3,
+    "question": "Which of the following is NOT one of the four necessary Coffman conditions for a 'Deadlock' to occur?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mutual Exclusion"
+      },
+      {
+        "id": "B",
+        "text": "Hold and Wait"
+      },
+      {
+        "id": "C",
+        "text": "No Preemption and Circular Wait"
+      },
+      {
+        "id": "D",
+        "text": "Time Sharing"
+      }
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "The 4 necessary conditions for deadlock are: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. Time sharing is unrelated.",
+      "steps": [
+        "4 Coffman conditions: Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait."
+      ],
+      "methods": [
+        {
+          "name": "Deadlock Theory",
+          "steps": [
+            "Time sharing is not a condition."
+          ]
+        }
+      ],
+      "exam_tip": "Eliminating any ONE of the 4 Coffman conditions prevents deadlock."
+    }
+  },
+  {
+    "id": "COMP-OS-011",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 3,
+    "question": "In Linux/Unix operating systems, which command is used to display current active running processes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ls"
+      },
+      {
+        "id": "B",
+        "text": "ps (or top)"
+      },
+      {
+        "id": "C",
+        "text": "cd"
+      },
+      {
+        "id": "D",
+        "text": "pwd"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "'ps' displays snapshot of current processes; 'top' displays real-time dynamic process activity.",
+      "steps": [
+        "ps = process status.",
+        "top = real-time viewer."
+      ],
+      "methods": [
+        {
+          "name": "Unix Commands",
+          "steps": [
+            "ps / top."
+          ]
+        }
+      ],
+      "exam_tip": "ps = process status; ls = list files; pwd = print working directory."
+    }
+  },
+  {
+    "id": "COMP-OS-012",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 3,
+    "question": "What is 'Thrashing' in an operating system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Physical hard drive mechanical failure"
+      },
+      {
+        "id": "B",
+        "text": "A state where the CPU spends more time swapping pages in and out of virtual memory than executing actual instructions"
+      },
+      {
+        "id": "C",
+        "text": "A network collision error"
+      },
+      {
+        "id": "D",
+        "text": "Deleting files permanently"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Thrashing occurs when high page fault frequency causes constant swapping of pages between RAM and disk, reducing CPU utilization near zero.",
+      "steps": [
+        "Excessive page faulting and swapping."
+      ],
+      "methods": [
+        {
+          "name": "Virtual Memory Problems",
+          "steps": [
+            "Thrashing."
+          ]
+        }
+      ],
+      "exam_tip": "Thrashing happens when working set exceeds available physical RAM."
+    }
+  },
+  {
+    "id": "COMP-OS-013",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 4,
+    "question": "Which algorithm is used in operating systems for Deadlock Avoidance by checking safe states before resource allocation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dijkstra's Banker's Algorithm"
+      },
+      {
+        "id": "B",
+        "text": "Kruskal's Algorithm"
+      },
+      {
+        "id": "C",
+        "text": "Round Robin Algorithm"
+      },
+      {
+        "id": "D",
+        "text": "LRU Algorithm"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Edsger Dijkstra's Banker's Algorithm simulates resource allocation to verify that a 'safe state' is maintained before granting any resource request.",
+      "steps": [
+        "Banker's Algorithm = Deadlock Avoidance."
+      ],
+      "methods": [
+        {
+          "name": "Deadlock Avoidance",
+          "steps": [
+            "Banker's Algorithm."
+          ]
+        }
+      ],
+      "exam_tip": "Banker's Algorithm tests if system remains in a safe state."
+    }
+  },
+  {
+    "id": "COMP-OS-014",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 4,
+    "question": "In operating systems, what is a 'Semaphore' as introduced by Dijkstra?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A hardware cable connector"
+      },
+      {
+        "id": "B",
+        "text": "A synchronization variable used to manage access to shared critical section resources (via wait/P and signal/V operations)"
+      },
+      {
+        "id": "C",
+        "text": "A type of virus scanner"
+      },
+      {
+        "id": "D",
+        "text": "A file compression format"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A semaphore is an integer variable accessed via atomic wait() (P) and signal() (V) operations to achieve mutual exclusion and process synchronization.",
+      "steps": [
+        "Synchronization tool with wait() and signal()."
+      ],
+      "methods": [
+        {
+          "name": "Process Synchronization",
+          "steps": [
+            "Semaphore."
+          ]
+        }
+      ],
+      "exam_tip": "Counting semaphore takes integer values; Binary semaphore acts as mutex (0 or 1)."
+    }
+  },
+  {
+    "id": "COMP-OS-015",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 4,
+    "question": "What is 'Belady's Anomaly' in operating systems page replacement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Giving more page frames to a process unexpectedly INCREASES the number of page faults under FIFO page replacement"
+      },
+      {
+        "id": "B",
+        "text": "Cache memory running out of power"
+      },
+      {
+        "id": "C",
+        "text": "Virtual memory causing CPU overheat"
+      },
+      {
+        "id": "D",
+        "text": "Deadlock occurring in single-threaded OS"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Normally more frames reduce page faults. In FIFO replacement, László Bélády proved that allocating more page frames can paradoxically increase page faults.",
+      "steps": [
+        "More frames -> more page faults in FIFO."
+      ],
+      "methods": [
+        {
+          "name": "Page Replacement Anomalies",
+          "steps": [
+            "Belady's Anomaly in FIFO."
+          ]
+        }
+      ],
+      "exam_tip": "Belady's Anomaly affects FIFO; LRU and Optimal algorithms are immune."
+    }
+  },
+  {
+    "id": "COMP-OS-016",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 4,
+    "question": "What is the difference between a 'Monolithic Kernel' and a 'Microkernel'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monolithic runs all OS services (file system, drivers, IPC) in kernel space; Microkernel runs only minimal core services in kernel space, moving others to user space"
+      },
+      {
+        "id": "B",
+        "text": "Microkernels are only for smartphones"
+      },
+      {
+        "id": "C",
+        "text": "Monolithic kernels cannot support networking"
+      },
+      {
+        "id": "D",
+        "text": "Microkernels do not support multi-threading"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Linux is a Monolithic kernel (high performance, all services in kernel space). QNX and Minix are Microkernels (high stability/security, minimal kernel space).",
+      "steps": [
+        "Monolithic: all services in kernel space.",
+        "Microkernel: only minimal IPC/scheduling in kernel space."
+      ],
+      "methods": [
+        {
+          "name": "Kernel Architecture",
+          "steps": [
+            "Monolithic vs Microkernel."
+          ]
+        }
+      ],
+      "exam_tip": "Linux is Monolithic; Mach/Minix/QNX are Microkernels."
+    }
+  },
+  {
+    "id": "COMP-OS-017",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 5,
+    "question": "What is an 'Inverted Page Table' in advanced memory management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A page table that has one entry per physical frame of memory rather than one entry per page of logical address space"
+      },
+      {
+        "id": "B",
+        "text": "A table stored on the hard disk upside down"
+      },
+      {
+        "id": "C",
+        "text": "A page table for reverse DNS lookups"
+      },
+      {
+        "id": "D",
+        "text": "A backup copy of the BIOS"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Traditional page tables index by virtual page number per process. An Inverted Page Table has exactly one entry per physical frame in RAM, saving massive table memory overhead.",
+      "steps": [
+        "One entry per physical frame in RAM."
+      ],
+      "methods": [
+        {
+          "name": "Memory Architecture",
+          "steps": [
+            "Inverted Page Table."
+          ]
+        }
+      ],
+      "exam_tip": "Used in 64-bit systems (e.g. PowerPC, UltraSPARC) to save memory."
+    }
+  },
+  {
+    "id": "COMP-OS-018",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 5,
+    "question": "What is the function of the Translation Lookaside Buffer (TLB) in CPU MMU?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A specialized hardware associative cache that stores recent virtual-to-physical address translations to accelerate memory access"
+      },
+      {
+        "id": "B",
+        "text": "A buffer for serial printer ports"
+      },
+      {
+        "id": "C",
+        "text": "A lookup table for audio codecs"
+      },
+      {
+        "id": "D",
+        "text": "A network packet cache"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "The TLB is a high-speed hardware cache in the MMU that caches virtual-to-physical address mappings, avoiding multiple RAM lookups for page tables on every memory access.",
+      "steps": [
+        "Caches virtual-to-physical address translations."
+      ],
+      "methods": [
+        {
+          "name": "MMU Hardware",
+          "steps": [
+            "TLB."
+          ]
+        }
+      ],
+      "exam_tip": "TLB Hit avoids accessing page tables in main memory."
+    }
+  },
+  {
+    "id": "COMP-OS-019",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 5,
+    "question": "What is the difference between Preemptive and Non-Preemptive scheduling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In Preemptive, the OS can forcefully interrupt and suspend a running process; in Non-Preemptive, a process holds the CPU until it voluntarily terminates or waits for I/O"
+      },
+      {
+        "id": "B",
+        "text": "Preemptive is only for batch systems"
+      },
+      {
+        "id": "C",
+        "text": "Non-preemptive allows multiple CPUs; preemptive works on single core only"
+      },
+      {
+        "id": "D",
+        "text": "Preemptive never causes context switching"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Preemptive (e.g. Round Robin, SRTF) allows the OS to take back CPU control when a higher priority process arrives or time slice expires. Non-preemptive (e.g. FCFS) waits for voluntary yield.",
+      "steps": [
+        "Preemptive can interrupt running process."
+      ],
+      "methods": [
+        {
+          "name": "Scheduling Modes",
+          "steps": [
+            "Preemptive vs Non-Preemptive."
+          ]
+        }
+      ],
+      "exam_tip": "Round Robin is preemptive; FCFS is non-preemptive."
+    }
+  },
+  {
+    "id": "COMP-OS-020",
+    "subject": "computer_knowledge",
+    "topic": "operating_systems",
+    "difficulty": 5,
+    "question": "What is a 'Zombie Process' (defunct process) in Unix/Linux operating systems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A process that has completed execution but still has an entry in the process table because its parent has not yet read its exit status via wait()"
+      },
+      {
+        "id": "B",
+        "text": "A malware infected background bot"
+      },
+      {
+        "id": "C",
+        "text": "A process whose parent has died while it is still running (Orphan)"
+      },
+      {
+        "id": "D",
+        "text": "A process stuck in an infinite CPU loop"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "A Zombie process has finished execution (released memory) but remains in the process table until its parent calls wait(). If parent terminates without waiting, init (PID 1) adopts and reaps it.",
+      "steps": [
+        "Terminated process awaiting parent wait() reaping."
+      ],
+      "methods": [
+        {
+          "name": "Process Lifecycle",
+          "steps": [
+            "Zombie vs Orphan process."
+          ]
+        }
+      ],
+      "exam_tip": "Zombie = finished but not reaped by parent; Orphan = parent died while child runs."
+    }
+  }
+]

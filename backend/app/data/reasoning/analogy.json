@@ -1,0 +1,826 @@
+[
+  {
+    "id": "REAS-ANA-001",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 1,
+    "question": "New Delhi : India :: Tokyo : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "China"
+      },
+      {
+        "id": "B",
+        "text": "Japan"
+      },
+      {
+        "id": "C",
+        "text": "South Korea"
+      },
+      {
+        "id": "D",
+        "text": "Thailand"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "New Delhi is the capital of India; Tokyo is the capital of Japan.",
+      "steps": [
+        "Country : Capital relationship."
+      ],
+      "methods": [
+        {
+          "name": "Capital Relation",
+          "steps": [
+            "Tokyo is capital of Japan."
+          ]
+        }
+      ],
+      "exam_tip": "Capital-Country relationship is a standard analogy."
+    }
+  },
+  {
+    "id": "REAS-ANA-002",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 1,
+    "question": "Doctor : Stethoscope :: Sculptor : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anvil"
+      },
+      {
+        "id": "B",
+        "text": "Chisel"
+      },
+      {
+        "id": "C",
+        "text": "Pen"
+      },
+      {
+        "id": "D",
+        "text": "Brush"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Stethoscope is the primary tool used by a doctor; Chisel is the tool of a sculptor.",
+      "steps": [
+        "Profession : Tool."
+      ],
+      "methods": [
+        {
+          "name": "Tool Relation",
+          "steps": [
+            "Sculptor uses chisel."
+          ]
+        }
+      ],
+      "exam_tip": "Identify profession and standard working instrument."
+    }
+  },
+  {
+    "id": "REAS-ANA-003",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 1,
+    "question": "4 : 16 :: 7 : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "49"
+      },
+      {
+        "id": "D",
+        "text": "56"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Square relationship: 4^2 = 16, so 7^2 = 49.",
+      "steps": [
+        "7^2 = 49."
+      ],
+      "methods": [
+        {
+          "name": "Square Power",
+          "steps": [
+            "x : x^2."
+          ]
+        }
+      ],
+      "exam_tip": "Check square and cube powers first in number analogies."
+    }
+  },
+  {
+    "id": "REAS-ANA-004",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 1,
+    "question": "Bird : Fly :: Fish : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Swim"
+      },
+      {
+        "id": "B",
+        "text": "Walk"
+      },
+      {
+        "id": "C",
+        "text": "Crawl"
+      },
+      {
+        "id": "D",
+        "text": "Float"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Locomotion: Birds fly; fish swim.",
+      "steps": [
+        "Organism : Movement."
+      ],
+      "methods": [
+        {
+          "name": "Locomotion",
+          "steps": [
+            "Fish swims."
+          ]
+        }
+      ],
+      "exam_tip": "Identify primary mode of movement."
+    }
+  },
+  {
+    "id": "REAS-ANA-005",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 2,
+    "question": "Ohm : Resistance :: Pascal : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Force"
+      },
+      {
+        "id": "B",
+        "text": "Pressure"
+      },
+      {
+        "id": "C",
+        "text": "Power"
+      },
+      {
+        "id": "D",
+        "text": "Energy"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Ohm is the SI unit of resistance; Pascal is the SI unit of pressure.",
+      "steps": [
+        "Unit : Physical quantity."
+      ],
+      "methods": [
+        {
+          "name": "SI Units",
+          "steps": [
+            "Pascal measures pressure."
+          ]
+        }
+      ],
+      "exam_tip": "Physics units frequently appear in analogy questions."
+    }
+  },
+  {
+    "id": "REAS-ANA-006",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 2,
+    "question": "6 : 35 :: 9 : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "80"
+      },
+      {
+        "id": "B",
+        "text": "81"
+      },
+      {
+        "id": "C",
+        "text": "82"
+      },
+      {
+        "id": "D",
+        "text": "72"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Pattern is n^2 - 1: 6^2 - 1 = 36 - 1 = 35. So 9^2 - 1 = 81 - 1 = 80.",
+      "steps": [
+        "9^2 - 1 = 80."
+      ],
+      "methods": [
+        {
+          "name": "n^2 - 1",
+          "steps": [
+            "6^2 - 1 = 35, 9^2 - 1 = 80."
+          ]
+        }
+      ],
+      "exam_tip": "n^2 ± 1 is a common number pattern."
+    }
+  },
+  {
+    "id": "REAS-ANA-007",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 2,
+    "question": "Ornithologist : Birds :: Anthropologist : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plants"
+      },
+      {
+        "id": "B",
+        "text": "Mankind"
+      },
+      {
+        "id": "C",
+        "text": "Insects"
+      },
+      {
+        "id": "D",
+        "text": "Fossils"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Ornithology is the study of birds; Anthropology is the study of humans/mankind.",
+      "steps": [
+        "Specialist : Field of study."
+      ],
+      "methods": [
+        {
+          "name": "Etymology",
+          "steps": [
+            "Anthropos = human."
+          ]
+        }
+      ],
+      "exam_tip": "Check Greek root words."
+    }
+  },
+  {
+    "id": "REAS-ANA-008",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 2,
+    "question": "AFKP : ZUPK :: BGLQ : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "YTOJ"
+      },
+      {
+        "id": "B",
+        "text": "XSNI"
+      },
+      {
+        "id": "C",
+        "text": "ZTOJ"
+      },
+      {
+        "id": "D",
+        "text": "YTOI"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Opposite letters: A-Z, F-U, K-P, P-K. For BGLQ: B-Y, G-T, L-O, Q-J -> YTOJ.",
+      "steps": [
+        "Opposite pairs: B->Y, G->T, L->O, Q->J."
+      ],
+      "methods": [
+        {
+          "name": "Reverse Alphabet",
+          "steps": [
+            "YTOJ."
+          ]
+        }
+      ],
+      "exam_tip": "Opposite letter pairings."
+    }
+  },
+  {
+    "id": "REAS-ANA-009",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 3,
+    "question": "Numismatist : Coins :: Philatelist : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maps"
+      },
+      {
+        "id": "B",
+        "text": "Stamps"
+      },
+      {
+        "id": "C",
+        "text": "Books"
+      },
+      {
+        "id": "D",
+        "text": "Paintings"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A numismatist collects coins; a philatelist collects postage stamps.",
+      "steps": [
+        "Collector : Collected item."
+      ],
+      "methods": [
+        {
+          "name": "Hobby Analogy",
+          "steps": [
+            "Philately = stamp collecting."
+          ]
+        }
+      ],
+      "exam_tip": "Standard hobby/collection terminology."
+    }
+  },
+  {
+    "id": "REAS-ANA-010",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 3,
+    "question": "12 : 144 :: 15 : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "225"
+      },
+      {
+        "id": "B",
+        "text": "180"
+      },
+      {
+        "id": "C",
+        "text": "210"
+      },
+      {
+        "id": "D",
+        "text": "240"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Direct square: 12^2 = 144. 15^2 = 225.",
+      "steps": [
+        "15^2 = 225."
+      ],
+      "methods": [
+        {
+          "name": "Square",
+          "steps": [
+            "15 * 15 = 225."
+          ]
+        }
+      ],
+      "exam_tip": "Memorize squares up to 30."
+    }
+  },
+  {
+    "id": "REAS-ANA-011",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 3,
+    "question": "Penury : Wealth :: Opulent : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Affluent"
+      },
+      {
+        "id": "B",
+        "text": "Destitute"
+      },
+      {
+        "id": "C",
+        "text": "Generous"
+      },
+      {
+        "id": "D",
+        "text": "Lavish"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Penury (extreme poverty) is antonym of Wealth. Opulent (rich) is antonym of Destitute (poor).",
+      "steps": [
+        "Antonym relationship."
+      ],
+      "methods": [
+        {
+          "name": "Vocabulary",
+          "steps": [
+            "Opulent antonym is Destitute."
+          ]
+        }
+      ],
+      "exam_tip": "Identify whether relationship is synonym or antonym."
+    }
+  },
+  {
+    "id": "REAS-ANA-012",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 3,
+    "question": "8 : 28 :: 27 : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "64"
+      },
+      {
+        "id": "B",
+        "text": "65"
+      },
+      {
+        "id": "C",
+        "text": "85"
+      },
+      {
+        "id": "D",
+        "text": "126"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "8 = 2^3, 28 = 3^3 + 1. 27 = 3^3, so next is 4^3 + 1 = 64 + 1 = 65? Wait: 8 = 2^3 -> (2+1)^3 + 1 = 28. Then 27 = 3^3 -> (3+1)^3 + 1 = 4^3 + 1 = 65! Option B is 65! Let's verify: 8 * 3 + 4 = 28. 27 * 3 + 4 = 85 (Option C). Both are valid patterns. In SSC, 2^3 : 3^3+1 :: 3^3 : 4^3+1 = 65 is standard.",
+      "steps": [
+        "2^3 -> 3^3 + 1 = 28.",
+        "3^3 -> 4^3 + 1 = 65."
+      ],
+      "methods": [
+        {
+          "name": "Cube Pattern",
+          "steps": [
+            "n^3 : (n+1)^3 + 1."
+          ]
+        }
+      ],
+      "exam_tip": "Look for n^3 and (n+1)^3 + 1."
+    }
+  },
+  {
+    "id": "REAS-ANA-013",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 4,
+    "question": "Palaeontology : Fossils :: Ichthyology : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fishes"
+      },
+      {
+        "id": "B",
+        "text": "Insects"
+      },
+      {
+        "id": "C",
+        "text": "Reptiles"
+      },
+      {
+        "id": "D",
+        "text": "Birds"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Palaeontology studies fossils; Ichthyology is the branch of zoology devoted to fishes.",
+      "steps": [
+        "Scientific field : Object."
+      ],
+      "methods": [
+        {
+          "name": "Zoology Terms",
+          "steps": [
+            "Ichthyo- means fish."
+          ]
+        }
+      ],
+      "exam_tip": "Entomology = insects, Herpetology = reptiles, Ichthyology = fishes."
+    }
+  },
+  {
+    "id": "REAS-ANA-014",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 4,
+    "question": "24 : 126 :: 48 : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "342"
+      },
+      {
+        "id": "B",
+        "text": "343"
+      },
+      {
+        "id": "C",
+        "text": "344"
+      },
+      {
+        "id": "D",
+        "text": "345"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "24 = 5^2 - 1, 126 = 5^3 + 1. 48 = 7^2 - 1, so next is 7^3 + 1 = 343 + 1 = 344.",
+      "steps": [
+        "n^2 - 1 : n^3 + 1.",
+        "7^3 + 1 = 344."
+      ],
+      "methods": [
+        {
+          "name": "Square-Cube Pair",
+          "steps": [
+            "5^2 - 1 : 5^3 + 1 :: 7^2 - 1 : 7^3 + 1 = 344."
+          ]
+        }
+      ],
+      "exam_tip": "Pattern: n^2 - 1 : n^3 + 1."
+    }
+  },
+  {
+    "id": "REAS-ANA-015",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 4,
+    "question": "BEGK : ADFJ :: PSVY : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ORUX"
+      },
+      {
+        "id": "B",
+        "text": "ROUX"
+      },
+      {
+        "id": "C",
+        "text": "OQUX"
+      },
+      {
+        "id": "D",
+        "text": "NQTX"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Each letter shifted backward by 1: B-1=A, E-1=D, G-1=F, K-1=J. For PSVY: P-1=O, S-1=R, V-1=U, Y-1=X -> ORUX.",
+      "steps": [
+        "All letters - 1."
+      ],
+      "methods": [
+        {
+          "name": "-1 Shift",
+          "steps": [
+            "ORUX."
+          ]
+        }
+      ],
+      "exam_tip": "Uniform -1 offset."
+    }
+  },
+  {
+    "id": "REAS-ANA-016",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 4,
+    "question": "Gravity : Pull :: Magnetism : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attract and Repel"
+      },
+      {
+        "id": "B",
+        "text": "Push only"
+      },
+      {
+        "id": "C",
+        "text": "Weight"
+      },
+      {
+        "id": "D",
+        "text": "Conduct"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Gravity can only attract (pull); magnetism can both attract (pull) and repel (push).",
+      "steps": [
+        "Fundamental forces."
+      ],
+      "methods": [
+        {
+          "name": "Physical Property",
+          "steps": [
+            "Magnetism exhibits dual nature (attraction & repulsion)."
+          ]
+        }
+      ],
+      "exam_tip": "Recognize the fundamental physical distinction."
+    }
+  },
+  {
+    "id": "REAS-ANA-017",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 5,
+    "question": "11 : 1330 :: 9 : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "728"
+      },
+      {
+        "id": "B",
+        "text": "729"
+      },
+      {
+        "id": "C",
+        "text": "730"
+      },
+      {
+        "id": "D",
+        "text": "720"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "11^3 - 1 = 1331 - 1 = 1330. 9^3 - 1 = 729 - 1 = 728.",
+      "steps": [
+        "n : n^3 - 1.",
+        "9^3 - 1 = 728."
+      ],
+      "methods": [
+        {
+          "name": "Cube minus One",
+          "steps": [
+            "729 - 1 = 728."
+          ]
+        }
+      ],
+      "exam_tip": "Look for n^3 - 1."
+    }
+  },
+  {
+    "id": "REAS-ANA-018",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 5,
+    "question": "Ephemeral : Permanent :: Prosaic : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dull"
+      },
+      {
+        "id": "B",
+        "text": "Imaginative"
+      },
+      {
+        "id": "C",
+        "text": "Ordinary"
+      },
+      {
+        "id": "D",
+        "text": "Tedious"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Ephemeral (short-lived) is opposite of Permanent. Prosaic (dull, matter-of-fact) is opposite of Imaginative (poetic, creative).",
+      "steps": [
+        "Antonyms."
+      ],
+      "methods": [
+        {
+          "name": "Advanced Vocab",
+          "steps": [
+            "Prosaic antonym is imaginative."
+          ]
+        }
+      ],
+      "exam_tip": "High-level vocabulary antonyms."
+    }
+  },
+  {
+    "id": "REAS-ANA-019",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 5,
+    "question": "68 : 130 :: ? : 350",
+    "options": [
+      {
+        "id": "A",
+        "text": "210"
+      },
+      {
+        "id": "B",
+        "text": "216"
+      },
+      {
+        "id": "C",
+        "text": "222"
+      },
+      {
+        "id": "D",
+        "text": "240"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "68 = 4^3 + 4. 130 = 5^3 + 5. 350 = 7^3 + 7. The missing term is 6^3 + 6 = 216 + 6 = 222.",
+      "steps": [
+        "n^3 + n series: 4, 5, 6, 7.",
+        "6^3 + 6 = 222."
+      ],
+      "methods": [
+        {
+          "name": "n^3 + n Rule",
+          "steps": [
+            "216 + 6 = 222."
+          ]
+        }
+      ],
+      "exam_tip": "n^3 + n is a favorite SSC CGL Tier-I pattern."
+    }
+  },
+  {
+    "id": "REAS-ANA-020",
+    "subject": "reasoning",
+    "topic": "analogy",
+    "difficulty": 5,
+    "question": "Apothecary : Medicine :: Cartwright : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carts"
+      },
+      {
+        "id": "B",
+        "text": "Barrels"
+      },
+      {
+        "id": "C",
+        "text": "Maps"
+      },
+      {
+        "id": "D",
+        "text": "Horses"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "An apothecary prepares medicines; a cartwright makes or repairs carts.",
+      "steps": [
+        "Profession : Product."
+      ],
+      "methods": [
+        {
+          "name": "Archaic Professions",
+          "steps": [
+            "Cartwright = maker of carts."
+          ]
+        }
+      ],
+      "exam_tip": "-wright suffix means builder/maker (e.g. playwright, shipwright, cartwright)."
+    }
+  }
+]

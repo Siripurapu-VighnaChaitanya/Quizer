@@ -1,7 +1,7 @@
 """
 Question Bank Validation Script for ExamPrep Hub.
 Validates structural schema, unique IDs, options, answer keys, explanations,
-and difficulty distribution across all 10 starter topics (target: exactly 200 MCQs).
+and difficulty distribution across all active manifest topics.
 """
 
 import json
@@ -13,19 +13,6 @@ from collections import Counter
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "app" / "data"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
-
-REQUIRED_TOPICS = [
-    ("mathematics", "percentages"),
-    ("mathematics", "ratio_and_proportion"),
-    ("mathematics", "time_and_work"),
-    ("reasoning", "number_series"),
-    ("reasoning", "blood_relations"),
-    ("reasoning", "direction_sense"),
-    ("indian_polity", "fundamental_rights"),
-    ("indian_polity", "parliament_and_lawmaking"),
-    ("general_science", "physics_fundamentals"),
-    ("general_science", "biology_fundamentals"),
-]
 
 
 def validate_question_bank(strict_distribution: bool = True):
@@ -56,12 +43,20 @@ def validate_question_bank(strict_distribution: bool = True):
     all_ids = set()
     normalized_questions = {}
 
-    for subject_id, topic_id in REQUIRED_TOPICS:
+    # Extract all available topics from manifest
+    target_topics = []
+    for sub in manifest.get("subjects", []):
+        sub_id = sub.get("id")
+        for top in sub.get("topics", []):
+            if top.get("is_available", False):
+                target_topics.append((sub_id, top.get("id")))
+
+    for subject_id, topic_id in target_topics:
         filename = f"{subject_id}/{topic_id}.json"
         filepath = DATA_DIR / filename
         if not filepath.exists():
             report["is_valid"] = False
-            report["errors"].append(f"Missing file for starter topic: {filename}")
+            report["errors"].append(f"Missing file for topic: {filename}")
             continue
 
         report["topics_found"] += 1
@@ -120,7 +115,6 @@ def validate_question_bank(strict_distribution: bool = True):
                 report["is_valid"] = False
                 report["errors"].append(f"{q_ref}: Invalid or empty 'question' text")
             else:
-                # Check for duplicate questions
                 norm_q = " ".join(q_text.strip().lower().split())
                 if norm_q in normalized_questions:
                     report["warnings"].append(
@@ -192,10 +186,11 @@ def validate_question_bank(strict_distribution: bool = True):
                         f"{filename}: Difficulty Level {d} expected 4 questions, got {topic_diff_counts[d]}"
                     )
 
-    if strict_distribution and report["total_questions"] != 200:
+    expected_total = len(target_topics) * 20
+    if strict_distribution and report["total_questions"] != expected_total:
         report["is_valid"] = False
         report["errors"].append(
-            f"Overall question count is {report['total_questions']}, expected exactly 200"
+            f"Overall question count is {report['total_questions']}, expected exactly {expected_total}"
         )
 
     return report
@@ -206,19 +201,18 @@ def print_report(report):
     print("ExamPrep Hub — Question Bank Quality & Validation Report")
     print("=" * 60)
     print(f"Status:               {'PASSED (VALID)' if report['is_valid'] else 'FAILED'}")
-    print(f"Total Questions:      {report['total_questions']} / 200 target")
-    print(f"Starter Topics:       {report['topics_found']} / 10 required")
+    print(f"Total Questions:      {report['total_questions']}")
+    print(f"Active Topics:        {report['topics_found']}")
     print("-" * 60)
     print("Topic Breakdown (Expected: 20 per topic):")
     for topic, count in report["topic_counts"].items():
         status = "OK" if count == 20 else f"MISMATCH ({count})"
         print(f"  • {topic:<40} : {count:2d} questions [{status}]")
     print("-" * 60)
-    print("Difficulty Level Distribution (Expected: 40 per level = 4 x 10 topics):")
+    print("Difficulty Level Distribution:")
     for lvl in range(1, 6):
         cnt = report["difficulty_distribution"].get(lvl, 0)
-        status = "OK" if cnt == 40 else f"MISMATCH ({cnt})"
-        print(f"  • Level {lvl}: {cnt:2d} questions [{status}]")
+        print(f"  • Level {lvl}: {cnt:2d} questions")
     print("-" * 60)
 
     if report["warnings"]:

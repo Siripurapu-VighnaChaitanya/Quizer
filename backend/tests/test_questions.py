@@ -8,7 +8,7 @@ def test_get_all_questions_public():
     response = client.get("/api/questions")
     assert response.status_code == 200
     questions = response.json()
-    assert len(questions) == 200
+    assert len(questions) == 660
     # Ensure answers are not leaked by default
     sample = questions[0]
     assert "id" in sample

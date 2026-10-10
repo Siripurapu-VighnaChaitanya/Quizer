@@ -1,0 +1,823 @@
+[
+  {
+    "id": "ENG-OWS-001",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 1,
+    "question": "A person who does not believe in the existence of God is an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Theist"
+      },
+      {
+        "id": "B",
+        "text": "Atheist"
+      },
+      {
+        "id": "C",
+        "text": "Agnostic"
+      },
+      {
+        "id": "D",
+        "text": "Ascetic"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "An atheist rejects belief in God. A theist believes in God. An agnostic believes God's existence is unknowable.",
+      "steps": [
+        "Atheist = non-believer."
+      ],
+      "methods": [
+        {
+          "name": "Theology Terms",
+          "steps": [
+            "Atheist."
+          ]
+        }
+      ],
+      "exam_tip": "Theist = believes; Atheist = does not believe; Agnostic = not sure/unknowable."
+    }
+  },
+  {
+    "id": "ENG-OWS-002",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 1,
+    "question": "A life story of a person written by himself/herself is called an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Biography"
+      },
+      {
+        "id": "B",
+        "text": "Autobiography"
+      },
+      {
+        "id": "C",
+        "text": "Memoir"
+      },
+      {
+        "id": "D",
+        "text": "Chronicle"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Auto (self) + bio (life) + graphy (writing) = Autobiography. A biography is written by someone else.",
+      "steps": [
+        "Written by oneself = Autobiography."
+      ],
+      "methods": [
+        {
+          "name": "Roots",
+          "steps": [
+            "Auto = self."
+          ]
+        }
+      ],
+      "exam_tip": "Autobiography = self-written; Biography = written by another."
+    }
+  },
+  {
+    "id": "ENG-OWS-003",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 1,
+    "question": "A place where books are kept for public reading and borrowing is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Museum"
+      },
+      {
+        "id": "B",
+        "text": "Library"
+      },
+      {
+        "id": "C",
+        "text": "Archive"
+      },
+      {
+        "id": "D",
+        "text": "Auditorium"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A library is a collection of books maintained for reading or study.",
+      "steps": [
+        "Library."
+      ],
+      "methods": [
+        {
+          "name": "Place Nouns",
+          "steps": [
+            "Library."
+          ]
+        }
+      ],
+      "exam_tip": "Archive = historic documents; Museum = artifacts."
+    }
+  },
+  {
+    "id": "ENG-OWS-004",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 1,
+    "question": "One who eats human flesh is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carnivore"
+      },
+      {
+        "id": "B",
+        "text": "Cannibal"
+      },
+      {
+        "id": "C",
+        "text": "Herbivore"
+      },
+      {
+        "id": "D",
+        "text": "Omnivore"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A cannibal is an individual that eats the flesh of its own species, particularly human flesh.",
+      "steps": [
+        "Cannibal."
+      ],
+      "methods": [
+        {
+          "name": "Dietary Terms",
+          "steps": [
+            "Cannibal."
+          ]
+        }
+      ],
+      "exam_tip": "Carnivore = eats meat; Cannibal = eats own species."
+    }
+  },
+  {
+    "id": "ENG-OWS-005",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 2,
+    "question": "A government by the wealthy and rich class is known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autocracy"
+      },
+      {
+        "id": "B",
+        "text": "Plutocracy"
+      },
+      {
+        "id": "C",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "D",
+        "text": "Aristocracy"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Ploutos (wealth) + kratos (rule) = Plutocracy. Aristocracy = rule by nobility; Oligarchy = rule by a small elite.",
+      "steps": [
+        "Plutocracy = rule by rich."
+      ],
+      "methods": [
+        {
+          "name": "-cracy Suffix",
+          "steps": [
+            "Pluto = wealth."
+          ]
+        }
+      ],
+      "exam_tip": "Plutocracy = rich; Aristocracy = nobility; Autocracy = single ruler."
+    }
+  },
+  {
+    "id": "ENG-OWS-006",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 2,
+    "question": "One who can speak two languages fluently is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monolingual"
+      },
+      {
+        "id": "B",
+        "text": "Bilingual"
+      },
+      {
+        "id": "C",
+        "text": "Polyglot"
+      },
+      {
+        "id": "D",
+        "text": "Linguist"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Bilingual = two languages. Polyglot = many languages. Linguist = study of languages.",
+      "steps": [
+        "Bilingual."
+      ],
+      "methods": [
+        {
+          "name": "Language Roots",
+          "steps": [
+            "Bi = two."
+          ]
+        }
+      ],
+      "exam_tip": "Bilingual = two; Polyglot = many languages."
+    }
+  },
+  {
+    "id": "ENG-OWS-007",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 2,
+    "question": "A person who loves and collects books is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bibliophile"
+      },
+      {
+        "id": "B",
+        "text": "Bibliographer"
+      },
+      {
+        "id": "C",
+        "text": "Bibliophobe"
+      },
+      {
+        "id": "D",
+        "text": "Philatelist"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Biblion (book) + philos (love) = Bibliophile. Philatelist = stamp collector.",
+      "steps": [
+        "Bibliophile."
+      ],
+      "methods": [
+        {
+          "name": "-phile Roots",
+          "steps": [
+            "Biblio = book, phile = lover."
+          ]
+        }
+      ],
+      "exam_tip": "Bibliophile = lover of books."
+    }
+  },
+  {
+    "id": "ENG-OWS-008",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 2,
+    "question": "An enclosure or building for keeping bees is an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aviary"
+      },
+      {
+        "id": "B",
+        "text": "Apiary"
+      },
+      {
+        "id": "C",
+        "text": "Aquarium"
+      },
+      {
+        "id": "D",
+        "text": "Sanctuary"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Apiary = place for bees (Apis = bee). Aviary = place for birds (Avis = bird).",
+      "steps": [
+        "Apiary = bees.",
+        "Aviary = birds."
+      ],
+      "methods": [
+        {
+          "name": "Animal Enclosures",
+          "steps": [
+            "Apiary."
+          ]
+        }
+      ],
+      "exam_tip": "Apiary = bees; Aviary = birds."
+    }
+  },
+  {
+    "id": "ENG-OWS-009",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 3,
+    "question": "A remedy or cure for all diseases and difficulties is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panacea"
+      },
+      {
+        "id": "B",
+        "text": "Elixir"
+      },
+      {
+        "id": "C",
+        "text": "Antidote"
+      },
+      {
+        "id": "D",
+        "text": "Placebo"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Panacea' (cure-all) is a universal remedy for all ills or difficulties. Antidote counteracts poison.",
+      "steps": [
+        "Panacea = universal cure."
+      ],
+      "methods": [
+        {
+          "name": "Medical Roots",
+          "steps": [
+            "Pan = all, akos = remedy."
+          ]
+        }
+      ],
+      "exam_tip": "Panacea is a cure for all diseases."
+    }
+  },
+  {
+    "id": "ENG-OWS-010",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 3,
+    "question": "One who hates or distrusts humankind is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Philanthropist"
+      },
+      {
+        "id": "B",
+        "text": "Misanthrope"
+      },
+      {
+        "id": "C",
+        "text": "Misogynist"
+      },
+      {
+        "id": "D",
+        "text": "Altruist"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Misein (to hate) + anthropos (mankind) = Misanthrope. Philanthropist loves mankind; Misogynist hates women.",
+      "steps": [
+        "Misanthrope."
+      ],
+      "methods": [
+        {
+          "name": "Greek Prefixes",
+          "steps": [
+            "Miso = hate, Anthro = human."
+          ]
+        }
+      ],
+      "exam_tip": "Misanthrope = hates mankind; Philanthropist = loves mankind."
+    }
+  },
+  {
+    "id": "ENG-OWS-011",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 3,
+    "question": "A person who is indifferent to both pleasure and pain is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hedonist"
+      },
+      {
+        "id": "B",
+        "text": "Stoic"
+      },
+      {
+        "id": "C",
+        "text": "Epicurean"
+      },
+      {
+        "id": "D",
+        "text": "Cynic"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A stoic endures pain or adversity without displaying feelings or complaining. Hedonist pursues pleasure.",
+      "steps": [
+        "Stoic."
+      ],
+      "methods": [
+        {
+          "name": "Philosophies",
+          "steps": [
+            "Stoic = indifferent to pleasure/pain."
+          ]
+        }
+      ],
+      "exam_tip": "Stoic = unaffected by joy or sorrow."
+    }
+  },
+  {
+    "id": "ENG-OWS-012",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 3,
+    "question": "The murder of one's own brother is called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Patricide"
+      },
+      {
+        "id": "B",
+        "text": "Fratricide"
+      },
+      {
+        "id": "C",
+        "text": "Regicide"
+      },
+      {
+        "id": "D",
+        "text": "Sororicide"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Fratricide = killing brother. Patricide = father; Matricide = mother; Regicide = king; Sororicide = sister.",
+      "steps": [
+        "Fratricide."
+      ],
+      "methods": [
+        {
+          "name": "-cide Suffix",
+          "steps": [
+            "Frater = brother, cide = kill."
+          ]
+        }
+      ],
+      "exam_tip": "Patricide (father), Matricide (mother), Fratricide (brother), Sororicide (sister)."
+    }
+  },
+  {
+    "id": "ENG-OWS-013",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 4,
+    "question": "A post or office with high salary but little or no work is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Honorary"
+      },
+      {
+        "id": "B",
+        "text": "Sinecure"
+      },
+      {
+        "id": "C",
+        "text": "Autonomous"
+      },
+      {
+        "id": "D",
+        "text": "Bureaucracy"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "From Latin 'sine cura' (without care), a Sinecure is an official position requiring no work yet providing financial compensation.",
+      "steps": [
+        "Sinecure."
+      ],
+      "methods": [
+        {
+          "name": "Job Terms",
+          "steps": [
+            "Sinecure = pay without work."
+          ]
+        }
+      ],
+      "exam_tip": "Honorary = work without pay; Sinecure = pay without work."
+    }
+  },
+  {
+    "id": "ENG-OWS-014",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 4,
+    "question": "One who renounces a religious or political belief or principle is an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apostate"
+      },
+      {
+        "id": "B",
+        "text": "Apostle"
+      },
+      {
+        "id": "C",
+        "text": "Iconoclast"
+      },
+      {
+        "id": "D",
+        "text": "Heretic"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "An apostate is a person who renounces or abandons a religious belief or political party allegiance (apostasy).",
+      "steps": [
+        "Apostate."
+      ],
+      "methods": [
+        {
+          "name": "Religious Terms",
+          "steps": [
+            "Apostate = renegade."
+          ]
+        }
+      ],
+      "exam_tip": "Iconoclast = destroyer of traditional images/institutions."
+    }
+  },
+  {
+    "id": "ENG-OWS-015",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 4,
+    "question": "A person who is excessively fastidious and hard to please is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epicure"
+      },
+      {
+        "id": "B",
+        "text": "Fastidious"
+      },
+      {
+        "id": "C",
+        "text": "Malleable"
+      },
+      {
+        "id": "D",
+        "text": "Complaisant"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Fastidious means very attentive to and concerned about accuracy and detail; hard to please.",
+      "steps": [
+        "Fastidious."
+      ],
+      "methods": [
+        {
+          "name": "Personality Words",
+          "steps": [
+            "Fastidious = hard to please."
+          ]
+        }
+      ],
+      "exam_tip": "Fastidious = hard to please."
+    }
+  },
+  {
+    "id": "ENG-OWS-016",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 4,
+    "question": "A handwriting that cannot be easily read is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ineligible"
+      },
+      {
+        "id": "B",
+        "text": "Illegible"
+      },
+      {
+        "id": "C",
+        "text": "Inaudible"
+      },
+      {
+        "id": "D",
+        "text": "Indelible"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Illegible = not legible, impossible or hard to read. Ineligible = not qualified; Indelible = cannot be erased.",
+      "steps": [
+        "Illegible."
+      ],
+      "methods": [
+        {
+          "name": "Prefix Il-",
+          "steps": [
+            "Illegible."
+          ]
+        }
+      ],
+      "exam_tip": "Illegible = unreadable; Indelible = unerasable; Inaudible = cannot be heard."
+    }
+  },
+  {
+    "id": "ENG-OWS-017",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 5,
+    "question": "A person who attacks cherished beliefs, traditional institutions, or established icons is an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iconoclast"
+      },
+      {
+        "id": "B",
+        "text": "Idolater"
+      },
+      {
+        "id": "C",
+        "text": "Orthodox"
+      },
+      {
+        "id": "D",
+        "text": "Anarchist"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Iconoclast (image-breaker) originally referred to someone who destroyed religious icons, now meaning one who challenges settled traditions.",
+      "steps": [
+        "Iconoclast."
+      ],
+      "methods": [
+        {
+          "name": "Greek Eikon + Klaein",
+          "steps": [
+            "Iconoclast = breaker of traditions."
+          ]
+        }
+      ],
+      "exam_tip": "Iconoclast challenges settled conventions."
+    }
+  },
+  {
+    "id": "ENG-OWS-018",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 5,
+    "question": "Fear of confined, small, or enclosed spaces is known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agoraphobia"
+      },
+      {
+        "id": "B",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Hydrophobia"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Claustrophobia = fear of enclosed spaces. Agoraphobia = open spaces; Acrophobia = heights; Hydrophobia = water.",
+      "steps": [
+        "Claustrophobia."
+      ],
+      "methods": [
+        {
+          "name": "Phobias",
+          "steps": [
+            "Claustro = enclosed."
+          ]
+        }
+      ],
+      "exam_tip": "Claustro = enclosed; Agora = open/crowds; Acro = heights."
+    }
+  },
+  {
+    "id": "ENG-OWS-019",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 5,
+    "question": "A disease that is persistently present within a specific geographic locality or population is an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epidemic"
+      },
+      {
+        "id": "B",
+        "text": "Endemic"
+      },
+      {
+        "id": "C",
+        "text": "Pandemic"
+      },
+      {
+        "id": "D",
+        "text": "Sporadic"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Endemic = regularly found in a particular locality. Epidemic = widespread outbreak in a community; Pandemic = worldwide outbreak.",
+      "steps": [
+        "Endemic = localized constant presence."
+      ],
+      "methods": [
+        {
+          "name": "Epidemiology",
+          "steps": [
+            "Endemic vs Epidemic vs Pandemic."
+          ]
+        }
+      ],
+      "exam_tip": "Endemic (local/regular) -> Epidemic (regional outbreak) -> Pandemic (global)."
+    }
+  },
+  {
+    "id": "ENG-OWS-020",
+    "subject": "english",
+    "topic": "one_word_substitution",
+    "difficulty": 5,
+    "question": "A self-governing country or region is described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anarchic"
+      },
+      {
+        "id": "B",
+        "text": "Autonomous"
+      },
+      {
+        "id": "C",
+        "text": "Hegemonic"
+      },
+      {
+        "id": "D",
+        "text": "Subordinate"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Auto (self) + nomos (law) = Autonomous (having the freedom to act independently or govern itself).",
+      "steps": [
+        "Autonomous = self-governing."
+      ],
+      "methods": [
+        {
+          "name": "Political Roots",
+          "steps": [
+            "Autonomous."
+          ]
+        }
+      ],
+      "exam_tip": "Autonomy = self-governance."
+    }
+  }
+]

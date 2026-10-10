@@ -1,0 +1,844 @@
+[
+  {
+    "id": "REAS-SYL-001",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 1,
+    "question": "Statements: All cats are animals. All animals are mammals. Conclusion: All cats are mammals.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conclusion follows"
+      },
+      {
+        "id": "B",
+        "text": "Conclusion does not follow"
+      },
+      {
+        "id": "C",
+        "text": "Either follows or not"
+      },
+      {
+        "id": "D",
+        "text": "Data insufficient"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "All A are B, and All B are C -> All A are C is valid.",
+      "steps": [
+        "Cats subset of Animals subset of Mammals.",
+        "Hence all cats are mammals."
+      ],
+      "methods": [
+        {
+          "name": "Venn Diagram",
+          "steps": [
+            "Concentric circles: Cats inside Animals inside Mammals."
+          ]
+        }
+      ],
+      "exam_tip": "Transitivity of 'All': All A are B + All B are C => All A are C."
+    }
+  },
+  {
+    "id": "REAS-SYL-002",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 1,
+    "question": "Statements: Some mangoes are apples. Some apples are bananas. Conclusions: I. Some mangoes are bananas. II. Some apples are mangoes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Some mangoes are apples directly converts to Some apples are mangoes (II follows). Mangoes and bananas may not overlap (I does not follow).",
+      "steps": [
+        "Conversion of 'Some A are B' is 'Some B are A'.",
+        "No definite relation between Mango and Banana."
+      ],
+      "methods": [
+        {
+          "name": "Immediate Inference",
+          "steps": [
+            "Some A are B => Some B are A."
+          ]
+        }
+      ],
+      "exam_tip": "'Some A are B' can always be reversed to 'Some B are A'."
+    }
+  },
+  {
+    "id": "REAS-SYL-003",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 1,
+    "question": "Statements: No dog is a cat. All cats are pets. Conclusion: Some pets are not dogs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Follows"
+      },
+      {
+        "id": "B",
+        "text": "Does not follow"
+      },
+      {
+        "id": "C",
+        "text": "Cannot be determined"
+      },
+      {
+        "id": "D",
+        "text": "Probably true"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Cats are pets, and no cat is a dog. The pets that are cats can never be dogs. Hence some pets are definitely not dogs.",
+      "steps": [
+        "Cat subset of Pets.",
+        "Dogs disjoint with Cats.",
+        "The pet-cats are not dogs."
+      ],
+      "methods": [
+        {
+          "name": "Deduction",
+          "steps": [
+            "Some pets (the cats) are not dogs."
+          ]
+        }
+      ],
+      "exam_tip": "'All B are C' + 'No A is B' implies 'Some C are not A'."
+    }
+  },
+  {
+    "id": "REAS-SYL-004",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 1,
+    "question": "Statements: All pens are pencils. No pencil is an eraser. Conclusion: No pen is an eraser.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Follows"
+      },
+      {
+        "id": "B",
+        "text": "Does not follow"
+      },
+      {
+        "id": "C",
+        "text": "Partially follows"
+      },
+      {
+        "id": "D",
+        "text": "Data inadequate"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "All pens are inside pencils, and pencils have zero overlap with erasers. Pens can never touch erasers.",
+      "steps": [
+        "Pens inside Pencils.",
+        "Pencils disjoint with Erasers.",
+        "No Pen is Eraser."
+      ],
+      "methods": [
+        {
+          "name": "Universal Negative",
+          "steps": [
+            "All A are B + No B is C => No A is C."
+          ]
+        }
+      ],
+      "exam_tip": "If outer circle has no relation, inner circle also has no relation."
+    }
+  },
+  {
+    "id": "REAS-SYL-005",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 2,
+    "question": "Statements: Some books are papers. All papers are files. Conclusions: I. Some books are files. II. All files are papers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Some books are papers + All papers are files -> Some books are files (I follows). 'All papers are files' does NOT mean 'All files are papers' (II fails).",
+      "steps": [
+        "I is definitely true.",
+        "II is a fallacy of illicit conversion."
+      ],
+      "methods": [
+        {
+          "name": "Rules of Conversion",
+          "steps": [
+            "Some + All = Some."
+          ]
+        }
+      ],
+      "exam_tip": "'All A are B' only converts to 'Some B are A'."
+    }
+  },
+  {
+    "id": "REAS-SYL-006",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 2,
+    "question": "Statements: All cars are trains. Some trains are buses. Conclusions: I. Some cars are buses. II. Some buses are trains.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Some trains are buses directly implies Some buses are trains (II follows). Cars and buses need not intersect (I does not follow).",
+      "steps": [
+        "Cars and buses may have no overlap.",
+        "II is immediate conversion of statement 2."
+      ],
+      "methods": [
+        {
+          "name": "Venn Diagram",
+          "steps": [
+            "Buses circle can touch trains without touching cars."
+          ]
+        }
+      ],
+      "exam_tip": "Do not assume intersection unless forced by statements."
+    }
+  },
+  {
+    "id": "REAS-SYL-007",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 2,
+    "question": "Statements: No river is sea. No sea is ocean. Conclusions: I. Some rivers are oceans. II. No river is ocean.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Either I or II follows"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Two negative premises yield no definite conclusion. However, Conclusion I ('Some rivers are oceans') and II ('No river is ocean') form a complementary pair (I and E type). Thus, either I or II must follow.",
+      "steps": [
+        "No definite link between River and Ocean.",
+        "I (Some) and E (No) form complementary pair.",
+        "Either I or II follows."
+      ],
+      "methods": [
+        {
+          "name": "Complementary Pair Rule",
+          "steps": [
+            "Subject and predicate same, one positive one negative -> Either/Or."
+          ]
+        }
+      ],
+      "exam_tip": "'Some A are B' and 'No A is B' always make an Either-Or pair."
+    }
+  },
+  {
+    "id": "REAS-SYL-008",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 2,
+    "question": "Statements: All stars are moons. All moons are planets. Conclusions: I. Some planets are stars. II. All stars are planets.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "All stars are planets (II follows). If all stars are planets, some planets must be stars (I follows). Both follow.",
+      "steps": [
+        "Stars inside Moons inside Planets.",
+        "Both conclusions are true."
+      ],
+      "methods": [
+        {
+          "name": "Universal Syllogism",
+          "steps": [
+            "All A are C, and Some C are A."
+          ]
+        }
+      ],
+      "exam_tip": "All implies Some."
+    }
+  },
+  {
+    "id": "REAS-SYL-009",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 3,
+    "question": "Statements: Only a few doctors are lawyers. All lawyers are professionals. Conclusions: I. Some doctors are not lawyers. II. All doctors can be lawyers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Only a few A are B' means: Some A are B AND Some A are NOT B. Thus, I follows definitely. And because some doctors are NOT lawyers, all doctors CANNOT be lawyers (II is false).",
+      "steps": [
+        "'Only a few' = 'Some' + 'Some not'.",
+        "I is definitely true.",
+        "II is impossible."
+      ],
+      "methods": [
+        {
+          "name": "Modern Banking Concept",
+          "steps": [
+            "Only a few A are B restricts 'All A are B'."
+          ]
+        }
+      ],
+      "exam_tip": "'Only a few' prohibits 'All A being B'."
+    }
+  },
+  {
+    "id": "REAS-SYL-010",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 3,
+    "question": "Statements: All flowers are red. No red is rose. Conclusions: I. No flower is rose. II. Some red are flowers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Flowers are inside Red, which has no intersection with Rose, so No flower is rose (I follows). And All flowers are red implies Some red are flowers (II follows). Both follow.",
+      "steps": [
+        "I is true by negative universal.",
+        "II is true by subalternation."
+      ],
+      "methods": [
+        {
+          "name": "Venn Analysis",
+          "steps": [
+            "Both statements are valid."
+          ]
+        }
+      ],
+      "exam_tip": "Both universal negative and subaltern conversions hold."
+    }
+  },
+  {
+    "id": "REAS-SYL-011",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 3,
+    "question": "Statements: Some birds are animals. No animal is reptile. All reptiles are insects. Conclusions: I. Some birds are not reptiles. II. No bird is reptile.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Either I or II follows"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "The birds that are animals can never be reptiles. Hence, 'Some birds are not reptiles' definitely follows. But remaining birds could be reptiles, so 'No bird is reptile' is not certain.",
+      "steps": [
+        "Bird-animals cannot be reptiles.",
+        "Some birds are not reptiles is certain."
+      ],
+      "methods": [
+        {
+          "name": "Definite Partial Negative",
+          "steps": [
+            "Some A are B + No B is C => Some A are not C."
+          ]
+        }
+      ],
+      "exam_tip": "Look at the intersection of A and B."
+    }
+  },
+  {
+    "id": "REAS-SYL-012",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 3,
+    "question": "Statements: All tables are chairs. Some chairs are sofas. All sofas are beds. Conclusions: I. Some tables are beds. II. Some beds are chairs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Some chairs are sofas, and all sofas are beds -> Some chairs are beds, which means Some beds are chairs (II follows). Tables and beds have no guaranteed connection (I does not follow).",
+      "steps": [
+        "Sofas inside Beds, Sofas touch Chairs -> Beds touch Chairs.",
+        "Tables may not touch Beds."
+      ],
+      "methods": [
+        {
+          "name": "Chain Rule",
+          "steps": [
+            "Chair-Sofa-Bed chain guarantees overlap."
+          ]
+        }
+      ],
+      "exam_tip": "Follow the link from Beds to Chairs through Sofas."
+    }
+  },
+  {
+    "id": "REAS-SYL-013",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 4,
+    "question": "Statements: All rings are circles. Some circles are squares. No square is triangle. Conclusions: I. All rings being triangles is a possibility. II. Some circles are not triangles.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Circles that are squares cannot be triangles, so 'Some circles are not triangles' is definitely true (II follows). Rings have no negative condition with triangles, so all rings being triangles is possible (I follows). Both follow.",
+      "steps": [
+        "Squares that are circles cannot be triangles -> II true.",
+        "Rings can be completely inside triangles -> I true."
+      ],
+      "methods": [
+        {
+          "name": "Possibility Logic",
+          "steps": [
+            "Both conclusions valid."
+          ]
+        }
+      ],
+      "exam_tip": "If there is no direct negative link, possibility is generally true."
+    }
+  },
+  {
+    "id": "REAS-SYL-014",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 4,
+    "question": "Statements: Only laptops are computers. Some laptops are tablets. Conclusion: No computer is a tablet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Follows"
+      },
+      {
+        "id": "B",
+        "text": "Does not follow"
+      },
+      {
+        "id": "C",
+        "text": "Cannot be determined"
+      },
+      {
+        "id": "D",
+        "text": "Partially follows"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "'Only A are B' means 'All B are A' and B CANNOT have overlap with any other element except A. Hence Computer cannot be tablet. 'No computer is a tablet' definitely follows.",
+      "steps": [
+        "'Only A are B' restricts B exclusively to A.",
+        "B cannot touch C."
+      ],
+      "methods": [
+        {
+          "name": "Exclusive Statement Rule",
+          "steps": [
+            "'Only' creates an exclusive class."
+          ]
+        }
+      ],
+      "exam_tip": "In 'Only A are B', B can never touch any third entity."
+    }
+  },
+  {
+    "id": "REAS-SYL-015",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 4,
+    "question": "Statements: Some water is milk. No milk is tea. All tea is coffee. Conclusions: I. Some water is not tea. II. All coffee being milk is a possibility.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Water that is milk cannot be tea -> 'Some water is not tea' definitely follows (I). Since all tea is coffee and no milk is tea, if all coffee were milk, tea would also be milk (contradiction). So II is false.",
+      "steps": [
+        "I is definitely true.",
+        "II contradicts 'No milk is tea'."
+      ],
+      "methods": [
+        {
+          "name": "Possibility Test",
+          "steps": [
+            "Tea cannot be milk -> Coffee containing Tea cannot be fully inside milk."
+          ]
+        }
+      ],
+      "exam_tip": "If a subset cannot touch B, the superset cannot be entirely inside B."
+    }
+  },
+  {
+    "id": "REAS-SYL-016",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 4,
+    "question": "Statements: Many fruits are sweet. Most sweet are sour. Conclusions: I. Some fruits are sour. II. No fruit is sour.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Either I or II follows"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "'Many' and 'Most' represent 'Some'. Two 'Some' statements give no definite conclusion between Fruits and Sour. But 'Some fruits are sour' and 'No fruit is sour' form a complementary pair (I/E). Hence Either I or II follows.",
+      "steps": [
+        "Many/Most = Some.",
+        "No definite conclusion.",
+        "Complementary pair -> Either/Or."
+      ],
+      "methods": [
+        {
+          "name": "Complementary Pair",
+          "steps": [
+            "Either/Or applies."
+          ]
+        }
+      ],
+      "exam_tip": "'Many', 'most', 'almost all' are treated as 'Some' in syllogisms."
+    }
+  },
+  {
+    "id": "REAS-SYL-017",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 5,
+    "question": "Statements: All metals are hard. No hard is soft. Some soft are ductile. Conclusions: I. Some metals are ductile is a possibility. II. Some ductile are not hard. III. No metal is soft.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I and II follow"
+      },
+      {
+        "id": "B",
+        "text": "Only II and III follow"
+      },
+      {
+        "id": "C",
+        "text": "All I, II, and III follow"
+      },
+      {
+        "id": "D",
+        "text": "Only I and III follow"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "III: Metals inside Hard, Hard disjoint with Soft -> No metal is soft (true). II: Ductile that are Soft cannot be Hard -> Some ductile are not hard (true). I: Metals can overlap with Ductile outside Soft -> Possibility is true. All three follow.",
+      "steps": [
+        "I, II, and III are all logically valid."
+      ],
+      "methods": [
+        {
+          "name": "Three-way Venn",
+          "steps": [
+            "All three conclusions hold."
+          ]
+        }
+      ],
+      "exam_tip": "Evaluate each conclusion independently in multi-conclusion questions."
+    }
+  },
+  {
+    "id": "REAS-SYL-018",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 5,
+    "question": "Statements: Only a few lions are tigers. No tiger is leopard. All leopards are cheetahs. Conclusions: I. All lions can never be leopards. II. Some cheetahs are not tigers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Lions that are tigers can never be leopards, so all lions can never be leopards (I follows). Leopards that are cheetahs can never be tigers, so some cheetahs are not tigers (II follows). Both follow.",
+      "steps": [
+        "I and II are both valid deductions."
+      ],
+      "methods": [
+        {
+          "name": "Negative Subset",
+          "steps": [
+            "Both follow."
+          ]
+        }
+      ],
+      "exam_tip": "'Can never be' means definite negative relation."
+    }
+  },
+  {
+    "id": "REAS-SYL-019",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 5,
+    "question": "Statements: 0% gold is silver. 100% silver is copper. Some copper is platinum. Conclusions: I. Some copper is not gold. II. All platinum being gold is a possibility.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "0% = No, 100% = All. Copper that is silver cannot be gold -> Some copper is not gold (I follows). Platinum has no negative relation with gold -> Possibility holds (II follows). Both follow.",
+      "steps": [
+        "Both follow."
+      ],
+      "methods": [
+        {
+          "name": "Percentage Interpretation",
+          "steps": [
+            "0% = No, 100% = All."
+          ]
+        }
+      ],
+      "exam_tip": "0% means 'No', 100% means 'All', 1% to 99% means 'Some'."
+    }
+  },
+  {
+    "id": "REAS-SYL-020",
+    "subject": "reasoning",
+    "topic": "syllogism",
+    "difficulty": 5,
+    "question": "Statements: Each sun is star. Every star is galaxy. Not a single galaxy is planet. Conclusions: I. No sun is planet. II. At least some galaxies are suns.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I follows"
+      },
+      {
+        "id": "B",
+        "text": "Only II follows"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "id": "D",
+        "text": "Neither follows"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "'Each' = All, 'Every' = All, 'Not a single' = No. Suns are inside Galaxies, and no galaxy is planet -> No sun is planet (I). Since all suns are galaxies, some galaxies are suns (II). Both follow.",
+      "steps": [
+        "I is true.",
+        "II is true."
+      ],
+      "methods": [
+        {
+          "name": "Universal Deduction",
+          "steps": [
+            "Both I and II follow."
+          ]
+        }
+      ],
+      "exam_tip": "'Each' and 'Every' mean 'All'; 'Not a single' means 'No'."
+    }
+  }
+]

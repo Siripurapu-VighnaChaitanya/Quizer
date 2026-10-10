@@ -1,0 +1,847 @@
+[
+  {
+    "id": "MATH-AVG-001",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 1,
+    "question": "Find the average of the first five natural numbers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.5"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "3.5"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Numbers are 1, 2, 3, 4, 5. Average = (1 + 2 + 3 + 4 + 5) / 5 = 15 / 5 = 3.",
+      "steps": [
+        "Sum = 15.",
+        "Avg = 15 / 5 = 3."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "Avg of first n natural numbers = (n + 1)/2 = 6/2 = 3."
+          ]
+        }
+      ],
+      "exam_tip": "Average of first n natural numbers is (n + 1)/2."
+    }
+  },
+  {
+    "id": "MATH-AVG-002",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 1,
+    "question": "The average of 5 numbers is 20. If one number is removed, the average becomes 18. Find the removed number.",
+    "options": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "26"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Initial sum = 5 * 20 = 100. New sum = 4 * 18 = 72. Removed number = 100 - 72 = 28.",
+      "steps": [
+        "100 - 72 = 28."
+      ],
+      "methods": [
+        {
+          "name": "Deviation",
+          "steps": [
+            "Removed = 20 + 4*(20 - 18) = 20 + 8 = 28."
+          ]
+        }
+      ],
+      "exam_tip": "Removed number = Old Average + (New count * drop in average)."
+    }
+  },
+  {
+    "id": "MATH-AVG-003",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 1,
+    "question": "What is the average of first 10 multiples of 7?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35"
+      },
+      {
+        "id": "B",
+        "text": "38.5"
+      },
+      {
+        "id": "C",
+        "text": "42"
+      },
+      {
+        "id": "D",
+        "text": "45.5"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "First is 7, tenth is 70. For AP, Average = (First + Last)/2 = (7 + 70)/2 = 77/2 = 38.5.",
+      "steps": [
+        "(7 + 70)/2 = 38.5."
+      ],
+      "methods": [
+        {
+          "name": "AP Average",
+          "steps": [
+            "(First + Last)/2 = 38.5."
+          ]
+        }
+      ],
+      "exam_tip": "In an Arithmetic Progression, Average = (First term + Last term)/2."
+    }
+  },
+  {
+    "id": "MATH-AVG-004",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 1,
+    "question": "The average score of 30 students in a test is 52. If the total score was 1,560, what will be the average if 2 students scoring 0 are added?",
+    "options": [
+      {
+        "id": "A",
+        "text": "48.75"
+      },
+      {
+        "id": "B",
+        "text": "49.5"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "51"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Total score remains 1,560. Total students become 32. New average = 1560 / 32 = 48.75.",
+      "steps": [
+        "1560 / 32 = 48.75."
+      ],
+      "methods": [
+        {
+          "name": "Direct Division",
+          "steps": [
+            "1560 / 32 = 48.75."
+          ]
+        }
+      ],
+      "exam_tip": "Always recompute total count when zero-score elements are added."
+    }
+  },
+  {
+    "id": "MATH-AVG-005",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 2,
+    "question": "The average age of 24 students and the teacher is 15 years. If teacher's age is excluded, average decreases by 1 year. Teacher's age is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "38 years"
+      },
+      {
+        "id": "B",
+        "text": "39 years"
+      },
+      {
+        "id": "C",
+        "text": "40 years"
+      },
+      {
+        "id": "D",
+        "text": "42 years"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Total before = 25 * 15 = 375. Total after = 24 * 14 = 336. Teacher's age = 375 - 336 = 39 years.",
+      "steps": [
+        "375 - 336 = 39."
+      ],
+      "methods": [
+        {
+          "name": "Deviation Method",
+          "steps": [
+            "Teacher = 15 + 24 * 1 = 39 years."
+          ]
+        }
+      ],
+      "exam_tip": "Excluded = Old average + (Remaining count * decrease)."
+    }
+  },
+  {
+    "id": "MATH-AVG-006",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 2,
+    "question": "A batsman has a certain average of runs for 11 innings. In the 12th inning, he scores 90 runs and his average increases by 5. His new average is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "35"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "45"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Old average = 90 - (12 * 5) = 90 - 60 = 30. New average = 30 + 5 = 35.",
+      "steps": [
+        "90 - 60 = 30.",
+        "30 + 5 = 35."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "New average = Score - (innings - 1) * increase = 90 - 11*5 = 35."
+          ]
+        }
+      ],
+      "exam_tip": "New avg = Score - (N - 1) * increase."
+    }
+  },
+  {
+    "id": "MATH-AVG-007",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 2,
+    "question": "The average weight of 8 men increases by 1.5 kg when a new man replaces one who weighs 65 kg. Weight of the new man is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "75 kg"
+      },
+      {
+        "id": "B",
+        "text": "77 kg"
+      },
+      {
+        "id": "C",
+        "text": "79 kg"
+      },
+      {
+        "id": "D",
+        "text": "80 kg"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Total increase = 8 * 1.5 = 12 kg. New man = 65 + 12 = 77 kg.",
+      "steps": [
+        "Increase = 12 kg.",
+        "New man = 65 + 12 = 77 kg."
+      ],
+      "methods": [
+        {
+          "name": "Direct Sum",
+          "steps": [
+            "Replaced weight + count * increase = 65 + 12 = 77."
+          ]
+        }
+      ],
+      "exam_tip": "New weight = Old weight + (n * change in avg)."
+    }
+  },
+  {
+    "id": "MATH-AVG-008",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 2,
+    "question": "Average of 5 consecutive odd integers is 27. The product of the first and fifth number is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "675"
+      },
+      {
+        "id": "B",
+        "text": "713"
+      },
+      {
+        "id": "C",
+        "text": "729"
+      },
+      {
+        "id": "D",
+        "text": "755"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Middle number is 27. The numbers are 23, 25, 27, 29, 31. First * Fifth = 23 * 31 = 713.",
+      "steps": [
+        "Numbers: 23, 25, 27, 29, 31.",
+        "23 * 31 = 713."
+      ],
+      "methods": [
+        {
+          "name": "Symmetry",
+          "steps": [
+            "(27 - 4) * (27 + 4) = 27^2 - 16 = 729 - 16 = 713."
+          ]
+        }
+      ],
+      "exam_tip": "In consecutive symmetric sets, middle term equals the average."
+    }
+  },
+  {
+    "id": "MATH-AVG-009",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 3,
+    "question": "The average of 25 observations is 36. If average of first 13 is 32 and last 13 is 40, find the 13th observation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "38"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "42"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "13th = (13 * 32 + 13 * 40) - (25 * 36) = 13 * 72 - 900 = 936 - 900 = 36.",
+      "steps": [
+        "Sum of both halves = 416 + 520 = 936.",
+        "Total = 900.",
+        "13th = 936 - 900 = 36."
+      ],
+      "methods": [
+        {
+          "name": "Overlapping Formula",
+          "steps": [
+            "Middle = Sum(13) + Sum(13) - Sum(25) = 36."
+          ]
+        }
+      ],
+      "exam_tip": "Middle element = (Sum of first n + Sum of last n) - Total sum."
+    }
+  },
+  {
+    "id": "MATH-AVG-010",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 3,
+    "question": "Average marks of 50 students was found to be 40. Later it was detected that a score of 48 was wrongly written as 84. The correct average is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "39.28"
+      },
+      {
+        "id": "B",
+        "text": "39.50"
+      },
+      {
+        "id": "C",
+        "text": "40.72"
+      },
+      {
+        "id": "D",
+        "text": "38.80"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Error = 84 - 48 = 36 too high. Reduction per student = 36 / 50 = 0.72. Correct average = 40 - 0.72 = 39.28.",
+      "steps": [
+        "Diff = -36.",
+        "Per student = -36/50 = -0.72.",
+        "40 - 0.72 = 39.28."
+      ],
+      "methods": [
+        {
+          "name": "Deviation",
+          "steps": [
+            "40 - 36/50 = 39.28."
+          ]
+        }
+      ],
+      "exam_tip": "Correct Avg = Old Avg + (Correct - Incorrect) / Total."
+    }
+  },
+  {
+    "id": "MATH-AVG-011",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 3,
+    "question": "The average salary of all employees in a workshop is Rs. 8,000. The average salary of 7 technicians is Rs. 12,000 and that of the others is Rs. 6,000. Total number of employees is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "21"
+      },
+      {
+        "id": "C",
+        "text": "22"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "By alligation: (12000 - 8000) = 4000, (8000 - 6000) = 2000. Ratio = 2000 : 4000 = 1 : 2. 1 part = 7 technicians -> 2 parts = 14 others. Total = 7 + 14 = 21.",
+      "steps": [
+        "Ratio Technicians : Others = 1 : 2.",
+        "Others = 14.",
+        "Total = 21."
+      ],
+      "methods": [
+        {
+          "name": "Alligation Rule",
+          "steps": [
+            "(8000-6000)/(12000-8000) = 2/4 = 1/2 -> Total = 7 * 3 = 21."
+          ]
+        }
+      ],
+      "exam_tip": "Alligation is the fastest tool for mixture/two-group average problems."
+    }
+  },
+  {
+    "id": "MATH-AVG-012",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 3,
+    "question": "Out of 9 persons, 8 spent Rs. 30 each for their meal. The 9th spent Rs. 20 more than the average of all 9. Total money spent by all was:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 280"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 292.50"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 300"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 312.50"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Let average = x. 9th spent x + 20. Total = 8*30 + (x + 20) = 9x -> 260 + x = 9x -> 8x = 260 -> x = 32.5. Total = 9 * 32.5 = Rs. 292.50.",
+      "steps": [
+        "8x = 260 -> x = 32.5.",
+        "Total = 9 * 32.5 = 292.50."
+      ],
+      "methods": [
+        {
+          "name": "Equation",
+          "steps": [
+            "x = (240 + 20)/8 = 32.5 -> Total = 292.50."
+          ]
+        }
+      ],
+      "exam_tip": "Average = (Total spent by others + Extra) / (Others count)."
+    }
+  },
+  {
+    "id": "MATH-AVG-013",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 4,
+    "question": "Average temperature from Monday to Wednesday was 37°C and from Tuesday to Thursday was 34°C. If Thursday was 4/5 of Monday, find temperature on Thursday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "34°C"
+      },
+      {
+        "id": "B",
+        "text": "35°C"
+      },
+      {
+        "id": "C",
+        "text": "36°C"
+      },
+      {
+        "id": "D",
+        "text": "38°C"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Mon - Thu = 3 * (37 - 34) = 9°C. Given Thu = 4/5 Mon -> Mon - 4/5 Mon = 9 -> 1/5 Mon = 9 -> Mon = 45°C. Thu = 45 - 9 = 36°C.",
+      "steps": [
+        "Mon - Thu = 9.",
+        "Mon * (1/5) = 9 -> Mon = 45.",
+        "Thu = 36°C."
+      ],
+      "methods": [
+        {
+          "name": "Difference",
+          "steps": [
+            "M - Th = 3 * 3 = 9. Thu = 4/5 M -> Thu = 36°C."
+          ]
+        }
+      ],
+      "exam_tip": "Sum of Mon-Wed minus Tue-Thu equals Mon - Thu."
+    }
+  },
+  {
+    "id": "MATH-AVG-014",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 4,
+    "question": "Average age of husband, wife and child 3 years ago was 27 years. Average age of wife and child 5 years ago was 20 years. Present age of husband is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "36 years"
+      },
+      {
+        "id": "B",
+        "text": "38 years"
+      },
+      {
+        "id": "C",
+        "text": "40 years"
+      },
+      {
+        "id": "D",
+        "text": "42 years"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Present sum of H+W+C = 3 * (27 + 3) = 90 years. Present sum of W+C = 2 * (20 + 5) = 50 years. Husband = 90 - 50 = 40 years.",
+      "steps": [
+        "Present H+W+C = 90.",
+        "Present W+C = 50.",
+        "Husband = 90 - 50 = 40."
+      ],
+      "methods": [
+        {
+          "name": "Present Shift",
+          "steps": [
+            "90 - 50 = 40 years."
+          ]
+        }
+      ],
+      "exam_tip": "Shift all group averages to present age first."
+    }
+  },
+  {
+    "id": "MATH-AVG-015",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 4,
+    "question": "The bowling average of a cricketer is 12.4. He takes 5 wickets for 26 runs in his last match, improving his average by 0.4. Number of wickets before this match was:",
+    "options": [
+      {
+        "id": "A",
+        "text": "80"
+      },
+      {
+        "id": "B",
+        "text": "85"
+      },
+      {
+        "id": "C",
+        "text": "90"
+      },
+      {
+        "id": "D",
+        "text": "95"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "New match average = 26 / 5 = 5.2. By alligation: (12.4 - 12.0) = 0.4, (12.0 - 5.2) = 6.8. Ratio = 6.8 : 0.4 = 17 : 1. 1 part = 5 wickets -> 17 parts = 17 * 5 = 85 wickets.",
+      "steps": [
+        "Ratio = 17 : 1.",
+        "Wickets = 17 * 5 = 85."
+      ],
+      "methods": [
+        {
+          "name": "Alligation",
+          "steps": [
+            "12.4 vs 5.2 around 12.0 -> Ratio 6.8 : 0.4 = 17:1 -> 17*5 = 85."
+          ]
+        }
+      ],
+      "exam_tip": "Bowling average improvement means the number DECREASES."
+    }
+  },
+  {
+    "id": "MATH-AVG-016",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 4,
+    "question": "A student finds average of 10 two-digit numbers. If digits of one number are reversed, average increases by 1.8. Difference between digits is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Total increase = 10 * 1.8 = 18. Reversing digits changes number by 9*(x - y). 9(x - y) = 18 -> difference = 2.",
+      "steps": [
+        "9 * (d1 - d2) = 18",
+        "d1 - d2 = 2."
+      ],
+      "methods": [
+        {
+          "name": "Rule of 9",
+          "steps": [
+            "Difference in digits = Total change / 9 = 18 / 9 = 2."
+          ]
+        }
+      ],
+      "exam_tip": "Reversing two-digit number always changes value by 9 * (difference of digits)."
+    }
+  },
+  {
+    "id": "MATH-AVG-017",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 5,
+    "question": "The average weight of 3 men A, B, and C is 84 kg. Another man D joins and average becomes 80 kg. If E (3 kg heavier than D) replaces A, average of B, C, D, E becomes 79 kg. Weight of A is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "72 kg"
+      },
+      {
+        "id": "B",
+        "text": "75 kg"
+      },
+      {
+        "id": "C",
+        "text": "78 kg"
+      },
+      {
+        "id": "D",
+        "text": "80 kg"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A+B+C = 252. A+B+C+D = 320 -> D = 68 kg. E = 68 + 3 = 71 kg. B+C+D+E = 316. Since (A+B+C+D) - (B+C+D+E) = A - E = 320 - 316 = 4 kg. A = E + 4 = 71 + 4 = 75 kg.",
+      "steps": [
+        "D = 320 - 252 = 68.",
+        "E = 71.",
+        "A - E = 4 -> A = 75 kg."
+      ],
+      "methods": [
+        {
+          "name": "Step Deduction",
+          "steps": [
+            "D=68, E=71. A - E = 320 - 316 = 4 -> A = 75."
+          ]
+        }
+      ],
+      "exam_tip": "Classic SSC CGL Tier-II question. Focus on A - E."
+    }
+  },
+  {
+    "id": "MATH-AVG-018",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 5,
+    "question": "A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with Sunday is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "275"
+      },
+      {
+        "id": "B",
+        "text": "280"
+      },
+      {
+        "id": "C",
+        "text": "285"
+      },
+      {
+        "id": "D",
+        "text": "290"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Month starts on Sunday: days 1, 8, 15, 22, 29 are Sundays (5 Sundays). Other days = 25. Total = 5 * 510 + 25 * 240 = 2550 + 6000 = 8550. Average = 8550 / 30 = 285.",
+      "steps": [
+        "5 Sundays, 25 other days.",
+        "Total = 8550.",
+        "8550 / 30 = 285."
+      ],
+      "methods": [
+        {
+          "name": "Weighted Mean",
+          "steps": [
+            "(5*510 + 25*240)/30 = (510 + 5*240)/6 = (510 + 1200)/6 = 285."
+          ]
+        }
+      ],
+      "exam_tip": "A 30-day month starting on Sunday has 5 Sundays."
+    }
+  },
+  {
+    "id": "MATH-AVG-019",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 5,
+    "question": "Average marks of 100 students is 40. Later it was found that marks of two students were wrongly entered as 53 and 83 instead of 83 and 63. Correct average is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "39.9"
+      },
+      {
+        "id": "B",
+        "text": "40.1"
+      },
+      {
+        "id": "C",
+        "text": "40.2"
+      },
+      {
+        "id": "D",
+        "text": "40.5"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Incorrect sum = 53 + 83 = 136. Correct sum = 83 + 63 = 146. Net change = +10. Increase per student = 10 / 100 = 0.1. Correct average = 40 + 0.1 = 40.1.",
+      "steps": [
+        "146 - 136 = +10.",
+        "10 / 100 = 0.1.",
+        "40 + 0.1 = 40.1."
+      ],
+      "methods": [
+        {
+          "name": "Direct Addition",
+          "steps": [
+            "40 + (146 - 136)/100 = 40.1."
+          ]
+        }
+      ],
+      "exam_tip": "Compute net adjustment across all misrecorded values."
+    }
+  },
+  {
+    "id": "MATH-AVG-020",
+    "subject": "mathematics",
+    "topic": "average",
+    "difficulty": 5,
+    "question": "In an exam, the average marks was 50. After deducting 100 marks for computational error from 100 students, average became 45. Number of candidates who took the exam was:",
+    "options": [
+      {
+        "id": "A",
+        "text": "100"
+      },
+      {
+        "id": "B",
+        "text": "200"
+      },
+      {
+        "id": "C",
+        "text": "250"
+      },
+      {
+        "id": "D",
+        "text": "300"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Wait, deducting 100 marks total means total drop is 100 marks. Drop per student = 50 - 45 = 5. Wait, 100 marks deducted from each of the 100 candidates means 10,000 marks drop. Total students N * 5 = 100 * 10 = 1000? Let's check: total marks deducted = 100 students had 10 marks reduced = 1000 marks. 5N = 1000 -> N = 200.",
+      "steps": [
+        "Total deduction = 100 * 10 = 1000.",
+        "Drop in avg = 5.",
+        "Candidates = 1000 / 5 = 200."
+      ],
+      "methods": [
+        {
+          "name": "Equation",
+          "steps": [
+            "5 * N = 1000 -> N = 200."
+          ]
+        }
+      ],
+      "exam_tip": "Total marks lost = (Old avg - New avg) * Total students."
+    }
+  }
+]

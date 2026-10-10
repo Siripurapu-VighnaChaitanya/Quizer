@@ -1,0 +1,825 @@
+[
+  {
+    "id": "POL-PAN-001",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 1,
+    "question": "Which Constitutional Amendment Act gave constitutional status to Panchayati Raj Institutions in India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "71st Amendment"
+      },
+      {
+        "id": "B",
+        "text": "72nd Amendment"
+      },
+      {
+        "id": "C",
+        "text": "73rd Amendment, 1992"
+      },
+      {
+        "id": "D",
+        "text": "74th Amendment, 1992"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "73rd Constitutional Amendment Act (1992) gave constitutional status to Panchayati Raj. 74th Amendment dealt with Urban Local Bodies (Municipalities).",
+      "steps": [
+        "73rd = Panchayati Raj.",
+        "74th = Municipalities."
+      ],
+      "methods": [
+        {
+          "name": "Local Government Amendments",
+          "steps": [
+            "73rd Amendment, 1992."
+          ]
+        }
+      ],
+      "exam_tip": "73rd = Rural (Panchayats); 74th = Urban (Municipalities)."
+    }
+  },
+  {
+    "id": "POL-PAN-002",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 1,
+    "question": "Which Schedule was added to the Constitution by the 73rd Amendment Act?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10th Schedule"
+      },
+      {
+        "id": "B",
+        "text": "11th Schedule"
+      },
+      {
+        "id": "C",
+        "text": "12th Schedule"
+      },
+      {
+        "id": "D",
+        "text": "9th Schedule"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The 11th Schedule contains 29 functional items for Panchayats. The 12th Schedule (added by 74th Amendment) contains 18 items for Municipalities.",
+      "steps": [
+        "11th Schedule has 29 items."
+      ],
+      "methods": [
+        {
+          "name": "Schedules",
+          "steps": [
+            "11th Schedule."
+          ]
+        }
+      ],
+      "exam_tip": "11th Schedule = 29 items for Panchayats; 12th Schedule = 18 items for Municipalities."
+    }
+  },
+  {
+    "id": "POL-PAN-003",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 1,
+    "question": "Which was the first State in India to establish Panchayati Raj (on 2nd October 1959)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Andhra Pradesh"
+      },
+      {
+        "id": "B",
+        "text": "Rajasthan (Nagaur)"
+      },
+      {
+        "id": "C",
+        "text": "Gujarat"
+      },
+      {
+        "id": "D",
+        "text": "Maharashtra"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Panchayati Raj was inaugurated by PM Jawaharlal Nehru on 2 October 1959 in Nagaur district, Rajasthan. Andhra Pradesh was the second state.",
+      "steps": [
+        "1st: Rajasthan (Nagaur).",
+        "2nd: Andhra Pradesh."
+      ],
+      "methods": [
+        {
+          "name": "Historical First",
+          "steps": [
+            "Nagaur, Rajasthan."
+          ]
+        }
+      ],
+      "exam_tip": "First state: Rajasthan (Nagaur, 2 Oct 1959); Second state: Andhra Pradesh."
+    }
+  },
+  {
+    "id": "POL-PAN-004",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 1,
+    "question": "Which committee first recommended the three-tier Panchayati Raj system in India in 1957?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balwant Rai Mehta Committee"
+      },
+      {
+        "id": "B",
+        "text": "Ashok Mehta Committee"
+      },
+      {
+        "id": "C",
+        "text": "L. M. Singhvi Committee"
+      },
+      {
+        "id": "D",
+        "text": "G. V. K. Rao Committee"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Balwant Rai Mehta Committee (1957) recommended 'democratic decentralisation' with a 3-tier structure: Gram Panchayat, Panchayat Samiti, and Zila Parishad.",
+      "steps": [
+        "Balwant Rai Mehta (1957)."
+      ],
+      "methods": [
+        {
+          "name": "Committees",
+          "steps": [
+            "Balwant Rai Mehta = 3-tier."
+          ]
+        }
+      ],
+      "exam_tip": "Balwant Rai Mehta = 3-tier; Ashok Mehta (1977) = 2-tier."
+    }
+  },
+  {
+    "id": "POL-PAN-005",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 2,
+    "question": "What is the minimum age required to contest an election for a Panchayat member or Sarpanch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "18 years"
+      },
+      {
+        "id": "B",
+        "text": "21 years"
+      },
+      {
+        "id": "C",
+        "text": "25 years"
+      },
+      {
+        "id": "D",
+        "text": "30 years"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Under Article 243F, the minimum age to contest Panchayat elections is 21 years (voting age is 18; Lok Sabha is 25; Rajya Sabha is 30).",
+      "steps": [
+        "21 years under Art 243F."
+      ],
+      "methods": [
+        {
+          "name": "Age Matrix",
+          "steps": [
+            "Voting=18, Panchayat=21, Lok Sabha=25, Rajya Sabha=30, President=35."
+          ]
+        }
+      ],
+      "exam_tip": "Age to contest Panchayat is 21 years."
+    }
+  },
+  {
+    "id": "POL-PAN-006",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 2,
+    "question": "What is the normal duration/term of a Panchayat under Article 243E?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 years"
+      },
+      {
+        "id": "B",
+        "text": "4 years"
+      },
+      {
+        "id": "C",
+        "text": "5 years"
+      },
+      {
+        "id": "D",
+        "text": "6 years"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 243E provides for a 5-year term from the date of its first meeting. If dissolved earlier, fresh elections must be held within 6 months.",
+      "steps": [
+        "5 years from first meeting."
+      ],
+      "methods": [
+        {
+          "name": "Term of Office",
+          "steps": [
+            "5-year term."
+          ]
+        }
+      ],
+      "exam_tip": "Elections must be held within 6 months if dissolved prematurely."
+    }
+  },
+  {
+    "id": "POL-PAN-007",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 2,
+    "question": "What is the mandatory minimum reservation for women in Panchayats as per Article 243D?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25%"
+      },
+      {
+        "id": "B",
+        "text": "33.33% (one-third)"
+      },
+      {
+        "id": "C",
+        "text": "50%"
+      },
+      {
+        "id": "D",
+        "text": "20%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 243D(3) mandates not less than one-third (33%) of the total seats for women. Several states (e.g. Bihar, MP) have enhanced it to 50% by state law.",
+      "steps": [
+        "Constitutional minimum is 1/3 (33.33%)."
+      ],
+      "methods": [
+        {
+          "name": "Women Reservation",
+          "steps": [
+            "Art 243D(3) requires at least 1/3."
+          ]
+        }
+      ],
+      "exam_tip": "Constitution mandates 1/3; state laws can increase it to 50%."
+    }
+  },
+  {
+    "id": "POL-PAN-008",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 2,
+    "question": "Elections to Panchayati Raj Institutions are conducted by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Election Commission of India"
+      },
+      {
+        "id": "B",
+        "text": "State Election Commission (Article 243K)"
+      },
+      {
+        "id": "C",
+        "text": "District Magistrate"
+      },
+      {
+        "id": "D",
+        "text": "State Legislative Assembly"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 243K establishes a State Election Commission headed by a State Election Commissioner to superintend, direct, and control Panchayat elections.",
+      "steps": [
+        "State Election Commission (Art 243K)."
+      ],
+      "methods": [
+        {
+          "name": "Election Authority",
+          "steps": [
+            "Art 243K."
+          ]
+        }
+      ],
+      "exam_tip": "Election Commission of India does NOT conduct Panchayat elections."
+    }
+  },
+  {
+    "id": "POL-PAN-009",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 3,
+    "question": "Which Part was inserted into the Constitution by the 73rd Amendment Act?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Part VIII"
+      },
+      {
+        "id": "B",
+        "text": "Part IX"
+      },
+      {
+        "id": "C",
+        "text": "Part IX-A"
+      },
+      {
+        "id": "D",
+        "text": "Part IX-B"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The 73rd Amendment inserted Part IX entitled 'The Panchayats' (Articles 243 to 243O). Part IX-A is 'The Municipalities', Part IX-B is 'The Co-operative Societies'.",
+      "steps": [
+        "Part IX = The Panchayats."
+      ],
+      "methods": [
+        {
+          "name": "Part Numbers",
+          "steps": [
+            "Part IX."
+          ]
+        }
+      ],
+      "exam_tip": "Part IX = Panchayats; Part IX-A = Municipalities; Part IX-B = Co-operatives."
+    }
+  },
+  {
+    "id": "POL-PAN-010",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 3,
+    "question": "Under Article 243-I, who constitutes the State Finance Commission every five years to review financial position of Panchayats?",
+    "options": [
+      {
+        "id": "A",
+        "text": "President"
+      },
+      {
+        "id": "B",
+        "text": "Governor of the State"
+      },
+      {
+        "id": "C",
+        "text": "Chief Minister"
+      },
+      {
+        "id": "D",
+        "text": "Speaker of Assembly"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The Governor of a State constitutes a State Finance Commission every five years under Article 243-I to recommend distribution of taxes and grants-in-aid to Panchayats.",
+      "steps": [
+        "Governor under Art 243-I."
+      ],
+      "methods": [
+        {
+          "name": "State Finance Commission",
+          "steps": [
+            "Governor."
+          ]
+        }
+      ],
+      "exam_tip": "Union FC constituted by President (280); State FC constituted by Governor (243-I)."
+    }
+  },
+  {
+    "id": "POL-PAN-011",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 3,
+    "question": "Which committee (1986) recommended constitutional recognition for Panchayati Raj and proposed non-involvement of political parties?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L. M. Singhvi Committee"
+      },
+      {
+        "id": "B",
+        "text": "Dantwala Committee"
+      },
+      {
+        "id": "C",
+        "text": "Hanumantha Rao Committee"
+      },
+      {
+        "id": "D",
+        "text": "Santhanam Committee"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "The L. M. Singhvi Committee (appointed by Rajiv Gandhi government in 1986) strongly recommended constitutional recognition, protection, and preservation for Panchayats.",
+      "steps": [
+        "L. M. Singhvi Committee (1986)."
+      ],
+      "methods": [
+        {
+          "name": "Constitutional Recognition",
+          "steps": [
+            "Singhvi Committee recommendation led to 73rd CAA."
+          ]
+        }
+      ],
+      "exam_tip": "L. M. Singhvi Committee recommended constitutional status."
+    }
+  },
+  {
+    "id": "POL-PAN-012",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 3,
+    "question": "What is 'Gram Sabha' defined as under Article 243(b)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All adult residents of the village"
+      },
+      {
+        "id": "B",
+        "text": "All persons registered in the electoral rolls relating to a village within the Panchayat area"
+      },
+      {
+        "id": "C",
+        "text": "Elected ward members of the Panchayat"
+      },
+      {
+        "id": "D",
+        "text": "Heads of all households in the village"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Gram Sabha is a body consisting of persons registered in the electoral rolls relating to a village comprised within the area of Panchayat at the village level.",
+      "steps": [
+        "Registered voters in the village electoral roll."
+      ],
+      "methods": [
+        {
+          "name": "Gram Sabha Definition",
+          "steps": [
+            "Voters registered in village roll."
+          ]
+        }
+      ],
+      "exam_tip": "Gram Sabha consists of registered voters, not all residents."
+    }
+  },
+  {
+    "id": "POL-PAN-013",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 4,
+    "question": "PESA Act (Panchayats Extension to Scheduled Areas Act) was enacted in which year on the recommendations of the Dilip Singh Bhuria Committee?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1994"
+      },
+      {
+        "id": "B",
+        "text": "1996"
+      },
+      {
+        "id": "C",
+        "text": "1998"
+      },
+      {
+        "id": "D",
+        "text": "2000"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The PESA Act was enacted on 24 December 1996 to extend the provisions of Part IX to the Fifth Schedule areas with significant tribal self-governance powers.",
+      "steps": [
+        "PESA Act, 1996 (Bhuria Committee)."
+      ],
+      "methods": [
+        {
+          "name": "Tribal Governance",
+          "steps": [
+            "PESA 1996."
+          ]
+        }
+      ],
+      "exam_tip": "PESA Act passed on 24 Dec 1996; recommended by Bhuria Committee."
+    }
+  },
+  {
+    "id": "POL-PAN-014",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 4,
+    "question": "Which of the following States is EXEMPT from the application of Part IX of the Constitution as per Article 243M?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nagaland, Meghalaya, and Mizoram"
+      },
+      {
+        "id": "B",
+        "text": "Kerala and Tamil Nadu"
+      },
+      {
+        "id": "C",
+        "text": "Punjab and Haryana"
+      },
+      {
+        "id": "D",
+        "text": "Rajasthan and Gujarat"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Article 243M exempts the States of Nagaland, Meghalaya, and Mizoram, the hill areas of Manipur, and Darjeeling district from Part IX.",
+      "steps": [
+        "Nagaland, Meghalaya, Mizoram."
+      ],
+      "methods": [
+        {
+          "name": "Exempt States",
+          "steps": [
+            "Art 243M exemptions."
+          ]
+        }
+      ],
+      "exam_tip": "Nagaland, Meghalaya, and Mizoram have traditional tribal councils."
+    }
+  },
+  {
+    "id": "POL-PAN-015",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 4,
+    "question": "A State having a population not exceeding how much is NOT required to constitute Panchayats at the intermediate (block) level under Article 243B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 lakhs"
+      },
+      {
+        "id": "B",
+        "text": "15 lakhs"
+      },
+      {
+        "id": "C",
+        "text": "20 lakhs"
+      },
+      {
+        "id": "D",
+        "text": "25 lakhs"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 243B(2) provides that Panchayats at the intermediate level may not be constituted in a State having a population not exceeding 20 lakhs (2 million).",
+      "steps": [
+        "20 lakhs."
+      ],
+      "methods": [
+        {
+          "name": "Intermediate Exemption",
+          "steps": [
+            "Population <= 20 lakhs."
+          ]
+        }
+      ],
+      "exam_tip": "States with population under 20 lakhs can have a 2-tier system."
+    }
+  },
+  {
+    "id": "POL-PAN-016",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 4,
+    "question": "Which committee (1977) recommended a two-tier Panchayati Raj system consisting of Zila Parishad and Mandal Panchayat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ashok Mehta Committee"
+      },
+      {
+        "id": "B",
+        "text": "Balwant Rai Mehta Committee"
+      },
+      {
+        "id": "C",
+        "text": "Sarkaria Commission"
+      },
+      {
+        "id": "D",
+        "text": "Kothari Committee"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "The Ashok Mehta Committee (appointed by Janata Party government in Dec 1977) recommended replacing the 3-tier system with a 2-tier system (Zila Parishad at district, Mandal Panchayat for cluster of villages).",
+      "steps": [
+        "Ashok Mehta Committee (1977)."
+      ],
+      "methods": [
+        {
+          "name": "2-Tier Model",
+          "steps": [
+            "Ashok Mehta = 2-tier."
+          ]
+        }
+      ],
+      "exam_tip": "Ashok Mehta = 2-tier; Balwant Rai = 3-tier."
+    }
+  },
+  {
+    "id": "POL-PAN-017",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 5,
+    "question": "If a Panchayat is dissolved prematurely after 3 years, the newly elected Panchayat will continue for:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A fresh full term of 5 years"
+      },
+      {
+        "id": "B",
+        "text": "The remainder of the period (i.e. 2 years)"
+      },
+      {
+        "id": "C",
+        "text": "3 years"
+      },
+      {
+        "id": "D",
+        "text": "Governor's discretion"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 243E(4) specifies that a Panchayat constituted upon dissolution before its term expires shall continue ONLY for the remainder of the period for which the dissolved Panchayat would have continued.",
+      "steps": [
+        "Continues for remainder period (2 years)."
+      ],
+      "methods": [
+        {
+          "name": "Remainder Rule",
+          "steps": [
+            "Art 243E(4) remainder principle."
+          ]
+        }
+      ],
+      "exam_tip": "Newly elected body serves only the remainder of the original 5-year term."
+    }
+  },
+  {
+    "id": "POL-PAN-018",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 5,
+    "question": "Article 243-O bars interference by courts in electoral matters of Panchayats. Under which provision can a Panchayat election be questioned?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only by an election petition presented to such authority and in such manner as provided by State Legislature"
+      },
+      {
+        "id": "B",
+        "text": "By a writ petition in Supreme Court under Article 32"
+      },
+      {
+        "id": "C",
+        "text": "By an appeal to Central Cabinet"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be questioned under any circumstance"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Article 243-O(b) stipulates that no election to any Panchayat shall be called in question except by an election petition presented to such authority and in such manner as provided for by State law.",
+      "steps": [
+        "Only via election petition prescribed by State legislature."
+      ],
+      "methods": [
+        {
+          "name": "Election Petition Bar",
+          "steps": [
+            "Art 243-O."
+          ]
+        }
+      ],
+      "exam_tip": "Panchayat elections cannot be challenged via ordinary lawsuits during election process."
+    }
+  },
+  {
+    "id": "POL-PAN-019",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 5,
+    "question": "Under the 73rd Amendment, which of the following is a COMPULSORY (mandatory) provision for all States?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Giving voting rights to MPs and MLAs in Panchayats"
+      },
+      {
+        "id": "B",
+        "text": "Reservation of seats for Backward Classes (OBCs)"
+      },
+      {
+        "id": "C",
+        "text": "Establishment of State Election Commission and State Finance Commission"
+      },
+      {
+        "id": "D",
+        "text": "Devolving powers to levy and collect taxes"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Establishment of State Election Commission and State Finance Commission, 3-tier structure, and 1/3 reservation for women are mandatory provisions. OBC reservation and tax powers are voluntary (at state discretion).",
+      "steps": [
+        "SEC and SFC are mandatory."
+      ],
+      "methods": [
+        {
+          "name": "Mandatory vs Voluntary",
+          "steps": [
+            "SEC, SFC, 5-yr term, women reservation are compulsory."
+          ]
+        }
+      ],
+      "exam_tip": "OBC reservation and tax powers are voluntary provisions."
+    }
+  },
+  {
+    "id": "POL-PAN-020",
+    "subject": "indian_polity",
+    "topic": "panchayati_raj",
+    "difficulty": 5,
+    "question": "Which Prime Minister introduced the 64th Constitutional Amendment Bill in 1989 for Panchayati Raj, which passed in Lok Sabha but was defeated in Rajya Sabha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indira Gandhi"
+      },
+      {
+        "id": "B",
+        "text": "Rajiv Gandhi"
+      },
+      {
+        "id": "C",
+        "text": "V. P. Singh"
+      },
+      {
+        "id": "D",
+        "text": "P. V. Narasimha Rao"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Rajiv Gandhi introduced the 64th Constitutional Amendment Bill in July 1989. It was defeated in the Rajya Sabha in August 1989. Later, P. V. Narasimha Rao government successfully passed the 73rd Amendment in 1992.",
+      "steps": [
+        "64th Bill: Rajiv Gandhi (1989).",
+        "73rd Act: P. V. Narasimha Rao (1992)."
+      ],
+      "methods": [
+        {
+          "name": "Legislative History",
+          "steps": [
+            "Rajiv Gandhi introduced 64th Bill."
+          ]
+        }
+      ],
+      "exam_tip": "64th Amendment Bill = Rajiv Gandhi; 73rd Amendment Act = P. V. Narasimha Rao."
+    }
+  }
+]

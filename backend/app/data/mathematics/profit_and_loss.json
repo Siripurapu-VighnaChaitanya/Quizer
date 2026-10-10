@@ -1,0 +1,846 @@
+[
+  {
+    "id": "MATH-PL-001",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 1,
+    "question": "A shopkeeper buys an article for Rs. 400 and sells it for Rs. 500. What is his profit percentage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20%"
+      },
+      {
+        "id": "B",
+        "text": "25%"
+      },
+      {
+        "id": "C",
+        "text": "30%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Profit = 500 - 400 = 100. Profit% = (100 / 400) * 100 = 25%.",
+      "steps": [
+        "Profit = SP - CP = Rs. 100.",
+        "Profit% = (100/400)*100 = 25%."
+      ],
+      "methods": [
+        {
+          "name": "Direct Ratio",
+          "steps": [
+            "CP:SP = 4:5 -> Gain = 1/4 = 25%"
+          ]
+        }
+      ],
+      "exam_tip": "Profit% is always calculated on CP."
+    }
+  },
+  {
+    "id": "MATH-PL-002",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 1,
+    "question": "If an item costing Rs. 250 is sold at a loss of 10%, find the selling price.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 220"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 225"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 230"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 215"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Loss = 10% of 250 = Rs. 25. SP = 250 - 25 = Rs. 225.",
+      "steps": [
+        "Loss = Rs. 25.",
+        "SP = CP - Loss = 225."
+      ],
+      "methods": [
+        {
+          "name": "Multiplier",
+          "steps": [
+            "SP = 250 * 0.90 = Rs. 225."
+          ]
+        }
+      ],
+      "exam_tip": "SP = CP * (100 - Loss%)/100."
+    }
+  },
+  {
+    "id": "MATH-PL-003",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 1,
+    "question": "An article is sold for Rs. 660 at a profit of 10%. What was its cost price?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 580"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 600"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 610"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 590"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "110% of CP = 660 -> CP = (660 * 100) / 110 = Rs. 600.",
+      "steps": [
+        "1.1 * CP = 660",
+        "CP = 600."
+      ],
+      "methods": [
+        {
+          "name": "Ratio",
+          "steps": [
+            "10% profit -> CP:SP = 10:11. 11 units = 660 -> 10 units = 600."
+          ]
+        }
+      ],
+      "exam_tip": "Express percentage as ratio for faster mental math."
+    }
+  },
+  {
+    "id": "MATH-PL-004",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 1,
+    "question": "The difference between cost price and selling price is Rs. 150. If profit percentage is 20%, find the cost price.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 650"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 700"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 750"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 800"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Profit = Rs. 150. 20% of CP = 150 -> CP = 150 * 5 = Rs. 750.",
+      "steps": [
+        "0.20 * CP = 150",
+        "CP = 750."
+      ],
+      "methods": [
+        {
+          "name": "Fraction",
+          "steps": [
+            "20% = 1/5. 1 part = 150 -> 5 parts = 750."
+          ]
+        }
+      ],
+      "exam_tip": "20% = 1/5 of CP."
+    }
+  },
+  {
+    "id": "MATH-PL-005",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 2,
+    "question": "By selling an article for Rs. 720, a trader loses 10%. At what price should he sell it to gain 15%?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 880"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 900"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 920"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 940"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "90% of CP = 720 -> CP = 800. Target SP = 115% of 800 = Rs. 920.",
+      "steps": [
+        "CP = 720 / 0.9 = 800.",
+        "New SP = 800 * 1.15 = 920."
+      ],
+      "methods": [
+        {
+          "name": "Direct Proportion",
+          "steps": [
+            "SP2 = (720 / 90) * 115 = 920."
+          ]
+        }
+      ],
+      "exam_tip": "SP2 = SP1 * (100 + G2)/(100 - L1)."
+    }
+  },
+  {
+    "id": "MATH-PL-006",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 2,
+    "question": "A dishonest dealer claims to sell goods at cost price, but uses a false weight of 900 grams for 1 kg. What is his profit percentage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10%"
+      },
+      {
+        "id": "B",
+        "text": "11.11%"
+      },
+      {
+        "id": "C",
+        "text": "12.5%"
+      },
+      {
+        "id": "D",
+        "text": "9.09%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Profit% = (Error / False Weight) * 100 = (100 / 900) * 100 = 11.11%.",
+      "steps": [
+        "Error = 1000 - 900 = 100 g.",
+        "Profit% = 100/900 * 100 = 11.11%."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "Profit% = (100 / 900) * 100 = 11.11%."
+          ]
+        }
+      ],
+      "exam_tip": "Denominator is always the actual weight delivered."
+    }
+  },
+  {
+    "id": "MATH-PL-007",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 2,
+    "question": "If the cost price of 15 pens equals the selling price of 12 pens, find the gain percentage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "20%"
+      },
+      {
+        "id": "B",
+        "text": "25%"
+      },
+      {
+        "id": "C",
+        "text": "30%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "15 CP = 12 SP -> SP/CP = 15/12 = 5/4. Gain = 1 on 4 = 25%.",
+      "steps": [
+        "SP/CP = 5/4.",
+        "Gain% = (1/4)*100 = 25%."
+      ],
+      "methods": [
+        {
+          "name": "Formula",
+          "steps": [
+            "((15 - 12)/12) * 100 = 25%."
+          ]
+        }
+      ],
+      "exam_tip": "Formula: ((x - y)/y) * 100%."
+    }
+  },
+  {
+    "id": "MATH-PL-008",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 2,
+    "question": "A marked price of a shirt is Rs. 1,000. It is offered with two successive discounts of 10% and 20%. What is the net selling price?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 700"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 720"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 740"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 750"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Net discount = 10 + 20 - (10*20)/100 = 28%. SP = 1000 * 0.72 = Rs. 720.",
+      "steps": [
+        "Discount 1 = 100 -> 900.",
+        "Discount 2 = 20% of 900 = 180 -> 720."
+      ],
+      "methods": [
+        {
+          "name": "Successive formula",
+          "steps": [
+            "Net D% = 10 + 20 - 2 = 28% -> SP = 720."
+          ]
+        }
+      ],
+      "exam_tip": "Net discount = a + b - ab/100."
+    }
+  },
+  {
+    "id": "MATH-PL-009",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 3,
+    "question": "A person sells two watches for Rs. 1,980 each. On one he gains 10% and on the other he loses 10%. Find his overall gain or loss percentage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No profit, no loss"
+      },
+      {
+        "id": "B",
+        "text": "1% gain"
+      },
+      {
+        "id": "C",
+        "text": "1% loss"
+      },
+      {
+        "id": "D",
+        "text": "2% loss"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "When SP is same and gain% = loss% = x%, overall loss is (x/10)^2 % = (10/10)^2 = 1% loss.",
+      "steps": [
+        "Loss% = (x/10)^2 % = 1% loss."
+      ],
+      "methods": [
+        {
+          "name": "Shortcut",
+          "steps": [
+            "10^2 / 100 = 1% loss."
+          ]
+        }
+      ],
+      "exam_tip": "Always an overall loss of x^2/100%."
+    }
+  },
+  {
+    "id": "MATH-PL-010",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 3,
+    "question": "A trader marks his goods 40% above cost price and allows 25% discount. Find his profit percentage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "5%"
+      },
+      {
+        "id": "B",
+        "text": "8%"
+      },
+      {
+        "id": "C",
+        "text": "10%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Let CP = 100 -> MP = 140. Discount 25% of 140 = 35. SP = 105. Profit% = 5%.",
+      "steps": [
+        "MP = 140.",
+        "SP = 140 * 0.75 = 105.",
+        "Profit = 5%."
+      ],
+      "methods": [
+        {
+          "name": "Net Effect",
+          "steps": [
+            "40 - 25 - (40*25)/100 = 15 - 10 = 5%."
+          ]
+        }
+      ],
+      "exam_tip": "Use a - b - ab/100."
+    }
+  },
+  {
+    "id": "MATH-PL-011",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 3,
+    "question": "A man buys lemons at 6 for Rs. 10 and sells them at 4 for Rs. 9. What is his gain percentage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30%"
+      },
+      {
+        "id": "B",
+        "text": "35%"
+      },
+      {
+        "id": "C",
+        "text": "40%"
+      },
+      {
+        "id": "D",
+        "text": "45%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Take LCM of 6 and 4 = 12. CP of 12 = 20. SP of 12 = 27. Profit = 7 on 20 = 35%.",
+      "steps": [
+        "CP(12) = 20.",
+        "SP(12) = 27.",
+        "Gain% = (7/20)*100 = 35%."
+      ],
+      "methods": [
+        {
+          "name": "LCM Method",
+          "steps": [
+            "LCM(6, 4)=12 -> CP=20, SP=27 -> 35%."
+          ]
+        }
+      ],
+      "exam_tip": "Equate quantities to the LCM."
+    }
+  },
+  {
+    "id": "MATH-PL-012",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 3,
+    "question": "A merchant sells 1/3 of goods at 15% profit, 1/3 at 10% profit and rest at 5% loss. Overall profit% is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.67%"
+      },
+      {
+        "id": "B",
+        "text": "7.5%"
+      },
+      {
+        "id": "C",
+        "text": "8.33%"
+      },
+      {
+        "id": "D",
+        "text": "5%"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Average of profits: (15 + 10 - 5) / 3 = 20 / 3 = 6.67%.",
+      "steps": [
+        "P% = (15 + 10 - 5)/3 = 20/3 = 6.67%."
+      ],
+      "methods": [
+        {
+          "name": "Weighted Average",
+          "steps": [
+            "(15 + 10 - 5)/3 = 6.67%."
+          ]
+        }
+      ],
+      "exam_tip": "When fractions are equal, take arithmetic mean."
+    }
+  },
+  {
+    "id": "MATH-PL-013",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 4,
+    "question": "A shopkeeper sells an article at 12.5% loss. If he had sold it for Rs. 51.80 more, he would gain 6%. Find CP.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 260"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 280"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 300"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 320"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Total gap = 12.5% + 6% = 18.5%. 18.5% of CP = 51.80 -> CP = 51.80 / 0.185 = Rs. 280.",
+      "steps": [
+        "Gap% = 18.5%.",
+        "CP = 51.80 / 0.185 = 280."
+      ],
+      "methods": [
+        {
+          "name": "Gap Method",
+          "steps": [
+            "CP = (Diff / Total%) * 100 = (51.80 / 18.5) * 100 = 280."
+          ]
+        }
+      ],
+      "exam_tip": "Add loss% and gain% to get the difference."
+    }
+  },
+  {
+    "id": "MATH-PL-014",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 4,
+    "question": "A dealer sells at 10% profit. If he bought at 10% less and sold for Rs. 16 more, he would gain 25%. Find initial CP.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 640"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 600"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 500"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 400"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Let CP = 100 -> SP1 = 110. New CP = 90 -> SP2 = 90 * 1.25 = 112.5. Diff = 2.5 units = 16 -> 100 units = Rs. 640.",
+      "steps": [
+        "SP1 = 110x, SP2 = 112.5x.",
+        "2.5x = 16 -> 100x = 640."
+      ],
+      "methods": [
+        {
+          "name": "Unit Method",
+          "steps": [
+            "100 -> 110. 90 -> 112.5. Diff = 2.5 = 16 -> 100 = 640."
+          ]
+        }
+      ],
+      "exam_tip": "Use 100 base units for rapid solution."
+    }
+  },
+  {
+    "id": "MATH-PL-015",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 4,
+    "question": "Profit by selling for Rs. 832 equals loss by selling for Rs. 448. Selling price for 50% profit is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 920"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 940"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 960"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 980"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "CP = (832 + 448) / 2 = 640. SP for 50% profit = 640 * 1.5 = Rs. 960.",
+      "steps": [
+        "CP = (832 + 448)/2 = 640.",
+        "SP = 640 * 1.5 = 960."
+      ],
+      "methods": [
+        {
+          "name": "Midpoint Rule",
+          "steps": [
+            "CP = (SP1 + SP2)/2 = 640. 50% profit SP = 960."
+          ]
+        }
+      ],
+      "exam_tip": "When profit = loss, CP is the average of the two selling prices."
+    }
+  },
+  {
+    "id": "MATH-PL-016",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 4,
+    "question": "A trader gives 1 free article with every 4 bought and also gives 20% discount. Total discount% is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "36%"
+      },
+      {
+        "id": "B",
+        "text": "35%"
+      },
+      {
+        "id": "C",
+        "text": "33.33%"
+      },
+      {
+        "id": "D",
+        "text": "38%"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Free item discount = 1/5 = 20%. Net discount with second 20% = 20 + 20 - 4 = 36%.",
+      "steps": [
+        "D1 = 1/5 = 20%.",
+        "D2 = 20%.",
+        "Net = 20 + 20 - (20*20)/100 = 36%."
+      ],
+      "methods": [
+        {
+          "name": "Successive Discount",
+          "steps": [
+            "20 + 20 - 4 = 36%."
+          ]
+        }
+      ],
+      "exam_tip": "1 free with 4 means 1 out of 5 is free (20%)."
+    }
+  },
+  {
+    "id": "MATH-PL-017",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 5,
+    "question": "Retailer buys at 10% discount on MP of Rs. 1500 and sells to consumer at MP. Retailer's profit percentage is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "10%"
+      },
+      {
+        "id": "B",
+        "text": "11.11%"
+      },
+      {
+        "id": "C",
+        "text": "12.5%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Retailer pays 90, sells at 100. Profit = 10 on 90 = 1/9 = 11.11%.",
+      "steps": [
+        "CP = 90% of MP.",
+        "SP = 100% of MP.",
+        "Gain = 10/90 = 11.11%."
+      ],
+      "methods": [
+        {
+          "name": "Ratio Method",
+          "steps": [
+            "CP:SP = 9:10 -> Gain = 1/9 = 11.11%."
+          ]
+        }
+      ],
+      "exam_tip": "MP cancels out completely."
+    }
+  },
+  {
+    "id": "MATH-PL-018",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 5,
+    "question": "Buy 240 apples at Rs. 9/dozen. 20 apples spoil. SP per apple to earn 20% overall profit is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 0.95"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 0.98"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 1.05"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 1.10"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "CP = 20 dozen * 9 = 180. Target SP = 180 * 1.2 = 216. Usable apples = 220. Price = 216 / 220 = Rs. 0.98.",
+      "steps": [
+        "CP = 180.",
+        "SP = 216.",
+        "SP/apple = 216/220 = 0.98."
+      ],
+      "methods": [
+        {
+          "name": "Unit Calculation",
+          "steps": [
+            "216 / 220 = 0.98."
+          ]
+        }
+      ],
+      "exam_tip": "Divide total SP by non-spoiled units."
+    }
+  },
+  {
+    "id": "MATH-PL-019",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 5,
+    "question": "Article sold at 20% profit. If CP rises by Rs. 50 and SP rises by Rs. 30, profit becomes 10%. Original CP was:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 200"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 250"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 300"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 350"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "1.2x + 30 = 1.1(x + 50) -> 1.2x + 30 = 1.1x + 55 -> 0.1x = 25 -> x = Rs. 250.",
+      "steps": [
+        "1.2x + 30 = 1.1x + 55.",
+        "0.1x = 25 -> x = 250."
+      ],
+      "methods": [
+        {
+          "name": "Algebraic",
+          "steps": [
+            "0.1x = 25 -> x = 250."
+          ]
+        }
+      ],
+      "exam_tip": "Set up equality for new SP."
+    }
+  },
+  {
+    "id": "MATH-PL-020",
+    "subject": "mathematics",
+    "topic": "profit_and_loss",
+    "difficulty": 5,
+    "question": "Sold TV at 5% profit and Fridge at 10% profit for total profit Rs. 2000. If TV at 10% and Fridge at 5%, profit is Rs. 2500. Cost of TV is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 20,000"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 25,000"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 30,000"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 35,000"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Adding both gives 0.15(T+F) = 4500 -> T+F = 30000. Subtracting gives 0.05(T-F) = 500 -> T-F = 10000. T = 40000/2 = 20,000.",
+      "steps": [
+        "T + F = 30,000.",
+        "T - F = 10,000.",
+        "2T = 40,000 -> T = 20,000."
+      ],
+      "methods": [
+        {
+          "name": "Symmetric Addition",
+          "steps": [
+            "Add and subtract swapped coefficient equations."
+          ]
+        }
+      ],
+      "exam_tip": "Add and subtract to decouple variables instantly."
+    }
+  }
+]

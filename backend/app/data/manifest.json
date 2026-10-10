@@ -13,7 +13,12 @@
         "negative": 0.33,
         "time_per_q_seconds": 54
       },
-      "subjects_included": ["mathematics", "reasoning", "general_science", "indian_polity"]
+      "subjects_included": [
+        "mathematics",
+        "reasoning",
+        "general_science",
+        "indian_polity"
+      ]
     },
     {
       "id": "ssc-cgl",
@@ -23,10 +28,16 @@
       "description": "Quantitative Aptitude, General Intelligence & Reasoning, General Awareness, and English.",
       "marking_scheme": {
         "correct": 2.0,
-        "negative": 0.50,
+        "negative": 0.5,
         "time_per_q_seconds": 60
       },
-      "subjects_included": ["mathematics", "reasoning", "general_science", "indian_polity", "english"]
+      "subjects_included": [
+        "mathematics",
+        "reasoning",
+        "general_science",
+        "indian_polity",
+        "english"
+      ]
     },
     {
       "id": "rrb-group-d",
@@ -39,7 +50,12 @@
         "negative": 0.33,
         "time_per_q_seconds": 54
       },
-      "subjects_included": ["mathematics", "reasoning", "general_science", "indian_polity"]
+      "subjects_included": [
+        "mathematics",
+        "reasoning",
+        "general_science",
+        "indian_polity"
+      ]
     },
     {
       "id": "ssc-chsl",
@@ -49,10 +65,16 @@
       "description": "Quantitative Aptitude, General Intelligence, English Language, General Awareness.",
       "marking_scheme": {
         "correct": 2.0,
-        "negative": 0.50,
+        "negative": 0.5,
         "time_per_q_seconds": 60
       },
-      "subjects_included": ["mathematics", "reasoning", "general_science", "indian_polity", "english"]
+      "subjects_included": [
+        "mathematics",
+        "reasoning",
+        "general_science",
+        "indian_polity",
+        "english"
+      ]
     }
   ],
   "subjects": [
@@ -88,15 +110,46 @@
           "is_available": true,
           "question_count": 20
         },
-        {"id": "number_system", "name": "Number System", "is_available": false, "question_count": 0},
-        {"id": "simplification", "name": "Simplification & BODMAS", "is_available": false, "question_count": 0},
-        {"id": "average", "name": "Average", "is_available": false, "question_count": 0},
-        {"id": "profit_and_loss", "name": "Profit and Loss", "is_available": false, "question_count": 0},
-        {"id": "simple_compound_interest", "name": "Simple & Compound Interest", "is_available": false, "question_count": 0},
-        {"id": "time_speed_distance", "name": "Time, Speed & Distance", "is_available": false, "question_count": 0},
-        {"id": "mensuration", "name": "Mensuration", "is_available": false, "question_count": 0},
-        {"id": "algebra", "name": "Algebra", "is_available": false, "question_count": 0},
-        {"id": "data_interpretation", "name": "Data Interpretation", "is_available": false, "question_count": 0}
+        {
+          "id": "number_system",
+          "name": "Number System",
+          "description": "Divisibility rules, unit digit cyclicity, remainder theorem, factor counts, and trailing zeros.",
+          "file": "mathematics/number_system.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "average",
+          "name": "Average",
+          "description": "Arithmetic mean, cricket batting/bowling averages, age changes, replacement, and alligation.",
+          "file": "mathematics/average.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "profit_and_loss",
+          "name": "Profit and Loss",
+          "description": "CP, SP, marked price, discounts, successive discounts, and dishonest dealer tricks.",
+          "file": "mathematics/profit_and_loss.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "simple_compound_interest",
+          "name": "Simple & Compound Interest",
+          "description": "SI, CI compounding periods, CI-SI difference formulas, doubling rules, and installments.",
+          "file": "mathematics/simple_compound_interest.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "time_speed_distance",
+          "name": "Time, Speed & Distance",
+          "description": "Relative velocity, trains crossing platforms/poles, boats & streams, and races.",
+          "file": "mathematics/time_speed_distance.json",
+          "is_available": true,
+          "question_count": 20
+        }
       ]
     },
     {
@@ -131,15 +184,38 @@
           "is_available": true,
           "question_count": 20
         },
-        {"id": "analogy", "name": "Analogy", "is_available": false, "question_count": 0},
-        {"id": "classification", "name": "Classification (Odd One Out)", "is_available": false, "question_count": 0},
-        {"id": "alphabet_series", "name": "Alphabet Series", "is_available": false, "question_count": 0},
-        {"id": "coding_decoding", "name": "Coding and Decoding", "is_available": false, "question_count": 0},
-        {"id": "ranking_order", "name": "Ranking and Order", "is_available": false, "question_count": 0},
-        {"id": "syllogism", "name": "Syllogism", "is_available": false, "question_count": 0},
-        {"id": "venn_diagrams", "name": "Venn Diagrams", "is_available": false, "question_count": 0},
-        {"id": "calendar_clock", "name": "Calendar and Clock", "is_available": false, "question_count": 0},
-        {"id": "seating_arrangements", "name": "Seating Arrangements", "is_available": false, "question_count": 0}
+        {
+          "id": "analogy",
+          "name": "Analogy",
+          "description": "Word, numerical square/cube pairs, letter rank transformations, and scientific unit relations.",
+          "file": "reasoning/analogy.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "coding_decoding",
+          "name": "Coding and Decoding",
+          "description": "Alphabet position shifts, opposite letters, number codes, and fictitious word coding.",
+          "file": "reasoning/coding_decoding.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "syllogism",
+          "name": "Syllogism",
+          "description": "Venn diagram deductions, universal/particular premises, 'only a few', and possibility rules.",
+          "file": "reasoning/syllogism.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "calendar_clock",
+          "name": "Calendar and Clock",
+          "description": "Odd days calculation, day of historical dates, clock hand angles, and gains/losses.",
+          "file": "reasoning/calendar_clock.json",
+          "is_available": true,
+          "question_count": 20
+        }
       ]
     },
     {
@@ -166,10 +242,38 @@
           "is_available": true,
           "question_count": 20
         },
-        {"id": "preamble_constitution", "name": "Preamble & Making of Constitution", "is_available": false, "question_count": 0},
-        {"id": "dpsp_duties", "name": "Directive Principles & Fundamental Duties", "is_available": false, "question_count": 0},
-        {"id": "judiciary", "name": "Judiciary (Supreme Court & High Courts)", "is_available": false, "question_count": 0},
-        {"id": "panchayati_raj", "name": "Panchayati Raj & Local Government", "is_available": false, "question_count": 0}
+        {
+          "id": "preamble_constitution",
+          "name": "Preamble & Making of Constitution",
+          "description": "Constituent assembly, basic structure doctrine, key dates, borrowed features, and amendments.",
+          "file": "indian_polity/preamble_constitution.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "dpsp_duties",
+          "name": "Directive Principles & Fundamental Duties",
+          "description": "Articles 36-51, Gandhian/Socialist/Liberal principles, Art 51A duties, and Verma committee.",
+          "file": "indian_polity/dpsp_duties.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "judiciary",
+          "name": "Judiciary (Supreme Court & High Courts)",
+          "description": "Jurisdictions (Art 32, 131, 136, 142, 143), collegium system, PIL, and landmark judgments.",
+          "file": "indian_polity/judiciary.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "panchayati_raj",
+          "name": "Panchayati Raj & Local Government",
+          "description": "73rd Amendment, 11th Schedule, Gram Sabha, State Election & Finance commissions, and PESA.",
+          "file": "indian_polity/panchayati_raj.json",
+          "is_available": true,
+          "question_count": 20
+        }
       ]
     },
     {
@@ -196,8 +300,22 @@
           "is_available": true,
           "question_count": 20
         },
-        {"id": "chemistry_fundamentals", "name": "Chemistry Fundamentals", "is_available": false, "question_count": 0},
-        {"id": "environmental_science", "name": "Environment & Ecology", "is_available": false, "question_count": 0}
+        {
+          "id": "chemistry_fundamentals",
+          "name": "Chemistry Fundamentals",
+          "description": "Acids, bases, pH scale, chemical formulas of salts, metals, non-metals, alloys, and catalysts.",
+          "file": "general_science/chemistry_fundamentals.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "environmental_science",
+          "name": "Environment & Ecology",
+          "description": "Greenhouse effect, ozone depletion, trophic 10% law, Ramsar wetlands, and pollution disasters.",
+          "file": "general_science/environmental_science.json",
+          "is_available": true,
+          "question_count": 20
+        }
       ]
     },
     {
@@ -208,12 +326,38 @@
       "icon": "BookOpen",
       "color": "teal",
       "topics": [
-        {"id": "parts_of_speech", "name": "Parts of Speech", "is_available": false, "question_count": 0},
-        {"id": "tenses", "name": "Tenses", "is_available": false, "question_count": 0},
-        {"id": "error_detection", "name": "Error Detection", "is_available": false, "question_count": 0},
-        {"id": "synonyms_antonyms", "name": "Synonyms & Antonyms", "is_available": false, "question_count": 0},
-        {"id": "idioms_phrases", "name": "Idioms & Phrases", "is_available": false, "question_count": 0},
-        {"id": "one_word_substitution", "name": "One-Word Substitution", "is_available": false, "question_count": 0}
+        {
+          "id": "error_detection",
+          "name": "Error Detection",
+          "description": "Subject-verb agreement, subjunctive mood, correlative conjunctions, parallel structure, and tenses.",
+          "file": "english/error_detection.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "synonyms_antonyms",
+          "name": "Synonyms & Antonyms",
+          "description": "High-yield vocabulary pairs, contextual word meanings, and Latin/Greek root words.",
+          "file": "english/synonyms_antonyms.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "idioms_phrases",
+          "name": "Idioms & Phrases",
+          "description": "Popular classical, historical, and modern English idioms and proverb meanings.",
+          "file": "english/idioms_phrases.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "one_word_substitution",
+          "name": "One-Word Substitution",
+          "description": "Government forms (-cracy), professions, phobias, manias, and murder suffixes (-cide).",
+          "file": "english/one_word_substitution.json",
+          "is_available": true,
+          "question_count": 20
+        }
       ]
     },
     {
@@ -224,10 +368,38 @@
       "icon": "Laptop",
       "color": "indigo",
       "topics": [
-        {"id": "computer_fundamentals", "name": "Computer Fundamentals", "is_available": false, "question_count": 0},
-        {"id": "operating_systems", "name": "Operating Systems", "is_available": false, "question_count": 0},
-        {"id": "ms_office", "name": "MS Office Suite", "is_available": false, "question_count": 0},
-        {"id": "networking_cybersecurity", "name": "Networking & Cybersecurity", "is_available": false, "question_count": 0}
+        {
+          "id": "computer_fundamentals",
+          "name": "Computer Fundamentals",
+          "description": "Hardware architecture, CPU, ALU, memory hierarchy, binary conversions, and generation of computers.",
+          "file": "computer_knowledge/computer_fundamentals.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "operating_systems",
+          "name": "Operating Systems",
+          "description": "Process scheduling, virtual memory, paging, deadlocks, semaphores, and kernel architectures.",
+          "file": "computer_knowledge/operating_systems.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "ms_office",
+          "name": "MS Office Suite",
+          "description": "Word shortcuts, Excel formulas (VLOOKUP, INDEX/MATCH, Pivot Tables), and PowerPoint features.",
+          "file": "computer_knowledge/ms_office.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "networking_cybersecurity",
+          "name": "Networking & Cybersecurity",
+          "description": "OSI 7 layers, TCP/IP, DNS, IP/MAC addressing, firewalls, phishing, and cryptography.",
+          "file": "computer_knowledge/networking_cybersecurity.json",
+          "is_available": true,
+          "question_count": 20
+        }
       ]
     }
   ]
