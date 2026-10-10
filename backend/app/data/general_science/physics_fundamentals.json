@@ -1,0 +1,643 @@
+[
+  {
+    "id": "SCI-PHYS-001",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 1,
+    "question": "What is the SI unit of electric current?",
+    "options": [
+      {"id": "A", "text": "Volt"},
+      {"id": "B", "text": "Ampere"},
+      {"id": "C", "text": "Ohm"},
+      {"id": "D", "text": "Watt"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Electric current is measured in Amperes (symbol: A) in the International System of Units (SI).",
+      "steps": [
+        "Electric current = Electric charge / Time (I = Q / t).",
+        "1 Ampere = 1 Coulomb per second.",
+        "Volt is the unit of potential difference.",
+        "Ohm is the unit of electrical resistance.",
+        "Watt is the unit of electrical power."
+      ],
+      "methods": [
+        {
+          "name": "SI Base Unit Classification",
+          "steps": ["Ampere is one of the seven fundamental SI base units."]
+        }
+      ],
+      "exam_tip": "The 7 base SI units are: meter, kilogram, second, ampere, kelvin, mole, and candela.",
+      "reference": "NCERT Class 10 Physics - Electricity"
+    }
+  },
+  {
+    "id": "SCI-PHYS-002",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 1,
+    "question": "Which instrument is used to measure atmospheric pressure?",
+    "options": [
+      {"id": "A", "text": "Hygrometer"},
+      {"id": "B", "text": "Anemometer"},
+      {"id": "C", "text": "Barometer"},
+      {"id": "D", "text": "Hydrometer"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "A barometer, invented by Evangelista Torricelli, measures atmospheric pressure.",
+      "steps": [
+        "Barometer: Measures atmospheric pressure.",
+        "Hygrometer: Measures relative humidity in the air.",
+        "Anemometer: Measures wind speed and velocity.",
+        "Hydrometer: Measures relative density (specific gravity) of liquids."
+      ],
+      "methods": [
+        {
+          "name": "Scientific Instruments Matrix",
+          "steps": ["Atmospheric pressure -> Barometer (standard sea level = 760 mm of Hg)"]
+        }
+      ],
+      "exam_tip": "A sudden drop in barometric reading indicates an approaching storm or depression.",
+      "reference": "NCERT Class 9 Physics - Gravitation & Pressure"
+    }
+  },
+  {
+    "id": "SCI-PHYS-003",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 1,
+    "question": "What is the standard value of acceleration due to gravity (g) at the surface of the Earth?",
+    "options": [
+      {"id": "A", "text": "8.9 m/s²"},
+      {"id": "B", "text": "9.8 m/s²"},
+      {"id": "C", "text": "10.8 m/s²"},
+      {"id": "D", "text": "11.2 m/s²"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The average acceleration due to gravity at sea level on Earth is approximately 9.8 m/s².",
+      "steps": [
+        "g = GM / R², where G is gravitational constant, M is Earth's mass, and R is Earth's radius.",
+        "The value is approximately 9.8 m/s² (or 9.81 m/s²).",
+        "It is slightly higher at the poles (~9.83 m/s²) and lower at the equator (~9.78 m/s²) due to the oblate shape and rotation of Earth."
+      ],
+      "methods": [
+        {
+          "name": "Standard Physical Constant",
+          "steps": ["g = 9.8 m/s² on Earth's surface."]
+        }
+      ],
+      "exam_tip": "g is zero at the center of the Earth and decreases as altitude or depth increases.",
+      "reference": "NCERT Class 9 Physics - Gravitation"
+    }
+  },
+  {
+    "id": "SCI-PHYS-004",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 1,
+    "question": "A convex mirror is commonly preferred as a rear-view mirror in motor vehicles because it always forms which type of image?",
+    "options": [
+      {"id": "A", "text": "Real, inverted, and enlarged"},
+      {"id": "B", "text": "Virtual, erect, and diminished"},
+      {"id": "C", "text": "Real, inverted, and diminished"},
+      {"id": "D", "text": "Virtual, erect, and enlarged"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Convex mirrors always form virtual, erect, and diminished images, providing a wide field of view.",
+      "steps": [
+        "Because the surface curves outward, a convex mirror enables drivers to view a much larger traffic area behind them.",
+        "The image formed is always upright (erect) and smaller than the object (diminished).",
+        "The image is virtual and appears to form behind the mirror."
+      ],
+      "methods": [
+        {
+          "name": "Convex Mirror Image Properties",
+          "steps": ["Always: Virtual, Erect, Diminished (VED) regardless of object distance."]
+        }
+      ],
+      "exam_tip": "Dentists use concave mirrors (to magnify teeth), while motorists use convex mirrors (for wider field of view).",
+      "reference": "NCERT Class 10 Physics - Light: Reflection and Refraction"
+    }
+  },
+  {
+    "id": "SCI-PHYS-005",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 2,
+    "question": "Why does a straight pencil partially immersed in water appear bent at the water-air interface?",
+    "options": [
+      {"id": "A", "text": "Total Internal Reflection"},
+      {"id": "B", "text": "Refraction of light"},
+      {"id": "C", "text": "Dispersion of light"},
+      {"id": "D", "text": "Scattering of light"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Light bends when traveling across media of differing optical densities, an effect known as refraction.",
+      "steps": [
+        "Light travels slower in water (optically denser) than in air (optically rarer).",
+        "Rays emerging from the immersed portion of the pencil bend away from the normal upon exiting water into air.",
+        "The human eye traces these bent rays back linearly, creating a virtual image of the pencil tip shifted upward."
+      ],
+      "methods": [
+        {
+          "name": "Optical Phenomenon Identification",
+          "steps": ["Apparent bending at boundary of two transparent media = Refraction."]
+        }
+      ],
+      "exam_tip": "Apparent depth of a swimming pool, twinkling of stars, and bending of immersed pencils are all caused by refraction.",
+      "reference": "NCERT Class 10 Physics - Refraction of Light"
+    }
+  },
+  {
+    "id": "SCI-PHYS-006",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 2,
+    "question": "Which Law of Motion explains the backward recoil of a firearm when a bullet is shot forward?",
+    "options": [
+      {"id": "A", "text": "Newton's First Law of Motion"},
+      {"id": "B", "text": "Newton's Second Law of Motion"},
+      {"id": "C", "text": "Newton's Third Law of Motion"},
+      {"id": "D", "text": "Kepler's Second Law"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Newton's Third Law states that every action has an equal and opposite reaction.",
+      "steps": [
+        "When the gunpowder detonates, the rifle exerts a forward force on the bullet (Action).",
+        "The bullet exerts an equal and opposite backward force on the rifle (Reaction).",
+        "This equal and opposite reaction manifests as gun recoil.",
+        "This also exemplifies the Law of Conservation of Linear Momentum: m_bullet × v_bullet = - m_gun × v_recoil."
+      ],
+      "methods": [
+        {
+          "name": "Action-Reaction Principle",
+          "steps": ["Newton's 3rd Law: F_action = - F_reaction"]
+        }
+      ],
+      "exam_tip": "Rocket propulsion, rowing a boat, swimming, and gun recoil are all classic demonstrations of Newton's 3rd Law.",
+      "reference": "NCERT Class 9 Physics - Force and Laws of Motion"
+    }
+  },
+  {
+    "id": "SCI-PHYS-007",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 2,
+    "question": "Sound waves CANNOT propagate through which of the following media?",
+    "options": [
+      {"id": "A", "text": "Steel rail"},
+      {"id": "B", "text": "Pure water"},
+      {"id": "C", "text": "Air at STP"},
+      {"id": "D", "text": "Vacuum"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Sound is a mechanical wave that requires a material medium for propagation and cannot travel through a vacuum.",
+      "steps": [
+        "Sound waves travel via particle vibrations (compressions and rarefactions) in solids, liquids, and gases.",
+        "In a vacuum, there are no matter particles to transmit vibrations.",
+        "Speed of sound order: Solids > Liquids > Gases (Fastest in solids like steel ~5000 m/s; ~343 m/s in air; 0 m/s in vacuum).",
+        "Light, being an electromagnetic wave, does not require a medium and travels fastest in a vacuum."
+      ],
+      "methods": [
+        {
+          "name": "Mechanical Wave Properties",
+          "steps": ["Sound requires matter particles -> Cannot travel through vacuum."]
+        }
+      ],
+      "exam_tip": "Astronauts on the moon cannot hear each other directly because the moon has no atmosphere (vacuum)."
+    }
+  },
+  {
+    "id": "SCI-PHYS-008",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 2,
+    "question": "What type of optical lens is prescribed to correct Myopia (near-sightedness)?",
+    "options": [
+      {"id": "A", "text": "Convex lens"},
+      {"id": "B", "text": "Concave lens"},
+      {"id": "C", "text": "Cylindrical lens"},
+      {"id": "D", "text": "Bifocal lens"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A concave (diverging) lens is used to correct myopia by shifting the focal point back onto the retina.",
+      "steps": [
+        "In a myopic eye, the eyeball is too elongated or the lens curvature is too high.",
+        "Images of distant objects focus in front of the retina rather than directly on it.",
+        "A concave lens diverges incoming parallel rays slightly before entering the eye, allowing them to converge exactly on the retina."
+      ],
+      "methods": [
+        {
+          "name": "Vision Defect Mapping",
+          "steps": [
+            "Myopia (Short-sightedness) -> Concave Lens",
+            "Hypermetropia (Far-sightedness) -> Convex Lens",
+            "Presbyopia -> Bifocal Lens",
+            "Astigmatism -> Cylindrical Lens"
+          ]
+        }
+      ],
+      "exam_tip": "Remember: Myopia = Concave (cave in); Hypermetropia = Convex.",
+      "reference": "NCERT Class 10 Physics - The Human Eye and the Colourful World"
+    }
+  },
+  {
+    "id": "SCI-PHYS-009",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 3,
+    "question": "What is the approximate escape velocity required for a projectile to permanently break free from Earth's gravitational pull?",
+    "options": [
+      {"id": "A", "text": "7.9 km/s"},
+      {"id": "B", "text": "9.8 km/s"},
+      {"id": "C", "text": "11.2 km/s"},
+      {"id": "D", "text": "16.7 km/s"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The escape velocity from Earth's surface is approximately 11.2 km/s (around 40,320 km/h).",
+      "steps": [
+        "Escape velocity formula: v_e = √(2gR) = √(2GM / R).",
+        "Substituting g = 9.8 m/s² and Earth's radius R ≈ 6.4 × 10⁶ m:",
+        "v_e = √(2 × 9.8 × 6.4 × 10⁶) ≈ 11.2 × 10³ m/s = 11.2 km/s.",
+        "Orbital velocity at low Earth orbit is v_o = √(gR) ≈ 7.9 km/s.",
+        "Notice that v_e = √2 × v_o."
+      ],
+      "methods": [
+        {
+          "name": "Escape Velocity Formula",
+          "steps": ["v_e = √(2gR) = √2 × 7.9 km/s ≈ 11.2 km/s"]
+        }
+      ],
+      "exam_tip": "Escape velocity depends on the mass and radius of the planet, but is completely independent of the mass or launch angle of the projectile."
+    }
+  },
+  {
+    "id": "SCI-PHYS-010",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 3,
+    "question": "Why does the clear sky appear blue during daytime?",
+    "options": [
+      {"id": "A", "text": "Reflection of sunlight by oceans"},
+      {"id": "B", "text": "Refraction through high-altitude water droplets"},
+      {"id": "C", "text": "Rayleigh scattering of shorter blue wavelengths by gas molecules"},
+      {"id": "D", "text": "Total internal reflection across atmospheric layers"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Gas molecules scatter shorter blue wavelengths much more strongly than longer red wavelengths.",
+      "steps": [
+        "According to Lord Rayleigh's scattering law, Scattering Intensity (I) is inversely proportional to the fourth power of wavelength (I ∝ 1/λ⁴).",
+        "Blue light has a much shorter wavelength (~450 nm) than red light (~700 nm).",
+        "Therefore, blue light is scattered roughly 10 times more intensely in all directions by nitrogen and oxygen molecules in the atmosphere.",
+        "When we look up, we perceive this scattered blue light."
+      ],
+      "methods": [
+        {
+          "name": "Rayleigh Scattering Law",
+          "steps": ["I ∝ 1/λ⁴ -> Shorter wavelength (blue) scatters most."]
+        }
+      ],
+      "exam_tip": "At sunrise and sunset, sunlight travels through maximum atmospheric thickness; blue is scattered away, leaving the longer red wavelengths to reach our eyes.",
+      "reference": "NCERT Class 10 Physics - Atmospheric Refraction and Scattering"
+    }
+  },
+  {
+    "id": "SCI-PHYS-011",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 3,
+    "question": "An electric heating appliance is rated at 1,000 W and operates on a 220 V household power supply. What is the approximate electrical resistance of its heating element?",
+    "options": [
+      {"id": "A", "text": "22.0 Ω"},
+      {"id": "B", "text": "44.0 Ω"},
+      {"id": "C", "text": "48.4 Ω"},
+      {"id": "D", "text": "52.8 Ω"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Electric power relates to voltage and resistance by P = V² / R.",
+      "steps": [
+        "P = V² / R => R = V² / P.",
+        "Given V = 220 V and P = 1,000 W.",
+        "R = (220)² / 1000 = 48,400 / 1000 = 48.4 Ω."
+      ],
+      "methods": [
+        {
+          "name": "Power Formula Derivation",
+          "steps": [
+            "R = V² / P",
+            "R = (220 × 220) / 1000 = 48.4 Ω"
+          ]
+        }
+      ],
+      "exam_tip": "Remember: 22² = 484, so 220² / 1000 = 48.4 Ω immediately."
+    }
+  },
+  {
+    "id": "SCI-PHYS-012",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 3,
+    "question": "Which optical phenomenon is responsible for the transmission of light signals through fiber optic cables and the intense sparkle of a cut diamond?",
+    "options": [
+      {"id": "A", "text": "Diffraction"},
+      {"id": "B", "text": "Interference"},
+      {"id": "C", "text": "Total Internal Reflection (TIR)"},
+      {"id": "D", "text": "Polarization"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Total Internal Reflection (TIR) traps light entirely within an optical medium without loss.",
+      "steps": [
+        "TIR occurs under two mandatory conditions:",
+        "1. Light must travel from an optically denser medium to a rarer medium.",
+        "2. The angle of incidence must exceed the critical angle of the interface.",
+        "In optical fibers, light enters the core and undergoes repeated total internal reflections along the boundary with the cladding.",
+        "In diamonds, a very low critical angle (~24.4°) causes light to bounce multiple times internally before escaping."
+      ],
+      "methods": [
+        {
+          "name": "TIR Conditions and Applications",
+          "steps": [
+            "Conditions: Denser to rarer medium + angle > critical angle",
+            "Applications: Optical fibers, Endoscopes, Mirage, Diamond sparkle"
+          ]
+        }
+      ],
+      "exam_tip": "Mirage in deserts, sparkle of diamonds, and high-speed broadband in optical fibers all depend on Total Internal Reflection.",
+      "reference": "NCERT Class 10 Physics - Light Reflection and Refraction"
+    }
+  },
+  {
+    "id": "SCI-PHYS-013",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 4,
+    "question": "A stone is thrown vertically upwards with an initial velocity of 20 m/s. Taking g = 10 m/s², what is the maximum height attained by the stone?",
+    "options": [
+      {"id": "A", "text": "10 meters"},
+      {"id": "B", "text": "15 meters"},
+      {"id": "C", "text": "20 meters"},
+      {"id": "D", "text": "25 meters"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "At maximum height, final vertical velocity v = 0.",
+      "steps": [
+        "Use the third equation of motion: v² = u² - 2gh.",
+        "Here u = 20 m/s, v = 0 m/s, g = 10 m/s².",
+        "0 = (20)² - 2(10)h.",
+        "0 = 400 - 20h => 20h = 400 => h = 20 meters."
+      ],
+      "methods": [
+        {
+          "name": "Kinematic Formula",
+          "steps": ["h_max = u² / (2g) = 400 / 20 = 20 meters"]
+        },
+        {
+          "name": "Conservation of Energy",
+          "steps": ["1/2 m u² = m g h => h = u² / 2g = 400 / 20 = 20 meters"]
+        }
+      ],
+      "exam_tip": "The formula h_max = u² / (2g) works for all vertical throws under constant gravity."
+    }
+  },
+  {
+    "id": "SCI-PHYS-014",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 4,
+    "question": "Two resistors of 6 Ω and 12 Ω are connected in parallel, and this combination is connected in series with a 4 Ω resistor. What is the equivalent resistance of the entire circuit?",
+    "options": [
+      {"id": "A", "text": "6 Ω"},
+      {"id": "B", "text": "8 Ω"},
+      {"id": "C", "text": "10 Ω"},
+      {"id": "D", "text": "12 Ω"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Calculate parallel resistance first, then sum with the series resistor.",
+      "steps": [
+        "For 6 Ω and 12 Ω in parallel: R_parallel = (6 × 12) / (6 + 12) = 72 / 18 = 4 Ω.",
+        "This combination is in series with the 4 Ω resistor.",
+        "R_equivalent = R_parallel + R_series = 4 Ω + 4 Ω = 8 Ω."
+      ],
+      "methods": [
+        {
+          "name": "Compound Resistance Reduction",
+          "steps": [
+            "Step 1: 1/R_p = 1/6 + 1/12 = 3/12 = 1/4 => R_p = 4 Ω",
+            "Step 2: R_total = 4 + 4 = 8 Ω"
+          ]
+        }
+      ],
+      "exam_tip": "Product divided by sum is the fastest way to calculate two parallel resistors: (6 × 12)/(6 + 12) = 4."
+    }
+  },
+  {
+    "id": "SCI-PHYS-015",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 4,
+    "question": "According to Newton's Law of Universal Gravitation, if the distance between two point masses is doubled, what happens to the gravitational force between them?",
+    "options": [
+      {"id": "A", "text": "It doubles"},
+      {"id": "B", "text": "It halves"},
+      {"id": "C", "text": "It decreases to one-fourth of its initial value"},
+      {"id": "D", "text": "It remains unchanged"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Gravitational force obeys the inverse-square law with respect to distance.",
+      "steps": [
+        "F = G (m1 × m2) / r².",
+        "If distance r is replaced by 2r: F_new = G (m1 × m2) / (2r)² = F / 4.",
+        "The force drops to 1/4th (25%) of its original magnitude."
+      ],
+      "methods": [
+        {
+          "name": "Inverse-Square Law",
+          "steps": ["F ∝ 1/r² => doubling distance reduces force by a factor of 2² = 4."]
+        }
+      ],
+      "exam_tip": "Coulomb's Law of Electrostatics and Newton's Gravitation both follow the inverse-square law."
+    }
+  },
+  {
+    "id": "SCI-PHYS-016",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 4,
+    "question": "Why does water boil at a temperature lower than 100°C at high altitudes (such as on mountain peaks)?",
+    "options": [
+      {"id": "A", "text": "The ambient temperature is lower"},
+      {"id": "B", "text": "The atmospheric pressure is lower"},
+      {"id": "C", "text": "The oxygen concentration is reduced"},
+      {"id": "D", "text": "The gravitational force is weaker"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Boiling occurs when vapor pressure equals external atmospheric pressure; lower pressure means lower boiling point.",
+      "steps": [
+        "At sea level, atmospheric pressure is 1 atmosphere (760 mmHg), where water boils at 100°C.",
+        "At high altitudes, atmospheric pressure is significantly lower.",
+        "Consequently, water's vapor pressure matches the ambient pressure at a lower temperature (e.g. ~92°C at 2,400 meters).",
+        "Because water boils at a lower temperature, cooking food takes longer without a pressure cooker."
+      ],
+      "methods": [
+        {
+          "name": "Vapor-Pressure Equilibrium",
+          "steps": ["Lower external atmospheric pressure -> Lower saturation boiling point."]
+        }
+      ],
+      "exam_tip": "A pressure cooker raises boiling point above 100°C by increasing internal pressure, which is why it cooks food much faster."
+    }
+  },
+  {
+    "id": "SCI-PHYS-017",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 5,
+    "question": "A hydraulic lift, vehicle brake system, and hydraulic press operate based on which fundamental principle of fluid mechanics?",
+    "options": [
+      {"id": "A", "text": "Archimedes' Principle"},
+      {"id": "B", "text": "Bernoulli's Principle"},
+      {"id": "C", "text": "Pascal's Law"},
+      {"id": "D", "text": "Torricelli's Law"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Pascal's Law states that pressure exerted on an enclosed incompressible fluid is transmitted equally in all directions.",
+      "steps": [
+        "Pascal's Law: ΔP = F1 / A1 = F2 / A2.",
+        "Applying a small force F1 on a small piston area A1 produces a vastly larger force F2 on a large piston area A2: F2 = F1 × (A2 / A1).",
+        "Archimedes' Principle explains buoyant force and floating bodies.",
+        "Bernoulli's Principle explains lift in airplane wings and carburetors.",
+        "Torricelli's Law determines fluid efflux velocity from an orifice."
+      ],
+      "methods": [
+        {
+          "name": "Fluid Mechanics Principles",
+          "steps": [
+            "Pascal's Law = Hydraulic systems / Force multiplication",
+            "Archimedes' Principle = Buoyancy / Flotation",
+            "Bernoulli's Principle = Aerodynamic lift / Flow dynamics"
+          ]
+        }
+      ],
+      "exam_tip": "Whenever you see 'hydraulic' (press, lift, brakes), the answer is almost always Pascal's Law."
+    }
+  },
+  {
+    "id": "SCI-PHYS-018",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 5,
+    "question": "A car of mass 1,000 kg traveling at 20 m/s is brought to a complete stop over a braking distance of 50 meters. What is the magnitude of the average braking force exerted?",
+    "options": [
+      {"id": "A", "text": "2,000 N"},
+      {"id": "B", "text": "4,000 N"},
+      {"id": "C", "text": "5,000 N"},
+      {"id": "D", "text": "8,000 N"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Work done by the braking force equals the initial kinetic energy of the car.",
+      "steps": [
+        "Work-Energy Theorem: Work = Force × Distance = Initial Kinetic Energy.",
+        "Kinetic Energy = 1/2 m v² = 1/2 × 1,000 × (20)² = 500 × 400 = 200,000 Joules.",
+        "F × d = 200,000 J.",
+        "F × 50 = 200,000 => F = 200,000 / 50 = 4,000 N (4 kN)."
+      ],
+      "methods": [
+        {
+          "name": "Work-Energy Theorem",
+          "steps": [
+            "F × s = 1/2 m v²",
+            "F × 50 = 1/2(1000)(400) = 200,000",
+            "F = 4,000 N"
+          ]
+        },
+        {
+          "name": "Kinematic Newton's Law",
+          "steps": [
+            "v² = u² + 2as => 0 = 400 + 2a(50) => a = -4 m/s²",
+            "F = m × |a| = 1000 × 4 = 4,000 N"
+          ]
+        }
+      ],
+      "exam_tip": "The Work-Energy theorem solves stopping-distance physics problems faster than equations of motion."
+    }
+  },
+  {
+    "id": "SCI-PHYS-019",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 5,
+    "question": "Which acoustic/wave phenomenon causes the pitch of an approaching train whistle or emergency siren to sound higher and then drop lower as it moves away?",
+    "options": [
+      {"id": "A", "text": "Raman Effect"},
+      {"id": "B", "text": "Doppler Effect"},
+      {"id": "C", "text": "Compton Effect"},
+      {"id": "D", "text": "Zeeman Effect"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The Doppler Effect describes the apparent change in wave frequency resulting from relative motion between source and observer.",
+      "steps": [
+        "When the source approaches, successive wave crests reach the observer closer together, resulting in a higher apparent frequency (higher pitch).",
+        "When the source recedes, wave crests are stretched apart, producing a lower apparent frequency (lower pitch).",
+        "The Doppler Effect applies to all waves, including sound and light (Redshift and Blueshift in astronomy)."
+      ],
+      "methods": [
+        {
+          "name": "Wave Frequency Shift",
+          "steps": ["Relative motion -> Apparent frequency shift = Doppler Effect."]
+        }
+      ],
+      "exam_tip": "Astronomical redshift, police speed radars, and medical echocardiography all rely on the Doppler Effect."
+    }
+  },
+  {
+    "id": "SCI-PHYS-020",
+    "subject": "general_science",
+    "topic": "physics_fundamentals",
+    "difficulty": 5,
+    "question": "When a particle moves in a horizontal circular path at uniform constant speed, which of the following physical quantities remains strictly CONSTANT?",
+    "options": [
+      {"id": "A", "text": "Velocity"},
+      {"id": "B", "text": "Linear Momentum"},
+      {"id": "C", "text": "Acceleration"},
+      {"id": "D", "text": "Kinetic Energy"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Kinetic energy is a scalar quantity dependent only on speed and mass, both of which are constant in uniform circular motion.",
+      "steps": [
+        "In uniform circular motion, speed (magnitude of velocity) is constant.",
+        "However, direction of motion changes continuously at every point along the circle.",
+        "Because velocity, linear momentum (p = mv), and centripetal acceleration are vectors, their continuous directional change means they are NOT constant.",
+        "Kinetic energy (KE = 1/2 m v²) is purely scalar and depends only on speed magnitude, remaining strictly constant."
+      ],
+      "methods": [
+        {
+          "name": "Scalar vs Vector Distinctions",
+          "steps": [
+            "Vector quantities (Velocity, Momentum, Acceleration): Change due to continuous direction change.",
+            "Scalar quantities (Speed, Kinetic Energy): Remain constant."
+          ]
+        }
+      ],
+      "exam_tip": "Beware of vector versus scalar traps: speed is constant, but velocity is constantly changing!"
+    }
+  }
+]

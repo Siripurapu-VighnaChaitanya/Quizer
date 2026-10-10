@@ -1,0 +1,717 @@
+[
+  {
+    "id": "MATH-RATIO-001",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 1,
+    "question": "If A : B = 2 : 3 and B : C = 4 : 5, find the compound ratio A : B : C.",
+    "options": [
+      {"id": "A", "text": "6 : 8 : 10"},
+      {"id": "B", "text": "8 : 12 : 15"},
+      {"id": "C", "text": "8 : 10 : 15"},
+      {"id": "D", "text": "4 : 6 : 15"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Make the common term B equal in both ratios by taking the LCM of its coefficients.",
+      "steps": [
+        "In A : B = 2 : 3, B is 3.",
+        "In B : C = 4 : 5, B is 4.",
+        "LCM of 3 and 4 is 12.",
+        "Multiply A : B by 4 => 8 : 12.",
+        "Multiply B : C by 3 => 12 : 15.",
+        "Combine: A : B : C = 8 : 12 : 15."
+      ],
+      "methods": [
+        {
+          "name": "N-Pattern Cross Multiplication",
+          "steps": [
+            "A = 2 × 4 = 8",
+            "B = 3 × 4 = 12",
+            "C = 3 × 5 = 15",
+            "A : B : C = 8 : 12 : 15"
+          ]
+        }
+      ],
+      "exam_tip": "The standard shortcut: A = A1 × B2, B = B1 × B2, C = B1 × C2."
+    }
+  },
+  {
+    "id": "MATH-RATIO-002",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 1,
+    "question": "Find the fourth proportional to the numbers 4, 9, and 12.",
+    "options": [
+      {"id": "A", "text": "24"},
+      {"id": "B", "text": "27"},
+      {"id": "C", "text": "30"},
+      {"id": "D", "text": "36"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "If a, b, c, d are in proportion, then a/b = c/d, so d = (b × c) / a.",
+      "steps": [
+        "Given a = 4, b = 9, c = 12.",
+        "Let the fourth proportional be x.",
+        "4 / 9 = 12 / x => 4x = 9 × 12 = 108 => x = 27."
+      ],
+      "methods": [
+        {
+          "name": "Direct Formula",
+          "steps": ["Fourth proportional = (Second × Third) / First = (9 × 12) / 4 = 27"]
+        }
+      ],
+      "exam_tip": "Product of extremes equals product of means: 4 × x = 9 × 12."
+    }
+  },
+  {
+    "id": "MATH-RATIO-003",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 1,
+    "question": "What is the mean proportional between 9 and 16?",
+    "options": [
+      {"id": "A", "text": "10"},
+      {"id": "B", "text": "12"},
+      {"id": "C", "text": "14"},
+      {"id": "D", "text": "15"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The mean proportional between two numbers a and b is √(a × b).",
+      "steps": [
+        "Mean proportional = √(9 × 16).",
+        "√(144) = 12."
+      ],
+      "methods": [
+        {
+          "name": "Square Root Formula",
+          "steps": ["Mean Proportional = √(9 × 16) = 3 × 4 = 12"]
+        }
+      ],
+      "exam_tip": "Extract individual square roots before multiplying: √9 = 3 and √16 = 4, so 3 × 4 = 12."
+    }
+  },
+  {
+    "id": "MATH-RATIO-004",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 1,
+    "question": "A sum of Rs. 1,200 is divided between A and B in the ratio 3 : 5. What is B's share?",
+    "options": [
+      {"id": "A", "text": "Rs. 650"},
+      {"id": "B", "text": "Rs. 700"},
+      {"id": "C", "text": "Rs. 750"},
+      {"id": "D", "text": "Rs. 800"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Calculate total ratio parts and find the value corresponding to B's share.",
+      "steps": [
+        "Total ratio units = 3 + 5 = 8 units.",
+        "Value of 1 unit = 1,200 ÷ 8 = 150.",
+        "B's share = 5 units = 5 × 150 = Rs. 750."
+      ],
+      "methods": [
+        {
+          "name": "Fractional Share",
+          "steps": ["B's share = (5 / 8) × 1200 = 5 × 150 = Rs. 750"]
+        }
+      ],
+      "exam_tip": "Divide total amount by sum of ratio terms, then multiply by the required person's ratio."
+    }
+  },
+  {
+    "id": "MATH-RATIO-005",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 2,
+    "question": "Two numbers are in the ratio 7 : 11. If 7 is added to each number, the ratio becomes 2 : 3. Find the smaller number.",
+    "options": [
+      {"id": "A", "text": "35"},
+      {"id": "B", "text": "42"},
+      {"id": "C", "text": "49"},
+      {"id": "D", "text": "77"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Set up an equation with a common multiplier x.",
+      "steps": [
+        "Let the numbers be 7x and 11x.",
+        "(7x + 7) / (11x + 7) = 2 / 3.",
+        "Cross-multiply: 3(7x + 7) = 2(11x + 7).",
+        "21x + 21 = 22x + 14.",
+        "x = 21 - 14 = 7.",
+        "Smaller number = 7x = 7 × 7 = 49."
+      ],
+      "methods": [
+        {
+          "name": "Cross Multiplication Method",
+          "steps": [
+            "(7x + 7) / (11x + 7) = 2 / 3",
+            "22x - 21x = 21 - 14",
+            "x = 7",
+            "Smaller number = 7 × 7 = 49"
+          ]
+        }
+      ],
+      "exam_tip": "Notice that the smaller number must be a multiple of 7. Only 35, 42, 49, and 77 qualify, and testing x=7 verifies instantly."
+    }
+  },
+  {
+    "id": "MATH-RATIO-006",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 2,
+    "question": "A bag contains 50 paise, 25 paise, and 10 paise coins in the ratio 5 : 9 : 4, amounting to Rs. 206 in total. How many 50 paise coins are in the bag?",
+    "options": [
+      {"id": "A", "text": "180"},
+      {"id": "B", "text": "200"},
+      {"id": "C", "text": "220"},
+      {"id": "D", "text": "240"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Multiply coin count ratios by their respective Rupee denominations to find total value per unit.",
+      "steps": [
+        "Let the coin counts be 5x, 9x, and 4x.",
+        "Value of 50p coins = 5x × 0.50 = Rs. 2.50x.",
+        "Value of 25p coins = 9x × 0.25 = Rs. 2.25x.",
+        "Value of 10p coins = 4x × 0.10 = Rs. 0.40x.",
+        "Total value = (2.50 + 2.25 + 0.40)x = 5.15x.",
+        "5.15x = 206 => x = 206 / 5.15 = 40.",
+        "Number of 50p coins = 5x = 5 × 40 = 200."
+      ],
+      "methods": [
+        {
+          "name": "Rupee Value Unit",
+          "steps": [
+            "Per unit bundle = 5(0.50) + 9(0.25) + 4(0.10) = Rs. 5.15",
+            "Number of bundles = 206 / 5.15 = 40",
+            "50p coins = 5 × 40 = 200"
+          ]
+        }
+      ],
+      "exam_tip": "Always convert coin values into a common currency unit (either entirely in Rupees or entirely in paise)."
+    }
+  },
+  {
+    "id": "MATH-RATIO-007",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 2,
+    "question": "If (a + b) : (a - b) = 7 : 3, what is the value of the ratio a : b?",
+    "options": [
+      {"id": "A", "text": "4 : 3"},
+      {"id": "B", "text": "5 : 2"},
+      {"id": "C", "text": "7 : 3"},
+      {"id": "D", "text": "10 : 3"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Apply Componendo and Dividendo directly.",
+      "steps": [
+        "Given (a + b) / (a - b) = 7 / 3.",
+        "Applying Componendo and Dividendo: [(a + b) + (a - b)] / [(a + b) - (a - b)] = (7 + 3) / (7 - 3).",
+        "2a / 2b = 10 / 4.",
+        "a / b = 5 / 2, so a : b = 5 : 2."
+      ],
+      "methods": [
+        {
+          "name": "Componendo & Dividendo",
+          "steps": ["a/b = (7 + 3) / (7 - 3) = 10 / 4 = 5 / 2"]
+        },
+        {
+          "name": "Cross Multiplication",
+          "steps": ["3(a + b) = 7(a - b)", "3a + 3b = 7a - 7b", "4a = 10b => a/b = 10/4 = 5/2"]
+        }
+      ],
+      "exam_tip": "When given (a+b)/(a-b) = m/n, directly evaluate a/b = (m+n)/(m-n)."
+    }
+  },
+  {
+    "id": "MATH-RATIO-008",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 2,
+    "question": "The ratio of boys to girls in a college is 5 : 3. If 50 boys leave and 50 girls join the college, the new ratio becomes 9 : 7. What was the total number of students initially?",
+    "options": [
+      {"id": "A", "text": "600"},
+      {"id": "B", "text": "720"},
+      {"id": "C", "text": "800"},
+      {"id": "D", "text": "960"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Notice that since 50 left and 50 joined, the total number of students remains constant.",
+      "steps": [
+        "Let boys = 5x and girls = 3x. Initial total = 8x.",
+        "(5x - 50) / (3x + 50) = 9 / 7.",
+        "7(5x - 50) = 9(3x + 50).",
+        "35x - 350 = 27x + 450.",
+        "8x = 800 => x = 100.",
+        "Initial total students = 8x = 800."
+      ],
+      "methods": [
+        {
+          "name": "Total Invariance",
+          "steps": [
+            "Initial total units = 5 + 3 = 8",
+            "New total units = 9 + 7 = 16",
+            "Scale initial ratio by 2: 10 : 6 (total 16)",
+            "Boys change from 10 to 9 (drop of 1 unit)",
+            "1 unit = 50 students",
+            "Total = 16 units = 16 × 50 = 800 students"
+          ]
+        }
+      ],
+      "exam_tip": "Equalizing total units (LCM of 8 and 16 is 16) allows solving this question without any algebraic equations."
+    }
+  },
+  {
+    "id": "MATH-RATIO-009",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 3,
+    "question": "In a mixture of 45 liters, the ratio of milk to water is 4 : 1. How many liters of water must be added to make the ratio of milk to water 3 : 2?",
+    "options": [
+      {"id": "A", "text": "10 liters"},
+      {"id": "B", "text": "12 liters"},
+      {"id": "C", "text": "15 liters"},
+      {"id": "D", "text": "18 liters"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Milk volume remains constant because only water is being added.",
+      "steps": [
+        "In 45 liters: Total parts = 4 + 1 = 5 parts.",
+        "Milk = (4/5) × 45 = 36 liters; Water = (1/5) × 45 = 9 liters.",
+        "In the new mixture, Milk : Water = 3 : 2.",
+        "Since milk remains 36 liters: 3 parts = 36 liters => 1 part = 12 liters.",
+        "Required water = 2 parts = 2 × 12 = 24 liters.",
+        "Water to be added = 24 - 9 = 15 liters."
+      ],
+      "methods": [
+        {
+          "name": "Milk Constant Method",
+          "steps": [
+            "Milk = 36 L, Water = 9 L",
+            "New ratio Milk:Water = 3:2",
+            "3 units = 36 => 2 units = 24 L",
+            "Water added = 24 - 9 = 15 L"
+          ]
+        }
+      ],
+      "exam_tip": "Keep the quantity that remains unchanged as your pivot to find the new unit value immediately."
+    }
+  },
+  {
+    "id": "MATH-RATIO-010",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 3,
+    "question": "The monthly incomes of A and B are in the ratio 3 : 2 and their monthly expenditures are in the ratio 5 : 3. If each saves Rs. 1,000 per month, what is A's monthly income?",
+    "options": [
+      {"id": "A", "text": "Rs. 4,000"},
+      {"id": "B", "text": "Rs. 5,000"},
+      {"id": "C", "text": "Rs. 6,000"},
+      {"id": "D", "text": "Rs. 8,000"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Income minus savings equals expenditure.",
+      "steps": [
+        "Let incomes be 3x and 2x.",
+        "(3x - 1,000) / (2x - 1,000) = 5 / 3.",
+        "3(3x - 1,000) = 5(2x - 1,000).",
+        "9x - 3,000 = 10x - 5,000.",
+        "x = 2,000.",
+        "A's income = 3x = 3 × 2,000 = Rs. 6,000."
+      ],
+      "methods": [
+        {
+          "name": "Cross Product Method",
+          "steps": [
+            "Incomes: 3 : 2, Expenditures: 5 : 3, Savings: 1000 : 1000",
+            "Difference in cross products of ratios: (3 × 3) - (2 × 5) = 1 unit",
+            "Difference in cross products with savings: (5 × 1000) - (3 × 1000) = 2000",
+            "1 unit = 2000 => A's income = 3 × 2000 = Rs. 6000"
+          ]
+        }
+      ],
+      "exam_tip": "Cross product technique solves all income-expenditure-savings questions without writing quadratic or linear systems."
+    }
+  },
+  {
+    "id": "MATH-RATIO-011",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 3,
+    "question": "If A : B = 1/2 : 3/8, B : C = 1/3 : 5/9, and C : D = 5/6 : 3/4, find the compound ratio A : B : C : D.",
+    "options": [
+      {"id": "A", "text": "4 : 3 : 5 : 6"},
+      {"id": "B", "text": "8 : 6 : 10 : 9"},
+      {"id": "C", "text": "6 : 8 : 9 : 10"},
+      {"id": "D", "text": "8 : 6 : 9 : 10"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Simplify fractional ratios into integers first, then link them sequentially.",
+      "steps": [
+        "A : B = (1/2) : (3/8) = (1/2 × 8) : (3/8 × 8) = 4 : 3.",
+        "B : C = (1/3) : (5/9) = (1/3 × 9) : (5/9 × 9) = 3 : 5.",
+        "C : D = (5/6) : (3/4) = (5/6 × 12) : (3/4 × 12) = 10 : 9.",
+        "From A:B and B:C, since B is 3 in both: A : B : C = 4 : 3 : 5.",
+        "Now compare C (5) with C in C:D (10). Double the A:B:C ratio: A : B : C = 8 : 6 : 10.",
+        "Now C matches 10, so A : B : C : D = 8 : 6 : 10 : 9."
+      ],
+      "methods": [
+        {
+          "name": "Standard Chaining",
+          "steps": [
+            "A:B = 4:3",
+            "B:C = 3:5 => A:B:C = 4:3:5",
+            "C:D = 10:9 => Multiply A:B:C by 2 => 8:6:10:9"
+          ]
+        }
+      ],
+      "exam_tip": "Always clear fractional denominators by multiplying each ratio by the LCM of its denominators before linking."
+    }
+  },
+  {
+    "id": "MATH-RATIO-012",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 3,
+    "question": "A sum of Rs. 6,500 is divided among A, B, C, and D such that A's share / B's share = B's share / C's share = C's share / D's share = 2 / 3. What is B's share?",
+    "options": [
+      {"id": "A", "text": "Rs. 800"},
+      {"id": "B", "text": "Rs. 1,200"},
+      {"id": "C", "text": "Rs. 1,800"},
+      {"id": "D", "text": "Rs. 2,700"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Express the continuous proportional relationship across four individuals.",
+      "steps": [
+        "A : B = 2 : 3, B : C = 2 : 3, C : D = 2 : 3.",
+        "A : B : C : D = 2³ : (2² × 3) : (2 × 3²) : 3³.",
+        "A : B : C : D = 8 : 12 : 18 : 27.",
+        "Sum of ratio units = 8 + 12 + 18 + 27 = 65 units.",
+        "Value of 1 unit = 6,500 ÷ 65 = Rs. 100.",
+        "B's share = 12 units = 12 × 100 = Rs. 1,200."
+      ],
+      "methods": [
+        {
+          "name": "Continued Geometric Ratio",
+          "steps": [
+            "A = 2³ = 8, B = 2² × 3 = 12, C = 2 × 3² = 18, D = 3³ = 27",
+            "Sum = 65 parts = 6,500",
+            "B = 12 × 100 = Rs. 1,200"
+          ]
+        }
+      ],
+      "exam_tip": "For equal ratio steps a/b = b/c = c/d = p/q, the terms are p³, p²q, pq², q³."
+    }
+  },
+  {
+    "id": "MATH-RATIO-013",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 4,
+    "question": "Two vessels A and B contain mixtures of milk and water in the ratios 7 : 5 and 17 : 7 respectively. In what ratio should the mixtures from A and B be combined so that the resulting mixture contains milk and water in the ratio 5 : 3?",
+    "options": [
+      {"id": "A", "text": "1 : 2"},
+      {"id": "B", "text": "2 : 1"},
+      {"id": "C", "text": "3 : 2"},
+      {"id": "D", "text": "4 : 3"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Apply the rule of alligation using the fraction of milk in each vessel.",
+      "steps": [
+        "Fraction of milk in Vessel A = 7 / (7 + 5) = 7/12.",
+        "Fraction of milk in Vessel B = 17 / (17 + 7) = 17/24.",
+        "Target fraction of milk = 5 / (5 + 3) = 5/8.",
+        "Convert to common denominator 24: A = 14/24, B = 17/24, Target = 15/24.",
+        "By Alligation:",
+        "Quantity A : Quantity B = (17/24 - 15/24) : (15/24 - 14/24) = 2/24 : 1/24 = 2 : 1."
+      ],
+      "methods": [
+        {
+          "name": "Alligation on Milk Proportion",
+          "steps": [
+            "Vessel A: 14/24",
+            "Vessel B: 17/24",
+            "Target: 15/24",
+            "Ratio A : B = (17 - 15) : (15 - 14) = 2 : 1"
+          ]
+        }
+      ],
+      "exam_tip": "Convert all fractions to a common denominator to subtract integers directly."
+    }
+  },
+  {
+    "id": "MATH-RATIO-014",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 4,
+    "question": "A diamond fell and broke into three pieces whose weights are in the ratio 1 : 2 : 3. The value of the diamond is directly proportional to the square of its weight. If the total loss in value due to breakage is Rs. 44,000, find the original value of the diamond.",
+    "options": [
+      {"id": "A", "text": "Rs. 60,000"},
+      {"id": "B", "text": "Rs. 66,000"},
+      {"id": "C", "text": "Rs. 72,000"},
+      {"id": "D", "text": "Rs. 84,000"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Original weight is the sum of piece weights; value is proportional to the square of weight.",
+      "steps": [
+        "Original weight = 1 + 2 + 3 = 6 units.",
+        "Original value ∝ (6)² = 36 units.",
+        "New value ∝ (1)² + (2)² + (3)² = 1 + 4 + 9 = 14 units.",
+        "Loss in value = 36 - 14 = 22 units.",
+        "22 units = Rs. 44,000 => 1 unit = Rs. 2,000.",
+        "Original value = 36 units = 36 × 2,000 = Rs. 72,000."
+      ],
+      "methods": [
+        {
+          "name": "Weight Squared Valuation",
+          "steps": [
+            "Initial Value = (1+2+3)² = 36",
+            "Broken Value = 1² + 2² + 3² = 14",
+            "Loss = 36 - 14 = 22",
+            "22 units = 44,000 => 1 unit = 2,000",
+            "Original Value = 36 × 2,000 = Rs. 72,000"
+          ]
+        }
+      ],
+      "exam_tip": "Loss is always (Sum of weights)² - (Sum of individual weight squares)."
+    }
+  },
+  {
+    "id": "MATH-RATIO-015",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 4,
+    "question": "The ratio of the number of students in three classes A, B, and C is 2 : 3 : 5. If 20 students are admitted into each class, the ratio changes to 4 : 5 : 7. What was the total number of students in all three classes originally?",
+    "options": [
+      {"id": "A", "text": "80"},
+      {"id": "B", "text": "100"},
+      {"id": "C", "text": "120"},
+      {"id": "D", "text": "150"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Check the change in ratio units across all three classes.",
+      "steps": [
+        "Initial ratio: 2 : 3 : 5.",
+        "New ratio: 4 : 5 : 7.",
+        "Increase in each class in ratio units: 4 - 2 = 2; 5 - 3 = 2; 7 - 5 = 2 units.",
+        "Since each class increased by 20 students: 2 units = 20 students => 1 unit = 10 students.",
+        "Original total students = (2 + 3 + 5) units = 10 units.",
+        "Total = 10 × 10 = 100 students."
+      ],
+      "methods": [
+        {
+          "name": "Uniform Unit Difference",
+          "steps": [
+            "Ratio change for each class = 2 units",
+            "2 units = 20 => 1 unit = 10",
+            "Original sum = (2 + 3 + 5) = 10 units = 100 students"
+          ]
+        }
+      ],
+      "exam_tip": "When the added number is identical and the difference in ratio units is identical, equate the difference directly."
+    }
+  },
+  {
+    "id": "MATH-RATIO-016",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 4,
+    "question": "The monthly incomes of X and Y are in the ratio 5 : 3, and their monthly expenditures are in the ratio 9 : 5. If X saves Rs. 2,600 and Y saves Rs. 1,800 at the end of the month, find X's monthly income.",
+    "options": [
+      {"id": "A", "text": "Rs. 6,400"},
+      {"id": "B", "text": "Rs. 8,000"},
+      {"id": "C", "text": "Rs. 9,600"},
+      {"id": "D", "text": "Rs. 10,000"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Expenditure equals Income minus Savings.",
+      "steps": [
+        "Let incomes be 5x and 3x.",
+        "(5x - 2,600) / (3x - 1,800) = 9 / 5.",
+        "5(5x - 2,600) = 9(3x - 1,800).",
+        "25x - 13,000 = 27x - 16,200.",
+        "27x - 25x = 16,200 - 13,000.",
+        "2x = 3,200 => x = 1,600.",
+        "X's income = 5x = 5 × 1,600 = Rs. 8,000."
+      ],
+      "methods": [
+        {
+          "name": "Cross Product Method",
+          "steps": [
+            "Incomes: 5 : 3 | Expenditures: 9 : 5 | Savings: 2600 : 1800",
+            "Cross product 1: (5 × 5) - (3 × 9) = 25 - 27 = 2 units",
+            "Cross product 2: (9 × 1800) - (5 × 2600) = 16200 - 13000 = 3200",
+            "2 units = 3200 => 1 unit = 1600",
+            "X's income = 5 × 1600 = Rs. 8000"
+          ]
+        }
+      ],
+      "exam_tip": "Cross-multiplication method works even when the two individuals have different saving amounts."
+    }
+  },
+  {
+    "id": "MATH-RATIO-017",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 5,
+    "question": "A dog takes 4 leaps for every 5 leaps of a hare, but 3 leaps of the dog are equal in distance to 4 leaps of the hare. What is the ratio of the speed of the dog to the speed of the hare?",
+    "options": [
+      {"id": "A", "text": "12 : 15"},
+      {"id": "B", "text": "15 : 16"},
+      {"id": "C", "text": "16 : 15"},
+      {"id": "D", "text": "20 : 12"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Speed equals (Number of leaps per unit time) × (Distance per leap).",
+      "steps": [
+        "Let the distance of 3 dog leaps = 4 hare leaps = 12 meters (LCM of 3 and 4).",
+        "Distance of 1 dog leap = 12 / 3 = 4 meters.",
+        "Distance of 1 hare leap = 12 / 4 = 3 meters.",
+        "In a given unit of time, dog takes 4 leaps and hare takes 5 leaps.",
+        "Distance covered by dog = 4 × 4 = 16 meters.",
+        "Distance covered by hare = 5 × 3 = 15 meters.",
+        "Ratio of speeds = 16 : 15."
+      ],
+      "methods": [
+        {
+          "name": "Cross-Leap Formula",
+          "steps": [
+            "Dog leaps : Hare leaps = 4 : 5",
+            "3 Dog = 4 Hare => Distance ratio = 4 : 3",
+            "Speed ratio = (4 × 4) : (5 × 3) = 16 : 15"
+          ]
+        }
+      ],
+      "exam_tip": "Cross multiply the numbers: (4 × 4) : (5 × 3) = 16 : 15 directly."
+    }
+  },
+  {
+    "id": "MATH-RATIO-018",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 5,
+    "question": "A container holds 80 liters of pure milk. From this container, 8 liters of milk is extracted and replaced with water. This process is repeated two more times. How many liters of pure milk remain in the container?",
+    "options": [
+      {"id": "A", "text": "56.40 liters"},
+      {"id": "B", "text": "58.32 liters"},
+      {"id": "C", "text": "60.25 liters"},
+      {"id": "D", "text": "64.80 liters"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Use the standard dilution formula: Remaining Liquid = Initial × [1 - (x / V)]ⁿ.",
+      "steps": [
+        "Initial volume V = 80 liters.",
+        "Replaced volume x = 8 liters.",
+        "Number of operations n = 1 + 2 = 3 times.",
+        "Remaining milk = 80 × [1 - 8/80]³ = 80 × [1 - 1/10]³.",
+        "= 80 × (9/10)³ = 80 × (729 / 1000) = (8 × 729) / 100 = 5832 / 100 = 58.32 liters."
+      ],
+      "methods": [
+        {
+          "name": "Repeated Dilution Formula",
+          "steps": [
+            "Remaining = V × (1 - x/V)ⁿ",
+            "= 80 × (9/10)³ = 80 × 0.729 = 58.32 L"
+          ]
+        }
+      ],
+      "exam_tip": "8/80 is 10%, meaning each step retains 90% of the previous milk: 80 × 0.9 × 0.9 × 0.9 = 58.32."
+    }
+  },
+  {
+    "id": "MATH-RATIO-019",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 5,
+    "question": "Three partners P, Q, and R invest in a partnership. P invests Rs. 25,000 for 12 months, Q invests Rs. 35,000 for 8 months, and R invests Rs. 40,000 for 6 months. If the total annual profit is Rs. 41,000, what is Q's share of the profit?",
+    "options": [
+      {"id": "A", "text": "Rs. 12,000"},
+      {"id": "B", "text": "Rs. 14,000"},
+      {"id": "C", "text": "Rs. 15,000"},
+      {"id": "D", "text": "Rs. 16,000"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Profit ratio equals the ratio of (Capital × Time Period) for each partner.",
+      "steps": [
+        "P's product = 25,000 × 12 = 300,000.",
+        "Q's product = 35,000 × 8 = 280,000.",
+        "R's product = 40,000 × 6 = 240,000.",
+        "Ratio of profits P : Q : R = 300 : 280 : 240 = 15 : 14 : 12.",
+        "Total ratio units = 15 + 14 + 12 = 41 units.",
+        "Total profit = Rs. 41,000 => 1 unit = Rs. 1,000.",
+        "Q's share = 14 units = 14 × 1,000 = Rs. 14,000."
+      ],
+      "methods": [
+        {
+          "name": "Capital-Time Ratio",
+          "steps": [
+            "P : Q : R = (25 × 12) : (35 × 8) : (40 × 6)",
+            "= 300 : 280 : 240 = 15 : 14 : 12",
+            "Total = 41 parts = 41,000",
+            "Q = 14 × 1,000 = Rs. 14,000"
+          ]
+        }
+      ],
+      "exam_tip": "Cancel zeroes in thousands and common factors in time before multiplying to keep numbers small."
+    }
+  },
+  {
+    "id": "MATH-RATIO-020",
+    "subject": "mathematics",
+    "topic": "ratio_and_proportion",
+    "difficulty": 5,
+    "question": "In an examination, the ratio of passes to failures was 4 : 1. If 30 fewer candidates had appeared and 20 fewer had passed, the ratio of passes to failures would have been 5 : 1. Find the total number of candidates who originally appeared for the examination.",
+    "options": [
+      {"id": "A", "text": "120"},
+      {"id": "B", "text": "140"},
+      {"id": "C", "text": "150"},
+      {"id": "D", "text": "180"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Relate Total candidates to Passes or Failures.",
+      "steps": [
+        "Pass : Fail = 4 : 1, so Total : Pass = (4 + 1) : 4 = 5 : 4.",
+        "Let Total candidates = 5x and Passes = 4x.",
+        "If 30 fewer appeared, New Total = 5x - 30.",
+        "If 20 fewer passed, New Passes = 4x - 20.",
+        "New Failures = (New Total - New Passes) = (5x - 30) - (4x - 20) = x - 10.",
+        "New Pass : Fail = 5 : 1 => (4x - 20) / (x - 10) = 5 / 1.",
+        "4x - 20 = 5(x - 10) = 5x - 50.",
+        "x = 30.",
+        "Original total candidates = 5x = 5 × 30 = 150."
+      ],
+      "methods": [
+        {
+          "name": "Total vs Pass Modeling",
+          "steps": [
+            "Total = 5x, Pass = 4x, Fail = x",
+            "New: Total = 5x - 30, Pass = 4x - 20, Fail = x - 10",
+            "(4x - 20) / (x - 10) = 5 / 1 => x = 30",
+            "Total = 5 × 30 = 150"
+          ]
+        }
+      ],
+      "exam_tip": "Forming the equation with Total and Pass is much cleaner because failures change by (30 - 20 = 10)."
+    }
+  }
+]

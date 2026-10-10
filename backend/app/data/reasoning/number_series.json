@@ -1,0 +1,715 @@
+[
+  {
+    "id": "REAS-SERIES-001",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 1,
+    "question": "Identify the next number in the arithmetic sequence: 3, 7, 11, 15, 19, ?",
+    "options": [
+      {"id": "A", "text": "21"},
+      {"id": "B", "text": "22"},
+      {"id": "C", "text": "23"},
+      {"id": "D", "text": "25"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The sequence has a constant common difference of +4.",
+      "steps": [
+        "7 - 3 = 4",
+        "11 - 7 = 4",
+        "15 - 11 = 4",
+        "19 - 15 = 4",
+        "Next term = 19 + 4 = 23."
+      ],
+      "methods": [
+        {
+          "name": "Arithmetic Difference",
+          "steps": ["Constant difference = +4", "19 + 4 = 23"]
+        }
+      ],
+      "exam_tip": "In any series, checking adjacent differences is always the first diagnostic step."
+    }
+  },
+  {
+    "id": "REAS-SERIES-002",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 1,
+    "question": "What is the next number in the geometric progression: 2, 4, 8, 16, 32, ?",
+    "options": [
+      {"id": "A", "text": "48"},
+      {"id": "B", "text": "56"},
+      {"id": "C", "text": "60"},
+      {"id": "D", "text": "64"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Each successive term is obtained by multiplying the previous term by 2.",
+      "steps": [
+        "2 × 2 = 4",
+        "4 × 2 = 8",
+        "8 × 2 = 16",
+        "16 × 2 = 32",
+        "Next term = 32 × 2 = 64."
+      ],
+      "methods": [
+        {
+          "name": "Geometric Multiplier",
+          "steps": ["Ratio = 2", "32 × 2 = 64"]
+        },
+        {
+          "name": "Power of 2",
+          "steps": ["2¹, 2², 2³, 2⁴, 2⁵, 2⁶ = 64"]
+        }
+      ],
+      "exam_tip": "Recognize fundamental powers of 2 up to 2¹⁰ = 1024."
+    }
+  },
+  {
+    "id": "REAS-SERIES-003",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 1,
+    "question": "Find the missing number in the sequence of perfect squares: 1, 4, 9, 16, 25, 36, ?",
+    "options": [
+      {"id": "A", "text": "42"},
+      {"id": "B", "text": "45"},
+      {"id": "C", "text": "48"},
+      {"id": "D", "text": "49"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "The series consists of consecutive perfect squares n² starting from n = 1.",
+      "steps": [
+        "1² = 1",
+        "2² = 4",
+        "3² = 9",
+        "4² = 16",
+        "5² = 25",
+        "6² = 36",
+        "Next term = 7² = 49."
+      ],
+      "methods": [
+        {
+          "name": "Square Identification",
+          "steps": ["7² = 49"]
+        },
+        {
+          "name": "Consecutive Odd Differences",
+          "steps": ["+3, +5, +7, +9, +11, +13 => 36 + 13 = 49"]
+        }
+      ],
+      "exam_tip": "Differences between consecutive squares are consecutive odd numbers."
+    }
+  },
+  {
+    "id": "REAS-SERIES-004",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 1,
+    "question": "Complete the descending sequence: 100, 93, 86, 79, 72, ?",
+    "options": [
+      {"id": "A", "text": "63"},
+      {"id": "B", "text": "65"},
+      {"id": "C", "text": "67"},
+      {"id": "D", "text": "68"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Each term decreases steadily by 7.",
+      "steps": [
+        "100 - 7 = 93",
+        "93 - 7 = 86",
+        "86 - 7 = 79",
+        "79 - 7 = 72",
+        "Next term = 72 - 7 = 65."
+      ],
+      "methods": [
+        {
+          "name": "Constant Subtraction",
+          "steps": ["Difference = -7", "72 - 7 = 65"]
+        }
+      ],
+      "exam_tip": "Decreasing arithmetic sequences frequently appear in CBT preliminary rounds."
+    }
+  },
+  {
+    "id": "REAS-SERIES-005",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 2,
+    "question": "Find the next number in the pattern: 2, 5, 10, 17, 26, ?",
+    "options": [
+      {"id": "A", "text": "35"},
+      {"id": "B", "text": "37"},
+      {"id": "C", "text": "39"},
+      {"id": "D", "text": "41"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The pattern follows n² + 1 for consecutive integers.",
+      "steps": [
+        "1² + 1 = 2",
+        "2² + 1 = 5",
+        "3² + 1 = 10",
+        "4² + 1 = 17",
+        "5² + 1 = 26",
+        "Next term = 6² + 1 = 36 + 1 = 37."
+      ],
+      "methods": [
+        {
+          "name": "Formula n² + 1",
+          "steps": ["6² + 1 = 37"]
+        },
+        {
+          "name": "Odd Difference Sequence",
+          "steps": ["+3, +5, +7, +9, next is +11", "26 + 11 = 37"]
+        }
+      ],
+      "exam_tip": "Whenever consecutive differences increase by 2 (+3, +5, +7...), think of squares or quadratic sequences."
+    }
+  },
+  {
+    "id": "REAS-SERIES-006",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 2,
+    "question": "What is the next number in the sequence: 1, 8, 27, 64, 125, ?",
+    "options": [
+      {"id": "A", "text": "196"},
+      {"id": "B", "text": "216"},
+      {"id": "C", "text": "225"},
+      {"id": "D", "text": "256"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The sequence represents cubes of consecutive natural numbers n³.",
+      "steps": [
+        "1³ = 1",
+        "2³ = 8",
+        "3³ = 27",
+        "4³ = 64",
+        "5³ = 125",
+        "Next term = 6³ = 216."
+      ],
+      "methods": [
+        {
+          "name": "Cubic Progression",
+          "steps": ["6³ = 6 × 6 × 6 = 216"]
+        }
+      ],
+      "exam_tip": "Keep cubes up to 15³ memorized for quantitative and reasoning sections."
+    }
+  },
+  {
+    "id": "REAS-SERIES-007",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 2,
+    "question": "Determine the next term in the series: 4, 7, 12, 19, 28, ?",
+    "options": [
+      {"id": "A", "text": "37"},
+      {"id": "B", "text": "38"},
+      {"id": "C", "text": "39"},
+      {"id": "D", "text": "41"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Differences between consecutive terms are successive odd integers.",
+      "steps": [
+        "7 - 4 = 3",
+        "12 - 7 = 5",
+        "19 - 12 = 7",
+        "28 - 19 = 9",
+        "Next difference = 11.",
+        "Next term = 28 + 11 = 39."
+      ],
+      "methods": [
+        {
+          "name": "First Difference Analysis",
+          "steps": ["Diffs: 3, 5, 7, 9, 11", "28 + 11 = 39"]
+        },
+        {
+          "name": "n² + 3 Pattern",
+          "steps": ["1²+3=4, 2²+3=7, 3²+3=12, 4²+3=19, 5²+3=28, 6²+3 = 36+3 = 39"]
+        }
+      ],
+      "exam_tip": "Both difference analysis and algebraic representation (n² + 3) confirm 39."
+    }
+  },
+  {
+    "id": "REAS-SERIES-008",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 2,
+    "question": "What is the next term in the sequence: 3, 6, 18, 72, 360, ?",
+    "options": [
+      {"id": "A", "text": "1,800"},
+      {"id": "B", "text": "2,160"},
+      {"id": "C", "text": "2,240"},
+      {"id": "D", "text": "2,520"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Each term is multiplied by an increasing integer factor (×2, ×3, ×4, ×5, ...).",
+      "steps": [
+        "3 × 2 = 6",
+        "6 × 3 = 18",
+        "18 × 4 = 72",
+        "72 × 5 = 360",
+        "Next term = 360 × 6 = 2,160."
+      ],
+      "methods": [
+        {
+          "name": "Factorial Multiplier",
+          "steps": ["Multiplying by consecutive integers: ×2, ×3, ×4, ×5, ×6", "360 × 6 = 2,160"]
+        }
+      ],
+      "exam_tip": "When numbers increase by an explosive multiplier, examine consecutive ratio steps."
+    }
+  },
+  {
+    "id": "REAS-SERIES-009",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 3,
+    "question": "Identify the next number in the series: 6, 13, 28, 59, ?",
+    "options": [
+      {"id": "A", "text": "118"},
+      {"id": "B", "text": "120"},
+      {"id": "C", "text": "122"},
+      {"id": "D", "text": "126"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Multiply by 2 and add an increasing integer (+1, +2, +3, +4).",
+      "steps": [
+        "6 × 2 + 1 = 13",
+        "13 × 2 + 2 = 28",
+        "28 × 2 + 3 = 59",
+        "Next term = 59 × 2 + 4 = 118 + 4 = 122."
+      ],
+      "methods": [
+        {
+          "name": "Multiplication with Increasing Addition",
+          "steps": ["×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4", "59 × 2 + 4 = 122"]
+        },
+        {
+          "name": "Difference of Differences",
+          "steps": ["Diffs: 7, 15, 31", "Second diffs: 8, 16, next is 32", "Next diff = 31 + 32 = 63", "59 + 63 = 122"]
+        }
+      ],
+      "exam_tip": "Linear combinations of (2x + k) are standard favorites in SSC CGL Tier-1."
+    }
+  },
+  {
+    "id": "REAS-SERIES-010",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 3,
+    "question": "Find the missing term in the sequence: 2, 3, 5, 9, 17, 33, ?",
+    "options": [
+      {"id": "A", "text": "57"},
+      {"id": "B", "text": "63"},
+      {"id": "C", "text": "65"},
+      {"id": "D", "text": "67"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The added difference doubles at each successive step (+1, +2, +4, +8, +16, +32).",
+      "steps": [
+        "2 + 1 = 3",
+        "3 + 2 = 5",
+        "5 + 4 = 9",
+        "9 + 8 = 17",
+        "17 + 16 = 33",
+        "Next term = 33 + 32 = 65."
+      ],
+      "methods": [
+        {
+          "name": "Doubling Difference",
+          "steps": ["Diffs: 1, 2, 4, 8, 16, 32", "33 + 32 = 65"]
+        },
+        {
+          "name": "2n - 1 Pattern",
+          "steps": ["2×2 - 1 = 3, 3×2 - 1 = 5, 5×2 - 1 = 9, 9×2 - 1 = 17, 17×2 - 1 = 33, 33×2 - 1 = 65"]
+        }
+      ],
+      "exam_tip": "Notice that 'doubling difference' is mathematically equivalent to 'multiply by 2 and subtract 1'."
+    }
+  },
+  {
+    "id": "REAS-SERIES-011",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 3,
+    "question": "What is the next number in the alternating sequence: 14, 28, 20, 40, 32, 64, ?",
+    "options": [
+      {"id": "A", "text": "48"},
+      {"id": "B", "text": "54"},
+      {"id": "C", "text": "56"},
+      {"id": "D", "text": "60"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The sequence alternates between multiplying by 2 and subtracting 8.",
+      "steps": [
+        "14 × 2 = 28",
+        "28 - 8 = 20",
+        "20 × 2 = 40",
+        "40 - 8 = 32",
+        "32 × 2 = 64",
+        "Next operation is -8: 64 - 8 = 56."
+      ],
+      "methods": [
+        {
+          "name": "Alternating Operations",
+          "steps": ["×2, -8, ×2, -8, ×2, -8", "64 - 8 = 56"]
+        },
+        {
+          "name": "Interleaved Sub-sequences",
+          "steps": [
+            "Odd positions: 14, 20, 32, ? (diffs: +6, +12, next +24 => 32 + 24 = 56)",
+            "Even positions: 28, 40, 64"
+          ]
+        }
+      ],
+      "exam_tip": "When a series rises sharply then dips, inspect interleaved positions or alternating operations."
+    }
+  },
+  {
+    "id": "REAS-SERIES-012",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 3,
+    "question": "Find the next number in the series: 0, 6, 24, 60, 120, 210, ?",
+    "options": [
+      {"id": "A", "text": "290"},
+      {"id": "B", "text": "324"},
+      {"id": "C", "text": "336"},
+      {"id": "D", "text": "343"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The series follows the formula n³ - n for consecutive integers starting from n = 1.",
+      "steps": [
+        "1³ - 1 = 0",
+        "2³ - 2 = 6",
+        "3³ - 3 = 24",
+        "4³ - 4 = 60",
+        "5³ - 5 = 120",
+        "6³ - 6 = 210",
+        "Next term = 7³ - 7 = 343 - 7 = 336."
+      ],
+      "methods": [
+        {
+          "name": "Cubic Polynomial n³ - n",
+          "steps": ["7³ - 7 = 343 - 7 = 336"]
+        },
+        {
+          "name": "Product of 3 Consecutive Integers",
+          "steps": ["(n-1) × n × (n+1): 6 × 7 × 8 = 336"]
+        }
+      ],
+      "exam_tip": "n³ - n is identical to (n-1)(n)(n+1), the product of three consecutive integers."
+    }
+  },
+  {
+    "id": "REAS-SERIES-013",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 4,
+    "question": "Determine the next term in the series: 5, 16, 51, 158, ?",
+    "options": [
+      {"id": "A", "text": "468"},
+      {"id": "B", "text": "474"},
+      {"id": "C", "text": "481"},
+      {"id": "D", "text": "485"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Multiply each term by 3 and add consecutive odd numbers (+1, +3, +5, +7).",
+      "steps": [
+        "5 × 3 + 1 = 16",
+        "16 × 3 + 3 = 51",
+        "51 × 3 + 5 = 158",
+        "Next term = 158 × 3 + 7 = 474 + 7 = 481."
+      ],
+      "methods": [
+        {
+          "name": "×3 + Odd Integer Pattern",
+          "steps": [
+            "158 × 3 = 474",
+            "474 + 7 = 481"
+          ]
+        }
+      ],
+      "exam_tip": "Tripling with an increasing odd remainder is an RRB NTPC favorite."
+    }
+  },
+  {
+    "id": "REAS-SERIES-014",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 4,
+    "question": "Find the next number in the series: 7, 9, 19, 45, 95, ?",
+    "options": [
+      {"id": "A", "text": "165"},
+      {"id": "B", "text": "172"},
+      {"id": "C", "text": "177"},
+      {"id": "D", "text": "185"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Analyze the difference between terms; the differences relate to odd squares plus one.",
+      "steps": [
+        "9 - 7 = 2 (which is 1² + 1)",
+        "19 - 9 = 10 (which is 3² + 1)",
+        "45 - 19 = 26 (which is 5² + 1)",
+        "95 - 45 = 50 (which is 7² + 1)",
+        "Next difference = 9² + 1 = 81 + 1 = 82.",
+        "Next term = 95 + 82 = 177."
+      ],
+      "methods": [
+        {
+          "name": "Odd Squares + 1 Differences",
+          "steps": [
+            "Diffs: 2, 10, 26, 50, 82",
+            "Next term = 95 + 82 = 177"
+          ]
+        },
+        {
+          "name": "Second Differences of Differences",
+          "steps": [
+            "Diffs: 2, 10, 26, 50",
+            "Second diffs: 8, 16, 24, next is 32",
+            "Next diff = 50 + 32 = 82",
+            "95 + 82 = 177"
+          ]
+        }
+      ],
+      "exam_tip": "When first differences are obscure, the second differences (+8, +16, +24, +32) make the pattern transparent."
+    }
+  },
+  {
+    "id": "REAS-SERIES-015",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 4,
+    "question": "Identify the next number in the pattern: 4, 18, 48, 100, 180, 294, ?",
+    "options": [
+      {"id": "A", "text": "412"},
+      {"id": "B", "text": "440"},
+      {"id": "C", "text": "448"},
+      {"id": "D", "text": "484"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The sequence follows the polynomial n³ - n² for n = 2, 3, 4, 5, 6, 7, 8.",
+      "steps": [
+        "2³ - 2² = 8 - 4 = 4",
+        "3³ - 3² = 27 - 9 = 18",
+        "4³ - 4² = 64 - 16 = 48",
+        "5³ - 5² = 125 - 25 = 100",
+        "6³ - 6² = 216 - 36 = 180",
+        "7³ - 7² = 343 - 49 = 294",
+        "Next term = 8³ - 8² = 512 - 64 = 448."
+      ],
+      "methods": [
+        {
+          "name": "n²(n - 1) Formulation",
+          "steps": [
+            "2² × 1 = 4",
+            "3² × 2 = 18",
+            "4² × 3 = 48",
+            "5² × 4 = 100",
+            "6² × 5 = 180",
+            "7² × 6 = 294",
+            "8² × 7 = 64 × 7 = 448"
+          ]
+        }
+      ],
+      "exam_tip": "Factoring n³ - n² as n²(n - 1) simplifies mental arithmetic dramatically: 64 × 7 = 448."
+    }
+  },
+  {
+    "id": "REAS-SERIES-016",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 4,
+    "question": "What is the next number in the sequence: 12, 14, 32, 102, 416, ?",
+    "options": [
+      {"id": "A", "text": "2,060"},
+      {"id": "B", "text": "2,080"},
+      {"id": "C", "text": "2,090"},
+      {"id": "D", "text": "2,110"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Multiply by consecutive natural numbers and add consecutive even numbers.",
+      "steps": [
+        "12 × 1 + 2 = 14",
+        "14 × 2 + 4 = 32",
+        "32 × 3 + 6 = 102",
+        "102 × 4 + 8 = 416",
+        "Next term = 416 × 5 + 10 = 2,080 + 10 = 2,090."
+      ],
+      "methods": [
+        {
+          "name": "Stepwise Multiplication & Even Addition",
+          "steps": [
+            "Term(n+1) = Term(n) × n + 2n",
+            "416 × 5 + 10 = 2080 + 10 = 2090"
+          ]
+        }
+      ],
+      "exam_tip": "Notice that Term × n + 2n is equivalent to (Term + 2) × n for step 1 only; use the full rule."
+    }
+  },
+  {
+    "id": "REAS-SERIES-017",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 5,
+    "question": "Find the next number in the series: 2, 12, 36, 80, 150, ?",
+    "options": [
+      {"id": "A", "text": "216"},
+      {"id": "B", "text": "240"},
+      {"id": "C", "text": "252"},
+      {"id": "D", "text": "264"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The sequence follows the polynomial rule n² + n³ for consecutive integers.",
+      "steps": [
+        "1² + 1³ = 1 + 1 = 2",
+        "2² + 2³ = 4 + 8 = 12",
+        "3² + 3³ = 9 + 27 = 36",
+        "4² + 4³ = 16 + 64 = 80",
+        "5² + 5³ = 25 + 125 = 150",
+        "Next term = 6² + 6³ = 36 + 216 = 252."
+      ],
+      "methods": [
+        {
+          "name": "n²(n + 1) Factoring",
+          "steps": [
+            "1² × 2 = 2",
+            "2² × 3 = 12",
+            "3² × 4 = 36",
+            "4² × 5 = 80",
+            "5² × 6 = 150",
+            "6² × 7 = 36 × 7 = 252"
+          ]
+        }
+      ],
+      "exam_tip": "Both n³ + n² and n²(n + 1) represent this classic high-level sequence."
+    }
+  },
+  {
+    "id": "REAS-SERIES-018",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 5,
+    "question": "What is the next number in the decimal multiplier series: 8, 4.5, 5.5, 9.75, 21.5, ?",
+    "options": [
+      {"id": "A", "text": "52.50"},
+      {"id": "B", "text": "54.75"},
+      {"id": "C", "text": "56.25"},
+      {"id": "D", "text": "58.50"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Multiply by k and add k, where k increments by 0.5 at each step.",
+      "steps": [
+        "8 × 0.5 + 0.5 = 4 + 0.5 = 4.5",
+        "4.5 × 1.0 + 1.0 = 4.5 + 1.0 = 5.5",
+        "5.5 × 1.5 + 1.5 = 8.25 + 1.5 = 9.75",
+        "9.75 × 2.0 + 2.0 = 19.5 + 2.0 = 21.5",
+        "Next term = 21.5 × 2.5 + 2.5 = 53.75 + 2.5 = 56.25."
+      ],
+      "methods": [
+        {
+          "name": "Decimal Step Progression",
+          "steps": [
+            "Multiplier increases by 0.5: 0.5, 1.0, 1.5, 2.0, 2.5",
+            "21.5 × 2.5 = 53.75",
+            "53.75 + 2.5 = 56.25"
+          ]
+        }
+      ],
+      "exam_tip": "When a number drops roughly by half in step 1 and then increases progressively, always test the ×0.5 + 0.5 family."
+    }
+  },
+  {
+    "id": "REAS-SERIES-019",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 5,
+    "question": "Find the wrong number in the given series: 3, 8, 19, 42, 91, 184.",
+    "options": [
+      {"id": "A", "text": "8"},
+      {"id": "B", "text": "19"},
+      {"id": "C", "text": "42"},
+      {"id": "D", "text": "91"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "The pattern should be: multiply by 2 and add increasing integers (+2, +3, +4, +5, +6).",
+      "steps": [
+        "3 × 2 + 2 = 8 (Correct)",
+        "8 × 2 + 3 = 19 (Correct)",
+        "19 × 2 + 4 = 42 (Correct)",
+        "42 × 2 + 5 = 84 + 5 = 89 (The series displays 91 instead of 89)",
+        "Check next term with 89: 89 × 2 + 6 = 178 + 6 = 184 (Matches final term).",
+        "Therefore, 91 is the wrong term."
+      ],
+      "methods": [
+        {
+          "name": "Series Anomaly Verification",
+          "steps": [
+            "Expected: 42 × 2 + 5 = 89",
+            "Given: 91",
+            "Verification: 89 × 2 + 6 = 184",
+            "Hence 91 is incorrect."
+          ]
+        }
+      ],
+      "exam_tip": "Always test whether the subsequent term matches when substituting your corrected candidate."
+    }
+  },
+  {
+    "id": "REAS-SERIES-020",
+    "subject": "reasoning",
+    "topic": "number_series",
+    "difficulty": 5,
+    "question": "Find the next number in the series: 3, 10, 32, 100, 308, ?",
+    "options": [
+      {"id": "A", "text": "916"},
+      {"id": "B", "text": "924"},
+      {"id": "C", "text": "932"},
+      {"id": "D", "text": "940"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Multiply each term by 3 and add powers of 2 (2⁰, 2¹, 2², 2³, 2⁴).",
+      "steps": [
+        "3 × 3 + 1 (2⁰) = 9 + 1 = 10",
+        "10 × 3 + 2 (2¹) = 30 + 2 = 32",
+        "32 × 3 + 4 (2²) = 96 + 4 = 100",
+        "100 × 3 + 8 (2³) = 300 + 8 = 308",
+        "Next term = 308 × 3 + 16 (2⁴) = 924 + 16 = 940."
+      ],
+      "methods": [
+        {
+          "name": "×3 + 2ⁿ Pattern",
+          "steps": [
+            "308 × 3 = 924",
+            "Add 2⁴ = 16",
+            "924 + 16 = 940"
+          ]
+        }
+      ],
+      "exam_tip": "Powers of 2 (+1, +2, +4, +8, +16) added to constant tripling creates a predictable compound series."
+    }
+  }
+]

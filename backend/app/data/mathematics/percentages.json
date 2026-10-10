@@ -1,0 +1,672 @@
+[
+  {
+    "id": "MATH-PERCENT-001",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "What is 25% of 480?",
+    "options": [
+      {"id": "A", "text": "110"},
+      {"id": "B", "text": "120"},
+      {"id": "C", "text": "130"},
+      {"id": "D", "text": "140"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "25% of any quantity is equivalent to one-fourth of that quantity.",
+      "steps": [
+        "Express 25% as a fraction: 25/100 = 1/4.",
+        "Multiply 1/4 by 480: 480 ÷ 4 = 120."
+      ],
+      "methods": [
+        {
+          "name": "Fraction Method",
+          "steps": ["25% = 1/4", "480 / 4 = 120"]
+        },
+        {
+          "name": "Unitary Method",
+          "steps": ["10% of 480 = 48", "20% = 96", "5% = 24", "25% = 96 + 24 = 120"]
+        }
+      ],
+      "exam_tip": "Remember common fraction equivalents: 25% = 1/4, 50% = 1/2, 75% = 3/4."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-002",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "Express the fraction 3/8 as a percentage.",
+    "options": [
+      {"id": "A", "text": "35%"},
+      {"id": "B", "text": "37.5%"},
+      {"id": "C", "text": "38.5%"},
+      {"id": "D", "text": "42.5%"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "To convert any fraction into a percentage, multiply it by 100%.",
+      "steps": [
+        "Multiply (3/8) × 100%.",
+        "300 / 8 = 37.5%."
+      ],
+      "methods": [
+        {
+          "name": "Standard Calculation",
+          "steps": ["(3/8) × 100 = 300 / 8 = 37.5%"]
+        },
+        {
+          "name": "Base Fractional Recall",
+          "steps": ["1/8 = 12.5%", "3/8 = 3 × 12.5% = 37.5%"]
+        }
+      ],
+      "exam_tip": "Multiples of 1/8 (12.5%) are heavily tested in SSC and Railway exams: 1/8=12.5%, 3/8=37.5%, 5/8=62.5%, 7/8=87.5%."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-003",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "If 15% of a number is 45, what is the number?",
+    "options": [
+      {"id": "A", "text": "250"},
+      {"id": "B", "text": "300"},
+      {"id": "C", "text": "350"},
+      {"id": "D", "text": "400"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "If 15 parts out of 100 equal 45, find 100 parts.",
+      "steps": [
+        "Let the number be x.",
+        "0.15 × x = 45.",
+        "x = 45 / 0.15 = 4500 / 15 = 300."
+      ],
+      "methods": [
+        {
+          "name": "Unitary Ratio",
+          "steps": ["15% = 45", "1% = 45 / 15 = 3", "100% = 3 × 100 = 300"]
+        }
+      ],
+      "exam_tip": "Divide the given value by the percentage figure to find 1%, then append two zeroes for 100%."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-004",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "A student scored 360 marks out of a total of 500 marks. What percentage of marks did the student obtain?",
+    "options": [
+      {"id": "A", "text": "68%"},
+      {"id": "B", "text": "70%"},
+      {"id": "C", "text": "72%"},
+      {"id": "D", "text": "75%"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Percentage obtained is (Marks Obtained / Maximum Marks) × 100.",
+      "steps": [
+        "(360 / 500) × 100 = 360 / 5 = 72%."
+      ],
+      "methods": [
+        {
+          "name": "Direct Division",
+          "steps": ["(360 / 500) × 100 = 72%"]
+        },
+        {
+          "name": "Double and Shift Decimal",
+          "steps": ["360 / 500 = 720 / 1000 = 72%"]
+        }
+      ],
+      "exam_tip": "Dividing by 500 is equivalent to doubling the numerator and dividing by 10."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-005",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "An employee's monthly salary increased from Rs. 20,000 to Rs. 25,000. Find the percentage increase in salary.",
+    "options": [
+      {"id": "A", "text": "20%"},
+      {"id": "B", "text": "22.5%"},
+      {"id": "C", "text": "25%"},
+      {"id": "D", "text": "30%"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Percentage increase = (Absolute Increase / Initial Value) × 100.",
+      "steps": [
+        "Increase = 25,000 - 20,000 = 5,000.",
+        "Percentage increase = (5,000 / 20,000) × 100 = 1/4 × 100 = 25%."
+      ],
+      "methods": [
+        {
+          "name": "Standard Formula",
+          "steps": ["((25000 - 20000) / 20000) × 100 = (5000 / 20000) × 100 = 25%"]
+        }
+      ],
+      "exam_tip": "Always divide by the original (initial) base value, not the increased value."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-006",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "If the price of sugar is decreased by 20%, by what percent must a household increase its consumption so that the total expenditure remains unchanged?",
+    "options": [
+      {"id": "A", "text": "16.67%"},
+      {"id": "B", "text": "20%"},
+      {"id": "C", "text": "25%"},
+      {"id": "D", "text": "33.33%"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "When price falls by r%, consumption increase required is [r / (100 - r)] × 100.",
+      "steps": [
+        "Here r = 20%.",
+        "Required increase = [20 / (100 - 20)] × 100 = (20 / 80) × 100 = 1/4 × 100 = 25%."
+      ],
+      "methods": [
+        {
+          "name": "Shortcut Formula",
+          "steps": ["[r / (100 - r)] × 100 = (20 / 80) × 100 = 25%"]
+        },
+        {
+          "name": "Base 100 Assumption",
+          "steps": ["Original price: 100, New price: 80.", "To return to 100 expenditure, need +20 on base 80.", "(20 / 80) × 100 = 25%"]
+        }
+      ],
+      "exam_tip": "If price decreases by 1/n (here 1/5), consumption must increase by 1/(n-1) (here 1/4 = 25%)."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-007",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "What is the value of 35% of 600 + 45% of 400?",
+    "options": [
+      {"id": "A", "text": "370"},
+      {"id": "B", "text": "380"},
+      {"id": "C", "text": "390"},
+      {"id": "D", "text": "410"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Calculate each percentage component separately and add the results.",
+      "steps": [
+        "35% of 600 = 35 × 6 = 210.",
+        "45% of 400 = 45 × 4 = 180.",
+        "Sum = 210 + 180 = 390."
+      ],
+      "methods": [
+        {
+          "name": "Mental Math Split",
+          "steps": ["35 × 6 = 210", "45 × 4 = 180", "210 + 180 = 390"]
+        }
+      ],
+      "exam_tip": "Cancel the percentage '% (1/100)' with the two zeros in 600 and 400 immediately."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-008",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "In a school of 1,200 students, 45% of the students are girls. How many boys are enrolled in the school?",
+    "options": [
+      {"id": "A", "text": "540"},
+      {"id": "B", "text": "600"},
+      {"id": "C", "text": "640"},
+      {"id": "D", "text": "660"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "If 45% are girls, the remaining 55% must be boys.",
+      "steps": [
+        "Percentage of boys = 100% - 45% = 55%.",
+        "Number of boys = 55% of 1,200 = 0.55 × 1,200 = 55 × 12 = 660."
+      ],
+      "methods": [
+        {
+          "name": "Direct Boys Percentage",
+          "steps": ["55% of 1200 = 55 × 12 = 660"]
+        },
+        {
+          "name": "Subtraction Method",
+          "steps": ["Girls = 45 × 12 = 540", "Boys = 1200 - 540 = 660"]
+        }
+      ],
+      "exam_tip": "Calculating the required group percentage directly (55%) avoids an extra subtraction step."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-009",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "Find the single equivalent discount for two successive discounts of 20% and 10%.",
+    "options": [
+      {"id": "A", "text": "25%"},
+      {"id": "B", "text": "28%"},
+      {"id": "C", "text": "30%"},
+      {"id": "D", "text": "32%"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Successive discounts d1 and d2 give an effective discount of [d1 + d2 - (d1 × d2 / 100)]%.",
+      "steps": [
+        "Apply formula: 20 + 10 - (20 × 10 / 100).",
+        "30 - 2 = 28%."
+      ],
+      "methods": [
+        {
+          "name": "Shortcut Formula",
+          "steps": ["Net Discount = d1 + d2 - (d1 × d2)/100 = 20 + 10 - 2 = 28%"]
+        },
+        {
+          "name": "Base 100 Method",
+          "steps": ["Start with 100.", "After 20% discount: 80.", "After 10% discount on 80: 80 - 8 = 72.", "Total discount = 100 - 72 = 28%."]
+        }
+      ],
+      "exam_tip": "Never simply add successive discounts (20 + 10 = 30 is wrong because the second discount applies to the reduced price)."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-010",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "A number is first increased by 20% and then decreased by 20%. What is the net percentage change in the number?",
+    "options": [
+      {"id": "A", "text": "No change"},
+      {"id": "B", "text": "2% decrease"},
+      {"id": "C", "text": "4% decrease"},
+      {"id": "D", "text": "4% increase"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "When a value is increased by x% and then decreased by x%, there is always a net decrease of (x²/100)%.",
+      "steps": [
+        "Net change = - (x² / 100)%.",
+        "Here x = 20: - (20² / 100)% = - 400 / 100 = - 4% (4% decrease)."
+      ],
+      "methods": [
+        {
+          "name": "Standard Formula",
+          "steps": ["Net change = a + b + (ab/100) = 20 - 20 + (20 × -20)/100 = -4%"]
+        },
+        {
+          "name": "Base 100 Check",
+          "steps": ["100 + 20% = 120", "120 - 20% (24) = 96", "Net change = 96 - 100 = -4%"]
+        }
+      ],
+      "exam_tip": "Equal percentage increase followed by decrease always results in a net loss/decrease equal to (x/10)² percent."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-011",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "In an examination, a candidate requires 40% marks to pass. A student scores 178 marks and fails by 22 marks. What are the maximum aggregate marks?",
+    "options": [
+      {"id": "A", "text": "450"},
+      {"id": "B", "text": "480"},
+      {"id": "C", "text": "500"},
+      {"id": "D", "text": "520"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Passing marks equal scored marks plus the failing margin.",
+      "steps": [
+        "Passing marks = 178 + 22 = 200.",
+        "Since 40% of Maximum Marks = 200:",
+        "Maximum Marks = (200 / 40) × 100 = 5 × 100 = 500."
+      ],
+      "methods": [
+        {
+          "name": "Unitary Method",
+          "steps": ["Passing marks = 178 + 22 = 200", "40% = 200", "1% = 5", "100% = 500"]
+        }
+      ],
+      "exam_tip": "Equate the absolute passing score directly to the passing percentage."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-012",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "Fresh fruit contains 68% water while dry fruit contains 20% water. How much dry fruit can be obtained from 100 kg of fresh fruit?",
+    "options": [
+      {"id": "A", "text": "32 kg"},
+      {"id": "B", "text": "40 kg"},
+      {"id": "C", "text": "48 kg"},
+      {"id": "D", "text": "52 kg"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The quantity of solid pulp remains constant during the drying process.",
+      "steps": [
+        "Pulp in fresh fruit = 100% - 68% = 32%.",
+        "Weight of solid pulp in 100 kg fresh fruit = 32% of 100 kg = 32 kg.",
+        "In dry fruit, water is 20%, so pulp is 80%.",
+        "Let dry fruit weight be D kg. Then 80% of D = 32 kg.",
+        "D = 32 / 0.80 = 40 kg."
+      ],
+      "methods": [
+        {
+          "name": "Pulp Invariance Method",
+          "steps": [
+            "Pulp in Fresh = Pulp in Dry",
+            "(100 - 68)% of 100 = (100 - 20)% of D",
+            "32 = 0.80 × D",
+            "D = 40 kg"
+          ]
+        }
+      ],
+      "exam_tip": "In drying questions (grapes/raisins, fruits), always equate the pulp/solid portion since only water evaporates."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-013",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 4,
+    "question": "In an election between two candidates, the winning candidate polled 58% of the valid votes and won by a majority of 1,440 votes. If 10% of the total polled votes were declared invalid, what was the total number of votes polled?",
+    "options": [
+      {"id": "A", "text": "8,500"},
+      {"id": "B", "text": "9,000"},
+      {"id": "C", "text": "9,500"},
+      {"id": "D", "text": "10,000"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Find the valid votes from the margin between the two candidates, then account for invalid votes.",
+      "steps": [
+        "Winner received 58% of valid votes.",
+        "Loser received 100% - 58% = 42% of valid votes.",
+        "Winning margin = 58% - 42% = 16% of valid votes.",
+        "16% of Valid Votes = 1,440 => Valid Votes = 1,440 / 0.16 = 9,000.",
+        "Since 10% votes were invalid, Valid Votes = 90% of Total Polled Votes.",
+        "Total Polled Votes = 9,000 / 0.90 = 10,000."
+      ],
+      "methods": [
+        {
+          "name": "Stepwise Deduction",
+          "steps": [
+            "Margin % = 58 - 42 = 16%",
+            "Valid Votes = 1440 × (100/16) = 9000",
+            "Total Votes = 9000 × (100/90) = 10,000"
+          ]
+        }
+      ],
+      "exam_tip": "Be vigilant whether the candidate's percentage is given relative to 'valid votes' or 'total polled votes'."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-014",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 4,
+    "question": "A's income is 25% more than B's income, and B's income is 20% less than C's income. By what percentage is A's income greater or lesser than C's income?",
+    "options": [
+      {"id": "A", "text": "5% less"},
+      {"id": "B", "text": "5% more"},
+      {"id": "C", "text": "Exactly equal (0% difference)"},
+      {"id": "D", "text": "10% more"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Assume a baseline of 100 for C and chain the relationships.",
+      "steps": [
+        "Let C's income = 100.",
+        "B's income is 20% less than C = 100 - 20 = 80.",
+        "A's income is 25% more than B = 80 + 25% of 80 = 80 + 20 = 100.",
+        "Comparing A (100) and C (100): They are exactly equal (0% difference)."
+      ],
+      "methods": [
+        {
+          "name": "Multiplication Factor",
+          "steps": ["A = 1.25 × B", "B = 0.80 × C", "A = 1.25 × 0.80 × C = 1.00 × C"]
+        }
+      ],
+      "exam_tip": "1.25 × 0.8 = (5/4) × (4/5) = 1, meaning the factors reciprocate completely."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-015",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 4,
+    "question": "The population of a town was 1,60,000 three years ago. If it increased successively by 3%, 2.5%, and 5% in the last three years, find the present population of the town.",
+    "options": [
+      {"id": "A", "text": "1,72,500"},
+      {"id": "B", "text": "1,75,440"},
+      {"id": "C", "text": "1,77,366"},
+      {"id": "D", "text": "1,78,120"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Compound the successive percentage increases consecutively.",
+      "steps": [
+        "Initial population = 1,60,000.",
+        "After Year 1 (+3%): 1,60,000 + 4,800 = 1,64,800.",
+        "After Year 2 (+2.5%): 1,64,800 + 4,120 = 1,68,920.",
+        "After Year 3 (+5%): 1,68,920 + 8,446 = 1,77,366."
+      ],
+      "methods": [
+        {
+          "name": "Successive Step Method",
+          "steps": [
+            "Year 1: 160000 × 1.03 = 164800",
+            "Year 2: 164800 × 1.025 = 168920",
+            "Year 3: 168920 × 1.05 = 177366"
+          ]
+        }
+      ],
+      "exam_tip": "Notice that the last digit calculation (unit digit of 160000 × 103/100 × 1025/1000 × 105/100) quickly helps verify answer choices."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-016",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 4,
+    "question": "The price of petrol increased by 25%. A motorist wishes to increase his expenditure on petrol by only 10%. By what percentage should he reduce his consumption of petrol?",
+    "options": [
+      {"id": "A", "text": "10%"},
+      {"id": "B", "text": "12%"},
+      {"id": "C", "text": "15%"},
+      {"id": "D", "text": "16.67%"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Expenditure = Price × Consumption. Relate the growth factors.",
+      "steps": [
+        "Let initial price = 100 and consumption = 100 => Expenditure = 10,000.",
+        "New price = 125.",
+        "Target expenditure = 110% of 10,000 = 11,000.",
+        "New consumption = 11,000 / 125 = 88.",
+        "Reduction in consumption = 100 - 88 = 12%."
+      ],
+      "methods": [
+        {
+          "name": "Factor Formula",
+          "steps": [
+            "New Consumption Ratio = (1 + Exp Change) / (1 + Price Change)",
+            "= 1.10 / 1.25 = 110 / 125 = 22 / 25 = 0.88",
+            "Reduction = (1 - 0.88) × 100 = 12%"
+          ]
+        }
+      ],
+      "exam_tip": "Always remember: Consumption Factor = (1 + %Exp) / (1 + %Price)."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-017",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 5,
+    "question": "A person spends 75% of his monthly income. If his income increases by 20% and his expenditure increases by 10%, find the percentage increase in his savings.",
+    "options": [
+      {"id": "A", "text": "35%"},
+      {"id": "B", "text": "40%"},
+      {"id": "C", "text": "45%"},
+      {"id": "D", "text": "50%"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Income equals Expenditure plus Savings. Track initial and updated values using base 100.",
+      "steps": [
+        "Initial Income = 100. Expenditure = 75. Savings = 25.",
+        "New Income = 100 + 20% = 120.",
+        "New Expenditure = 75 + 10% of 75 = 75 + 7.5 = 82.5.",
+        "New Savings = New Income - New Expenditure = 120 - 82.5 = 37.5.",
+        "Increase in Savings = 37.5 - 25 = 12.5.",
+        "Percentage increase in savings = (12.5 / 25) × 100 = 50%."
+      ],
+      "methods": [
+        {
+          "name": "Base 100 Breakdown",
+          "steps": [
+            "Initial: Income 100, Exp 75, Sav 25",
+            "New: Income 120, Exp 82.5, Sav 37.5",
+            "Savings Growth: (37.5 - 25) / 25 × 100 = 50%"
+          ]
+        },
+        {
+          "name": "Alligation / Weightage Method",
+          "steps": [
+            "% Change in Income = (Weight_Exp × %Exp) + (Weight_Sav × %Sav)",
+            "20 = (3/4 × 10) + (1/4 × S)",
+            "20 = 7.5 + 0.25 S => 0.25 S = 12.5 => S = 50%"
+          ]
+        }
+      ],
+      "exam_tip": "The alligation method allows you to solve income-expenditure-savings questions in one line."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-018",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 5,
+    "question": "In an examination, 70% of candidates passed in English, 80% passed in Mathematics, and 10% failed in both subjects. If 144 candidates passed in both subjects, what was the total number of candidates who appeared?",
+    "options": [
+      {"id": "A", "text": "200"},
+      {"id": "B", "text": "220"},
+      {"id": "C", "text": "240"},
+      {"id": "D", "text": "260"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Use set theory: Total = Passed in English + Passed in Math - Passed in both + Failed in both.",
+      "steps": [
+        "Since 10% failed in both subjects, the percentage who passed in at least one subject = 100% - 10% = 90%.",
+        "P(E ∪ M) = P(E) + P(M) - P(E ∩ M).",
+        "90% = 70% + 80% - P(E ∩ M).",
+        "90% = 150% - P(E ∩ M) => P(E ∩ M) = 60%.",
+        "60% of Total = 144 candidates.",
+        "Total = (144 / 60) × 100 = 2.4 × 100 = 240 candidates."
+      ],
+      "methods": [
+        {
+          "name": "Set Theory (Venn Diagram)",
+          "steps": [
+            "Passed in at least one = 100 - 10 = 90%",
+            "Passed in both = 70 + 80 - 90 = 60%",
+            "Total = 144 / 0.60 = 240"
+          ]
+        }
+      ],
+      "exam_tip": "Passed in both % = (% Pass 1 + % Pass 2 + % Fail both) - 100 = (70 + 80 + 10) - 100 = 60%."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-019",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 5,
+    "question": "A mixture of 60 liters of milk and water contains 20% water. How many liters of pure water must be added to this mixture so that water constitutes 25% of the new mixture?",
+    "options": [
+      {"id": "A", "text": "3 liters"},
+      {"id": "B", "text": "4 liters"},
+      {"id": "C", "text": "5 liters"},
+      {"id": "D", "text": "6 liters"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The quantity of milk remains unchanged because only water is being added.",
+      "steps": [
+        "In initial 60 liters: Water = 20% of 60 = 12 liters; Milk = 60 - 12 = 48 liters.",
+        "In the new mixture, water is 25%, meaning milk is 100% - 25% = 75%.",
+        "Since milk remains 48 liters: 75% of New Total = 48 liters.",
+        "New Total = 48 / 0.75 = 64 liters.",
+        "Water added = New Total - Initial Total = 64 - 60 = 4 liters."
+      ],
+      "methods": [
+        {
+          "name": "Milk Invariance Principle",
+          "steps": [
+            "Milk initially = 80% of 60 = 48 L",
+            "Milk in new mix = 75% of Total = 48 L",
+            "New Total = 48 / 0.75 = 64 L",
+            "Water added = 64 - 60 = 4 L"
+          ]
+        }
+      ],
+      "exam_tip": "Focus on the ingredient that is NOT added or removed to quickly determine the new total volume."
+    }
+  },
+  {
+    "id": "MATH-PERCENT-020",
+    "subject": "mathematics",
+    "topic": "percentages",
+    "difficulty": 5,
+    "question": "A sales agent receives a 12% commission on sales up to Rs. 15,000 and a 10% commission on any sales exceeding Rs. 15,000. If the agent remits Rs. 53,700 to the company after retaining his commission, what was the total sales amount?",
+    "options": [
+      {"id": "A", "text": "Rs. 58,000"},
+      {"id": "B", "text": "Rs. 60,000"},
+      {"id": "C", "text": "Rs. 62,500"},
+      {"id": "D", "text": "Rs. 65,000"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Standardize the commission rate across all sales by adjusting the company deposit.",
+      "steps": [
+        "Suppose the agent took only 10% on all sales including the first Rs. 15,000.",
+        "On the first Rs. 15,000, he took 12%, which is 2% extra: 2% of 15,000 = Rs. 300.",
+        "If he had taken 10% across all sales, he would have deposited Rs. 300 more to the company.",
+        "Adjusted deposit at uniform 10% commission = 53,700 + 300 = Rs. 54,000.",
+        "At 10% commission, the company receives 90% of total sales.",
+        "90% of Total Sales = Rs. 54,000 => Total Sales = 54,000 / 0.90 = Rs. 60,000."
+      ],
+      "methods": [
+        {
+          "name": "Uniform Rate Shortcut",
+          "steps": [
+            "Extra commission taken on 15,000 = (12% - 10%) × 15,000 = Rs. 300",
+            "Deposit at flat 90% = 53,700 + 300 = Rs. 54,000",
+            "Total Sales = 54,000 / 0.90 = Rs. 60,000"
+          ]
+        },
+        {
+          "name": "Algebraic Equation",
+          "steps": [
+            "Let Total Sales = S",
+            "Commission = 0.12(15000) + 0.10(S - 15000) = 1800 + 0.10S - 1500 = 0.10S + 300",
+            "Deposit = S - (0.10S + 300) = 0.90S - 300 = 53700",
+            "0.90S = 54000 => S = 60,000"
+          ]
+        }
+      ],
+      "exam_tip": "The uniform rate shortcut eliminates equation setup and gives the answer in seconds."
+    }
+  }
+]

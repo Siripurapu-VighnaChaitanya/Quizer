@@ -1,0 +1,685 @@
+[
+  {
+    "id": "REAS-DIR-001",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 1,
+    "question": "A person walks 10 meters North, turns to his right, and walks 10 meters. Which direction is he facing now?",
+    "options": [
+      {"id": "A", "text": "North"},
+      {"id": "B", "text": "East"},
+      {"id": "C", "text": "South"},
+      {"id": "D", "text": "West"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A right turn while facing North directs a person towards East.",
+      "steps": [
+        "Initially moving North.",
+        "Turning right represents a 90° clockwise turn.",
+        "A 90° clockwise rotation from North points East."
+      ],
+      "methods": [
+        {
+          "name": "Cardinal Orientation",
+          "steps": ["North + Right Turn (90° CW) = East"]
+        }
+      ],
+      "exam_tip": "Right turns are clockwise; left turns are counter-clockwise."
+    }
+  },
+  {
+    "id": "REAS-DIR-002",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 1,
+    "question": "Rahul walks 20 meters towards the South. He then turns left and walks 15 meters. In which direction is he now situated relative to his starting point?",
+    "options": [
+      {"id": "A", "text": "South-West"},
+      {"id": "B", "text": "South-East"},
+      {"id": "C", "text": "North-East"},
+      {"id": "D", "text": "North-West"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Combine the displacement coordinates along South and East axes.",
+      "steps": [
+        "From starting point (0, 0):",
+        "Move South by 20 meters => (0, -20).",
+        "Facing South, a left turn points East.",
+        "Move East by 15 meters => (+15, -20).",
+        "The position (+15, -20) lies in the South-East quadrant."
+      ],
+      "methods": [
+        {
+          "name": "Quadrant Plotting",
+          "steps": [
+            "Y-axis: 20m South",
+            "X-axis: 15m East",
+            "Relative position = South-East"
+          ]
+        }
+      ],
+      "exam_tip": "When facing South, your left hand points East and your right hand points West."
+    }
+  },
+  {
+    "id": "REAS-DIR-003",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 1,
+    "question": "If North-East becomes South, South-East becomes West, and so on, what will West become under the same transformation?",
+    "options": [
+      {"id": "A", "text": "North-East"},
+      {"id": "B", "text": "North-West"},
+      {"id": "C", "text": "South-East"},
+      {"id": "D", "text": "South-West"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Determine the angle and direction of rotation applied to all compass points.",
+      "steps": [
+        "North-East (45°) rotated to South (180°) represents a clockwise rotation of 135°.",
+        "Verify: South-East (135°) + 135° CW = 270° (West). This holds true.",
+        "Apply the 135° clockwise rotation to West (270°):",
+        "270° + 135° = 405° ≡ 45° (North-East).",
+        "Therefore, West becomes North-East."
+      ],
+      "methods": [
+        {
+          "name": "Angular Rotation Mapping",
+          "steps": [
+            "Rotation = +135° clockwise",
+            "West + 135° CW = North-East"
+          ]
+        }
+      ],
+      "exam_tip": "Calculate the rotation angle once and add it clockwise to the target direction."
+    }
+  },
+  {
+    "id": "REAS-DIR-004",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 1,
+    "question": "A courier leaves the distribution hub and travels 5 km East, then turns left and travels 12 km North. What is the shortest straight-line distance back to the hub?",
+    "options": [
+      {"id": "A", "text": "10 km"},
+      {"id": "B", "text": "12 km"},
+      {"id": "C", "text": "13 km"},
+      {"id": "D", "text": "17 km"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Apply the Pythagorean theorem to the perpendicular paths.",
+      "steps": [
+        "Distance = √(East² + North²).",
+        "Distance = √(5² + 12²) = √(25 + 144) = √169 = 13 km."
+      ],
+      "methods": [
+        {
+          "name": "Pythagorean Triplet",
+          "steps": [
+            "Recognize (5, 12, 13) triplet",
+            "Hypotenuse = 13 km"
+          ]
+        }
+      ],
+      "exam_tip": "Common Pythagorean triplets in government exams: (3, 4, 5), (5, 12, 13), (8, 15, 17), (7, 24, 25)."
+    }
+  },
+  {
+    "id": "REAS-DIR-005",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 2,
+    "question": "Sunita leaves her house and walks 8 km towards West. She turns right and walks 6 km. What is the shortest distance between her house and current position, and in which direction is she from her house?",
+    "options": [
+      {"id": "A", "text": "10 km North-West"},
+      {"id": "B", "text": "10 km South-West"},
+      {"id": "C", "text": "14 km North-West"},
+      {"id": "D", "text": "14 km North"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Calculate displacement vector and hypotenuse.",
+      "steps": [
+        "Displacement West = 8 km.",
+        "Turning right from West points North: Displacement North = 6 km.",
+        "Shortest distance = √(8² + 6²) = √(64 + 36) = √100 = 10 km.",
+        "Direction from origin = North-West."
+      ],
+      "methods": [
+        {
+          "name": "Vector Displacement",
+          "steps": [
+            "Coordinates = (-8, 6)",
+            "Distance = √(64 + 36) = 10 km",
+            "Direction = North-West"
+          ]
+        }
+      ],
+      "exam_tip": "(6, 8, 10) is simply the (3, 4, 5) triplet scaled by a factor of 2."
+    }
+  },
+  {
+    "id": "REAS-DIR-006",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 2,
+    "question": "At sunrise, Amit stood facing an electric pole. The shadow of the pole fell exactly to Amit's left. In which direction was Amit facing?",
+    "options": [
+      {"id": "A", "text": "North"},
+      {"id": "B", "text": "South"},
+      {"id": "C", "text": "East"},
+      {"id": "D", "text": "West"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "At sunrise, light arrives from East, so all shadows cast towards West.",
+      "steps": [
+        "Time is sunrise, meaning the sun is in the East.",
+        "The shadow of any object falls directly towards West.",
+        "Amit's left hand is towards the shadow, so Amit's left = West.",
+        "If a person's left is West, their right is East, their back is South, and they are facing North."
+      ],
+      "methods": [
+        {
+          "name": "Shadow Physics Logic",
+          "steps": [
+            "Sun = East => Shadow = West",
+            "Left hand = West",
+            "Facing = North"
+          ]
+        }
+      ],
+      "exam_tip": "At sunrise: Left is West when facing North; Right is West when facing South."
+    }
+  },
+  {
+    "id": "REAS-DIR-007",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 2,
+    "question": "Rohan walks 12 km North, then 5 km West, then 8 km South, and finally 5 km East. How far is he from his starting point?",
+    "options": [
+      {"id": "A", "text": "2 km"},
+      {"id": "B", "text": "4 km"},
+      {"id": "C", "text": "6 km"},
+      {"id": "D", "text": "8 km"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Track net displacements on East-West and North-South axes.",
+      "steps": [
+        "East-West displacement: -5 km (West) + 5 km (East) = 0 km.",
+        "North-South displacement: +12 km (North) - 8 km (South) = +4 km (North).",
+        "Net distance from origin = 4 km."
+      ],
+      "methods": [
+        {
+          "name": "Axis Cancellation",
+          "steps": [
+            "X-axis: -5 + 5 = 0",
+            "Y-axis: 12 - 8 = 4",
+            "Distance = 4 km"
+          ]
+        }
+      ],
+      "exam_tip": "Equal opposite movements (5 km West followed by 5 km East) completely cancel out."
+    }
+  },
+  {
+    "id": "REAS-DIR-008",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 2,
+    "question": "A clock shows 4:30. If the minute hand points towards East, in which direction does the hour hand point?",
+    "options": [
+      {"id": "A", "text": "North-East"},
+      {"id": "B", "text": "North-West"},
+      {"id": "C", "text": "South-East"},
+      {"id": "D", "text": "South-West"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Determine the rotation angle applied to the standard dial.",
+      "steps": [
+        "At 4:30, on a normal clock, the minute hand points to 6 (South).",
+        "The problem states the minute hand points East.",
+        "South rotated to East represents a 90° counter-clockwise rotation.",
+        "At 4:30, the hour hand normally lies between 4 and 5 (South-East).",
+        "Rotate South-East by 90° counter-clockwise:",
+        "South-East (135°) - 90° = 45° (North-East).",
+        "Therefore, the hour hand points North-East."
+      ],
+      "methods": [
+        {
+          "name": "Clock Face Rotation",
+          "steps": [
+            "Standard minute hand at 6 = South",
+            "Shift to East = 90° anti-clockwise",
+            "Standard hour hand at 4:30 = South-East",
+            "South-East shifted 90° anti-clockwise = North-East"
+          ]
+        }
+      ],
+      "exam_tip": "At 4:30, the hour hand is exactly halfway between 4 and 5, pointing South-East."
+    }
+  },
+  {
+    "id": "REAS-DIR-009",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 3,
+    "question": "Anuj walks 30 meters towards North, turns right and walks 40 meters, then turns right again and walks 20 meters, and finally turns right and walks 40 meters. How many meters is he from his starting point?",
+    "options": [
+      {"id": "A", "text": "10 meters"},
+      {"id": "B", "text": "20 meters"},
+      {"id": "C", "text": "30 meters"},
+      {"id": "D", "text": "40 meters"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Map the rectangular path coordinates.",
+      "steps": [
+        "Start at (0, 0).",
+        "North 30m => (0, 30).",
+        "Right (East) 40m => (40, 30).",
+        "Right (South) 20m => (40, 10).",
+        "Right (West) 40m => (0, 10).",
+        "Distance from (0, 0) to (0, 10) = 10 meters."
+      ],
+      "methods": [
+        {
+          "name": "Coordinate Traversal",
+          "steps": [
+            "(0, 0) -> (0, 30) -> (40, 30) -> (40, 10) -> (0, 10)",
+            "Distance = 10 - 0 = 10 meters"
+          ]
+        }
+      ],
+      "exam_tip": "40m East and 40m West cancel each other, leaving only 30m - 20m = 10m North."
+    }
+  },
+  {
+    "id": "REAS-DIR-010",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 3,
+    "question": "A man is facing South. He turns 135° in the anti-clockwise direction and then 180° in the clockwise direction. Which direction is he facing now?",
+    "options": [
+      {"id": "A", "text": "North-East"},
+      {"id": "B", "text": "North-West"},
+      {"id": "C", "text": "South-East"},
+      {"id": "D", "text": "South-West"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Calculate the net angular displacement.",
+      "steps": [
+        "Initial direction = South.",
+        "Anti-clockwise turn = -135°.",
+        "Clockwise turn = +180°.",
+        "Net angular change = +180° - 135° = +45° clockwise.",
+        "Turning 45° clockwise from South points to South-West."
+      ],
+      "methods": [
+        {
+          "name": "Net Angle Method",
+          "steps": [
+            "Net = Clockwise - Anti-clockwise",
+            "Net = 180° - 135° = 45° Clockwise",
+            "South + 45° CW = South-West"
+          ]
+        }
+      ],
+      "exam_tip": "Always subtract anti-clockwise from clockwise turns to find net rotation in one operation."
+    }
+  },
+  {
+    "id": "REAS-DIR-011",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 3,
+    "question": "Town D is 12 km North of Town A. Town B is 5 km East of Town D. Town C is 12 km South of Town B. What is the straight-line distance between Town A and Town C?",
+    "options": [
+      {"id": "A", "text": "5 km"},
+      {"id": "B", "text": "7 km"},
+      {"id": "C", "text": "12 km"},
+      {"id": "D", "text": "13 km"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "The path forms a rectangle where opposite sides are equal.",
+      "steps": [
+        "Town A = (0, 0).",
+        "Town D is 12 km North => D = (0, 12).",
+        "Town B is 5 km East of D => B = (5, 12).",
+        "Town C is 12 km South of B => C = (5, 0).",
+        "Town A is at (0, 0) and Town C is at (5, 0).",
+        "Distance between A and C = 5 km."
+      ],
+      "methods": [
+        {
+          "name": "Geometric Rectangle Property",
+          "steps": [
+            "AD = 12 km, BC = 12 km (parallel vertical sides)",
+            "DB = 5 km, hence AC = 5 km (parallel horizontal sides)"
+          ]
+        }
+      ],
+      "exam_tip": "Recognizing a closed rectangle saves computing any distance formulas."
+    }
+  },
+  {
+    "id": "REAS-DIR-012",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 3,
+    "question": "One evening before sunset, Rekha and Hema were standing face to face in a park. If Hema's shadow was cast exactly to Hema's right, which direction was Rekha facing?",
+    "options": [
+      {"id": "A", "text": "North"},
+      {"id": "B", "text": "South"},
+      {"id": "C", "text": "East"},
+      {"id": "D", "text": "West"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Before sunset, the sun is in the West, casting shadows towards East.",
+      "steps": [
+        "Sun is in the West; therefore, all shadows fall to the East.",
+        "Hema's shadow is to her right, which means Hema's right hand points East.",
+        "When a person's right hand points East, that person is facing North.",
+        "Since Rekha is facing Hema face-to-face, Rekha must be facing South."
+      ],
+      "methods": [
+        {
+          "name": "Evening Shadow Resolution",
+          "steps": [
+            "Sunset => Shadows fall East",
+            "Hema's right = East => Hema faces North",
+            "Rekha faces opposite Hema => Rekha faces South"
+          ]
+        }
+      ],
+      "exam_tip": "Make sure to answer for the correct person: Hema faces North, but Rekha faces South."
+    }
+  },
+  {
+    "id": "REAS-DIR-013",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 4,
+    "question": "Kavita walks 24 meters North, turns right and walks 15 meters East, then turns right again and walks 32 meters South. What is the shortest straight-line distance between her starting point and her current position?",
+    "options": [
+      {"id": "A", "text": "15 meters"},
+      {"id": "B", "text": "17 meters"},
+      {"id": "C", "text": "20 meters"},
+      {"id": "D", "text": "25 meters"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Find the resultant horizontal and vertical displacements.",
+      "steps": [
+        "Horizontal displacement = 15 meters East.",
+        "Vertical displacement = 24 meters (North) - 32 meters (South) = -8 meters (South).",
+        "Shortest distance = √(15² + (-8)²) = √(225 + 64) = √289 = 17 meters."
+      ],
+      "methods": [
+        {
+          "name": "Pythagorean (8, 15, 17) Triplet",
+          "steps": [
+            "Δx = 15 m",
+            "Δy = 24 - 32 = -8 m",
+            "Distance = √(15² + 8²) = 17 meters"
+          ]
+        }
+      ],
+      "exam_tip": "(8, 15, 17) is a standard primitive Pythagorean triplet that appears frequently in SSC exams."
+    }
+  },
+  {
+    "id": "REAS-DIR-014",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 4,
+    "question": "A river initially flows from West to East. On encountering a hill, it makes a 90° left turn, and after passing the hill, it makes another 90° left turn. In which direction is the river flowing finally?",
+    "options": [
+      {"id": "A", "text": "North"},
+      {"id": "B", "text": "South"},
+      {"id": "C", "text": "East"},
+      {"id": "D", "text": "West"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Two successive 90° left turns produce a 180° reversal in direction.",
+      "steps": [
+        "Initial direction = East.",
+        "First left turn: 90° counter-clockwise from East points North.",
+        "Second left turn: 90° counter-clockwise from North points West.",
+        "Final flow direction = West."
+      ],
+      "methods": [
+        {
+          "name": "Direction Reversal",
+          "steps": ["Two 90° turns in the same direction = 180° complete reversal", "East reversed = West"]
+        }
+      ],
+      "exam_tip": "Two left turns or two right turns always reverse the direction of motion."
+    }
+  },
+  {
+    "id": "REAS-DIR-015",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 4,
+    "question": "Point A is 10 m West of Point B. Point C is 15 m North of Point B. Point D is 10 m East of Point C. Point E is 25 m South of Point D. In which direction is Point E situated with respect to Point A?",
+    "options": [
+      {"id": "A", "text": "North-East"},
+      {"id": "B", "text": "South-East"},
+      {"id": "C", "text": "South-West"},
+      {"id": "D", "text": "North-West"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Plot the relative Cartesian coordinates using Point A as the origin (0, 0).",
+      "steps": [
+        "Let Point A = (0, 0).",
+        "Point B is 10 m East of A => B = (10, 0).",
+        "Point C is 15 m North of B => C = (10, 15).",
+        "Point D is 10 m East of C => D = (20, 15).",
+        "Point E is 25 m South of D => E = (20, 15 - 25) = (20, -10).",
+        "Relative to A(0, 0), Point E(+20, -10) has positive X (East) and negative Y (South).",
+        "Therefore, Point E is in the South-East direction from Point A."
+      ],
+      "methods": [
+        {
+          "name": "Cartesian Vector Mapping",
+          "steps": [
+            "A = (0, 0)",
+            "E = (20, -10)",
+            "Quadrant: +X, -Y => South-East"
+          ]
+        }
+      ],
+      "exam_tip": "Assigning Cartesian coordinates (0, 0) to the reference point avoids spatial confusion."
+    }
+  },
+  {
+    "id": "REAS-DIR-016",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 4,
+    "question": "A magnetic compass was damaged such that its needle, which originally pointed East, started pointing North-East. A lost traveler navigated following the faulty needle thinking he was moving West. In which direction was he actually moving?",
+    "options": [
+      {"id": "A", "text": "North-West"},
+      {"id": "B", "text": "South-West"},
+      {"id": "C", "text": "North-East"},
+      {"id": "D", "text": "South-East"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Determine the needle's angular offset from true cardinal directions.",
+      "steps": [
+        "True East is 90°.",
+        "The needle points North-East (45°), meaning the needle reads 45° counter-clockwise from true direction.",
+        "The traveler aims to move West (270°) according to the faulty needle.",
+        "True Direction = Needle Direction + 45° clockwise.",
+        "True Direction = 270° + 45° = 315° (North-West).",
+        "Thus, the traveler was actually moving North-West."
+      ],
+      "methods": [
+        {
+          "name": "Defective Needle Offset",
+          "steps": [
+            "Faulty reading is shifted 45° counter-clockwise",
+            "True direction = Target reading + 45° clockwise",
+            "West (270°) + 45° = 315° (North-West)"
+          ]
+        }
+      ],
+      "exam_tip": "Compass error problems require reversing the error to find the true geographic heading."
+    }
+  },
+  {
+    "id": "REAS-DIR-017",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 5,
+    "question": "Point M is 8 m North of Point N. Point O is 6 m East of Point M. Point P is 12 m South of Point O. Point Q is 15 m West of Point P. Point R is 4 m North of Point Q. What is the shortest distance between Point N and Point R?",
+    "options": [
+      {"id": "A", "text": "7 meters"},
+      {"id": "B", "text": "8 meters"},
+      {"id": "C", "text": "9 meters"},
+      {"id": "D", "text": "12 meters"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Trace Cartesian coordinates starting from Point N as (0, 0).",
+      "steps": [
+        "Let Point N = (0, 0).",
+        "Point M = (0, 8).",
+        "Point O = (6, 8).",
+        "Point P = (6, 8 - 12) = (6, -4).",
+        "Point Q = (6 - 15, -4) = (-9, -4).",
+        "Point R = (-9, -4 + 4) = (-9, 0).",
+        "Point N is at (0, 0) and Point R is at (-9, 0).",
+        "Both points share the same Y-coordinate (0), so the shortest distance = |-9 - 0| = 9 meters."
+      ],
+      "methods": [
+        {
+          "name": "Coordinate Traversal Method",
+          "steps": [
+            "N(0, 0) -> M(0, 8) -> O(6, 8) -> P(6, -4) -> Q(-9, -4) -> R(-9, 0)",
+            "Distance between (0, 0) and (-9, 0) = 9 meters"
+          ]
+        }
+      ],
+      "exam_tip": "When Y-coordinates coincide at 0, the distance is simply the absolute difference in X-coordinates."
+    }
+  },
+  {
+    "id": "REAS-DIR-018",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 5,
+    "question": "Two cyclists start simultaneously from the same crossroads. Cyclist A pedals North at 15 km/h, and Cyclist B pedals East at 20 km/h. What will be the direct straight-line distance between them after 2 hours?",
+    "options": [
+      {"id": "A", "text": "35 km"},
+      {"id": "B", "text": "45 km"},
+      {"id": "C", "text": "50 km"},
+      {"id": "D", "text": "70 km"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The cyclists form the two legs of a right-angled triangle.",
+      "steps": [
+        "Distance covered by Cyclist A (North) = 15 km/h × 2 h = 30 km.",
+        "Distance covered by Cyclist B (East) = 20 km/h × 2 h = 40 km.",
+        "Straight-line distance = √(30² + 40²) = √(900 + 1600) = √2500 = 50 km."
+      ],
+      "methods": [
+        {
+          "name": "Relative Speed Triangle",
+          "steps": [
+            "Base = 40 km, Perpendicular = 30 km",
+            "(30, 40, 50) is 10 × (3, 4, 5) triplet",
+            "Distance = 50 km"
+          ]
+        }
+      ],
+      "exam_tip": "Apply the 3-4-5 Pythagorean triplet multiplied by 10."
+    }
+  },
+  {
+    "id": "REAS-DIR-019",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 5,
+    "question": "In a playground at 4:00 PM, a vertical pole 12 meters high casts a shadow 16 meters long towards East. An adjacent high-rise building casts a shadow 64 meters long at the exact same moment. What is the height of the building?",
+    "options": [
+      {"id": "A", "text": "36 meters"},
+      {"id": "B", "text": "42 meters"},
+      {"id": "C", "text": "48 meters"},
+      {"id": "D", "text": "54 meters"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "At any given instant, the ratio of height to shadow length is identical for all vertical objects due to equal sun elevation angle.",
+      "steps": [
+        "Ratio: Height / Shadow = 12 / 16 = 3 / 4.",
+        "Let the building height be H.",
+        "H / 64 = 3 / 4.",
+        "H = (3 / 4) × 64 = 3 × 16 = 48 meters."
+      ],
+      "methods": [
+        {
+          "name": "Similar Triangles Ratio",
+          "steps": [
+            "Height1 / Shadow1 = Height2 / Shadow2",
+            "12 / 16 = H / 64",
+            "H = (12 × 64) / 16 = 48 meters"
+          ]
+        }
+      ],
+      "exam_tip": "Sun elevation creates similar triangles; scale the building by the shadow multiplier (64/16 = 4 => 12 × 4 = 48)."
+    }
+  },
+  {
+    "id": "REAS-DIR-020",
+    "subject": "reasoning",
+    "topic": "direction_sense",
+    "difficulty": 5,
+    "question": "Drone A flies 12 km West and then 5 km South. Drone B flies 8 km East and then 10 km North from the same ground base. What is the straight-line distance between Drone A and Drone B?",
+    "options": [
+      {"id": "A", "text": "20 km"},
+      {"id": "B", "text": "22 km"},
+      {"id": "C", "text": "25 km"},
+      {"id": "D", "text": "28 km"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Compute the difference in coordinates between the two drones.",
+      "steps": [
+        "Ground base = (0, 0).",
+        "Drone A position: (-12, -5).",
+        "Drone B position: (+8, +10).",
+        "Horizontal separation Δx = 8 - (-12) = 20 km.",
+        "Vertical separation Δy = 10 - (-5) = 15 km.",
+        "Straight-line distance = √(20² + 15²) = √(400 + 225) = √625 = 25 km."
+      ],
+      "methods": [
+        {
+          "name": "2D Separation Vector",
+          "steps": [
+            "Δx = 20 km, Δy = 15 km",
+            "(15, 20, 25) is 5 × (3, 4, 5) triplet",
+            "Distance = 25 km"
+          ]
+        }
+      ],
+      "exam_tip": "Recognize (15, 20, 25) as a 5-fold scaled 3-4-5 Pythagorean triplet immediately."
+    }
+  }
+]

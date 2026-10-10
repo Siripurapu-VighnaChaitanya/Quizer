@@ -1,0 +1,653 @@
+[
+  {
+    "id": "POL-PARL-001",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 1,
+    "question": "What is the minimum age prescribed under the Constitution for a person to be eligible for election as a member of the Lok Sabha?",
+    "options": [
+      {"id": "A", "text": "21 years"},
+      {"id": "B", "text": "25 years"},
+      {"id": "C", "text": "30 years"},
+      {"id": "D", "text": "35 years"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 84(b) prescribes a minimum age of 25 years for the Lok Sabha and 30 years for the Rajya Sabha.",
+      "steps": [
+        "Panchayat / Municipality election: 21 years.",
+        "Lok Sabha / Legislative Assembly (Vidhan Sabha): 25 years.",
+        "Rajya Sabha / Legislative Council (Vidhan Parishad): 30 years.",
+        "President / Vice-President / Governor: 35 years."
+      ],
+      "methods": [
+        {
+          "name": "Age Matrix Recall",
+          "steps": ["Lok Sabha = 25 years; Rajya Sabha = 30 years"]
+        }
+      ],
+      "exam_tip": "Remember: 21 (local bodies), 25 (Lower house), 30 (Upper house), 35 (Executive heads).",
+      "reference": "Constitution of India, Article 84(b)"
+    }
+  },
+  {
+    "id": "POL-PARL-002",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 1,
+    "question": "Who presides over a Joint Sitting of both Houses of Parliament convened under Article 108?",
+    "options": [
+      {"id": "A", "text": "The President of India"},
+      {"id": "B", "text": "The Vice-President of India (Chairman of Rajya Sabha)"},
+      {"id": "C", "text": "The Prime Minister"},
+      {"id": "D", "text": "The Speaker of the Lok Sabha"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Under Article 118(4), the Speaker of the Lok Sabha presides over any Joint Sitting.",
+      "steps": [
+        "The President summons a Joint Sitting under Article 108.",
+        "The Speaker of the Lok Sabha presides over it.",
+        "If the Speaker is absent, the Deputy Speaker of Lok Sabha presides.",
+        "If the Deputy Speaker is also absent, the Deputy Chairman of Rajya Sabha presides.",
+        "The Chairman of Rajya Sabha (Vice-President) NEVER presides because he is not a member of either House."
+      ],
+      "methods": [
+        {
+          "name": "Order of Precedence for Joint Sitting",
+          "steps": [
+            "1. Speaker of Lok Sabha",
+            "2. Deputy Speaker of Lok Sabha",
+            "3. Deputy Chairman of Rajya Sabha (never Chairman)"
+          ]
+        }
+      ],
+      "exam_tip": "The Vice-President can NEVER preside over a Joint Sitting of Parliament.",
+      "reference": "Constitution of India, Article 118(4)"
+    }
+  },
+  {
+    "id": "POL-PARL-003",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 1,
+    "question": "What is the maximum constitutionally permitted interval between two consecutive sessions of Parliament?",
+    "options": [
+      {"id": "A", "text": "3 months"},
+      {"id": "B", "text": "4 months"},
+      {"id": "C", "text": "6 months"},
+      {"id": "D", "text": "9 months"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Under Article 85(1), Parliament must meet at least twice a year with no more than 6 months between sessions.",
+      "steps": [
+        "Article 85(1) states: 'six months shall not intervene between its last sitting in one session and the date appointed for its first sitting in the next session.'",
+        "By convention, the Indian Parliament conducts three sessions annually: Budget Session (Feb-May), Monsoon Session (July-Sept), and Winter Session (Nov-Dec)."
+      ],
+      "methods": [
+        {
+          "name": "Constitutional Calendar",
+          "steps": ["Maximum permissible gap = 6 months between the last sitting of one session and first of next."]
+        }
+      ],
+      "exam_tip": "Even though three sessions occur by convention, the constitutional minimum is just two sessions per year.",
+      "reference": "Constitution of India, Article 85(1)"
+    }
+  },
+  {
+    "id": "POL-PARL-004",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 1,
+    "question": "What is the quorum required under Article 100(3) to constitute a valid meeting of either House of Parliament?",
+    "options": [
+      {"id": "A", "text": "One-fifth (1/5th) of the total membership"},
+      {"id": "B", "text": "One-sixth (1/6th) of the total membership"},
+      {"id": "C", "text": "One-tenth (1/10th) of the total membership"},
+      {"id": "D", "text": "One-twelfth (1/12th) of the total membership"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Quorum is one-tenth of the total number of members of the House, including the presiding officer.",
+      "steps": [
+        "Article 100(3) sets quorum at 10% of total membership.",
+        "For Lok Sabha (543 members): Quorum is approximately 55 members.",
+        "For Rajya Sabha (245 members): Quorum is 25 members.",
+        "If there is no quorum, it is the duty of the presiding officer to adjourn or suspend the meeting."
+      ],
+      "methods": [
+        {
+          "name": "Quorum Math",
+          "steps": [
+            "Quorum = 1/10th of total strength",
+            "Lok Sabha = ~55, Rajya Sabha = 25"
+          ]
+        }
+      ],
+      "exam_tip": "Quorum includes the presiding officer (Speaker/Chairman)."
+    }
+  },
+  {
+    "id": "POL-PARL-005",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 2,
+    "question": "In which House of Parliament can a Money Bill be originally introduced?",
+    "options": [
+      {"id": "A", "text": "Rajya Sabha only"},
+      {"id": "B", "text": "Lok Sabha only"},
+      {"id": "C", "text": "Either House of Parliament"},
+      {"id": "D", "text": "Only in a Joint Sitting"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Under Article 109(1), a Money Bill can be introduced only in the Lok Sabha.",
+      "steps": [
+        "Article 109(1) clearly specifies: 'A Money Bill shall not be introduced in the Council of States (Rajya Sabha).'",
+        "It can be introduced only on the prior recommendation of the President.",
+        "It must be introduced by a Minister (it is a Government Bill, never a private member's bill)."
+      ],
+      "methods": [
+        {
+          "name": "Money Bill Introduction Rule",
+          "steps": [
+            "1. Originates strictly in Lok Sabha",
+            "2. Requires prior Presidential recommendation",
+            "3. Introduced only by a Minister"
+          ]
+        }
+      ],
+      "exam_tip": "Ordinary bills can originate in either House, but Money Bills originate strictly in the Lok Sabha.",
+      "reference": "Constitution of India, Article 109(1)"
+    }
+  },
+  {
+    "id": "POL-PARL-006",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 2,
+    "question": "Who possesses the final, non-justiciable authority to certify whether a proposed enactment is a 'Money Bill'?",
+    "options": [
+      {"id": "A", "text": "The President of India"},
+      {"id": "B", "text": "The Prime Minister"},
+      {"id": "C", "text": "The Union Finance Minister"},
+      {"id": "D", "text": "The Speaker of the Lok Sabha"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Under Article 110(3), the decision of the Speaker of the Lok Sabha on whether a bill is a Money Bill is final.",
+      "steps": [
+        "When any question arises whether a Bill is a Money Bill, the Speaker's certificate is required.",
+        "When transmitted to the Rajya Sabha and when presented to the President for assent, the Bill carries the Speaker's signed endorsement.",
+        "Neither the courts, nor the President, nor the Rajya Sabha can question the Speaker's certification."
+      ],
+      "methods": [
+        {
+          "name": "Constitutional Authority",
+          "steps": ["Article 110(3) -> The decision of the Speaker of the House of the People thereon shall be final."]
+        }
+      ],
+      "exam_tip": "Look for 'Speaker of the Lok Sabha'; the Finance Minister drafts the bill, but only the Speaker certifies it.",
+      "reference": "Constitution of India, Article 110(3)"
+    }
+  },
+  {
+    "id": "POL-PARL-007",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 2,
+    "question": "Within what maximum time period must the Rajya Sabha return a Money Bill transmitted to it by the Lok Sabha?",
+    "options": [
+      {"id": "A", "text": "7 days"},
+      {"id": "B", "text": "14 days"},
+      {"id": "C", "text": "30 days"},
+      {"id": "D", "text": "60 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Rajya Sabha has only 14 days to consider and return a Money Bill.",
+      "steps": [
+        "Under Article 109(5), if the Rajya Sabha does not return the Money Bill within 14 days, it is deemed to have been passed by both Houses in the form passed by the Lok Sabha.",
+        "The Rajya Sabha cannot reject or amend a Money Bill; it can only suggest recommendations.",
+        "The Lok Sabha has full discretion to accept or reject any or all recommendations of the Rajya Sabha."
+      ],
+      "methods": [
+        {
+          "name": "14-Day Deemed Passage Rule",
+          "steps": ["Rajya Sabha must return Money Bill within 14 days, or it passes automatically."]
+        }
+      ],
+      "exam_tip": "Contrast with ordinary bills, where Rajya Sabha can withhold approval for up to 6 months."
+    }
+  },
+  {
+    "id": "POL-PARL-008",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 2,
+    "question": "How many members can the President nominate to the Rajya Sabha for their distinguished contributions in literature, science, art, and social service?",
+    "options": [
+      {"id": "A", "text": "2 members"},
+      {"id": "B", "text": "10 members"},
+      {"id": "C", "text": "12 members"},
+      {"id": "D", "text": "14 members"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Under Article 80(1)(a), the President nominates 12 members to the Rajya Sabha.",
+      "steps": [
+        "The 12 members are nominated for practical experience or special knowledge in four distinct fields: Literature, Science, Art, and Social Service (LAS-S).",
+        "(Note: The nomination of 2 Anglo-Indian members to the Lok Sabha was discontinued by the 104th Constitutional Amendment Act, 2019)."
+      ],
+      "methods": [
+        {
+          "name": "Article 80 Nomination Rule",
+          "steps": ["12 nominated members in Rajya Sabha across 4 fields: Literature, Science, Art, Social Service."]
+        }
+      ],
+      "exam_tip": "Remember the four fields: Literature, Science, Art, and Social Service (Sports is counted under Art/Social Service for nominations like Sachin Tendulkar).",
+      "reference": "Constitution of India, Article 80(1)(a) and 80(3)"
+    }
+  },
+  {
+    "id": "POL-PARL-009",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 3,
+    "question": "Under which Article of the Indian Constitution does the President possess the power to promulgate Ordinances when Parliament is in recess?",
+    "options": [
+      {"id": "A", "text": "Article 111"},
+      {"id": "B", "text": "Article 123"},
+      {"id": "C", "text": "Article 143"},
+      {"id": "D", "text": "Article 213"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 123 empowers the President to issue Ordinances during parliamentary recess.",
+      "steps": [
+        "Article 123 gives legislative power to the President (Union executive).",
+        "It can be exercised only when either of the two Houses of Parliament is not in session.",
+        "The President must be satisfied that circumstances exist which render it necessary for him to take immediate action.",
+        "Article 213 confers corresponding ordinance-making power upon the Governor of a State."
+      ],
+      "methods": [
+        {
+          "name": "Parallel Article Pairing",
+          "steps": [
+            "President's Ordinance = Article 123",
+            "Governor's Ordinance = Article 213 (permute 1 and 2)"
+          ]
+        }
+      ],
+      "exam_tip": "Notice the digit flip: President is 123, Governor is 213."
+    }
+  },
+  {
+    "id": "POL-PARL-010",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 3,
+    "question": "An Ordinance promulgated by the President ceases to operate upon the expiration of what duration from the date of reassembly of Parliament, unless approved earlier?",
+    "options": [
+      {"id": "A", "text": "14 days"},
+      {"id": "B", "text": "1 month"},
+      {"id": "C", "text": "6 weeks"},
+      {"id": "D", "text": "6 months"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Under Article 123(2)(a), an ordinance lapses 6 weeks from the reassembly of Parliament.",
+      "steps": [
+        "When Parliament reassembles, the ordinance must be laid before both Houses.",
+        "It ceases to operate at the expiration of 6 weeks from reassembly, or earlier if disapproved by resolutions passed by both Houses.",
+        "If the two Houses reassemble on different dates, the 6 weeks are counted from the later of those dates.",
+        "The theoretical maximum life of an ordinance is 6 months (max recess) + 6 weeks = 7.5 months."
+      ],
+      "methods": [
+        {
+          "name": "Ordinance Expiration Rule",
+          "steps": ["6 weeks from reassembly of Parliament (from later house if reassembled on different dates)."]
+        }
+      ],
+      "exam_tip": "Distinguish between maximum gap between sessions (6 months) and ordinance validity after reassembly (6 weeks).",
+      "reference": "Constitution of India, Article 123(2)(a)"
+    }
+  },
+  {
+    "id": "POL-PARL-011",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 3,
+    "question": "Under Article 108, for which of the following categories of legislation CANNOT a Joint Sitting of both Houses of Parliament be summoned?",
+    "options": [
+      {"id": "A", "text": "Ordinary Bills"},
+      {"id": "B", "text": "Financial Bills (Type A)"},
+      {"id": "C", "text": "Constitution Amendment Bills"},
+      {"id": "D", "text": "Bills originating in Rajya Sabha and rejected by Lok Sabha"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Joint sittings are prohibited for Constitution Amendment Bills (Article 368) and Money Bills (Article 110).",
+      "steps": [
+        "A Constitution Amendment Bill under Article 368 must be passed by each House individually by a special majority (majority of total membership + 2/3rd present and voting).",
+        "There is no provision for a joint sitting to resolve deadlock on a Constitution Amendment Bill.",
+        "Similarly, for Money Bills, the Lok Sabha has overriding supremacy, so deadlock cannot arise and joint sitting is not applicable."
+      ],
+      "methods": [
+        {
+          "name": "Joint Sitting Exclusion",
+          "steps": [
+            "Allowed: Ordinary Bills & Financial Bills",
+            "Prohibited: Money Bills & Constitution Amendment Bills"
+          ]
+        }
+      ],
+      "exam_tip": "Only 3 joint sittings have ever been held in Indian history (Dowry Prohibition 1961, Banking Services Commission 1978, POTA 2002).",
+      "reference": "Constitution of India, Articles 108 and 368"
+    }
+  },
+  {
+    "id": "POL-PARL-012",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 3,
+    "question": "Which Parliamentary Standing Committee is regarded as the 'Twin Sister' of the Estimates Committee and works in close coordination with the Comptroller and Auditor General (CAG)?",
+    "options": [
+      {"id": "A", "text": "Committee on Public Undertakings"},
+      {"id": "B", "text": "Public Accounts Committee (PAC)"},
+      {"id": "C", "text": "Committee on Subordinate Legislation"},
+      {"id": "D", "text": "Business Advisory Committee"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The Public Accounts Committee (PAC) examines CAG audit reports and works closely as a twin to the Estimates Committee.",
+      "steps": [
+        "The PAC was established in 1921 under the Government of India Act 1919.",
+        "It examines the annual audit reports of the CAG regarding government expenditure.",
+        "The CAG acts as the 'guide, friend, and philosopher' of the PAC.",
+        "By convention since 1967, its Chairman is selected from the Opposition in the Lok Sabha."
+      ],
+      "methods": [
+        {
+          "name": "PAC Profile",
+          "steps": [
+            "Oldest committee (est. 1921)",
+            "Scrutinizes CAG reports",
+            "Chairman from Opposition by convention"
+          ]
+        }
+      ],
+      "exam_tip": "CAG acts as the 'guide, friend and philosopher' specifically to the Public Accounts Committee (PAC)."
+    }
+  },
+  {
+    "id": "POL-PARL-013",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 4,
+    "question": "Under Article 101(4), a seat in either House of Parliament may be declared vacant if a member remains absent without permission from all meetings for what continuous period?",
+    "options": [
+      {"id": "A", "text": "30 days"},
+      {"id": "B", "text": "45 days"},
+      {"id": "C", "text": "60 days"},
+      {"id": "D", "text": "90 days"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Under Article 101(4), a member's seat can be vacated after 60 days of unauthorized continuous absence.",
+      "steps": [
+        "Article 101(4) specifies 60 consecutive days without permission of the House.",
+        "In calculating this 60-day period, any period during which the House is prorogued or adjourned for more than four consecutive days is disregarded."
+      ],
+      "methods": [
+        {
+          "name": "Vacation of Seat Due to Absence",
+          "steps": ["60 days consecutive absence without leave of the House."]
+        }
+      ],
+      "exam_tip": "Remember that recesses/prorogations exceeding 4 consecutive days are excluded from the 60-day tally.",
+      "reference": "Constitution of India, Article 101(4)"
+    }
+  },
+  {
+    "id": "POL-PARL-014",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 4,
+    "question": "Which of the following motions, if adopted in the Lok Sabha, results in the mandatory resignation of the entire Council of Ministers?",
+    "options": [
+      {"id": "A", "text": "Adjournment Motion"},
+      {"id": "B", "text": "Censure Motion"},
+      {"id": "C", "text": "Calling Attention Motion"},
+      {"id": "D", "text": "No-Confidence Motion"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "A No-Confidence Motion expresses loss of collective majority, requiring the government to resign immediately.",
+      "steps": [
+        "Article 75(3) states that the Council of Ministers is collectively responsible to the Lok Sabha.",
+        "Under Rule 198 of the Lok Sabha Rules, a No-Confidence Motion can be moved only in the Lok Sabha.",
+        "It requires the support of at least 50 members to be admitted.",
+        "If passed, the government falls; unlike a Censure Motion, which criticizes policies without requiring resignation."
+      ],
+      "methods": [
+        {
+          "name": "Censure vs No-Confidence Motion",
+          "steps": [
+            "Censure Motion: Stated reasons required, targets specific ministers/policies, no resignation required.",
+            "No-Confidence Motion: No reasons required, against entire Council, government must resign if passed."
+          ]
+        }
+      ],
+      "exam_tip": "A No-Confidence Motion can only be introduced in the Lok Sabha, never in the Rajya Sabha.",
+      "reference": "Rules of Procedure and Conduct of Business in Lok Sabha, Rule 198; Article 75(3)"
+    }
+  },
+  {
+    "id": "POL-PARL-015",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 4,
+    "question": "Under Article 249 of the Constitution, Parliament acquires the power to legislate on a subject in the State List if which body passes a resolution by a 2/3rd majority of members present and voting?",
+    "options": [
+      {"id": "A", "text": "The Lok Sabha"},
+      {"id": "B", "text": "The Rajya Sabha"},
+      {"id": "C", "text": "The Inter-State Council"},
+      {"id": "D", "text": "The Governing Council of NITI Aayog"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Rajya Sabha represents state interests; its 2/3rd resolution under Article 249 enables Parliament to legislate on State List matters in national interest.",
+      "steps": [
+        "Article 249 states: If the Council of States (Rajya Sabha) declares by resolution supported by not less than two-thirds of members present and voting that it is necessary in the national interest...",
+        "Such a resolution remains valid for a maximum of 1 year at a time.",
+        "It can be renewed repeatedly for 1-year increments.",
+        "The law passed under it ceases to have effect 6 months after the resolution lapses."
+      ],
+      "methods": [
+        {
+          "name": "Special Federal Power of Rajya Sabha",
+          "steps": [
+            "Article 249: State List legislation in national interest",
+            "Article 312: Creation of new All-India Services (IAS/IPS/IFS)"
+          ]
+        }
+      ],
+      "exam_tip": "Both Article 249 (State List law) and Article 312 (All-India Services) are exclusive constitutional powers of the Rajya Sabha.",
+      "reference": "Constitution of India, Article 249"
+    }
+  },
+  {
+    "id": "POL-PARL-016",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 4,
+    "question": "Under Article 107 of the Constitution, what is the fate of a Bill that originated in the Lok Sabha and is pending in the Rajya Sabha upon the dissolution of the Lok Sabha?",
+    "options": [
+      {"id": "A", "text": "It is held in abeyance for the newly elected Lok Sabha"},
+      {"id": "B", "text": "It lapses"},
+      {"id": "C", "text": "It is automatically referred to a Joint Sitting"},
+      {"id": "D", "text": "It is submitted to the President for provisional assent"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A Bill passed by Lok Sabha and pending in Rajya Sabha lapses upon the dissolution of Lok Sabha.",
+      "steps": [
+        "Under Article 107(5), a Bill which is pending in the Lok Sabha, or which having been passed by the Lok Sabha is pending in the Rajya Sabha, lapses on a dissolution of the Lok Sabha.",
+        "In contrast, a Bill originating and pending in the Rajya Sabha which has NOT been passed by the Lok Sabha does NOT lapse.",
+        "A Bill passed by both Houses and awaiting Presidential assent does NOT lapse."
+      ],
+      "methods": [
+        {
+          "name": "Lapsing Rules upon Dissolution",
+          "steps": [
+            "1. Pending in LS -> Lapses",
+            "2. Passed by LS, pending in RS -> Lapses",
+            "3. Pending in RS, NOT passed by LS -> Does NOT lapse",
+            "4. Passed by both Houses, awaiting assent -> Does NOT lapse"
+          ]
+        }
+      ],
+      "exam_tip": "If the Lok Sabha touched it (pending in LS or passed by LS), it lapses when Lok Sabha dissolves.",
+      "reference": "Constitution of India, Article 107(4) and 107(5)"
+    }
+  },
+  {
+    "id": "POL-PARL-017",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 5,
+    "question": "Which procedural convention is an informal Indian innovation introduced in 1962 that does NOT find any mention in the formal Rules of Procedure?",
+    "options": [
+      {"id": "A", "text": "Question Hour"},
+      {"id": "B", "text": "Zero Hour"},
+      {"id": "C", "text": "Half-an-Hour Discussion"},
+      {"id": "D", "text": "Calling Attention Motion"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Zero Hour was developed spontaneously by the Indian Parliament in 1962 to raise urgent matters without prior notice.",
+      "steps": [
+        "Question Hour is the first hour of a sitting and is strictly codified in the Rules of Procedure.",
+        "Zero Hour starts immediately after Question Hour and lasts until the regular agenda is taken up.",
+        "Because it traditionally begins around 12:00 noon, it was named 'Zero Hour'.",
+        "It is not mentioned anywhere in the Rules of Procedure and Conduct of Business."
+      ],
+      "methods": [
+        {
+          "name": "Indian Parliamentary Innovations",
+          "steps": [
+            "Zero Hour (1962): Informal Indian innovation",
+            "Calling Attention Motion (1954): Formal Indian innovation with notice"
+          ]
+        }
+      ],
+      "exam_tip": "Question Hour is formal and written in rules; Zero Hour is informal with zero mention in rules.",
+      "reference": "Indian Parliamentary Conventions; Lok Sabha Secretariat Practice"
+    }
+  },
+  {
+    "id": "POL-PARL-018",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 5,
+    "question": "What is the total membership of the Public Accounts Committee (PAC), and what is the distribution of seats between the two Houses?",
+    "options": [
+      {"id": "A", "text": "15 members (all from Lok Sabha)"},
+      {"id": "B", "text": "22 members (15 from Lok Sabha and 7 from Rajya Sabha)"},
+      {"id": "C", "text": "30 members (all from Lok Sabha)"},
+      {"id": "D", "text": "31 members (21 from Lok Sabha and 10 from Rajya Sabha)"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The PAC has 22 members: 15 elected from Lok Sabha and 7 from Rajya Sabha.",
+      "steps": [
+        "PAC composition: 22 members (15 LS + 7 RS).",
+        "Estimates Committee composition: 30 members (all 30 from Lok Sabha; no Rajya Sabha members).",
+        "Committee on Public Undertakings (COPU): 22 members (15 LS + 7 RS).",
+        "Members are elected annually via proportional representation by means of a single transferable vote.",
+        "A Minister cannot be elected as a member of these financial committees."
+      ],
+      "methods": [
+        {
+          "name": "Financial Committees Composition Comparison",
+          "steps": [
+            "Estimates Committee: 30 members (100% Lok Sabha)",
+            "PAC: 22 members (15 LS + 7 RS)",
+            "COPU: 22 members (15 LS + 7 RS)"
+          ]
+        }
+      ],
+      "exam_tip": "Notice that the Estimates Committee is the largest committee (30) and contains zero Rajya Sabha members.",
+      "reference": "Rules of Procedure and Conduct of Business in Lok Sabha, Rule 308"
+    }
+  },
+  {
+    "id": "POL-PARL-019",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 5,
+    "question": "Regarding the veto powers of the Indian President over Ordinary Bills under Article 111, which type of veto is NOT available under the Indian Constitution?",
+    "options": [
+      {"id": "A", "text": "Absolute Veto"},
+      {"id": "B", "text": "Suspensive Veto"},
+      {"id": "C", "text": "Pocket Veto"},
+      {"id": "D", "text": "Qualified Veto"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "The Indian President possesses Absolute, Suspensive, and Pocket vetoes, but NOT a Qualified Veto.",
+      "steps": [
+        "Absolute Veto: Withholding assent entirely (Bill ends).",
+        "Suspensive Veto: Returning the Bill for reconsideration; overridden by Parliament with an ordinary simple majority.",
+        "Pocket Veto: Taking no action indefinitely because the Constitution prescribes no time limit for assent (used by President Zail Singh in 1986 on the Indian Post Office Amendment Bill).",
+        "Qualified Veto: Exists in the United States, where a presidential veto can be overridden only by a higher special majority (2/3rd). The Indian Constitution does not have a Qualified Veto."
+      ],
+      "methods": [
+        {
+          "name": "Four Veto Types Classification",
+          "steps": [
+            "Indian President has 3 vetoes: Absolute, Suspensive, Pocket",
+            "Indian President does NOT have: Qualified Veto (US system)"
+          ]
+        }
+      ],
+      "exam_tip": "Pocket of Indian President is bigger than that of American President because the US President has only 10 days to return a bill.",
+      "reference": "Constitution of India, Article 111"
+    }
+  },
+  {
+    "id": "POL-PARL-020",
+    "subject": "indian_polity",
+    "topic": "parliament_and_lawmaking",
+    "difficulty": 5,
+    "question": "Under the Tenth Schedule (Anti-Defection Law) introduced by the 52nd Amendment Act 1985, who is the designated authority to adjudicate disqualification questions of an MP?",
+    "options": [
+      {"id": "A", "text": "The President of India on the advice of the Election Commission"},
+      {"id": "B", "text": "The Supreme Court of India in original jurisdiction"},
+      {"id": "C", "text": "The Chairman of Rajya Sabha or Speaker of Lok Sabha respectively"},
+      {"id": "D", "text": "The Chief Election Commissioner of India"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Questions of defection under the Tenth Schedule are decided by the presiding officer of the respective House.",
+      "steps": [
+        "Paragraph 6 of the Tenth Schedule designates the Chairman (Rajya Sabha) or Speaker (Lok Sabha) as the deciding authority.",
+        "Disqualifications under Article 102(1) (office of profit, unsound mind, etc.) are decided by the President on the advice of the Election Commission (Article 103).",
+        "In the Kihoto Hollohan case (1992), the Supreme Court ruled that while deciding defection questions, the presiding officer functions as a tribunal and the order is subject to judicial review."
+      ],
+      "methods": [
+        {
+          "name": "Disqualification Authority Duality",
+          "steps": [
+            "General Disqualifications (Art 102/103) -> President on EC advice",
+            "Defection Disqualifications (10th Schedule) -> Speaker / Chairman"
+          ]
+        }
+      ],
+      "exam_tip": "Crucial distinction: Defection = Speaker/Chairman; Other disqualifications (office of profit, insolvency) = President via EC.",
+      "reference": "Constitution of India, Tenth Schedule; Kihoto Hollohan v. Zachillhu (1992)"
+    }
+  }
+]

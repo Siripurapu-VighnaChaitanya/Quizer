@@ -1,0 +1,234 @@
+{
+  "version": "1.0.0",
+  "app_name": "ExamPrep Hub",
+  "exams": [
+    {
+      "id": "rrb-ntpc",
+      "name": "RRB NTPC (Non-Technical Popular Categories)",
+      "organization": "Railway Recruitment Board",
+      "stage": "CBT-1 & CBT-2",
+      "description": "General Awareness, Mathematics, and General Intelligence & Reasoning.",
+      "marking_scheme": {
+        "correct": 1.0,
+        "negative": 0.33,
+        "time_per_q_seconds": 54
+      },
+      "subjects_included": ["mathematics", "reasoning", "general_science", "indian_polity"]
+    },
+    {
+      "id": "ssc-cgl",
+      "name": "SSC CGL (Combined Graduate Level)",
+      "organization": "Staff Selection Commission",
+      "stage": "Tier-I & Tier-II",
+      "description": "Quantitative Aptitude, General Intelligence & Reasoning, General Awareness, and English.",
+      "marking_scheme": {
+        "correct": 2.0,
+        "negative": 0.50,
+        "time_per_q_seconds": 60
+      },
+      "subjects_included": ["mathematics", "reasoning", "general_science", "indian_polity", "english"]
+    },
+    {
+      "id": "rrb-group-d",
+      "name": "RRB Group D (Level 1)",
+      "organization": "Railway Recruitment Board",
+      "stage": "CBT",
+      "description": "General Science, Mathematics, General Intelligence & Reasoning, General Awareness.",
+      "marking_scheme": {
+        "correct": 1.0,
+        "negative": 0.33,
+        "time_per_q_seconds": 54
+      },
+      "subjects_included": ["mathematics", "reasoning", "general_science", "indian_polity"]
+    },
+    {
+      "id": "ssc-chsl",
+      "name": "SSC CHSL (10+2)",
+      "organization": "Staff Selection Commission",
+      "stage": "Tier-I",
+      "description": "Quantitative Aptitude, General Intelligence, English Language, General Awareness.",
+      "marking_scheme": {
+        "correct": 2.0,
+        "negative": 0.50,
+        "time_per_q_seconds": 60
+      },
+      "subjects_included": ["mathematics", "reasoning", "general_science", "indian_polity", "english"]
+    }
+  ],
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics / Quantitative Aptitude",
+      "short_name": "Quant",
+      "description": "Arithmetic, algebra, and quantitative techniques for central & state exams.",
+      "icon": "Calculator",
+      "color": "blue",
+      "topics": [
+        {
+          "id": "percentages",
+          "name": "Percentages",
+          "description": "Fraction to percentage conversions, percentage increase/decrease, successive changes.",
+          "file": "mathematics/percentages.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "ratio_and_proportion",
+          "name": "Ratio and Proportion",
+          "description": "Direct and inverse ratios, mean proportional, duplicate ratios, division of amounts.",
+          "file": "mathematics/ratio_and_proportion.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "time_and_work",
+          "name": "Time and Work",
+          "description": "Efficiency method, LCM method, working together and alternate days.",
+          "file": "mathematics/time_and_work.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {"id": "number_system", "name": "Number System", "is_available": false, "question_count": 0},
+        {"id": "simplification", "name": "Simplification & BODMAS", "is_available": false, "question_count": 0},
+        {"id": "average", "name": "Average", "is_available": false, "question_count": 0},
+        {"id": "profit_and_loss", "name": "Profit and Loss", "is_available": false, "question_count": 0},
+        {"id": "simple_compound_interest", "name": "Simple & Compound Interest", "is_available": false, "question_count": 0},
+        {"id": "time_speed_distance", "name": "Time, Speed & Distance", "is_available": false, "question_count": 0},
+        {"id": "mensuration", "name": "Mensuration", "is_available": false, "question_count": 0},
+        {"id": "algebra", "name": "Algebra", "is_available": false, "question_count": 0},
+        {"id": "data_interpretation", "name": "Data Interpretation", "is_available": false, "question_count": 0}
+      ]
+    },
+    {
+      "id": "reasoning",
+      "name": "General Intelligence & Reasoning",
+      "short_name": "Reasoning",
+      "description": "Logical patterns, sequences, analytical reasoning, and spatial deductions.",
+      "icon": "Brain",
+      "color": "purple",
+      "topics": [
+        {
+          "id": "number_series",
+          "name": "Number Series",
+          "description": "Arithmetic, geometric, alternate differences, prime, and square series patterns.",
+          "file": "reasoning/number_series.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "blood_relations",
+          "name": "Blood Relations",
+          "description": "Family tree diagrams, coded relations, and direct pointing relationships.",
+          "file": "reasoning/blood_relations.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "direction_sense",
+          "name": "Direction Sense",
+          "description": "Cardinal and intercardinal compass directions, turns, angles, and shortest distance.",
+          "file": "reasoning/direction_sense.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {"id": "analogy", "name": "Analogy", "is_available": false, "question_count": 0},
+        {"id": "classification", "name": "Classification (Odd One Out)", "is_available": false, "question_count": 0},
+        {"id": "alphabet_series", "name": "Alphabet Series", "is_available": false, "question_count": 0},
+        {"id": "coding_decoding", "name": "Coding and Decoding", "is_available": false, "question_count": 0},
+        {"id": "ranking_order", "name": "Ranking and Order", "is_available": false, "question_count": 0},
+        {"id": "syllogism", "name": "Syllogism", "is_available": false, "question_count": 0},
+        {"id": "venn_diagrams", "name": "Venn Diagrams", "is_available": false, "question_count": 0},
+        {"id": "calendar_clock", "name": "Calendar and Clock", "is_available": false, "question_count": 0},
+        {"id": "seating_arrangements", "name": "Seating Arrangements", "is_available": false, "question_count": 0}
+      ]
+    },
+    {
+      "id": "indian_polity",
+      "name": "Indian Polity & Constitution",
+      "short_name": "Polity",
+      "description": "Constitutional provisions, fundamental rights, parliament, governance, and landmark rulings.",
+      "icon": "Landmark",
+      "color": "amber",
+      "topics": [
+        {
+          "id": "fundamental_rights",
+          "name": "Fundamental Rights",
+          "description": "Articles 12-35, equality, freedoms, writs under Article 32, exceptions, and amendments.",
+          "file": "indian_polity/fundamental_rights.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "parliament_and_lawmaking",
+          "name": "Parliament & Lawmaking",
+          "description": "Lok Sabha, Rajya Sabha, legislative procedure, money bills, ordinances, and committees.",
+          "file": "indian_polity/parliament_and_lawmaking.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {"id": "preamble_constitution", "name": "Preamble & Making of Constitution", "is_available": false, "question_count": 0},
+        {"id": "dpsp_duties", "name": "Directive Principles & Fundamental Duties", "is_available": false, "question_count": 0},
+        {"id": "judiciary", "name": "Judiciary (Supreme Court & High Courts)", "is_available": false, "question_count": 0},
+        {"id": "panchayati_raj", "name": "Panchayati Raj & Local Government", "is_available": false, "question_count": 0}
+      ]
+    },
+    {
+      "id": "general_science",
+      "name": "General Science",
+      "short_name": "Science",
+      "description": "Physics and biology fundamentals standard in railway and staff selection exams.",
+      "icon": "Atom",
+      "color": "emerald",
+      "topics": [
+        {
+          "id": "physics_fundamentals",
+          "name": "Physics Fundamentals",
+          "description": "SI units, mechanics, Newton's laws, optics, thermodynamics, work, and electricity.",
+          "file": "general_science/physics_fundamentals.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {
+          "id": "biology_fundamentals",
+          "name": "Biology Fundamentals",
+          "description": "Cell structure, human physiology, vitamins and deficiency diseases, genetics, plant biology.",
+          "file": "general_science/biology_fundamentals.json",
+          "is_available": true,
+          "question_count": 20
+        },
+        {"id": "chemistry_fundamentals", "name": "Chemistry Fundamentals", "is_available": false, "question_count": 0},
+        {"id": "environmental_science", "name": "Environment & Ecology", "is_available": false, "question_count": 0}
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English Language",
+      "short_name": "English",
+      "description": "Grammar, vocabulary, comprehension for SSC and state examinations.",
+      "icon": "BookOpen",
+      "color": "teal",
+      "topics": [
+        {"id": "parts_of_speech", "name": "Parts of Speech", "is_available": false, "question_count": 0},
+        {"id": "tenses", "name": "Tenses", "is_available": false, "question_count": 0},
+        {"id": "error_detection", "name": "Error Detection", "is_available": false, "question_count": 0},
+        {"id": "synonyms_antonyms", "name": "Synonyms & Antonyms", "is_available": false, "question_count": 0},
+        {"id": "idioms_phrases", "name": "Idioms & Phrases", "is_available": false, "question_count": 0},
+        {"id": "one_word_substitution", "name": "One-Word Substitution", "is_available": false, "question_count": 0}
+      ]
+    },
+    {
+      "id": "computer_knowledge",
+      "name": "Computer Knowledge",
+      "short_name": "Computer",
+      "description": "Computer fundamentals, hardware, operating systems, and networking.",
+      "icon": "Laptop",
+      "color": "indigo",
+      "topics": [
+        {"id": "computer_fundamentals", "name": "Computer Fundamentals", "is_available": false, "question_count": 0},
+        {"id": "operating_systems", "name": "Operating Systems", "is_available": false, "question_count": 0},
+        {"id": "ms_office", "name": "MS Office Suite", "is_available": false, "question_count": 0},
+        {"id": "networking_cybersecurity", "name": "Networking & Cybersecurity", "is_available": false, "question_count": 0}
+      ]
+    }
+  ]
+}

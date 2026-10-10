@@ -1,0 +1,694 @@
+[
+  {
+    "id": "REAS-BLOOD-001",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 1,
+    "question": "Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+    "options": [
+      {"id": "A", "text": "Brother"},
+      {"id": "B", "text": "Uncle"},
+      {"id": "C", "text": "Father"},
+      {"id": "D", "text": "Grandfather"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Break down the description from the reference speaker backwards.",
+      "steps": [
+        "'My mother' = Suresh's mother.",
+        "'Only son of my mother' = Suresh himself (since he is male).",
+        "'Son of the only son of my mother' = Suresh's son.",
+        "Therefore, Suresh is the boy's Father."
+      ],
+      "methods": [
+        {
+          "name": "Backtracking Deduction",
+          "steps": [
+            "Mother's only son = Suresh himself",
+            "Boy = Son of Suresh",
+            "Relationship of Suresh to boy = Father"
+          ]
+        }
+      ],
+      "exam_tip": "For a male speaker, 'only son of my mother/father' always refers to himself."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-002",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 1,
+    "question": "A's mother is the sister of B and daughter of C. D is the daughter of B and sister of E. How is C related to E?",
+    "options": [
+      {"id": "A", "text": "Grandmother or Grandfather (Grandparent)"},
+      {"id": "B", "text": "Uncle"},
+      {"id": "C", "text": "Father"},
+      {"id": "D", "text": "Brother"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Map the generational hierarchy: C is the parent of B, and B is the parent of E.",
+      "steps": [
+        "A's mother and B are siblings, and both are children of C.",
+        "D and E are siblings, and both are children of B.",
+        "Since C is the parent of B, and B is the parent of E, C is the grandparent of E."
+      ],
+      "methods": [
+        {
+          "name": "Generational Tree",
+          "steps": [
+            "Generation 1: C",
+            "Generation 2: B (child of C)",
+            "Generation 3: E (child of B)",
+            "C is Grandparent of E"
+          ]
+        }
+      ],
+      "exam_tip": "Notice that when C's gender is unspecified, the correct designation is the gender-neutral Grandparent."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-003",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 1,
+    "question": "If P is the brother of Q, Q is the sister of R, and R is the father of S, how is P related to S?",
+    "options": [
+      {"id": "A", "text": "Father"},
+      {"id": "B", "text": "Paternal Uncle"},
+      {"id": "C", "text": "Brother"},
+      {"id": "D", "text": "Nephew"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "P and R are brothers; R is the father of S.",
+      "steps": [
+        "P is the brother of Q, and Q is the sister of R, so P, Q, and R are siblings.",
+        "P is male (brother).",
+        "R is the father of S.",
+        "Father's brother is the Paternal Uncle."
+      ],
+      "methods": [
+        {
+          "name": "Sibling Linkage",
+          "steps": [
+            "P is brother of R",
+            "R is father of S",
+            "P is paternal uncle of S"
+          ]
+        }
+      ],
+      "exam_tip": "Father's brother = Paternal Uncle; Mother's brother = Maternal Uncle."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-004",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 1,
+    "question": "Introducing a girl, Vipin said, 'Her mother is the only daughter of my mother-in-law.' How is Vipin related to that girl?",
+    "options": [
+      {"id": "A", "text": "Brother"},
+      {"id": "B", "text": "Husband"},
+      {"id": "C", "text": "Father"},
+      {"id": "D", "text": "Uncle"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The only daughter of one's mother-in-law is one's wife.",
+      "steps": [
+        "Vipin's mother-in-law has an only daughter.",
+        "The only daughter of Vipin's mother-in-law must be Vipin's wife.",
+        "The girl's mother is Vipin's wife.",
+        "Therefore, Vipin is the girl's Father."
+      ],
+      "methods": [
+        {
+          "name": "Direct Identity Substitution",
+          "steps": [
+            "Only daughter of mother-in-law = Wife",
+            "Girl's mother = Vipin's wife",
+            "Vipin = Girl's Father"
+          ]
+        }
+      ],
+      "exam_tip": "Pay close attention to 'only daughter'—it removes ambiguity about potential sisters-in-law."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-005",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 2,
+    "question": "Pointing to a woman, a man said, 'The son of her only brother is the brother of my wife.' How is that woman related to the man?",
+    "options": [
+      {"id": "A", "text": "Mother-in-law"},
+      {"id": "B", "text": "Sister of father-in-law"},
+      {"id": "C", "text": "Aunt"},
+      {"id": "D", "text": "Maternal aunt"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Trace from 'brother of my wife' back to the woman.",
+      "steps": [
+        "'Brother of my wife' = Man's brother-in-law.",
+        "The father of the man's brother-in-law is the man's father-in-law.",
+        "The woman's only brother has a son who is the brother-in-law, so that brother is the man's father-in-law.",
+        "The woman is the sister of her brother, which means she is the sister of the man's father-in-law."
+      ],
+      "methods": [
+        {
+          "name": "Stepwise Relationship Chain",
+          "steps": [
+            "Wife's brother's father = Father-in-law",
+            "Woman's brother = Father-in-law",
+            "Woman = Sister of father-in-law"
+          ]
+        }
+      ],
+      "exam_tip": "Identify the bridge person (here, the father-in-law) connecting the two families."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-006",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 2,
+    "question": "Deepak said to Nitin, 'That boy playing football is the younger of the two brothers of the daughter of my father's wife.' How is the boy related to Deepak?",
+    "options": [
+      {"id": "A", "text": "Son"},
+      {"id": "B", "text": "Brother"},
+      {"id": "C", "text": "Cousin"},
+      {"id": "D", "text": "Nephew"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Decode 'daughter of my father's wife'.",
+      "steps": [
+        "Father's wife = Deepak's mother.",
+        "Daughter of Deepak's mother = Deepak's sister.",
+        "Brothers of Deepak's sister = Deepak and Deepak's brother.",
+        "The boy playing football is one of the brothers, hence he is Deepak's Brother."
+      ],
+      "methods": [
+        {
+          "name": "Backward Deduction",
+          "steps": [
+            "Father's wife = Mother",
+            "Daughter of mother = Sister",
+            "Brother of sister = Brother"
+          ]
+        }
+      ],
+      "exam_tip": "'Father's wife' typically denotes mother in standard exam phrasing."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-007",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 2,
+    "question": "If 'A + B' means A is the brother of B; 'A - B' means A is the sister of B; and 'A × B' means A is the father of B. Which of the following expressions indicates that C is the son of M?",
+    "options": [
+      {"id": "A", "text": "M - N × C"},
+      {"id": "B", "text": "M × N - C + P"},
+      {"id": "C", "text": "C + N - M"},
+      {"id": "D", "text": "M × C - N"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Verify both parentage from M and that C's gender is male.",
+      "steps": [
+        "In M × N - C + P:",
+        "M × N: M is the father of N.",
+        "N - C: N is the sister of C (meaning M is also the father of C).",
+        "C + P: C is the brother of P (confirming C is male).",
+        "Since M is the father of C and C is male, C is the son of M."
+      ],
+      "methods": [
+        {
+          "name": "Gender & Parentage Verification",
+          "steps": [
+            "1. Gender check: 'C +' confirms C is male (brother).",
+            "2. Relation check: M is parent of N, N is sibling of C.",
+            "3. Result: C is son of M."
+          ]
+        }
+      ],
+      "exam_tip": "Eliminate options where the target person's gender is not explicitly defined at the end of an expression."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-008",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 2,
+    "question": "Pointing to a woman in a portrait, Amar said, 'Her mother's only son is my father.' How is Amar related to that woman?",
+    "options": [
+      {"id": "A", "text": "Son"},
+      {"id": "B", "text": "Nephew"},
+      {"id": "C", "text": "Brother"},
+      {"id": "D", "text": "Cousin"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The only son of the woman's mother is the woman's brother.",
+      "steps": [
+        "'Her mother's only son' = The woman's brother.",
+        "Amar's father is that woman's brother.",
+        "Amar is the son of the woman's brother.",
+        "Brother's son is the Nephew."
+      ],
+      "methods": [
+        {
+          "name": "Direct Role Mapping",
+          "steps": [
+            "Woman's mother's only son = Woman's brother",
+            "Amar's father = Woman's brother",
+            "Amar is Nephew to the woman"
+          ]
+        }
+      ],
+      "exam_tip": "Note the question asks 'How is Amar related to that woman', which is Nephew (not Aunt)."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-009",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 3,
+    "question": "A and B are a married couple. C and D are brothers. C is the brother of A. How is D related to B?",
+    "options": [
+      {"id": "A", "text": "Brother"},
+      {"id": "B", "text": "Brother-in-law"},
+      {"id": "C", "text": "Cousin"},
+      {"id": "D", "text": "Uncle"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Spouse's brother is a brother-in-law.",
+      "steps": [
+        "C and D are brothers.",
+        "C is the brother of A, so D is also the brother of A.",
+        "A is married to B.",
+        "The brother of one's spouse is one's Brother-in-law."
+      ],
+      "methods": [
+        {
+          "name": "Family Tree Mapping",
+          "steps": [
+            "A = spouse of B",
+            "D = brother of A",
+            "D is brother-in-law to B"
+          ]
+        }
+      ],
+      "exam_tip": "Regardless of whether A is the husband or wife, A's brother D remains B's brother-in-law."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-010",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 3,
+    "question": "In a family of six persons P, Q, R, S, T, and U: Q is a doctor and the father of T. U is the grandfather of R and is a contractor. S is the grandmother of T and is a housewife. There are two married couples. How is P related to T?",
+    "options": [
+      {"id": "A", "text": "Mother"},
+      {"id": "B", "text": "Aunt"},
+      {"id": "C", "text": "Sister"},
+      {"id": "D", "text": "Grandmother"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Reconstruct the 3-generation family tree across the two married couples.",
+      "steps": [
+        "Generation 1: U (grandfather, contractor) is married to S (grandmother, housewife).",
+        "Generation 2: Q (father, doctor) is their son.",
+        "Since there are two married couples, Q must be married to P.",
+        "Generation 3: T and R are the children of Q and P.",
+        "Since Q is the father of T, P must be the Mother of T."
+      ],
+      "methods": [
+        {
+          "name": "Couples Deduction",
+          "steps": [
+            "Couple 1: U + S (Grandparents)",
+            "Couple 2: Q + P (Parents of T and R)",
+            "P is Mother of T"
+          ]
+        }
+      ],
+      "exam_tip": "In 6-member 3-generation puzzles with 2 couples, the parents of the grandchildren are uniquely determined."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-011",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 3,
+    "question": "Given: 'P × Q' means P is the father of Q; 'P ÷ Q' means P is the sister of Q; 'P + Q' means P is the mother of Q; 'P - Q' means P is the brother of Q. Which expression represents that 'J is the nephew of R'?",
+    "options": [
+      {"id": "A", "text": "R - M × J - K"},
+      {"id": "B", "text": "R ÷ M + J × K"},
+      {"id": "C", "text": "R + M ÷ J - K"},
+      {"id": "D", "text": "J - M × R + K"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Evaluate the relations in R - M × J - K step by step.",
+      "steps": [
+        "R - M: R is the brother of M.",
+        "M × J: M is the father of J (so R is the uncle of J).",
+        "J - K: J is the brother of K (which proves J is male).",
+        "Since J is male and the child of R's brother, J is the Nephew of R."
+      ],
+      "methods": [
+        {
+          "name": "Coded Parsing",
+          "steps": [
+            "R is sibling to M",
+            "M is father to J",
+            "J is male",
+            "J is nephew of R"
+          ]
+        }
+      ],
+      "exam_tip": "Verify both the sibling-child link and the male gender of the nephew."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-012",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 3,
+    "question": "A family consists of a husband, his wife, their four sons, and their sons' wives. In addition, each son has 3 sons and 1 daughter. How many female members are in the family in total?",
+    "options": [
+      {"id": "A", "text": "8"},
+      {"id": "B", "text": "9"},
+      {"id": "C", "text": "12"},
+      {"id": "D", "text": "13"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Count the female members across all three generations.",
+      "steps": [
+        "Generation 1: The husband's wife = 1 female.",
+        "Generation 2: The wives of the 4 sons = 4 females.",
+        "Generation 3: Each of the 4 sons has 1 daughter = 4 × 1 = 4 females.",
+        "Total female members = 1 + 4 + 4 = 9 females."
+      ],
+      "methods": [
+        {
+          "name": "Generational Female Count",
+          "steps": [
+            "Gen 1: Mother = 1",
+            "Gen 2: 4 Daughters-in-law = 4",
+            "Gen 3: 4 Granddaughters = 4",
+            "Total = 1 + 4 + 4 = 9"
+          ]
+        }
+      ],
+      "exam_tip": "Do not confuse the 3 sons per family with the female count; focus strictly on female members."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-013",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 4,
+    "question": "Pointing to a gentleman, Dinesh said, 'His only brother is the father of my daughter's father.' How is the gentleman related to Dinesh?",
+    "options": [
+      {"id": "A", "text": "Father"},
+      {"id": "B", "text": "Paternal Uncle"},
+      {"id": "C", "text": "Brother"},
+      {"id": "D", "text": "Grandfather"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Identify 'my daughter's father' first.",
+      "steps": [
+        "Dinesh is speaking, so 'my daughter's father' is Dinesh himself.",
+        "'Father of Dinesh' = Dinesh's father.",
+        "The gentleman's only brother is Dinesh's father.",
+        "The brother of one's father is one's Paternal Uncle."
+      ],
+      "methods": [
+        {
+          "name": "Reverse Traversal",
+          "steps": [
+            "My daughter's father = Dinesh",
+            "Father of Dinesh = Dinesh's Father",
+            "Gentleman's brother = Dinesh's Father",
+            "Gentleman = Dinesh's Paternal Uncle"
+          ]
+        }
+      ],
+      "exam_tip": "For a male speaker, 'my daughter's father' is an exam trick referring to the speaker himself."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-014",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 4,
+    "question": "A is the son of C; C and Q are sisters; Z is the mother of Q; and P is the son of Z. Which of the following statements is definitely true?",
+    "options": [
+      {"id": "A", "text": "P and A are cousins"},
+      {"id": "B", "text": "P is the maternal uncle of A"},
+      {"id": "C", "text": "Q is the maternal grandfather of A"},
+      {"id": "D", "text": "C and P are sisters"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Z has three children: C (female), Q (female), and P (male).",
+      "steps": [
+        "Since Z is mother of Q, and C and Q are sisters, Z is also the mother of C.",
+        "P is the son of Z, so P is the brother of C and Q.",
+        "A is the son of C.",
+        "Since P is the brother of A's mother (C), P is the Maternal Uncle of A."
+      ],
+      "methods": [
+        {
+          "name": "Maternal Linkage Analysis",
+          "steps": [
+            "Mother of A = C",
+            "Brother of C = P",
+            "P is Maternal Uncle of A"
+          ]
+        }
+      ],
+      "exam_tip": "Mother's brother is always the Maternal Uncle (Mama in Hindi)."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-015",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 4,
+    "question": "In a family of seven members: B is the daughter of G. A is the father of C. E is the mother of F. D is the sister of C. G is the mother of A. How is B related to C?",
+    "options": [
+      {"id": "A", "text": "Mother"},
+      {"id": "B", "text": "Sister"},
+      {"id": "C", "text": "Paternal Aunt"},
+      {"id": "D", "text": "Daughter"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Find the relationship between B and C's father A.",
+      "steps": [
+        "G is the mother of A.",
+        "B is the daughter of G, so B and A are siblings (B is the sister of A).",
+        "A is the father of C.",
+        "Father's sister is the Paternal Aunt (Bua)."
+      ],
+      "methods": [
+        {
+          "name": "Sibling-Father Tree",
+          "steps": [
+            "Children of G: A (male) and B (female)",
+            "Children of A: C and D",
+            "B is father's sister to C = Paternal Aunt"
+          ]
+        }
+      ],
+      "exam_tip": "Father's sister = Paternal Aunt; Mother's sister = Maternal Aunt."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-016",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 4,
+    "question": "If 'A + B' means A is the sister of B; 'A - B' means A is the brother of B; 'A × B' means A is the daughter of B; and 'A ÷ B' means A is the mother of B. In the expression 'U + V × W ÷ X - Y', how is U related to Y?",
+    "options": [
+      {"id": "A", "text": "Mother"},
+      {"id": "B", "text": "Sister"},
+      {"id": "C", "text": "Daughter"},
+      {"id": "D", "text": "Aunt"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Parse the expression from right to left or link the siblings.",
+      "steps": [
+        "X - Y: X is the brother of Y.",
+        "W ÷ X: W is the mother of X (so W is also the mother of Y).",
+        "V × W: V is the daughter of W.",
+        "U + V: U is the sister of V.",
+        "Since U, V, X, and Y share the same mother W, and U is female (sister), U is the Sister of Y."
+      ],
+      "methods": [
+        {
+          "name": "Sequential Symbol Parsing",
+          "steps": [
+            "W is mother of X and Y",
+            "V is daughter of W",
+            "U is sister of V",
+            "All are siblings under mother W; U is female => Sister"
+          ]
+        }
+      ],
+      "exam_tip": "When multiple individuals connect to the same mother/father via brother/sister/daughter, they are all siblings."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-017",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 5,
+    "question": "Six family members A, B, C, D, E, and F are grouped together. One couple has their parents and children with them. A is the son of C, and E is the daughter of A. D is the daughter of F, who is the mother of E. Which pair represents the parents of the children?",
+    "options": [
+      {"id": "A", "text": "C and F"},
+      {"id": "B", "text": "A and F"},
+      {"id": "C", "text": "A and C"},
+      {"id": "D", "text": "B and F"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "A is father of E; F is mother of E.",
+      "steps": [
+        "A is the father of E (since E is daughter of A).",
+        "F is the mother of E.",
+        "Therefore, A and F are husband and wife.",
+        "D is also the daughter of F (and hence of A).",
+        "The children are E and D, and their parents are A and F."
+      ],
+      "methods": [
+        {
+          "name": "Parentage Intersection",
+          "steps": [
+            "Father of E = A",
+            "Mother of E = F",
+            "Parents of the children = A and F"
+          ]
+        }
+      ],
+      "exam_tip": "When a puzzle mentions father of child X and mother of child X, they form the central married couple."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-018",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 5,
+    "question": "Rahul told Anjali, 'The girl I met yesterday at the beach was the youngest daughter of the brother-in-law of my friend's mother.' How is that girl related to Rahul's friend?",
+    "options": [
+      {"id": "A", "text": "Niece"},
+      {"id": "B", "text": "Sister"},
+      {"id": "C", "text": "Cousin"},
+      {"id": "D", "text": "Aunt"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Brother-in-law of one's mother is one's maternal uncle (or paternal uncle if father's brother).",
+      "steps": [
+        "Friend's mother's brother-in-law = Uncle of Rahul's friend.",
+        "The girl is the daughter of that uncle.",
+        "An uncle's daughter is one's Cousin."
+      ],
+      "methods": [
+        {
+          "name": "Kinship Classification",
+          "steps": [
+            "Mother's brother-in-law = Uncle",
+            "Uncle's daughter = Cousin"
+          ]
+        }
+      ],
+      "exam_tip": "Any child of an uncle or aunt is classified as a Cousin."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-019",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 5,
+    "question": "Six persons K, L, M, N, O, and P belong to three generations. There are two married couples. M is the daughter-in-law of K. O is the maternal uncle of P. L is the father of P. K is a female. How is L related to K?",
+    "options": [
+      {"id": "A", "text": "Brother"},
+      {"id": "B", "text": "Son"},
+      {"id": "C", "text": "Husband"},
+      {"id": "D", "text": "Father"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "M is daughter-in-law of K, so K's son is married to M.",
+      "steps": [
+        "Generation 1: K (female, grandmother).",
+        "M is the daughter-in-law of K, which means K has a son married to M.",
+        "L is the father of P, and O is the maternal uncle of P (meaning P's mother has a brother O).",
+        "Thus M is the mother of P (sister of O), and L is the father of P (husband of M).",
+        "Since L is married to M (K's daughter-in-law), L is the Son of K."
+      ],
+      "methods": [
+        {
+          "name": "Three-Tier Tree Construction",
+          "steps": [
+            "K (Gen 1) -> Son L married to M (Gen 2)",
+            "L and M have child P (Gen 3)",
+            "L is Son of K"
+          ]
+        }
+      ],
+      "exam_tip": "The husband of a daughter-in-law is the son of the mother-in-law."
+    }
+  },
+  {
+    "id": "REAS-BLOOD-020",
+    "subject": "reasoning",
+    "topic": "blood_relations",
+    "difficulty": 5,
+    "question": "If 'P % Q' means P is the father of Q; 'P & Q' means P is the sister of Q; 'P * Q' means P is the daughter of Q; and 'P @ Q' means P is the brother of Q. If the expression 'M % N & O @ P * Q' holds true, how is Q related to M?",
+    "options": [
+      {"id": "A", "text": "Daughter"},
+      {"id": "B", "text": "Sister"},
+      {"id": "C", "text": "Wife"},
+      {"id": "D", "text": "Mother"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Determine both parents of the sibling cluster N, O, and P.",
+      "steps": [
+        "M % N: M is the father of N.",
+        "N & O: N is the sister of O.",
+        "O @ P: O is the brother of P.",
+        "Hence N, O, and P are all siblings.",
+        "Since M is the father of N, M is the father of P as well.",
+        "P * Q: P is the daughter of Q, meaning Q is a parent of P.",
+        "Since M is already established as the father of P, Q must be the mother of P.",
+        "Therefore, Q is the Wife of M."
+      ],
+      "methods": [
+        {
+          "name": "Co-Parentage Resolution",
+          "steps": [
+            "M is father of P",
+            "Q is other parent of P",
+            "M (father) and Q (mother) are married",
+            "Q is Wife of M"
+          ]
+        }
+      ],
+      "exam_tip": "When a child has one father already identified, any other parent declared in the expression must be the wife/mother."
+    }
+  }
+]

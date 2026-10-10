@@ -1,0 +1,643 @@
+[
+  {
+    "id": "POL-RIGHTS-001",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 1,
+    "question": "In which Part of the Indian Constitution are Fundamental Rights enshrined?",
+    "options": [
+      {"id": "A", "text": "Part II"},
+      {"id": "B", "text": "Part III"},
+      {"id": "C", "text": "Part IV"},
+      {"id": "D", "text": "Part IV-A"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Fundamental Rights are contained in Part III of the Constitution (Articles 12 to 35).",
+      "steps": [
+        "Part I covers the Union and its Territory.",
+        "Part II covers Citizenship (Articles 5-11).",
+        "Part III covers Fundamental Rights (Articles 12-35), often referred to as the Magna Carta of India.",
+        "Part IV covers Directive Principles of State Policy (Articles 36-51)."
+      ],
+      "methods": [
+        {
+          "name": "Constitutional Structure",
+          "steps": ["Part III houses Articles 12 through 35 containing the Fundamental Rights."]
+        }
+      ],
+      "exam_tip": "Remember that Part III was inspired by the American Bill of Rights.",
+      "reference": "Constitution of India, Part III, Articles 12-35"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-002",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 1,
+    "question": "Which Article of the Indian Constitution abolishes 'Untouchability' and forbids its practice in any form?",
+    "options": [
+      {"id": "A", "text": "Article 14"},
+      {"id": "B", "text": "Article 15"},
+      {"id": "C", "text": "Article 17"},
+      {"id": "D", "text": "Article 18"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 17 abolishes untouchability and makes its practice in any form a punishable offence.",
+      "steps": [
+        "Article 14 guarantees equality before the law.",
+        "Article 15 prohibits discrimination on grounds of religion, race, caste, sex, or place of birth.",
+        "Article 17 declares: 'Untouchability is abolished and its practice in any form is forbidden.'",
+        "Article 18 abolishes titles."
+      ],
+      "methods": [
+        {
+          "name": "Direct Article Recall",
+          "steps": ["Article 17 = Abolition of Untouchability"]
+        }
+      ],
+      "exam_tip": "Article 17 is an absolute right; no exceptions or reasonable restrictions are permitted under it.",
+      "reference": "Constitution of India, Article 17; Protection of Civil Rights Act, 1955"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-003",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 1,
+    "question": "Which Fundamental Right was described by Dr. B.R. Ambedkar as the 'Heart and Soul of the Constitution'?",
+    "options": [
+      {"id": "A", "text": "Right to Equality"},
+      {"id": "B", "text": "Right to Freedom"},
+      {"id": "C", "text": "Right to Constitutional Remedies"},
+      {"id": "D", "text": "Right to Freedom of Religion"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Dr. B.R. Ambedkar called Article 32 (Right to Constitutional Remedies) the heart and soul of the Constitution.",
+      "steps": [
+        "Article 32 provides the right to approach the Supreme Court for the enforcement of Fundamental Rights.",
+        "Dr. Ambedkar famously stated in the Constituent Assembly that without Article 32, the Constitution would be a nullity.",
+        "Under Article 32, the Supreme Court can issue writs including Habeas Corpus, Mandamus, Prohibition, Quo-Warranto, and Certiorari."
+      ],
+      "methods": [
+        {
+          "name": "Constitutional Assembly Records",
+          "steps": ["Article 32 = Heart and Soul of the Constitution per Dr. B.R. Ambedkar"]
+        }
+      ],
+      "exam_tip": "Do not confuse: The Preamble is termed the 'Soul of the Constitution' by Thakurdas Bhargava and others, but Dr. Ambedkar specifically designated Article 32 as the 'Heart and Soul'.",
+      "reference": "Constituent Assembly Debates (CAD), Vol. VII, Dec 9, 1948"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-004",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 1,
+    "question": "The 'Right to Property' was removed from the list of Fundamental Rights by which Constitutional Amendment Act?",
+    "options": [
+      {"id": "A", "text": "42nd Amendment Act, 1976"},
+      {"id": "B", "text": "44th Amendment Act, 1978"},
+      {"id": "C", "text": "52nd Amendment Act, 1985"},
+      {"id": "D", "text": "86th Amendment Act, 2002"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The 44th Constitutional Amendment Act of 1978 deleted Article 19(1)(f) and Article 31.",
+      "steps": [
+        "Originally, the Constitution recognized 7 fundamental rights, including the Right to Property (Article 31 and 19(1)(f)).",
+        "The Janata Party government enacted the 44th Constitutional Amendment Act, 1978.",
+        "Right to Property was relocated as a legal/constitutional right under Article 300-A in Part XII.",
+        "Currently, there are 6 Fundamental Rights."
+      ],
+      "methods": [
+        {
+          "name": "Amendment Fact Sheet",
+          "steps": ["44th Amendment Act (1978) -> Property shifted from Part III to Article 300A (Part XII)"]
+        }
+      ],
+      "exam_tip": "Right to Property is now a legal right, not a Fundamental Right, meaning writ under Article 32 is not directly available.",
+      "reference": "Constitution of India, Article 300A, 44th Amendment Act 1978"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-005",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 2,
+    "question": "Which Article guarantees 'Equality before the law' and 'Equal protection of the laws' within the territory of India?",
+    "options": [
+      {"id": "A", "text": "Article 14"},
+      {"id": "B", "text": "Article 16"},
+      {"id": "C", "text": "Article 19"},
+      {"id": "D", "text": "Article 21"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Article 14 ensures equality before the law and equal protection of laws to all persons.",
+      "steps": [
+        "'Equality before the law' is a British concept implying absence of special privileges.",
+        "'Equal protection of the laws' is borrowed from the American Constitution, implying equal treatment under equal circumstances.",
+        "Article 14 applies to all persons—both citizens and non-citizens, including legal entities/corporations."
+      ],
+      "methods": [
+        {
+          "name": "Article 14 Twofold Doctrine",
+          "steps": [
+            "1. Equality before the law (UK origin, negative concept)",
+            "2. Equal protection of the laws (US origin, positive concept)"
+          ]
+        }
+      ],
+      "exam_tip": "Article 14 uses the word 'person', making it available to foreigners and corporations as well as Indian citizens.",
+      "reference": "Constitution of India, Article 14"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-006",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 2,
+    "question": "Which constitutional writ is issued to command a public authority to execute an obligatory public duty that it has wrongfully failed to perform?",
+    "options": [
+      {"id": "A", "text": "Habeas Corpus"},
+      {"id": "B", "text": "Mandamus"},
+      {"id": "C", "text": "Quo-Warranto"},
+      {"id": "D", "text": "Certiorari"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Mandamus literally translates to 'We Command' and is issued to enforce mandatory official duties.",
+      "steps": [
+        "Mandamus directs a public official, lower court, tribunal, or corporation to perform a statutory duty.",
+        "It cannot be issued against a private individual, or against the President or Governor of a State.",
+        "It cannot enforce discretionary duties, only mandatory legal duties."
+      ],
+      "methods": [
+        {
+          "name": "Writ Etymology",
+          "steps": ["Mandamus = 'We Command' -> Enforcement of public/official statutory duties"]
+        }
+      ],
+      "exam_tip": "Mandamus cannot lie against private bodies or contractual obligations.",
+      "reference": "Constitution of India, Articles 32 and 226"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-007",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 2,
+    "question": "The 'Right to Education' was inserted as Article 21-A by which Constitutional Amendment Act?",
+    "options": [
+      {"id": "A", "text": "73rd Amendment Act, 1992"},
+      {"id": "B", "text": "86th Amendment Act, 2002"},
+      {"id": "C", "text": "91st Amendment Act, 2003"},
+      {"id": "D", "text": "97th Amendment Act, 2011"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The 86th Constitutional Amendment Act, 2002 made free and compulsory education for children aged 6 to 14 a Fundamental Right.",
+      "steps": [
+        "Inserted Article 21-A in Part III (Fundamental Rights).",
+        "Amended Article 45 in Part IV (Directive Principles) to focus on early childhood care below age 6.",
+        "Added Fundamental Duty 51-A(k) in Part IV-A for parents/guardians.",
+        "The Right of Children to Free and Compulsory Education (RTE) Act was enacted in 2009 to implement this right."
+      ],
+      "methods": [
+        {
+          "name": "Tripartite Educational Amendment",
+          "steps": [
+            "86th Amendment (2002) modified 3 parts:",
+            "1. Art 21A (Fundamental Right)",
+            "2. Art 45 (DPSP)",
+            "3. Art 51A(k) (Fundamental Duty)"
+          ]
+        }
+      ],
+      "exam_tip": "Remember that the 86th Amendment affected Fundamental Rights, DPSPs, and Fundamental Duties simultaneously.",
+      "reference": "Constitution of India, Article 21A (86th Amendment Act 2002)"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-008",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 2,
+    "question": "Under Article 15 of the Constitution, the State cannot discriminate against any citizen on grounds ONLY of which set of factors?",
+    "options": [
+      {"id": "A", "text": "Religion, race, caste, sex, or place of birth"},
+      {"id": "B", "text": "Religion, race, language, or caste"},
+      {"id": "C", "text": "Residence, sex, income, or religion"},
+      {"id": "D", "text": "Birthplace, ancestry, wealth, or nationality"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Article 15(1) specifies five prohibited grounds: religion, race, caste, sex, or place of birth.",
+      "steps": [
+        "The text of Article 15 states: 'The State shall not discriminate against any citizen on grounds only of religion, race, caste, sex, place of birth or any of them.'",
+        "The word 'only' implies discrimination on other rational grounds (such as residence or economic criteria) is permissible.",
+        "Article 16 adds 'descent' and 'residence' to these grounds for public employment."
+      ],
+      "methods": [
+        {
+          "name": "Five Cardinal Grounds of Article 15",
+          "steps": ["R-R-C-S-P: Religion, Race, Caste, Sex, Place of birth"]
+        }
+      ],
+      "exam_tip": "Note the word 'ONLY'—if a classification is based on one of these grounds combined with other criteria, it may not violate Article 15.",
+      "reference": "Constitution of India, Article 15"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-009",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 3,
+    "question": "Which of the following Fundamental Rights CANNOT be suspended even during the proclamation of a National Emergency under Article 352?",
+    "options": [
+      {"id": "A", "text": "Articles 14 and 19"},
+      {"id": "B", "text": "Articles 19 and 20"},
+      {"id": "C", "text": "Articles 20 and 21"},
+      {"id": "D", "text": "Articles 21 and 22"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Articles 20 and 21 remain inviolable and cannot be suspended during any Emergency.",
+      "steps": [
+        "Originally, all Fundamental Rights could be suspended under Presidential orders during an emergency.",
+        "The 44th Constitutional Amendment Act, 1978 amended Article 359 to prohibit suspension of Articles 20 and 21.",
+        "Article 20 covers protection in respect of conviction for offences.",
+        "Article 21 guarantees protection of life and personal liberty."
+      ],
+      "methods": [
+        {
+          "name": "Emergency Safeguards (44th Amendment)",
+          "steps": [
+            "Article 358: Art 19 suspends automatically only on war/external aggression (not armed rebellion)",
+            "Article 359: President can suspend enforcement of rights EXCEPT Articles 20 and 21"
+          ]
+        }
+      ],
+      "exam_tip": "Under Article 359, the President cannot suspend the right to move any court for the enforcement of Articles 20 and 21 under any circumstances.",
+      "reference": "Constitution of India, Article 359(1), amended by 44th Amendment Act 1978"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-010",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 3,
+    "question": "Which writ literally means 'To have the body of' and serves as the primary constitutional remedy against unlawful arrest or illegal confinement?",
+    "options": [
+      {"id": "A", "text": "Mandamus"},
+      {"id": "B", "text": "Habeas Corpus"},
+      {"id": "C", "text": "Prohibition"},
+      {"id": "D", "text": "Quo-Warranto"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Habeas Corpus commands the detaining authority to produce the detained person before the court.",
+      "steps": [
+        "Habeas Corpus is a Latin term meaning 'to have the body of'.",
+        "It can be issued against both public authorities and private individuals.",
+        "The court examines the cause and legality of detention; if the detention is unlawful, the person is set free immediately."
+      ],
+      "methods": [
+        {
+          "name": "Writ Terminology & Scope",
+          "steps": [
+            "Habeas Corpus = 'Produce the body'",
+            "Applicable against both State and private individuals"
+          ]
+        }
+      ],
+      "exam_tip": "Habeas Corpus is the only writ that can be issued against both public officials and private individuals.",
+      "reference": "Constitution of India, Articles 32 and 226"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-011",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 3,
+    "question": "How many fundamental democratic freedoms are currently guaranteed to Indian citizens under Article 19(1) of the Constitution?",
+    "options": [
+      {"id": "A", "text": "5"},
+      {"id": "B", "text": "6"},
+      {"id": "C", "text": "7"},
+      {"id": "D", "text": "8"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 19(1) guarantees six basic freedoms to citizens.",
+      "steps": [
+        "1. Freedom of speech and expression [19(1)(a)].",
+        "2. Freedom to assemble peaceably and without arms [19(1)(b)].",
+        "3. Freedom to form associations or unions or co-operative societies [19(1)(c)].",
+        "4. Freedom to move freely throughout India [19(1)(d)].",
+        "5. Freedom to reside and settle in any part of India [19(1)(e)].",
+        "6. Freedom to practice any profession or carry on any occupation, trade or business [19(1)(g)].",
+        "The 7th freedom (right to acquire, hold and dispose of property under 19(1)(f)) was deleted by the 44th Amendment in 1978."
+      ],
+      "methods": [
+        {
+          "name": "Article 19(1) Enumeration",
+          "steps": ["Currently 6 freedoms: (a), (b), (c), (d), (e), and (g); (f) is omitted."]
+        }
+      ],
+      "exam_tip": "All six freedoms are subject to reasonable restrictions specified in clauses (2) through (6) of Article 19.",
+      "reference": "Constitution of India, Article 19(1)"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-012",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 3,
+    "question": "Which Article of the Constitution prohibits the employment of children below the age of 14 years in any factory, mine, or other hazardous employment?",
+    "options": [
+      {"id": "A", "text": "Article 21"},
+      {"id": "B", "text": "Article 23"},
+      {"id": "C", "text": "Article 24"},
+      {"id": "D", "text": "Article 25"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 24 provides the Right against Exploitation specifically protecting children from hazardous labor.",
+      "steps": [
+        "Article 23 prohibits human trafficking, begar (forced labor), and similar forms of involuntary servitude.",
+        "Article 24 explicitly states: 'No child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employment.'",
+        "The Child Labour (Prohibition and Regulation) Amendment Act, 2016 further prohibited employment of children below 14 in all occupations."
+      ],
+      "methods": [
+        {
+          "name": "Right Against Exploitation Articles",
+          "steps": [
+            "Article 23 = Human trafficking & forced labor",
+            "Article 24 = Prohibition of child labor in factories/hazardous work"
+          ]
+        }
+      ],
+      "exam_tip": "Keep Articles 23 (traffic & forced labor) and 24 (child labor below 14) distinct.",
+      "reference": "Constitution of India, Article 24"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-013",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 4,
+    "question": "In which landmark 9-judge bench judgment did the Supreme Court unanimously hold that the 'Right to Privacy' is a Fundamental Right under Article 21?",
+    "options": [
+      {"id": "A", "text": "Maneka Gandhi v. Union of India (1978)"},
+      {"id": "B", "text": "Kesavananda Bharati v. State of Kerala (1973)"},
+      {"id": "C", "text": "Justice K.S. Puttaswamy v. Union of India (2017)"},
+      {"id": "D", "text": "Navtej Singh Johar v. Union of India (2018)"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The Supreme Court in Puttaswamy (2017) declared Privacy as a Fundamental Right.",
+      "steps": [
+        "A 9-judge Constitution Bench overruled earlier rulings in M.P. Sharma (1954) and Kharak Singh (1962).",
+        "The Court held that Privacy is an intrinsic element of the Right to Life and Personal Liberty under Article 21 and Part III as a whole.",
+        "Any state intrusion into privacy must pass a three-fold test: legality, legitimate state aim, and proportionality."
+      ],
+      "methods": [
+        {
+          "name": "Case Law Milestone",
+          "steps": ["K.S. Puttaswamy (2017) = Right to Privacy under Article 21"]
+        }
+      ],
+      "exam_tip": "Remember the bench size was 9 judges, which made it authoritative over the earlier 8-judge M.P. Sharma decision.",
+      "reference": "AIR 2017 SC 4161 (Justice K.S. Puttaswamy Retd. v. Union of India)"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-014",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 4,
+    "question": "Which of the following Fundamental Rights is available EXCLUSIVELY to Indian citizens and denied to foreigners?",
+    "options": [
+      {"id": "A", "text": "Equality before Law (Article 14)"},
+      {"id": "B", "text": "Protection of Life and Personal Liberty (Article 21)"},
+      {"id": "C", "text": "Freedom of Speech and Expression (Article 19)"},
+      {"id": "D", "text": "Freedom of Conscience and Religion (Article 25)"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Articles 15, 16, 19, 29, and 30 are available exclusively to Indian citizens.",
+      "steps": [
+        "Fundamental Rights available ONLY to citizens: Articles 15, 16, 19, 29, and 30.",
+        "Rights available to BOTH citizens and foreigners: Articles 14, 20, 21, 21-A, 22, 23, 24, 25, 26, 27, and 28.",
+        "Article 19 explicitly uses the opening phrase 'All citizens shall have the right to...'"
+      ],
+      "methods": [
+        {
+          "name": "Exclusive Citizen Rights Mnemonic",
+          "steps": ["Articles 15, 16, 19, 29, 30 are for citizens only."]
+        }
+      ],
+      "exam_tip": "Memorize the list (15, 16, 19, 29, 30); any question asking for citizen-only rights can be solved by checking against these five.",
+      "reference": "Constitution of India, Article 19"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-015",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 4,
+    "question": "The concept of 'Due Process of Law' was implicitly read into the 'Procedure Established by Law' under Article 21 by which landmark judgment?",
+    "options": [
+      {"id": "A", "text": "A.K. Gopalan v. State of Madras (1950)"},
+      {"id": "B", "text": "Berubari Union Case (1960)"},
+      {"id": "C", "text": "Maneka Gandhi v. Union of India (1978)"},
+      {"id": "D", "text": "I.C. Golaknath v. State of Punjab (1967)"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The Maneka Gandhi case (1978) established that any law depriving personal liberty must be 'just, fair, and reasonable'.",
+      "steps": [
+        "In A.K. Gopalan (1950), the Supreme Court adopted a narrow, literal view that any enacted law satisfied 'procedure established by law'.",
+        "In Maneka Gandhi (1978), the Supreme Court overturned Gopalan, holding that the procedure itself must not be arbitrary, fanciful, or oppressive.",
+        "This brought Indian constitutional jurisprudence in alignment with the American doctrine of 'substantive due process'."
+      ],
+      "methods": [
+        {
+          "name": "Evolution of Article 21",
+          "steps": [
+            "A.K. Gopalan (1950): Strict procedural legality",
+            "Maneka Gandhi (1978): Fair, just & reasonable ('Due Process')"
+          ]
+        }
+      ],
+      "exam_tip": "The Golden Triangle of the Constitution (Articles 14, 19, and 21) was formulated through the Maneka Gandhi case.",
+      "reference": "AIR 1978 SC 597 (Maneka Gandhi v. Union of India)"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-016",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 4,
+    "question": "Under which Article can Parliament by law restrict or abrogate the application of Fundamental Rights to members of the Armed Forces and Police forces?",
+    "options": [
+      {"id": "A", "text": "Article 31-C"},
+      {"id": "B", "text": "Article 33"},
+      {"id": "C", "text": "Article 34"},
+      {"id": "D", "text": "Article 35"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 33 empowers Parliament to modify the application of Fundamental Rights for security forces.",
+      "steps": [
+        "Article 33 empowers Parliament (not state legislatures) to determine how far Fundamental Rights apply to:",
+        "1. Members of the Armed Forces,",
+        "2. Members of forces charged with public order (police),",
+        "3. Persons employed in intelligence or counter-intelligence organizations.",
+        "The objective is to ensure proper discharge of duties and maintenance of discipline."
+      ],
+      "methods": [
+        {
+          "name": "Armed Forces Exception Clause",
+          "steps": ["Article 33 = Parliamentary power to modify rights for armed & security forces"]
+        }
+      ],
+      "exam_tip": "Only Parliament can enact laws under Article 33, not State Legislatures.",
+      "reference": "Constitution of India, Article 33"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-017",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 5,
+    "question": "Regarding the writ jurisdiction of the Supreme Court (Article 32) versus High Courts (Article 226), which statement is constitutionally accurate?",
+    "options": [
+      {"id": "A", "text": "High Court's writ jurisdiction is narrower than that of the Supreme Court"},
+      {"id": "B", "text": "The Supreme Court can issue writs for ordinary legal rights as well as Fundamental Rights"},
+      {"id": "C", "text": "The Supreme Court's writ jurisdiction is a Fundamental Right itself and therefore mandatory, whereas High Court's jurisdiction under Article 226 is discretionary"},
+      {"id": "D", "text": "High Courts cannot issue writs outside their district headquarters"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 32 is itself a Fundamental Right, so the Supreme Court cannot refuse relief for a violated Fundamental Right.",
+      "steps": [
+        "Under Article 32, the right to move the Supreme Court is guaranteed as a Fundamental Right; hence, the SC is the protector and guarantor.",
+        "Under Article 226, the High Court's remedy is discretionary, though its scope is wider because it can issue writs for 'any other purpose' (ordinary legal rights) as well.",
+        "The Supreme Court can issue writs ONLY for Fundamental Rights (Part III)."
+      ],
+      "methods": [
+        {
+          "name": "Art 32 vs Art 226 Comparative Jurisprudence",
+          "steps": [
+            "Scope: Art 226 is wider (FRs + ordinary legal rights)",
+            "Nature: Art 32 is mandatory (FR itself); Art 226 is discretionary"
+          ]
+        }
+      ],
+      "exam_tip": "High Court's writ jurisdiction is wider in subject matter, but Supreme Court's writ jurisdiction is constitutionally guaranteed as a basic right."
+    }
+  },
+  {
+    "id": "POL-RIGHTS-018",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 5,
+    "question": "Which Article of the Constitution embodies the protections against 'Ex-Post Facto Law', 'Double Jeopardy', and 'Self-Incrimination'?",
+    "options": [
+      {"id": "A", "text": "Article 19"},
+      {"id": "B", "text": "Article 20"},
+      {"id": "C", "text": "Article 21"},
+      {"id": "D", "text": "Article 22"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Article 20 provides three vital criminal jurisprudence protections in clauses (1), (2), and (3).",
+      "steps": [
+        "Clause 20(1): Protection against Ex-Post Facto Criminal Laws (no person convicted under retrospective penal legislation).",
+        "Clause 20(2): Protection against Double Jeopardy (no person prosecuted and punished for the same offence more than once).",
+        "Clause 20(3): Protection against Self-Incrimination (no accused compelled to be a witness against himself)."
+      ],
+      "methods": [
+        {
+          "name": "Article 20 Triad of Criminal Protections",
+          "steps": [
+            "20(1) = No retrospective criminal law",
+            "20(2) = No double jeopardy",
+            "20(3) = No self-incrimination"
+          ]
+        }
+      ],
+      "exam_tip": "Article 20 protection against ex-post facto laws applies only to criminal cases, not civil liabilities or tax laws.",
+      "reference": "Constitution of India, Article 20"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-019",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 5,
+    "question": "Under Article 30 of the Indian Constitution, the right to establish and administer educational institutions is conferred upon which categories of minorities?",
+    "options": [
+      {"id": "A", "text": "Religious minorities only"},
+      {"id": "B", "text": "Linguistic minorities only"},
+      {"id": "C", "text": "Both Religious and Linguistic minorities"},
+      {"id": "D", "text": "Religious, Linguistic, and Caste-based minorities"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Article 30 explicitly mentions only two classes of minorities: religious and linguistic.",
+      "steps": [
+        "The text of Article 30(1) specifies: 'All minorities, whether based on religion or language, shall have the right to establish and administer educational institutions of their choice.'",
+        "Caste, ethnicity, or regional groups are not classified as minorities for Article 30 protections.",
+        "Minority status is determined at the state level, as confirmed by the Supreme Court in the TMA Pai Foundation case (2002)."
+      ],
+      "methods": [
+        {
+          "name": "Constitutional Minority Classification",
+          "steps": ["Article 30 recognizes two grounds: Religion and Language."]
+        }
+      ],
+      "exam_tip": "Caste or racial minorities are not recognized under Article 30—only religious and linguistic.",
+      "reference": "Constitution of India, Article 30(1); TMA Pai Foundation v. State of Karnataka (2002)"
+    }
+  },
+  {
+    "id": "POL-RIGHTS-020",
+    "subject": "indian_polity",
+    "topic": "fundamental_rights",
+    "difficulty": 5,
+    "question": "Which constitutional doctrine holds that a pre-constitutional law inconsistent with Fundamental Rights remains dormant and overshadowed rather than dead, reviving once the inconsistency is removed?",
+    "options": [
+      {"id": "A", "text": "Doctrine of Severability"},
+      {"id": "B", "text": "Doctrine of Eclipse"},
+      {"id": "C", "text": "Doctrine of Pith and Substance"},
+      {"id": "D", "text": "Doctrine of Colourable Legislation"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "The Doctrine of Eclipse, derived from Article 13(1), holds that inconsistent pre-constitutional laws are shadowed, not dead.",
+      "steps": [
+        "Formulated in Bhikaji Narain Dhakras v. State of M.P. (1955).",
+        "Under Article 13(1), pre-constitutional laws that conflict with Fundamental Rights do not become void ab initio.",
+        "They remain dormant ('eclipsed') as long as the shadow of the Fundamental Right exists.",
+        "If a constitutional amendment removes the inconsistency, the shadow is lifted and the law becomes operative once again without re-enactment."
+      ],
+      "methods": [
+        {
+          "name": "Doctrine Identification",
+          "steps": [
+            "Doctrine of Eclipse = Pre-constitutional law is dormant, not dead ab initio",
+            "Doctrine of Severability = Separating valid parts of an Act from invalid parts"
+          ]
+        }
+      ],
+      "exam_tip": "The Doctrine of Eclipse originated specifically in the context of Article 13(1) and pre-constitutional legislation.",
+      "reference": "Constitution of India, Article 13(1); Bhikaji Narain Dhakras v. State of M.P. (1955)"
+    }
+  }
+]

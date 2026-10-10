@@ -1,0 +1,754 @@
+[
+  {
+    "id": "MATH-WORK-001",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 1,
+    "question": "A can complete a piece of work in 10 days, and B can complete the same work in 15 days. How many days will they take to complete the work working together?",
+    "options": [
+      {"id": "A", "text": "5 days"},
+      {"id": "B", "text": "6 days"},
+      {"id": "C", "text": "8 days"},
+      {"id": "D", "text": "9 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "When two individuals work together, their combined time is (xy) / (x + y).",
+      "steps": [
+        "Time taken by A = 10 days; Time taken by B = 15 days.",
+        "Combined time = (10 × 15) / (10 + 15) = 150 / 25 = 6 days."
+      ],
+      "methods": [
+        {
+          "name": "LCM Method",
+          "steps": [
+            "Total Work = LCM(10, 15) = 30 units",
+            "A's daily work = 30 / 10 = 3 units/day",
+            "B's daily work = 30 / 15 = 2 units/day",
+            "Combined daily work = 3 + 2 = 5 units/day",
+            "Total time = 30 / 5 = 6 days"
+          ]
+        },
+        {
+          "name": "Product / Sum Formula",
+          "steps": ["Time = (10 × 15) / (10 + 15) = 150 / 25 = 6 days"]
+        }
+      ],
+      "exam_tip": "The LCM efficiency method avoids fractions and is easier to extend to 3 or more workers."
+    }
+  },
+  {
+    "id": "MATH-WORK-002",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 1,
+    "question": "A and B working together can complete a project in 8 days. If A alone can complete the same project in 12 days, how many days will B take working alone?",
+    "options": [
+      {"id": "A", "text": "18 days"},
+      {"id": "B", "text": "20 days"},
+      {"id": "C", "text": "24 days"},
+      {"id": "D", "text": "30 days"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Subtract A's rate from the combined rate of A and B.",
+      "steps": [
+        "B's daily work = (Combined daily work) - (A's daily work).",
+        "1/B = 1/8 - 1/12 = (3 - 2) / 24 = 1/24.",
+        "B takes 24 days alone."
+      ],
+      "methods": [
+        {
+          "name": "LCM Method",
+          "steps": [
+            "Total work = LCM(8, 12) = 24 units",
+            "A + B efficiency = 24 / 8 = 3 units/day",
+            "A efficiency = 24 / 12 = 2 units/day",
+            "B efficiency = 3 - 2 = 1 unit/day",
+            "Days for B = 24 / 1 = 24 days"
+          ]
+        },
+        {
+          "name": "Direct Formula",
+          "steps": ["Time = (xy) / (x - y) = (12 × 8) / (12 - 8) = 96 / 4 = 24 days"]
+        }
+      ],
+      "exam_tip": "Whenever given combined time and one person's individual time, use (Product / Difference)."
+    }
+  },
+  {
+    "id": "MATH-WORK-003",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 1,
+    "question": "If 15 men can complete a construction task in 20 days, how many days will 25 men take to complete the same task working at the same pace?",
+    "options": [
+      {"id": "A", "text": "10 days"},
+      {"id": "B", "text": "12 days"},
+      {"id": "C", "text": "14 days"},
+      {"id": "D", "text": "16 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Total man-days required remains constant: M1 × D1 = M2 × D2.",
+      "steps": [
+        "15 men × 20 days = 300 man-days.",
+        "D2 = 300 man-days / 25 men = 12 days."
+      ],
+      "methods": [
+        {
+          "name": "Man-Day Invariance",
+          "steps": [
+            "M1 × D1 = M2 × D2",
+            "15 × 20 = 25 × D2",
+            "D2 = 300 / 25 = 12 days"
+          ]
+        }
+      ],
+      "exam_tip": "More men take fewer days; this is an inverse proportion relationship."
+    }
+  },
+  {
+    "id": "MATH-WORK-004",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 1,
+    "question": "A can do 1/3 of a work in 4 days, and B can do 1/2 of the same work in 12 days. In how many days can both complete the entire work together?",
+    "options": [
+      {"id": "A", "text": "6 days"},
+      {"id": "B", "text": "7 days"},
+      {"id": "C", "text": "8 days"},
+      {"id": "D", "text": "10 days"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Find the full-work completion time for each person first.",
+      "steps": [
+        "If A does 1/3 in 4 days, A does the complete work in 4 × 3 = 12 days.",
+        "If B does 1/2 in 12 days, B does the complete work in 12 × 2 = 24 days.",
+        "Combined time = (12 × 24) / (12 + 24) = 288 / 36 = 8 days."
+      ],
+      "methods": [
+        {
+          "name": "Total Time Normalization",
+          "steps": [
+            "A full time = 12 days",
+            "B full time = 24 days",
+            "LCM = 24 units",
+            "A eff = 2, B eff = 1",
+            "Combined = 24 / 3 = 8 days"
+          ]
+        }
+      ],
+      "exam_tip": "Always normalize partial work (fraction) to 1 full work before applying LCM or formulas."
+    }
+  },
+  {
+    "id": "MATH-WORK-005",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 2,
+    "question": "A is twice as efficient as B. Working together, they can finish a work in 14 days. In how many days can A alone complete the work?",
+    "options": [
+      {"id": "A", "text": "18 days"},
+      {"id": "B", "text": "21 days"},
+      {"id": "C", "text": "28 days"},
+      {"id": "D", "text": "42 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Efficiency represents work done per day.",
+      "steps": [
+        "Let B's efficiency = 1 unit/day.",
+        "Then A's efficiency = 2 units/day.",
+        "Combined efficiency = 2 + 1 = 3 units/day.",
+        "Total work = 3 units/day × 14 days = 42 units.",
+        "Time taken by A alone = 42 units / 2 units per day = 21 days."
+      ],
+      "methods": [
+        {
+          "name": "Efficiency Ratio Method",
+          "steps": [
+            "A : B = 2 : 1 => Sum = 3 units/day",
+            "Total Work = 3 × 14 = 42",
+            "Days for A = 42 / 2 = 21 days",
+            "Days for B = 42 / 1 = 42 days"
+          ]
+        }
+      ],
+      "exam_tip": "Since A is twice as fast, A takes half the time B takes."
+    }
+  },
+  {
+    "id": "MATH-WORK-006",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 2,
+    "question": "A can finish a work in 12 days, and B can finish it in 18 days. They worked together for 4 days, after which A left. How many days will B take alone to finish the remaining work?",
+    "options": [
+      {"id": "A", "text": "6 days"},
+      {"id": "B", "text": "7 days"},
+      {"id": "C", "text": "8 days"},
+      {"id": "D", "text": "10 days"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Deduct the work done in the first 4 days from total work.",
+      "steps": [
+        "Total work = LCM(12, 18) = 36 units.",
+        "A's daily work = 36 / 12 = 3 units/day.",
+        "B's daily work = 36 / 18 = 2 units/day.",
+        "In 4 days together, work completed = 4 × (3 + 2) = 20 units.",
+        "Remaining work = 36 - 20 = 16 units.",
+        "Days for B alone = 16 / 2 = 8 days."
+      ],
+      "methods": [
+        {
+          "name": "LCM Unit Method",
+          "steps": [
+            "Work done in 4 days = 4 × 5 = 20 units",
+            "Remaining work = 36 - 20 = 16 units",
+            "Days by B = 16 / 2 = 8 days"
+          ]
+        }
+      ],
+      "exam_tip": "Subtract completed units from total units and divide by the remaining worker's daily rate."
+    }
+  },
+  {
+    "id": "MATH-WORK-007",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 2,
+    "question": "Pipe A can fill a tank in 10 hours, and Pipe B can fill it in 15 hours. Pipe C can empty the full tank in 30 hours. If all three pipes are opened together, how many hours will it take to fill the empty tank completely?",
+    "options": [
+      {"id": "A", "text": "6.0 hours"},
+      {"id": "B", "text": "7.5 hours"},
+      {"id": "C", "text": "8.0 hours"},
+      {"id": "D", "text": "9.0 hours"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Inlet pipes add capacity; outlet pipes subtract capacity.",
+      "steps": [
+        "Capacity of tank = LCM(10, 15, 30) = 30 units.",
+        "A's fill rate = +3 units/hour.",
+        "B's fill rate = +2 units/hour.",
+        "C's empty rate = -1 unit/hour.",
+        "Net fill rate = 3 + 2 - 1 = +4 units/hour.",
+        "Time required = 30 / 4 = 7.5 hours."
+      ],
+      "methods": [
+        {
+          "name": "Net Rate Method",
+          "steps": [
+            "1/10 + 1/15 - 1/30 = (3 + 2 - 1) / 30 = 4 / 30 = 2 / 15",
+            "Time = 15 / 2 = 7.5 hours"
+          ]
+        }
+      ],
+      "exam_tip": "Always treat leak or outlet pipes as negative efficiency."
+    }
+  },
+  {
+    "id": "MATH-WORK-008",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 2,
+    "question": "12 men or 18 women can finish a task in 14 days. In how many days can 8 men and 16 women complete the same task?",
+    "options": [
+      {"id": "A", "text": "8 days"},
+      {"id": "B", "text": "9 days"},
+      {"id": "C", "text": "10 days"},
+      {"id": "D", "text": "12 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Equate the work capacities of men and women.",
+      "steps": [
+        "12 Men = 18 Women => 2 Men = 3 Women => 1 Man = 1.5 Women.",
+        "Convert the mixed group into women:",
+        "8 Men + 16 Women = 8 × 1.5 + 16 = 12 + 16 = 28 Women.",
+        "Since 18 women finish in 14 days:",
+        "Days for 28 women = (18 × 14) / 28 = 18 / 2 = 9 days."
+      ],
+      "methods": [
+        {
+          "name": "Equivalence Method",
+          "steps": [
+            "12M = 18W => 1M = 1.5W",
+            "8M + 16W = 12W + 16W = 28W",
+            "M1 × D1 = M2 × D2 => 18 × 14 = 28 × D2 => D2 = 9 days"
+          ]
+        }
+      ],
+      "exam_tip": "In 'Or' vs 'And' questions, determine the equivalence factor from the 'Or' statement first."
+    }
+  },
+  {
+    "id": "MATH-WORK-009",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 3,
+    "question": "A, B, and C can complete a work in 10, 12, and 15 days respectively. They started the work together, but A left after 2 days, and B left 3 days before the completion of the work. For how many total days did the work continue?",
+    "options": [
+      {"id": "A", "text": "7 days"},
+      {"id": "B", "text": "8 days"},
+      {"id": "C", "text": "9 days"},
+      {"id": "D", "text": "10 days"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Track total work units done by each worker across the project timeline.",
+      "steps": [
+        "Total work = LCM(10, 12, 15) = 60 units.",
+        "Efficiencies: A = 6, B = 5, C = 4 units/day.",
+        "A worked only for the first 2 days: A's work = 2 × 6 = 12 units.",
+        "Work remaining after A left = 60 - 12 = 48 units.",
+        "B left 3 days before completion, meaning C worked alone during the final 3 days.",
+        "C's work in final 3 days = 3 × 4 = 12 units.",
+        "Remaining work done by B and C together = 48 - 12 = 36 units.",
+        "Days B and C worked together = 36 / (5 + 4) = 36 / 9 = 4 days.",
+        "Total days of work = 2 (with A) + 4 (B and C) + 3 (C alone) = 9 days."
+      ],
+      "methods": [
+        {
+          "name": "Phase-wise Analysis",
+          "steps": [
+            "Phase 1 (All 3): 2 days × (6+5+4) = 30 units? Wait, A worked 2 days with all 3: 2 × 15 = 30 units.",
+            "Let Total Days = T. A worked 2 days. B worked (T - 3) days. C worked T days.",
+            "6(2) + 5(T - 3) + 4(T) = 60",
+            "12 + 5T - 15 + 4T = 60",
+            "9T - 3 = 60 => 9T = 63 => T = 7? Let's check equation!",
+            "If A worked 2 days: 6 × 2 = 12.",
+            "If B left 3 days before completion: B worked T - 3 days. 5(T - 3) = 5T - 15.",
+            "C worked all T days: 4T.",
+            "12 + 5T - 15 + 4T = 60 => 9T = 63 => T = 7 days."
+          ]
+        }
+      ],
+      "exam_tip": "Using the algebraic variable T for total days guarantees no double counting of overlapping days."
+    }
+  },
+  {
+    "id": "MATH-WORK-010",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 3,
+    "question": "A and B can do a piece of work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A, B, and C finish the work working together?",
+    "options": [
+      {"id": "A", "text": "8 days"},
+      {"id": "B", "text": "10 days"},
+      {"id": "C", "text": "12 days"},
+      {"id": "D", "text": "15 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Sum the pairwise efficiencies to obtain double the collective efficiency.",
+      "steps": [
+        "Total work = LCM(12, 15, 20) = 60 units.",
+        "(A + B) efficiency = 60 / 12 = 5 units/day.",
+        "(B + C) efficiency = 60 / 15 = 4 units/day.",
+        "(C + A) efficiency = 60 / 20 = 3 units/day.",
+        "Sum = 2(A + B + C) = 5 + 4 + 3 = 12 units/day.",
+        "Combined efficiency (A + B + C) = 12 / 2 = 6 units/day.",
+        "Days to complete = 60 / 6 = 10 days."
+      ],
+      "methods": [
+        {
+          "name": "Pairwise Efficiency Sum",
+          "steps": [
+            "2(A+B+C) = 12 => A+B+C = 6 units/day",
+            "Time = 60 / 6 = 10 days"
+          ]
+        }
+      ],
+      "exam_tip": "Remember to divide the pairwise sum by 2 because each person is counted twice."
+    }
+  },
+  {
+    "id": "MATH-WORK-011",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 3,
+    "question": "A can do a work in 16 days, and B can do it in 12 days. They work on alternate days, starting with A on day 1. In how many days will the entire work be completed?",
+    "options": [
+      {"id": "A", "text": "13.00 days"},
+      {"id": "B", "text": "13.50 days"},
+      {"id": "C", "text": "13.75 days"},
+      {"id": "D", "text": "14.00 days"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Calculate the work completed in two-day cycles.",
+      "steps": [
+        "Total work = LCM(16, 12) = 48 units.",
+        "A's daily work = 3 units; B's daily work = 4 units.",
+        "Work done in a 2-day cycle (A on day 1, B on day 2) = 3 + 4 = 7 units.",
+        "In 6 cycles (12 days), work done = 6 × 7 = 42 units.",
+        "Remaining work = 48 - 42 = 6 units.",
+        "Day 13 (A's turn): A completes 3 units. Remaining work = 6 - 3 = 3 units.",
+        "Day 14 (B's turn): B requires 3 / 4 day (0.75 day) to finish.",
+        "Total days = 12 + 1 + 0.75 = 13.75 days."
+      ],
+      "methods": [
+        {
+          "name": "Cycle Method",
+          "steps": [
+            "1 cycle (2 days) = 7 units",
+            "6 cycles (12 days) = 42 units",
+            "Day 13 (A) = +3 units (Total 45)",
+            "Day 14 (B) = 3/4 day (Total 48)",
+            "Total = 13.75 days"
+          ]
+        }
+      ],
+      "exam_tip": "Never divide fractional remaining work by a 2-day cycle rate; assign it to the specific worker whose turn it is."
+    }
+  },
+  {
+    "id": "MATH-WORK-012",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 3,
+    "question": "A and B undertook a job for Rs. 3,000. A alone can complete the job in 10 days, and B alone can complete it in 12 days. With the assistance of C, they finished the job in 4 days. What is C's share of the remuneration?",
+    "options": [
+      {"id": "A", "text": "Rs. 600"},
+      {"id": "B", "text": "Rs. 800"},
+      {"id": "C", "text": "Rs. 1,000"},
+      {"id": "D", "text": "Rs. 1,200"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Wages are distributed in proportion to the individual work efficiencies.",
+      "steps": [
+        "Total work = LCM(10, 12, 4) = 60 units.",
+        "A's efficiency = 60 / 10 = 6 units/day.",
+        "B's efficiency = 60 / 12 = 5 units/day.",
+        "Combined efficiency (A + B + C) = 60 / 4 = 15 units/day.",
+        "C's efficiency = 15 - (6 + 5) = 4 units/day.",
+        "Ratio of efficiencies A : B : C = 6 : 5 : 4.",
+        "Sum of parts = 6 + 5 + 4 = 15 parts = Rs. 3,000 => 1 part = Rs. 200.",
+        "C's share = 4 parts = 4 × 200 = Rs. 800."
+      ],
+      "methods": [
+        {
+          "name": "Efficiency Wage Division",
+          "steps": [
+            "Efficiencies: A=6, B=5, C=4",
+            "Fraction of work done by C = 4 / 15",
+            "C's pay = (4 / 15) × 3000 = Rs. 800"
+          ]
+        }
+      ],
+      "exam_tip": "When all workers work for the same number of days, remuneration is directly proportional to their daily efficiencies."
+    }
+  },
+  {
+    "id": "MATH-WORK-013",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 4,
+    "question": "A contractor agreed to finish a highway project in 120 days and deployed 100 laborers. After 45 days, he found that only 1/4 of the work was completed. How many additional laborers must he deploy to complete the project on the scheduled date?",
+    "options": [
+      {"id": "A", "text": "60 laborers"},
+      {"id": "B", "text": "75 laborers"},
+      {"id": "C", "text": "80 laborers"},
+      {"id": "D", "text": "90 laborers"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Apply the chain rule formula: (M1 × D1) / W1 = (M2 × D2) / W2.",
+      "steps": [
+        "Initial phase: M1 = 100, D1 = 45 days, W1 = 1/4.",
+        "Remaining phase: D2 = 120 - 45 = 75 days, W2 = 3/4.",
+        "(100 × 45) / (1/4) = (M2 × 75) / (3/4).",
+        "100 × 45 × 3 = M2 × 75.",
+        "13,500 = 75 × M2 => M2 = 180 laborers.",
+        "Additional laborers required = 180 - 100 = 80 laborers."
+      ],
+      "methods": [
+        {
+          "name": "Chain Rule Formula",
+          "steps": [
+            "M2 = (M1 × D1 × W2) / (D2 × W1)",
+            "M2 = (100 × 45 × 3/4) / (75 × 1/4) = 180",
+            "Additional = 180 - 100 = 80"
+          ]
+        }
+      ],
+      "exam_tip": "Remember to subtract the existing workforce to get the 'additional' workers requested by the question."
+    }
+  },
+  {
+    "id": "MATH-WORK-014",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 4,
+    "question": "Two inlet pipes A and B can fill a cistern in 24 minutes and 32 minutes respectively. Both pipes are opened together. After how many minutes should pipe B be closed so that the cistern is completely filled in 18 minutes?",
+    "options": [
+      {"id": "A", "text": "6 minutes"},
+      {"id": "B", "text": "8 minutes"},
+      {"id": "C", "text": "10 minutes"},
+      {"id": "D", "text": "12 minutes"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Pipe A remains operational for the entire 18 minutes.",
+      "steps": [
+        "Total capacity = LCM(24, 32) = 96 units.",
+        "A's rate = 96 / 24 = 4 units/minute.",
+        "B's rate = 96 / 32 = 3 units/minute.",
+        "Since the cistern fills in 18 minutes, A worked for all 18 minutes.",
+        "Work done by A = 18 × 4 = 72 units.",
+        "Remaining units filled by B = 96 - 72 = 24 units.",
+        "Time B was open = 24 / 3 = 8 minutes."
+      ],
+      "methods": [
+        {
+          "name": "Continuous Worker Method",
+          "steps": [
+            "Work done by A in 18 min = 18/24 = 3/4",
+            "Remaining work for B = 1 - 3/4 = 1/4",
+            "Time for B = 1/4 × 32 = 8 minutes"
+          ]
+        }
+      ],
+      "exam_tip": "Focusing on the pipe that is NOT closed saves substantial calculation time."
+    }
+  },
+  {
+    "id": "MATH-WORK-015",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 4,
+    "question": "A takes 8 days more than (A + B) working together to complete a task, while B takes 18 days more than (A + B) working together to complete the same task. In how many days can (A + B) complete the task together?",
+    "options": [
+      {"id": "A", "text": "10 days"},
+      {"id": "B", "text": "12 days"},
+      {"id": "C", "text": "14 days"},
+      {"id": "D", "text": "16 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "When individual times exceed combined time by a and b days respectively, combined time is √(a × b).",
+      "steps": [
+        "Let time taken by (A + B) together = T days.",
+        "Then A takes T + 8 days and B takes T + 18 days.",
+        "According to the standard theorem: T = √(8 × 18).",
+        "T = √144 = 12 days."
+      ],
+      "methods": [
+        {
+          "name": "Excess Time Shortcut",
+          "steps": [
+            "T = √(excess_A × excess_B)",
+            "T = √(8 × 18) = √144 = 12 days"
+          ]
+        },
+        {
+          "name": "Algebraic Proof",
+          "steps": [
+            "1/(T+8) + 1/(T+18) = 1/T",
+            "(2T + 26) / (T² + 26T + 144) = 1/T",
+            "2T² + 26T = T² + 26T + 144",
+            "T² = 144 => T = 12"
+          ]
+        }
+      ],
+      "exam_tip": "Memorize T = √(a × b) for this classic exam format."
+    }
+  },
+  {
+    "id": "MATH-WORK-016",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 4,
+    "question": "6 men and 8 women can complete a work in 10 days, while 26 men and 48 women can complete the same work in 2 days. In how many days can 15 men and 20 women finish the same work?",
+    "options": [
+      {"id": "A", "text": "4 days"},
+      {"id": "B", "text": "5 days"},
+      {"id": "C", "text": "6 days"},
+      {"id": "D", "text": "8 days"}
+    ],
+    "correct_option": "A",
+    "explanation": {
+      "simple": "Equate the work equations to determine the ratio between a man's and a woman's efficiency.",
+      "steps": [
+        "(6M + 8W) × 10 = (26M + 48W) × 2.",
+        "60M + 80W = 52M + 96W.",
+        "8M = 16W => 1M = 2W.",
+        "Express total work in woman-days: (6M + 8W) = 6(2W) + 8W = 20W.",
+        "Total work = 20W × 10 days = 200 woman-days.",
+        "New workforce = 15M + 20W = 15(2W) + 20W = 30W + 20W = 50W.",
+        "Days required = 200 / 50 = 4 days."
+      ],
+      "methods": [
+        {
+          "name": "Proportional Scalability Shortcut",
+          "steps": [
+            "Observe that (15M + 20W) is exactly 2.5 times (6M + 8W)",
+            "6 × 2.5 = 15, 8 × 2.5 = 20",
+            "Since workforce is 2.5 times larger, time taken is 10 / 2.5 = 4 days"
+          ]
+        }
+      ],
+      "exam_tip": "Check if the target group is a direct multiple of the initial group before calculating individual efficiencies!"
+    }
+  },
+  {
+    "id": "MATH-WORK-017",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 5,
+    "question": "A, B, and C can complete a job in 20, 30, and 60 days respectively. In how many days can A complete the job if he is assisted by B and C on every third day?",
+    "options": [
+      {"id": "A", "text": "12 days"},
+      {"id": "B", "text": "15 days"},
+      {"id": "C", "text": "16 days"},
+      {"id": "D", "text": "18 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Evaluate the work done across repeated 3-day blocks.",
+      "steps": [
+        "Total work = LCM(20, 30, 60) = 60 units.",
+        "Daily efficiencies: A = 3, B = 2, C = 1 unit/day.",
+        "Day 1: A works alone = 3 units.",
+        "Day 2: A works alone = 3 units.",
+        "Day 3: A + B + C work together = 3 + 2 + 1 = 6 units.",
+        "Work in one 3-day block = 3 + 3 + 6 = 12 units.",
+        "Number of blocks to complete 60 units = 60 / 12 = 5 blocks.",
+        "Total days = 5 blocks × 3 days/block = 15 days."
+      ],
+      "methods": [
+        {
+          "name": "Block Cycle Method",
+          "steps": [
+            "3 days work = A + A + (A+B+C) = 3 + 3 + 6 = 12 units",
+            "60 / 12 = 5 complete blocks",
+            "5 × 3 = 15 days"
+          ]
+        }
+      ],
+      "exam_tip": "Grouping periodic assistance into recurring blocks simplifies the timeline."
+    }
+  },
+  {
+    "id": "MATH-WORK-018",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 5,
+    "question": "A leak in the bottom of a reservoir can empty the full reservoir in 8 hours. An inlet pipe admits water at the rate of 6 liters per minute into the reservoir, and with both open, the full reservoir is emptied in 12 hours. What is the capacity of the reservoir?",
+    "options": [
+      {"id": "A", "text": "7,200 liters"},
+      {"id": "B", "text": "8,640 liters"},
+      {"id": "C", "text": "9,600 liters"},
+      {"id": "D", "text": "10,800 liters"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Determine the net inlet rate per hour from the difference in emptying rates.",
+      "steps": [
+        "Leak alone empties in 8 hours => Rate = -1/8 reservoir/hour.",
+        "Leak + Inlet empties in 12 hours => Net rate = -1/12 reservoir/hour.",
+        "Inlet rate = Net rate - Leak rate = (-1/12) - (-1/8) = -1/12 + 1/8 = 1/24 reservoir/hour.",
+        "The inlet alone would fill the entire reservoir in 24 hours.",
+        "Inlet flow rate = 6 liters/minute = 6 × 60 = 360 liters/hour.",
+        "Capacity of reservoir = 360 liters/hour × 24 hours = 8,640 liters."
+      ],
+      "methods": [
+        {
+          "name": "Net Filling Rate",
+          "steps": [
+            "Inlet rate = 1/8 - 1/12 = 1/24 per hour",
+            "Time for inlet = 24 hours",
+            "Capacity = 24 × 60 × 6 = 8,640 liters"
+          ]
+        }
+      ],
+      "exam_tip": "Remember to multiply liters per minute by 60 to convert to liters per hour before multiplying by time in hours."
+    }
+  },
+  {
+    "id": "MATH-WORK-019",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 5,
+    "question": "A and B together can finish a work in 12 days, while B and C together can finish it in 16 days. A worked on it for 5 days, B worked on it for 7 days, and then C finished the remaining work in 13 days. In how many days can B alone complete the entire work?",
+    "options": [
+      {"id": "A", "text": "24 days"},
+      {"id": "B", "text": "32 days"},
+      {"id": "C", "text": "40 days"},
+      {"id": "D", "text": "48 days"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "Re-bundle the individual working days into combined pairs (A+B) and (B+C).",
+      "steps": [
+        "Total work = LCM(12, 16) = 48 units.",
+        "(A + B) rate = 48 / 12 = 4 units/day.",
+        "(B + C) rate = 48 / 16 = 3 units/day.",
+        "Given: A worked 5 days, B worked 7 days, C worked 13 days.",
+        "Re-group days: 5 days of (A + B) + 2 days of (B + C) + 11 days of C alone.",
+        "Work done by (A + B) in 5 days = 5 × 4 = 20 units.",
+        "Work done by (B + C) in 2 days = 2 × 3 = 6 units.",
+        "Total work done = 20 + 6 = 26 units.",
+        "Remaining work for C = 48 - 26 = 22 units.",
+        "C's rate = 22 units / 11 days = 2 units/day.",
+        "Since (B + C) rate = 3 units/day, B's rate = 3 - 2 = 1 unit/day.",
+        "Days for B alone = 48 / 1 = 48 days."
+      ],
+      "methods": [
+        {
+          "name": "Paired Re-bundling Method",
+          "steps": [
+            "5(A+B) + 2(B+C) + 11(C) = 48",
+            "5(4) + 2(3) + 11C = 48",
+            "26 + 11C = 48 => 11C = 22 => C = 2 units/day",
+            "B = 3 - 2 = 1 unit/day => Days for B = 48 / 1 = 48 days"
+          ]
+        }
+      ],
+      "exam_tip": "Re-bundling staggered workdays into known team pairs is a vital high-level competitive exam technique."
+    }
+  },
+  {
+    "id": "MATH-WORK-020",
+    "subject": "mathematics",
+    "topic": "time_and_work",
+    "difficulty": 5,
+    "question": "12 men and 16 boys can complete a piece of work in 5 days, while 13 men and 24 boys can complete the same work in 4 days. In how many days can 7 men and 6 boys complete the work?",
+    "options": [
+      {"id": "A", "text": "8 days"},
+      {"id": "B", "text": "10 days"},
+      {"id": "C", "text": "12 days"},
+      {"id": "D", "text": "14 days"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Equate the two conditions to find the efficiency ratio between a man and a boy.",
+      "steps": [
+        "(12M + 16B) × 5 = (13M + 24B) × 4.",
+        "60M + 80B = 52M + 96B.",
+        "8M = 16B => 1M = 2B.",
+        "Convert to boy-units: 12M + 16B = 12(2B) + 16B = 24B + 16B = 40B.",
+        "Total work = 40 boys × 5 days = 200 boy-days.",
+        "Target group: 7M + 6B = 7(2B) + 6B = 14B + 6B = 20 boys.",
+        "Days required = 200 boy-days / 20 boys = 10 days."
+      ],
+      "methods": [
+        {
+          "name": "Boy-Equivalent Normalization",
+          "steps": [
+            "8M = 16B => 1M = 2B",
+            "Total work = (24 + 16) × 5 = 200 boy-days",
+            "Target team = 14 + 6 = 20 boys",
+            "Days = 200 / 20 = 10 days"
+          ]
+        }
+      ],
+      "exam_tip": "Always reduce men to boys or women as soon as the equivalence ratio is established."
+    }
+  }
+]

@@ -1,0 +1,679 @@
+[
+  {
+    "id": "SCI-BIO-001",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 1,
+    "question": "Which cell organelle is widely known as the 'Powerhouse of the Cell'?",
+    "options": [
+      {"id": "A", "text": "Ribosome"},
+      {"id": "B", "text": "Lysosome"},
+      {"id": "C", "text": "Mitochondria"},
+      {"id": "D", "text": "Golgi apparatus"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Mitochondria generate cellular energy in the form of Adenosine Triphosphate (ATP).",
+      "steps": [
+        "Mitochondria carry out aerobic respiration, oxidizing glucose to synthesize ATP molecules.",
+        "ATP is known as the 'energy currency of the cell'.",
+        "Ribosomes synthesize proteins.",
+        "Lysosomes digest waste materials.",
+        "Golgi bodies package and distribute macromolecules."
+      ],
+      "methods": [
+        {
+          "name": "Cell Organelle Nicknames",
+          "steps": [
+            "Powerhouse of the cell = Mitochondria",
+            "Protein factory = Ribosome",
+            "Suicide bags = Lysosome"
+          ]
+        }
+      ],
+      "exam_tip": "Mitochondria and chloroplasts are semi-autonomous organelles containing their own circular DNA and 70S ribosomes.",
+      "reference": "NCERT Class 9 Biology - Fundamental Unit of Life"
+    }
+  },
+  {
+    "id": "SCI-BIO-002",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 1,
+    "question": "Deficiency of which water-soluble vitamin causes Scurvy, characterized by bleeding gums and delayed wound healing?",
+    "options": [
+      {"id": "A", "text": "Vitamin A"},
+      {"id": "B", "text": "Vitamin B1 (Thiamine)"},
+      {"id": "C", "text": "Vitamin C (Ascorbic acid)"},
+      {"id": "D", "text": "Vitamin D (Calciferol)"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Vitamin C (Ascorbic acid) is essential for collagen synthesis; its deficiency causes scurvy.",
+      "steps": [
+        "Vitamin A deficiency causes Night Blindness (Nyctalopia).",
+        "Vitamin B1 (Thiamine) deficiency causes Beriberi.",
+        "Vitamin C (Ascorbic acid) deficiency causes Scurvy.",
+        "Vitamin D deficiency causes Rickets in children and Osteomalacia in adults."
+      ],
+      "methods": [
+        {
+          "name": "Vitamin Deficiency Table",
+          "steps": [
+            "Vit C -> Scurvy (Citrus fruits like amla, lemon are rich sources)"
+          ]
+        }
+      ],
+      "exam_tip": "Amla (Indian gooseberry) is the richest natural source of Vitamin C.",
+      "reference": "NCERT Class 6 & 10 Science - Nutrients and Vitamins"
+    }
+  },
+  {
+    "id": "SCI-BIO-003",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 1,
+    "question": "Which human blood group is designated as the 'Universal Donor' in blood transfusions?",
+    "options": [
+      {"id": "A", "text": "A positive (A+)"},
+      {"id": "B", "text": "B positive (B+)"},
+      {"id": "C", "text": "AB positive (AB+)"},
+      {"id": "D", "text": "O negative (O-)"}
+    ],
+    "correct_option": "D",
+    "explanation": {
+      "simple": "O negative red blood cells lack A, B, and Rh surface antigens, so they do not trigger recipient immune rejection.",
+      "steps": [
+        "In the ABO system, blood group O has neither A nor B antigens on RBC membranes.",
+        "The negative Rh designation indicates the absence of Rh (D) antigen.",
+        "Because O- RBCs lack all these immunogenic antigens, they can be safely given to any recipient.",
+        "AB positive is the Universal Recipient because it has all three antigens and produces no antibodies against them."
+      ],
+      "methods": [
+        {
+          "name": "Blood Transfusion Matrix",
+          "steps": [
+            "Universal Donor: O negative (O-)",
+            "Universal Recipient: AB positive (AB+)"
+          ]
+        }
+      ],
+      "exam_tip": "If Rh factor is specified in options, O negative is the true universal donor, not O positive.",
+      "reference": "NCERT Class 11 Biology - Body Fluids and Circulation"
+    }
+  },
+  {
+    "id": "SCI-BIO-004",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 1,
+    "question": "What is the primary green photosynthetic pigment located inside plant chloroplasts that traps light energy?",
+    "options": [
+      {"id": "A", "text": "Carotene"},
+      {"id": "B", "text": "Xanthophyll"},
+      {"id": "C", "text": "Chlorophyll"},
+      {"id": "D", "text": "Anthocyanin"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Chlorophyll absorbs blue and red wavelengths of solar radiation and reflects green light.",
+      "steps": [
+        "Chlorophyll molecules reside within the thylakoid membranes of chloroplasts.",
+        "Chlorophyll a is the primary reaction center pigment for photosynthesis.",
+        "It contains a central Magnesium (Mg²⁺) ion in its porphyrin ring structure.",
+        "Carotene (orange) and Xanthophyll (yellow) are accessory carotenoid pigments."
+      ],
+      "methods": [
+        {
+          "name": "Plant Pigment Identification",
+          "steps": ["Primary green pigment = Chlorophyll (contains Magnesium)."]
+        }
+      ],
+      "exam_tip": "Competitive exams frequently ask which metal atom is present at the center of chlorophyll: the answer is Magnesium (Mg).",
+      "reference": "NCERT Class 10 Biology - Life Processes: Photosynthesis"
+    }
+  },
+  {
+    "id": "SCI-BIO-005",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 2,
+    "question": "Which enzyme present in human saliva initiates the chemical digestion of complex starch into maltose?",
+    "options": [
+      {"id": "A", "text": "Pepsin"},
+      {"id": "B", "text": "Trypsin"},
+      {"id": "C", "text": "Salivary Amylase (Ptyalin)"},
+      {"id": "D", "text": "Lipase"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Salivary amylase (also known as ptyalin) breaks down dietary starch into disaccharide maltose.",
+      "steps": [
+        "Digestion begins mechanically and chemically in the buccal (mouth) cavity.",
+        "Salivary amylase operates optimally at a near-neutral pH around 6.8.",
+        "It converts approximately 30% of ingested starch into maltose.",
+        "Pepsin acts in the stomach to digest proteins.",
+        "Trypsin acts in the small intestine on peptides.",
+        "Lipase breaks down dietary lipids and fats."
+      ],
+      "methods": [
+        {
+          "name": "Digestive Enzymes Mapping",
+          "steps": [
+            "Mouth: Salivary Amylase (Starch -> Maltose)",
+            "Stomach: Pepsin (Proteins -> Peptones)",
+            "Intestine: Trypsin & Lipase"
+          ]
+        }
+      ],
+      "exam_tip": "Remember that chemical digestion of carbohydrates starts in the mouth, not the stomach.",
+      "reference": "NCERT Class 10 Biology - Life Processes: Nutrition"
+    }
+  },
+  {
+    "id": "SCI-BIO-006",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 2,
+    "question": "Which vital hormone is secreted by the beta cells of the Islets of Langerhans in the pancreas to lower blood glucose levels?",
+    "options": [
+      {"id": "A", "text": "Glucagon"},
+      {"id": "B", "text": "Insulin"},
+      {"id": "C", "text": "Thyroxine"},
+      {"id": "D", "text": "Adrenaline"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Insulin facilitates the uptake of glucose into body cells and promotes glycogen storage in the liver.",
+      "steps": [
+        "Insulin is a peptide hormone produced by beta cells in the pancreatic islets.",
+        "When blood glucose rises after meals, insulin is secreted to stimulate glycogenesis (glucose to glycogen).",
+        "Insufficient insulin secretion or cellular resistance leads to Diabetes Mellitus.",
+        "Alpha cells produce Glucagon, which raises blood glucose by stimulating glycogenolysis."
+      ],
+      "methods": [
+        {
+          "name": "Pancreatic Islet Hormones",
+          "steps": [
+            "Beta cells -> Insulin (lowers blood sugar)",
+            "Alpha cells -> Glucagon (raises blood sugar)"
+          ]
+        }
+      ],
+      "exam_tip": "Insulin and glucagon work antagonistically to maintain blood glucose homeostasis.",
+      "reference": "NCERT Class 10 Biology - Control and Coordination"
+    }
+  },
+  {
+    "id": "SCI-BIO-007",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 2,
+    "question": "Which membrane-bound cellular organelle contains potent hydrolytic enzymes and is termed the 'Suicide Bag of the Cell'?",
+    "options": [
+      {"id": "A", "text": "Central Vacuole"},
+      {"id": "B", "text": "Centrosome"},
+      {"id": "C", "text": "Lysosome"},
+      {"id": "D", "text": "Peroxisome"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Lysosomes burst under severe cellular damage, releasing digestive enzymes that digest their own cell.",
+      "steps": [
+        "Lysosomes were discovered by Christian de Duve in 1955.",
+        "They contain acidic hydrolytic enzymes (proteases, lipases, nucleases) active at pH ~4.5 to 5.0.",
+        "They digest foreign pathogens, cellular debris, and damaged organelles (autophagy).",
+        "If a cell is critically damaged, lysosomes rupture and digest the host cell, earning the moniker 'suicide bags'."
+      ],
+      "methods": [
+        {
+          "name": "Organelle Function Classification",
+          "steps": ["Lysosome = 'Suicidal bag' containing digestive hydrolases."]
+        }
+      ],
+      "exam_tip": "Lysosomes are produced by the Golgi apparatus and endoplasmic reticulum.",
+      "reference": "NCERT Class 9 Biology - The Fundamental Unit of Life"
+    }
+  },
+  {
+    "id": "SCI-BIO-008",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 2,
+    "question": "Deficiency of which trace mineral in the human diet causes Goitre, characterized by abnormal enlargement of the thyroid gland?",
+    "options": [
+      {"id": "A", "text": "Iron"},
+      {"id": "B", "text": "Calcium"},
+      {"id": "C", "text": "Iodine"},
+      {"id": "D", "text": "Phosphorus"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Iodine is a necessary precursor for the synthesis of thyroid hormones (Thyroxine/T4 and Triiodothyronine/T3).",
+      "steps": [
+        "The thyroid gland in the neck requires dietary iodine to produce thyroxine.",
+        "In iodine deficiency, the gland enlarges in an attempt to capture more iodine from blood, producing Goitre.",
+        "Iron deficiency causes Anemia.",
+        "Calcium and phosphorus deficiency lead to weak bones and teeth."
+      ],
+      "methods": [
+        {
+          "name": "Mineral Deficiency Diseases",
+          "steps": [
+            "Iodine -> Goitre / Hypothyroidism",
+            "Iron -> Anemia",
+            "Calcium -> Osteoporosis / Rickets"
+          ]
+        }
+      ],
+      "exam_tip": "Iodized salt is universally promoted to prevent goitre and developmental cretinism.",
+      "reference": "NCERT Class 10 Biology - Endocrine Glands"
+    }
+  },
+  {
+    "id": "SCI-BIO-009",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 3,
+    "question": "What is the typical normal resting blood pressure reading for a healthy adult human, expressed in millimeters of mercury (mm Hg)?",
+    "options": [
+      {"id": "A", "text": "100 / 60 mm Hg"},
+      {"id": "B", "text": "120 / 80 mm Hg"},
+      {"id": "C", "text": "140 / 90 mm Hg"},
+      {"id": "D", "text": "160 / 100 mm Hg"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Normal blood pressure is 120 mm Hg systolic (ventricular contraction) over 80 mm Hg diastolic (ventricular relaxation).",
+      "steps": [
+        "Systolic pressure: Maximum pressure in arteries during ventricular contraction (~120 mm Hg).",
+        "Diastolic pressure: Minimum pressure in arteries during ventricular relaxation (~80 mm Hg).",
+        "Blood pressure is measured using a sphygmomanometer, typically over the brachial artery.",
+        "Consistent readings of 140/90 mm Hg or higher denote hypertension."
+      ],
+      "methods": [
+        {
+          "name": "Standard Physiological Norm",
+          "steps": ["Normal BP = 120 / 80 mm Hg (Systolic / Diastolic)"]
+        }
+      ],
+      "exam_tip": "The instrument used to measure blood pressure is the Sphygmomanometer.",
+      "reference": "NCERT Class 10 Biology - Life Processes: Transportation"
+    }
+  },
+  {
+    "id": "SCI-BIO-010",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 3,
+    "question": "Which specialized complex plant vascular tissue is primarily responsible for conducting water and dissolved minerals upwards from roots to leaves?",
+    "options": [
+      {"id": "A", "text": "Phloem"},
+      {"id": "B", "text": "Xylem"},
+      {"id": "C", "text": "Collenchyma"},
+      {"id": "D", "text": "Parenchyma"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Xylem transports water and minerals unidirectionally upwards, while phloem translocates organic nutrients bidirectionally.",
+      "steps": [
+        "Xylem comprises tracheids, vessels, xylem parenchyma, and xylem fibers.",
+        "Water movement is driven by transpirational pull and root pressure.",
+        "Phloem comprises sieve tubes, companion cells, phloem parenchyma, and phloem fibers, conducting synthesized sugars (sucrose).",
+        "Collenchyma provides mechanical flexibility, and parenchyma stores nutrients."
+      ],
+      "methods": [
+        {
+          "name": "Vascular Plant Tissues Mnemonic",
+          "steps": [
+            "Xylem = Water & Minerals (Unidirectional upward)",
+            "Phloem = Food / Sugars (Bidirectional translocation)"
+          ]
+        }
+      ],
+      "exam_tip": "Remember: Xylem transports water (X-W), Phloem transports food (P-F).",
+      "reference": "NCERT Class 9 Biology - Plant Tissues"
+    }
+  },
+  {
+    "id": "SCI-BIO-011",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 3,
+    "question": "How many pairs of chromosomes are present in a normal diploid somatic cell of a human being?",
+    "options": [
+      {"id": "A", "text": "21 pairs"},
+      {"id": "B", "text": "22 pairs"},
+      {"id": "C", "text": "23 pairs"},
+      {"id": "D", "text": "46 pairs"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Humans possess 23 pairs of chromosomes, totaling 46 individual chromosomes in each somatic cell.",
+      "steps": [
+        "22 pairs (44 chromosomes) are Autosomes, identical in males and females.",
+        "1 pair (2 chromosomes) are Sex Chromosomes (Allosomes): XX in females, XY in males.",
+        "Human gametes (sperm and egg) are haploid and contain 23 individual chromosomes.",
+        "Fertilization restores the diploid number of 46 chromosomes (23 pairs)."
+      ],
+      "methods": [
+        {
+          "name": "Karyotype Composition",
+          "steps": [
+            "Total = 46 chromosomes = 23 pairs",
+            "Autosomes = 22 pairs",
+            "Sex chromosomes = 1 pair"
+          ]
+        }
+      ],
+      "exam_tip": "Read the question carefully: 23 'pairs' equals 46 individual chromosomes.",
+      "reference": "NCERT Class 10 Biology - Heredity and Evolution"
+    }
+  },
+  {
+    "id": "SCI-BIO-012",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 3,
+    "question": "Which atmospheric gas is absorbed by autotrophic green plants during photosynthesis to synthesize glucose?",
+    "options": [
+      {"id": "A", "text": "Oxygen"},
+      {"id": "B", "text": "Nitrogen"},
+      {"id": "C", "text": "Carbon Dioxide"},
+      {"id": "D", "text": "Hydrogen"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Carbon dioxide (CO₂) enters through stomata and is reduced into glucose during the Calvin cycle.",
+      "steps": [
+        "Overall photosynthetic reaction: 6CO₂ + 6H₂O + Solar Energy -> C₆H₁₂O₆ + 6O₂.",
+        "CO₂ provides the carbon and oxygen backbone of the synthesized glucose.",
+        "Water (H₂O) is photolyzed to provide electrons and protons, releasing Oxygen (O₂) as a byproduct."
+      ],
+      "methods": [
+        {
+          "name": "Photosynthesis Stoichiometry",
+          "steps": ["Reactants: CO₂ and H₂O", "Products: Glucose (C₆H₁₂O₆) and O₂"]
+        }
+      ],
+      "exam_tip": "Oxygen released in photosynthesis originates from the splitting of WATER (H₂O), NOT from carbon dioxide.",
+      "reference": "NCERT Class 10 Biology - Life Processes"
+    }
+  },
+  {
+    "id": "SCI-BIO-013",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 4,
+    "question": "In the human kidney nephron, where does the non-selective ultrafiltration of blood plasma take place?",
+    "options": [
+      {"id": "A", "text": "Loop of Henle"},
+      {"id": "B", "text": "Glomerulus and Bowman's capsule"},
+      {"id": "C", "text": "Proximal Convoluted Tubule (PCT)"},
+      {"id": "D", "text": "Collecting Duct"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Ultrafiltration occurs under high hydrostatic pressure across the glomerular capillary walls into Bowman's capsule.",
+      "steps": [
+        "The afferent arteriole is wider than the efferent arteriole, creating high pressure in the glomerular capillary bed.",
+        "Blood is filtered across three layers: glomerular capillary endothelium, basement membrane, and podocyte slit pores.",
+        "All blood constituents except plasma proteins and blood cells pass into Bowman's capsule as the glomerular filtrate.",
+        "The PCT reabsorbs ~70-80% of electrolytes and water, and 100% of glucose and amino acids."
+      ],
+      "methods": [
+        {
+          "name": "Urine Formation Stages",
+          "steps": [
+            "1. Ultrafiltration -> Malpighian body (Glomerulus + Bowman's Capsule)",
+            "2. Selective reabsorption -> PCT and Loop of Henle",
+            "3. Tubular secretion -> DCT and Collecting Duct"
+          ]
+        }
+      ],
+      "exam_tip": "Together, the Glomerulus and Bowman's Capsule are termed the Renal Corpuscle (or Malpighian Body).",
+      "reference": "NCERT Class 11 Biology - Excretory Products and Their Elimination"
+    }
+  },
+  {
+    "id": "SCI-BIO-014",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 4,
+    "question": "Which phase of cellular respiration takes place exclusively in the cytoplasm and occurs in both aerobic and anaerobic pathways without requiring oxygen?",
+    "options": [
+      {"id": "A", "text": "Krebs Cycle"},
+      {"id": "B", "text": "Glycolysis"},
+      {"id": "C", "text": "Electron Transport Chain"},
+      {"id": "D", "text": "Oxidative Phosphorylation"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Glycolysis (EMP pathway) breaks glucose into two pyruvate molecules in the cytosol without requiring oxygen.",
+      "steps": [
+        "Glycolysis means 'splitting of sugar' and consists of 10 enzyme-catalyzed cytosolic reactions.",
+        "It converts 1 molecule of 6-carbon Glucose into 2 molecules of 3-carbon Pyruvate.",
+        "It yields a net gain of 2 ATP and 2 NADH molecules.",
+        "Because it does not utilize oxygen, it occurs universally in both aerobes and anaerobes.",
+        "The Krebs cycle and Electron Transport Chain occur in the mitochondria and require oxygen."
+      ],
+      "methods": [
+        {
+          "name": "Respiration Pathway Localization",
+          "steps": [
+            "Cytoplasm: Glycolysis (No O₂ needed)",
+            "Mitochondrial Matrix: Krebs Cycle",
+            "Inner Mitochondrial Membrane: Electron Transport Chain"
+          ]
+        }
+      ],
+      "exam_tip": "Glycolysis is also known as the EMP pathway, named after Embden, Meyerhof, and Parnas.",
+      "reference": "NCERT Class 11 Biology - Respiration in Plants"
+    }
+  },
+  {
+    "id": "SCI-BIO-015",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 4,
+    "question": "Oxygenated blood returning from the pulmonary circulation in the lungs enters which specific chamber of the human heart?",
+    "options": [
+      {"id": "A", "text": "Right Atrium"},
+      {"id": "B", "text": "Right Ventricle"},
+      {"id": "C", "text": "Left Atrium"},
+      {"id": "D", "text": "Left Ventricle"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Four pulmonary veins carry oxygenated blood from both lungs directly into the Left Atrium.",
+      "steps": [
+        "Deoxygenated blood from the body enters the Right Atrium via superior and inferior vena cava.",
+        "It passes into the Right Ventricle and is pumped to the lungs via the Pulmonary Artery.",
+        "After oxygenation in pulmonary alveoli, the blood returns via Pulmonary Veins into the Left Atrium.",
+        "From the Left Atrium, blood passes through the bicuspid (mitral) valve into the Left Ventricle, which pumps it through the Aorta to the entire body."
+      ],
+      "methods": [
+        {
+          "name": "Double Circulation Flowchart",
+          "steps": [
+            "Vena Cava -> RA -> RV -> Pulmonary Artery -> Lungs -> Pulmonary Veins -> LA -> LV -> Aorta"
+          ]
+        }
+      ],
+      "exam_tip": "Pulmonary veins are the ONLY veins in the human body that carry oxygenated blood.",
+      "reference": "NCERT Class 10 Biology - Life Processes: Transportation"
+    }
+  },
+  {
+    "id": "SCI-BIO-016",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 4,
+    "question": "In Mendelian genetics, what is the classical phenotypic ratio obtained in the F2 generation of a dihybrid cross between heterozygous pea plants (RrYy × RrYy)?",
+    "options": [
+      {"id": "A", "text": "3 : 1"},
+      {"id": "B", "text": "1 : 2 : 1"},
+      {"id": "C", "text": "9 : 3 : 3 : 1"},
+      {"id": "D", "text": "12 : 3 : 1"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Mendel's Law of Independent Assortment produces a 9:3:3:1 phenotypic ratio in a dihybrid cross.",
+      "steps": [
+        "Crossing Round-Yellow (RRYY) with Wrinkled-Green (rryy) yields all Round-Yellow (RrYy) in F1.",
+        "Selfing F1 (RrYy × RrYy) generates 16 possible combinations in the Punnett square:",
+        "- 9 Round Yellow (dominant for both traits)",
+        "- 3 Round Green (dominant first, recessive second)",
+        "- 3 Wrinkled Yellow (recessive first, dominant second)",
+        "- 1 Wrinkled Green (recessive for both traits)",
+        "This led to the formulation of the Law of Independent Assortment."
+      ],
+      "methods": [
+        {
+          "name": "Mendelian Ratios",
+          "steps": [
+            "Monohybrid phenotypic ratio = 3 : 1",
+            "Monohybrid genotypic ratio = 1 : 2 : 1",
+            "Dihybrid phenotypic ratio = 9 : 3 : 3 : 1"
+          ]
+        }
+      ],
+      "exam_tip": "Notice that (3:1) × (3:1) = 9:3:3:1 mathematically.",
+      "reference": "NCERT Class 10 & 12 Biology - Principles of Inheritance and Variation"
+    }
+  },
+  {
+    "id": "SCI-BIO-017",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 5,
+    "question": "During the sliding filament mechanism of skeletal muscle contraction, which cation released from the sarcoplasmic reticulum binds to troponin to expose myosin-binding sites on actin?",
+    "options": [
+      {"id": "A", "text": "Sodium ions (Na⁺)"},
+      {"id": "B", "text": "Potassium ions (K⁺)"},
+      {"id": "C", "text": "Calcium ions (Ca²⁺)"},
+      {"id": "D", "text": "Magnesium ions (Mg²⁺)"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Calcium ions (Ca²⁺) bind to troponin C, causing tropomyosin to move aside and reveal the active myosin-binding sites.",
+      "steps": [
+        "An action potential travels down the sarcolemma into T-tubules, depolarizing the sarcoplasmic reticulum.",
+        "Voltage-gated channels release stored Ca²⁺ into the sarcoplasm.",
+        "Ca²⁺ binds to troponin-C on the thin actin filament.",
+        "This causes a conformational shift in tropomyosin, unmasking the myosin binding sites on actin.",
+        "Myosin heads bind actin to form cross-bridges and execute the power stroke using ATP."
+      ],
+      "methods": [
+        {
+          "name": "Sliding Filament Mechanism",
+          "steps": ["Action potential -> Ca²⁺ release -> Binds troponin -> Unmasks actin -> Cross-bridge cycle."]
+        }
+      ],
+      "exam_tip": "Muscle relaxation occurs when Ca²⁺ is pumped back into the sarcoplasmic reticulum via active transport.",
+      "reference": "NCERT Class 11 Biology - Locomotion and Movement"
+    }
+  },
+  {
+    "id": "SCI-BIO-018",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 5,
+    "question": "During strenuous anaerobic exercise in human skeletal muscles, the temporary accumulation of which metabolic byproduct causes muscle fatigue and cramps?",
+    "options": [
+      {"id": "A", "text": "Ethanol and Carbon Dioxide"},
+      {"id": "B", "text": "Pyruvic acid"},
+      {"id": "C", "text": "Lactic acid"},
+      {"id": "D", "text": "Acetic acid"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "Under oxygen debt, muscle cells reduce pyruvate into lactic acid to regenerate NAD⁺.",
+      "steps": [
+        "During vigorous sprint or heavy exertion, oxygen demand exceeds respiratory supply.",
+        "Pyruvate cannot enter the aerobic Krebs cycle in mitochondria.",
+        "Instead, lactate dehydrogenase converts pyruvate to Lactic acid in the cytoplasm, regenerating NAD⁺ for glycolysis to continue.",
+        "Accumulation of lactic acid lowers muscle pH, causing fatigue and cramps.",
+        "Later, the Cori cycle in the liver converts lactate back into glucose."
+      ],
+      "methods": [
+        {
+          "name": "Fermentation Comparison",
+          "steps": [
+            "In yeast: Pyruvate -> Ethanol + CO₂ (Alcoholic fermentation)",
+            "In human muscles: Pyruvate -> Lactic acid (Lactic acid fermentation)"
+          ]
+        }
+      ],
+      "exam_tip": "Human muscles produce Lactic acid (not alcohol) during anaerobic respiration.",
+      "reference": "NCERT Class 10 Biology - Life Processes: Respiration"
+    }
+  },
+  {
+    "id": "SCI-BIO-019",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 5,
+    "question": "Which cranial nerve provides the principal parasympathetic innervation to the thoracic and abdominal viscera, including slowing heart rate and stimulating peristalsis?",
+    "options": [
+      {"id": "A", "text": "Optic nerve (CN II)"},
+      {"id": "B", "text": "Trigeminal nerve (CN V)"},
+      {"id": "C", "text": "Vagus nerve (CN X)"},
+      {"id": "D", "text": "Sciatic nerve"}
+    ],
+    "correct_option": "C",
+    "explanation": {
+      "simple": "The Vagus nerve (Cranial Nerve X) provides ~75% of all parasympathetic outflow to the body.",
+      "steps": [
+        "The Vagus nerve (CN X) is the 10th cranial nerve and the longest cranial nerve in the human body.",
+        "It emerges from the medulla oblongata and innervates the heart, lungs, stomach, pancreas, and intestines.",
+        "Its parasympathetic action releases acetylcholine, which lowers heart rate (negative chronotropy) and stimulates digestive secretions.",
+        "Optic nerve mediates vision, and Trigeminal nerve mediates facial sensation and chewing."
+      ],
+      "methods": [
+        {
+          "name": "Autonomic Cranial Nerves",
+          "steps": ["Cranial Nerve X = Vagus Nerve (Rest and Digest / Parasympathetic pacemaker)."]
+        }
+      ],
+      "exam_tip": "Vagus means 'wandering' in Latin, reflecting its extensive trajectory from brainstem to abdomen.",
+      "reference": "NCERT Class 11 Biology - Neural Control and Coordination"
+    }
+  },
+  {
+    "id": "SCI-BIO-020",
+    "subject": "general_science",
+    "topic": "biology_fundamentals",
+    "difficulty": 5,
+    "question": "In plant physiology, the opening and closing of leaf stomata is regulated by turgor pressure changes in guard cells driven primarily by the active influx of which ion?",
+    "options": [
+      {"id": "A", "text": "Calcium (Ca²⁺)"},
+      {"id": "B", "text": "Potassium (K⁺)"},
+      {"id": "C", "text": "Sodium (Na⁺)"},
+      {"id": "D", "text": "Magnesium (Mg²⁺)"}
+    ],
+    "correct_option": "B",
+    "explanation": {
+      "simple": "Active uptake of Potassium ions (K⁺) into guard cells lowers water potential, causing water influx, swelling, and stomatal opening.",
+      "steps": [
+        "According to Levitt's Active K⁺ Pump Theory:",
+        "In daytime/light, H⁺ ions are actively pumped out of guard cells, driving massive influx of K⁺ ions.",
+        "Malate²⁻ ions balance the positive charge of K⁺.",
+        "High internal K⁺ and malate lower the solute potential (increase osmolarity) of guard cells.",
+        "Water rushes into guard cells via endosmosis, increasing turgor pressure and bowing the thick inner cell walls outward, opening the pore.",
+        "In the dark, K⁺ exits, guard cells become flaccid, and stomata close."
+      ],
+      "methods": [
+        {
+          "name": "Levitt's Active K⁺ Ion Transport Theory",
+          "steps": [
+            "K⁺ influx -> Endosmosis -> Turgid guard cells -> Stomata OPEN",
+            "K⁺ efflux -> Exosmosis -> Flaccid guard cells -> Stomata CLOSE"
+          ]
+        }
+      ],
+      "exam_tip": "Stomatal mechanics are driven by Potassium (K⁺) flux and water turgidity.",
+      "reference": "NCERT Class 11 Biology - Plant Physiology: Transport in Plants"
+    }
+  }
+]
